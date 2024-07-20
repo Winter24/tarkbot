@@ -1,0 +1,130 @@
+[1.750s] Invoking command in '/home/xtark/tarkbot/ros2_ws/build/tarkbot_nav': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/xtark/tarkbot/ros2_ws/src/tarkbot_nav -DCMAKE_INSTALL_PREFIX=/home/xtark/tarkbot/ros2_ws/install/tarkbot_nav
+[2.628s] -- The C compiler identification is GNU 9.4.0
+[3.089s] -- The CXX compiler identification is GNU 9.4.0
+[3.130s] -- Check for working C compiler: /usr/bin/cc
+[3.991s] -- Check for working C compiler: /usr/bin/cc -- works
+[4.000s] -- Detecting C compiler ABI info
+[4.836s] -- Detecting C compiler ABI info - done
+[4.923s] -- Detecting C compile features
+[4.924s] -- Detecting C compile features - done
+[4.949s] -- Check for working CXX compiler: /usr/bin/c++
+[5.879s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[5.900s] -- Detecting CXX compiler ABI info
+[6.999s] -- Detecting CXX compiler ABI info - done
+[7.093s] -- Detecting CXX compile features
+[7.097s] -- Detecting CXX compile features - done
+[7.136s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[7.536s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[7.538s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[10.664s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[11.150s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[11.219s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[12.412s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[13.055s] -- Found FastRTPS: /opt/ros/foxy/include  
+[14.235s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[14.733s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[14.762s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[14.781s] -- Looking for pthread.h
+[15.349s] -- Looking for pthread.h - found
+[15.350s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[16.225s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[16.226s] -- Looking for pthread_create in pthreads
+[17.076s] -- Looking for pthread_create in pthreads - not found
+[17.077s] -- Looking for pthread_create in pthread
+[17.906s] -- Looking for pthread_create in pthread - found
+[17.911s] -- Found Threads: TRUE  
+[19.227s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[19.935s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[20.449s] -- Found slam_toolbox: 2.4.1 (/opt/ros/foxy/share/slam_toolbox/cmake)
+[25.617s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[25.669s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[26.423s] -- Setting OGRE_DIR to: '/opt/ros/foxy/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[26.436s] -- Found OGRE
+[26.437s] --   static     : OFF
+[26.438s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[26.439s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[26.440s] --   media      : /opt/ros/foxy/opt/rviz_ogre_vendor/share/OGRE/Media
+[26.442s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[26.444s] -- OGRE_LIBRARY_DIRS: /opt/ros/foxy/opt/rviz_ogre_vendor/lib
+[26.445s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[26.446s] -- OGRE_PLUGIN_DIR: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/OGRE
+[26.449s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[26.450s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[26.454s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[26.455s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[26.573s] -- Found ZLIB: /usr/lib/aarch64-linux-gnu/libz.so (found version "1.2.11") 
+[26.599s] -- Found OpenGL: /usr/lib/aarch64-linux-gnu/libOpenGL.so   
+[28.060s] -- Found X11: /usr/include   
+[28.063s] -- Looking for XOpenDisplay in /usr/lib/aarch64-linux-gnu/libX11.so;/usr/lib/aarch64-linux-gnu/libXext.so
+[31.400s] -- Looking for XOpenDisplay in /usr/lib/aarch64-linux-gnu/libX11.so;/usr/lib/aarch64-linux-gnu/libXext.so - found
+[31.402s] -- Looking for gethostbyname
+[32.185s] -- Looking for gethostbyname - found
+[32.188s] -- Looking for connect
+[33.109s] -- Looking for connect - found
+[33.111s] -- Looking for remove
+[33.966s] -- Looking for remove - found
+[33.967s] -- Looking for shmat
+[34.715s] -- Looking for shmat - found
+[34.716s] -- Looking for IceConnectionNumber in ICE
+[35.684s] -- Looking for IceConnectionNumber in ICE - found
+[35.727s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_RELEASE: _render_system_gl_static_library_abs-NOTFOUND
+[35.728s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_DEBUG: _render_system_gl_static_library_abs-NOTFOUND
+[35.851s] -- library: libassimp.so.5
+[37.187s] -- library: /usr/lib/aarch64-linux-gnu/libcurl.so
+[38.067s] -- Setting yaml-cpp_DIR to: '/opt/ros/foxy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'
+[40.939s] -- Found navigation2: 0.4.7 (/opt/ros/foxy/share/navigation2/cmake)
+[40.961s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[41.949s] -- Added test 'copyright' to check source files copyright and LICENSE
+[41.996s] -- Added test 'flake8' to check Python code syntax and style conventions
+[42.004s] -- Added test 'lint_cmake' to check CMake code style
+[42.007s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[42.111s] -- Added test 'xmllint' to check XML markup files
+[42.112s] -- Configuring done
+[42.153s] -- Generating done
+[42.179s] -- Build files have been written to: /home/xtark/tarkbot/ros2_ws/build/tarkbot_nav
+[44.529s] Invoked command in '/home/xtark/tarkbot/ros2_ws/build/tarkbot_nav' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/xtark/tarkbot/ros2_ws/src/tarkbot_nav -DCMAKE_INSTALL_PREFIX=/home/xtark/tarkbot/ros2_ws/install/tarkbot_nav
+[44.532s] Invoking command in '/home/xtark/tarkbot/ros2_ws/build/tarkbot_nav': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/xtark/tarkbot/ros2_ws/build/tarkbot_nav -- -j4 -l4
+[44.970s] Invoked command in '/home/xtark/tarkbot/ros2_ws/build/tarkbot_nav' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/xtark/tarkbot/ros2_ws/build/tarkbot_nav -- -j4 -l4
+[45.383s] Invoking command in '/home/xtark/tarkbot/ros2_ws/build/tarkbot_nav': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/xtark/tarkbot/ros2_ws/build/tarkbot_nav
+[45.490s] -- Install configuration: ""
+[45.491s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/tarkbot_nav/share/tarkbot_nav/launch
+[45.494s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/tarkbot_nav/share/tarkbot_nav/launch/navigation.launch.py
+[45.499s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/tarkbot_nav/share/tarkbot_nav/launch/include
+[45.501s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/tarkbot_nav/share/tarkbot_nav/launch/include/localization_launch.py
+[45.507s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/tarkbot_nav/share/tarkbot_nav/launch/include/bringup_nav_launch.py
+[45.513s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/tarkbot_nav/share/tarkbot_nav/launch/include/navigation_core_launch.py
+[45.516s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/tarkbot_nav/share/tarkbot_nav/config
+[45.519s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/tarkbot_nav/share/tarkbot_nav/config/navigation
+[45.522s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/tarkbot_nav/share/tarkbot_nav/config/navigation/nav2_params.yaml
+[45.527s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/tarkbot_nav/share/tarkbot_nav/maps
+[45.529s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/tarkbot_nav/share/tarkbot_nav/maps/test.yaml
+[45.532s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/tarkbot_nav/share/tarkbot_nav/maps/atom_test1.yaml
+[45.537s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/tarkbot_nav/share/tarkbot_nav/maps/atom_test.pgm
+[45.540s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/tarkbot_nav/share/tarkbot_nav/maps/atom_test.yaml
+[45.545s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/tarkbot_nav/share/tarkbot_nav/maps/web_test.pgm
+[45.549s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/tarkbot_nav/share/tarkbot_nav/maps/atom_test1.pgm
+[45.554s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/tarkbot_nav/share/tarkbot_nav/maps/test.pgm
+[45.559s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/tarkbot_nav/share/tarkbot_nav/maps/web_test.yaml
+[45.564s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/tarkbot_nav/share/tarkbot_nav/behavior_trees
+[45.567s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/tarkbot_nav/share/tarkbot_nav/behavior_trees/navigate_w_replanning_distance.xml
+[45.569s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/tarkbot_nav/share/tarkbot_nav/behavior_trees/navigate_w_replanning_time.xml
+[45.572s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/tarkbot_nav/share/tarkbot_nav/behavior_trees/navigate_w_replanning_and_round_robin_recovery.xml
+[45.574s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/tarkbot_nav/share/tarkbot_nav/behavior_trees/navigate_w_replanning_and_recovery.xml
+[45.577s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/tarkbot_nav/share/tarkbot_nav/behavior_trees/follow_point.xml
+[45.579s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/tarkbot_nav/share/tarkbot_nav/behavior_trees/navigate_w_replanning_speed.xml
+[45.584s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/tarkbot_nav/share/ament_index/resource_index/package_run_dependencies/tarkbot_nav
+[45.628s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/tarkbot_nav/share/ament_index/resource_index/parent_prefix_path/tarkbot_nav
+[45.633s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/tarkbot_nav/share/tarkbot_nav/environment/ament_prefix_path.sh
+[45.641s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/tarkbot_nav/share/tarkbot_nav/environment/ament_prefix_path.dsv
+[45.649s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/tarkbot_nav/share/tarkbot_nav/environment/path.sh
+[45.652s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/tarkbot_nav/share/tarkbot_nav/environment/path.dsv
+[45.660s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/tarkbot_nav/share/tarkbot_nav/local_setup.bash
+[45.663s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/tarkbot_nav/share/tarkbot_nav/local_setup.sh
+[45.666s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/tarkbot_nav/share/tarkbot_nav/local_setup.zsh
+[45.673s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/tarkbot_nav/share/tarkbot_nav/local_setup.dsv
+[45.676s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/tarkbot_nav/share/tarkbot_nav/package.dsv
+[45.680s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/tarkbot_nav/share/ament_index/resource_index/packages/tarkbot_nav
+[45.684s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/tarkbot_nav/share/tarkbot_nav/cmake/tarkbot_navConfig.cmake
+[45.688s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/tarkbot_nav/share/tarkbot_nav/cmake/tarkbot_navConfig-version.cmake
+[45.692s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/tarkbot_nav/share/tarkbot_nav/package.xml
+[45.711s] Invoked command in '/home/xtark/tarkbot/ros2_ws/build/tarkbot_nav' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/xtark/tarkbot/ros2_ws/build/tarkbot_nav

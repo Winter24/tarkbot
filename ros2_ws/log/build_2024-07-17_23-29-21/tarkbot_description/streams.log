@@ -1,0 +1,54 @@
+[6.632s] Invoking command in '/home/xtark/tarkbot/ros2_ws/build/tarkbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/xtark/tarkbot/ros2_ws/src/tarkbot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/xtark/tarkbot/ros2_ws/install/tarkbot_description
+[6.724s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[6.869s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[8.875s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[8.925s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[9.414s] -- Added test 'copyright' to check source files copyright and LICENSE
+[9.447s] -- Added test 'flake8' to check Python code syntax and style conventions
+[9.456s] -- Added test 'lint_cmake' to check CMake code style
+[9.457s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[9.475s] -- Added test 'xmllint' to check XML markup files
+[9.495s] -- Configuring done
+[9.549s] -- Generating done
+[9.556s] -- Build files have been written to: /home/xtark/tarkbot/ros2_ws/build/tarkbot_description
+[9.569s] Invoked command in '/home/xtark/tarkbot/ros2_ws/build/tarkbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/xtark/tarkbot/ros2_ws/src/tarkbot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/xtark/tarkbot/ros2_ws/install/tarkbot_description
+[9.586s] Invoking command in '/home/xtark/tarkbot/ros2_ws/build/tarkbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/xtark/tarkbot/ros2_ws/build/tarkbot_description -- -j4 -l4
+[9.848s] Invoked command in '/home/xtark/tarkbot/ros2_ws/build/tarkbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/xtark/tarkbot/ros2_ws/build/tarkbot_description -- -j4 -l4
+[10.016s] Invoking command in '/home/xtark/tarkbot/ros2_ws/build/tarkbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/xtark/tarkbot/ros2_ws/build/tarkbot_description
+[10.076s] -- Install configuration: "Release"
+[10.079s] -- Execute custom install script
+[10.099s] -- Symlinking: /home/xtark/tarkbot/ros2_ws/install/tarkbot_description/share/tarkbot_description/launch/model.launch.py
+[10.178s] -- Symlinking: /home/xtark/tarkbot/ros2_ws/install/tarkbot_description/share/tarkbot_description/urdf/tarkbot_r10_akm.urdf
+[10.220s] -- Symlinking: /home/xtark/tarkbot/ros2_ws/install/tarkbot_description/share/tarkbot_description/urdf/tarkbot_r10_fwd.urdf
+[10.271s] -- Symlinking: /home/xtark/tarkbot/ros2_ws/install/tarkbot_description/share/tarkbot_description/urdf/tarkbot_r10_mec.urdf
+[10.370s] -- Symlinking: /home/xtark/tarkbot/ros2_ws/install/tarkbot_description/share/tarkbot_description/urdf/tarkbot_r10_omni.urdf
+[10.420s] -- Symlinking: /home/xtark/tarkbot/ros2_ws/install/tarkbot_description/share/tarkbot_description/urdf/tarkbot_r10_twd.urdf
+[10.478s] -- Symlinking: /home/xtark/tarkbot/ros2_ws/install/tarkbot_description/share/tarkbot_description/urdf/tarkbot_r20_akm.urdf
+[10.564s] -- Symlinking: /home/xtark/tarkbot/ros2_ws/install/tarkbot_description/share/tarkbot_description/urdf/tarkbot_r20_fwd.urdf
+[10.624s] -- Symlinking: /home/xtark/tarkbot/ros2_ws/install/tarkbot_description/share/tarkbot_description/urdf/tarkbot_r20_mec.urdf
+[10.689s] -- Symlinking: /home/xtark/tarkbot/ros2_ws/install/tarkbot_description/share/tarkbot_description/meshes/base_r10_akm.stl
+[10.782s] -- Symlinking: /home/xtark/tarkbot/ros2_ws/install/tarkbot_description/share/tarkbot_description/meshes/base_r10_fwd.stl
+[10.834s] -- Symlinking: /home/xtark/tarkbot/ros2_ws/install/tarkbot_description/share/tarkbot_description/meshes/base_r10_mec.stl
+[10.885s] -- Symlinking: /home/xtark/tarkbot/ros2_ws/install/tarkbot_description/share/tarkbot_description/meshes/base_r10_omni.stl
+[10.967s] -- Symlinking: /home/xtark/tarkbot/ros2_ws/install/tarkbot_description/share/tarkbot_description/meshes/base_r10_twd.stl
+[11.044s] -- Symlinking: /home/xtark/tarkbot/ros2_ws/install/tarkbot_description/share/tarkbot_description/meshes/base_r20_akm.stl
+[11.122s] -- Symlinking: /home/xtark/tarkbot/ros2_ws/install/tarkbot_description/share/tarkbot_description/meshes/base_r20_fwd.stl
+[11.214s] -- Symlinking: /home/xtark/tarkbot/ros2_ws/install/tarkbot_description/share/tarkbot_description/meshes/base_r20_mec.stl
+[11.307s] -- Symlinking: /home/xtark/tarkbot/ros2_ws/install/tarkbot_description/share/tarkbot_description/meshes/depthcamera.stl
+[11.389s] -- Symlinking: /home/xtark/tarkbot/ros2_ws/install/tarkbot_description/share/tarkbot_description/meshes/laser.stl
+[11.493s] -- Symlinking: /home/xtark/tarkbot/ros2_ws/install/tarkbot_description/share/ament_index/resource_index/package_run_dependencies/tarkbot_description
+[11.571s] -- Symlinking: /home/xtark/tarkbot/ros2_ws/install/tarkbot_description/share/ament_index/resource_index/parent_prefix_path/tarkbot_description
+[11.701s] -- Symlinking: /home/xtark/tarkbot/ros2_ws/install/tarkbot_description/share/tarkbot_description/environment/ament_prefix_path.sh
+[11.851s] -- Symlinking: /home/xtark/tarkbot/ros2_ws/install/tarkbot_description/share/tarkbot_description/environment/ament_prefix_path.dsv
+[11.918s] -- Symlinking: /home/xtark/tarkbot/ros2_ws/install/tarkbot_description/share/tarkbot_description/environment/path.sh
+[11.991s] -- Symlinking: /home/xtark/tarkbot/ros2_ws/install/tarkbot_description/share/tarkbot_description/environment/path.dsv
+[12.099s] -- Symlinking: /home/xtark/tarkbot/ros2_ws/install/tarkbot_description/share/tarkbot_description/local_setup.bash
+[12.205s] -- Symlinking: /home/xtark/tarkbot/ros2_ws/install/tarkbot_description/share/tarkbot_description/local_setup.sh
+[12.334s] -- Symlinking: /home/xtark/tarkbot/ros2_ws/install/tarkbot_description/share/tarkbot_description/local_setup.zsh
+[12.441s] -- Symlinking: /home/xtark/tarkbot/ros2_ws/install/tarkbot_description/share/tarkbot_description/local_setup.dsv
+[12.513s] -- Symlinking: /home/xtark/tarkbot/ros2_ws/install/tarkbot_description/share/tarkbot_description/package.dsv
+[12.583s] -- Symlinking: /home/xtark/tarkbot/ros2_ws/install/tarkbot_description/share/ament_index/resource_index/packages/tarkbot_description
+[12.728s] -- Symlinking: /home/xtark/tarkbot/ros2_ws/install/tarkbot_description/share/tarkbot_description/cmake/tarkbot_descriptionConfig.cmake
+[12.794s] -- Symlinking: /home/xtark/tarkbot/ros2_ws/install/tarkbot_description/share/tarkbot_description/cmake/tarkbot_descriptionConfig-version.cmake
+[12.932s] -- Symlinking: /home/xtark/tarkbot/ros2_ws/install/tarkbot_description/share/tarkbot_description/package.xml
+[13.029s] Invoked command in '/home/xtark/tarkbot/ros2_ws/build/tarkbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/xtark/tarkbot/ros2_ws/build/tarkbot_description

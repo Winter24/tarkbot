@@ -1,0 +1,138 @@
+[01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/m1ct_d2/src/node_lidar.cpp:479:3:[m[K [01;35m[Kwarning: [m[K"/*" within comment [[01;35m[K-Wcomment[m[K]
+  479 |   /*启动雷达*/
+      |    
+[01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/m1ct_d2/src/lidar_data_processing.cpp:[m[K In member function ‘[01m[Kresult_t Lidar_Data_Processing::waitSpeedRight(uint8_t, uint64_t)[m[K’:
+[01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/m1ct_d2/src/lidar_data_processing.cpp:94:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcmd[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   94 | result_t Lidar_Data_Processing::waitSpeedRight([01;35m[Kuint8_t cmd[m[K,uint64_t timeout)
+      |                                                [01;35m[K~~~~~~~~^~~[m[K
+[01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/m1ct_d2/src/lidar_data_processing.cpp:[m[K In member function ‘[01m[Kresult_t Lidar_Data_Processing::waitResponseHeader(uint8_t, uint64_t)[m[K’:
+[01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/m1ct_d2/src/lidar_data_processing.cpp:366:28:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 4 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  366 |       printf("data**%d,%d,[01;35m[K%d[m[K\n",check_sum_cal,recvBuffer[remainSize-1],[32m[KremainSize[m[K);
+      |                           [01;35m[K~^[m[K                                           [32m[K~~~~~~~~~~[m[K
+      |                            [01;35m[K|[m[K                                           [32m[K|[m[K
+      |                            [01;35m[Kint[m[K                                         [32m[Ksize_t {aka long unsigned int}[m[K
+      |                           [32m[K%ld[m[K
+[01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/m1ct_d2/src/lidar_data_processing.cpp:[m[K In member function ‘[01m[Kresult_t Lidar_Data_Processing::waitPackage_coin(node_info*, uint32_t)[m[K’:
+[01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/m1ct_d2/src/lidar_data_processing.cpp:852:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kk[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  852 |     int [01;35m[Kk[m[K;
+      |         [01;35m[K^[m[K
+[01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/m1ct_d2/src/lidar_data_processing.cpp:752:11:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KAngleCorrectForDistance[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+  752 |   int32_t [01;35m[KAngleCorrectForDistance[m[K = 0;
+      |           [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/m1ct_d2/src/lidar_data_processing.cpp:754:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kpackage_type[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  754 |   uint8_t [01;35m[Kpackage_type[m[K = 0;
+      |           [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/m1ct_d2/src/lidar_data_processing.cpp:756:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kstart[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  756 |   uint16_t [01;35m[Kstart[m[K;
+      |            [01;35m[K^~~~~[m[K
+[01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/m1ct_d2/src/lidar_data_processing.cpp:757:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kstop[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  757 |   uint16_t [01;35m[Kstop[m[K;
+      |            [01;35m[K^~~~[m[K
+[01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/m1ct_d2/src/node_lidar.cpp:[m[K In function ‘[01m[Kvoid flushSerial()[m[K’:
+[01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/m1ct_d2/src/node_lidar.cpp:106:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kbytes_read[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  106 |   size_t [01;35m[Kbytes_read[m[K = node_lidar.serial_port->read_data(buffer, len);
+      |          [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/m1ct_d2/src/node_lidar.cpp:[m[K In function ‘[01m[Kbool lidar_state_judgment()[m[K’:
+[01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/m1ct_d2/src/node_lidar.cpp:139:39:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%lld[m[K’ expects argument of type ‘[01m[Klong long int[m[K’, but argument 2 has type ‘[01m[Kuint64_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  139 |   printf("状态异常重新启动 [01;35m[K%lld[m[K\n",[32m[Klidar_status_time[m[K);
+      |                                    [01;35m[K~~~^[m[K    [32m[K~~~~~~~~~~~~~~~~~[m[K
+      |                                       [01;35m[K|[m[K    [32m[K|[m[K
+      |                                       [01;35m[K|[m[K    [32m[Kuint64_t {aka long unsigned int}[m[K
+      |                                       [01;35m[Klong long int[m[K
+      |                                    [32m[K%ld[m[K
+[01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/m1ct_d2/src/node_lidar.cpp:115:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kstatus_judge[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  115 |  static bool [01;35m[Kstatus_judge[m[K = false;     //整体状态判断
+      |              [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/m1ct_d2/src/node_lidar.cpp:118:14:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Klidar_start_flag[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+  118 |  static bool [01;35m[Klidar_start_flag[m[K = false; //下发雷达启动指令后的雷达反馈标志
+      |              [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/m1ct_d2/src/node_lidar.cpp:[m[K In function ‘[01m[Kint send_lidar_data(LaserScan&)[m[K’:
+[01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/m1ct_d2/src/node_lidar.cpp:349:22:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  349 |    for (int i = 0; [01;35m[Ki < count[m[K; i++)
+      |                    [01;35m[K~~^~~~~~~[m[K
+[01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/m1ct_d2/src/node_lidar.cpp:395:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+  395 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/m1ct_d2/src/node_lidar.cpp:[m[K In function ‘[01m[Kint topic_thread()[m[K’:
+[01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/m1ct_d2/src/node_lidar.cpp:503:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+  503 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/m1ct_d2/src/node_lidar.cpp:[m[K In function ‘[01m[Kint node_start(int, char**)[m[K’:
+[01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/m1ct_d2/src/node_lidar.cpp:608:19:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<LaserPoint>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  608 |    for(int i=0; [01;35m[Ki < scan.points.size()[m[K; i++) {
+      |                 [01;35m[K~~^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/m1ct_d2/src/node_lidar.cpp:[m[K At global scope:
+[01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/m1ct_d2/src/node_lidar.cpp:115:14:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstatus_judge[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+  115 |  static bool [01;35m[Kstatus_judge[m[K = false;     //整体状态判断
+      |              [01;35m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/m1ct_d2/src/serial_port.cpp:12[m[K:
+[01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/m1ct_d2/include/m1ct_d2/serial_port.h:[m[K In constructor ‘[01m[KSerial_Port::Serial_Port(const string&, uint32_t, Timeout, bytesize_t, parity_t, stopbits_t, flowcontrol_t)[m[K’:
+[01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/m1ct_d2/include/m1ct_d2/serial_port.h:102:14:[m[K [01;35m[Kwarning: [m[K‘[01m[KSerial_Port::bytesize_[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+  102 |   bytesize_t [01;35m[Kbytesize_[m[K;       // Size of the bytes
+      |              [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/m1ct_d2/include/m1ct_d2/serial_port.h:101:12:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kparity_t Serial_Port::parity_[m[K’ [[01;35m[K-Wreorder[m[K]
+  101 |   parity_t [01;35m[Kparity_[m[K;           // Parity
+      |            [01;35m[K^~~~~~~[m[K
+[01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/m1ct_d2/src/serial_port.cpp:31:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+   31 | [01;35m[KSerial_Port[m[K::Serial_Port(const string &port, uint32_t baudrate, Timeout timeout,
+      | [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/m1ct_d2/src/serial_port.cpp:[m[K In member function ‘[01m[Kbool Serial_Port::setBaudrate(long unsigned int)[m[K’:
+[01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/m1ct_d2/src/serial_port.cpp:578:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Knew_baud[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  578 |   speed_t [01;35m[Knew_baud[m[K = static_cast<speed_t>(baudrate);
+      |           [01;35m[K^~~~~~~~[m[K
+[01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/m1ct_d2/src/serial_port.cpp:[m[K In member function ‘[01m[Kbool Serial_Port::setCustomBaudRate(long unsigned int)[m[K’:
+[01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/m1ct_d2/src/serial_port.cpp:571:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K-Wreturn-type[m[K]
+  571 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/m1ct_d2/src/point_cloud_optimize.cpp:[m[K In member function ‘[01m[Kvoid Point_cloud_optimize::PointCloudFilter(LaserScan*)[m[K’:
+[01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/m1ct_d2/src/point_cloud_optimize.cpp:25:18:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<LaserPoint>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+   25 |  for (i0 = 0; [01;35m[Ki0 < Scan->points.size()[m[K; i0++)
+      |               [01;35m[K~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/m1ct_d2/src/point_cloud_optimize.cpp:28:11:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<LaserPoint>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+   28 |   i1 = [01;35m[Ki1 < Scan->points.size()[m[K ? i1 : i1 - Scan->points.size();
+      |        [01;35m[K~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/m1ct_d2/src/point_cloud_optimize.cpp:30:11:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<LaserPoint>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+   30 |   i2 = [01;35m[Ki2 < Scan->points.size()[m[K ? i2 : i2 - Scan->points.size();
+      |        [01;35m[K~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/m1ct_d2/src/point_cloud_optimize.cpp:32:11:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<LaserPoint>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+   32 |   i3 = [01;35m[Ki3 < Scan->points.size()[m[K ? i3 : i3 - Scan->points.size();
+      |        [01;35m[K~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/m1ct_d2/src/point_cloud_optimize.cpp:155:18:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<LaserPoint>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  155 |  for (i0 = 0; [01;35m[Ki0 < Scan->points.size()[m[K; i0++)
+      |               [01;35m[K~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/m1ct_d2/src/point_cloud_optimize.cpp:158:11:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<LaserPoint>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  158 |   i1 = [01;35m[Ki1 < Scan->points.size()[m[K ? i1 : i1 - Scan->points.size();
+      |        [01;35m[K~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/m1ct_d2/src/point_cloud_optimize.cpp:160:11:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<LaserPoint>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  160 |   i2 = [01;35m[Ki2 < Scan->points.size()[m[K ? i2 : i2 - Scan->points.size();
+      |        [01;35m[K~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/m1ct_d2/src/point_cloud_optimize.cpp:162:11:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<LaserPoint>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  162 |   i3 = [01;35m[Ki3 < Scan->points.size()[m[K ? i3 : i3 - Scan->points.size();
+      |        [01;35m[K~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/m1ct_d2/src/point_cloud_optimize.cpp:164:11:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<LaserPoint>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  164 |   i4 = [01;35m[Ki4 < Scan->points.size()[m[K ? i4 : i4 - Scan->points.size();
+      |        [01;35m[K~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/m1ct_d2/src/point_cloud_optimize.cpp:[m[K In member function ‘[01m[Kint Point_cloud_optimize::UltrasonicSimRanging(LaserPoint&)[m[K’:
+[01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/m1ct_d2/src/point_cloud_optimize.cpp:228:6:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ki[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  228 |  int [01;35m[Ki[m[K, index;
+      |      [01;35m[K^[m[K
+[01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/m1ct_d2/src/point_cloud_optimize.cpp:229:8:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktempdep[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  229 |  short [01;35m[Ktempdep[m[K;
+      |        [01;35m[K^~~~~~~[m[K
+[01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/m1ct_d2/src/point_cloud_optimize.cpp:253:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+  253 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/m1ct_d2/src/point_cloud_optimize.cpp:[m[K In member function ‘[01m[Kvoid Point_cloud_optimize::lidar_blocked_judge(int)[m[K’:
+[01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/m1ct_d2/src/point_cloud_optimize.cpp:341:58:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 3 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  341 |   printf("lidar 雷达被严重遮挡百分之七十 %d,[01;35m[K%d[m[K\n",node_lidar.lidar_block.lidar_zero_count,[32m[Knode_lidar.scan_node_count[m[K);
+      |                                                         [01;35m[K~^[m[K                                            [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                                          [01;35m[K|[m[K                                                       [32m[K|[m[K
+      |                                                          [01;35m[Kint[m[K                                                     [32m[Ksize_t {aka long unsigned int}[m[K
+      |                                                         [32m[K%ld[m[K
+[01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/m1ct_d2/src/point_cloud_optimize.cpp:[m[K In member function ‘[01m[Kvoid Point_cloud_optimize::lidar_blocked_init()[m[K’:
+[01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/m1ct_d2/src/point_cloud_optimize.cpp:404:48:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around ‘[01m[K&&[m[K’ within ‘[01m[K||[m[K’ [[01;35m[K-Wparentheses[m[K]
+  404 |    if((angle >= 0 && angle < 90)|| [01;35m[Kangle > 270 && angle <=360[m[K){
+      |                                    [01;35m[K~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/m1ct_d2/src/point_cloud_optimize.cpp:375:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktemp[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  375 |  float r, d, [01;35m[Ktemp[m[K;
+      |              [01;35m[K^~~~[m[K

@@ -1,0 +1,13 @@
+# ninja log v5
+3	22	0	CMakeFiles/cartographer_rviz_detect_changes	38183fa51df12be6
+5	40161	0	CMakeFiles/cartographer_rviz_autogen	9e1e537c7d6e3ab9
+5	40161	0	cartographer_rviz_autogen/mocs_compilation.cpp	9e1e537c7d6e3ab9
+40166	86376	1671178177033374961	CMakeFiles/cartographer_rviz.dir/cartographer_rviz/ogre_slice.cc.o	e8bfd1d075928823
+40163	115035	1671178205688567331	CMakeFiles/cartographer_rviz.dir/cartographer_rviz/drawable_submap.cc.o	ee0f5c00600d9012
+40161	117339	1671178207996502283	CMakeFiles/cartographer_rviz.dir/cartographer_rviz_autogen/mocs_compilation.cpp.o	ac525539844bf7b8
+40174	131889	1671178222544092267	CMakeFiles/cartographer_rviz.dir/cartographer_rviz/submaps_display.cc.o	c445f1035ed6095d
+131890	134992	1671178225648004785	/home/xtark/tarkbot/cartographer_ws/devel_isolated/cartographer_rviz/lib/libcartographer_rviz.so	8e6b60a0554e0106
+41	78	0	CMakeFiles/cartographer_rviz_detect_changes	38183fa51df12be6
+43	87	0	CMakeFiles/cartographer_rviz_autogen	9e1e537c7d6e3ab9
+43	87	0	cartographer_rviz_autogen/mocs_compilation.cpp	9e1e537c7d6e3ab9
+89	179	0	CMakeFiles/install.util	d93b03b0eb00bc69

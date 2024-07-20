@@ -1,0 +1,26 @@
+[0.800s] Invoking command in '/home/xtark/tarkbot/ros2_ws/build/xtlidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/xtark/tarkbot/ros2_ws/build/xtlidar_ros -- -j4 -l4
+[1.220s] [100%] Built target xtlidar_driver2_node
+[2.269s] Invoked command in '/home/xtark/tarkbot/ros2_ws/build/xtlidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/xtark/tarkbot/ros2_ws/build/xtlidar_ros -- -j4 -l4
+[5.192s] Invoking command in '/home/xtark/tarkbot/ros2_ws/build/xtlidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/xtark/tarkbot/ros2_ws/build/xtlidar_ros
+[5.228s] -- Install configuration: ""
+[5.232s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/xtlidar_ros/lib/xtlidar_ros/xtlidar_driver2_node
+[5.233s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/xtlidar_ros/share/xtlidar_ros/launch
+[5.234s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/xtlidar_ros/share/xtlidar_ros/launch/tarkbot_xtlidar_e300.launch.py
+[5.234s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/xtlidar_ros/share/xtlidar_ros/params
+[5.235s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/xtlidar_ros/share/xtlidar_ros/params/XTLIDAR_E300.yaml
+[5.236s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/xtlidar_ros/share/ament_index/resource_index/package_run_dependencies/xtlidar_ros
+[5.237s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/xtlidar_ros/share/ament_index/resource_index/parent_prefix_path/xtlidar_ros
+[5.237s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/xtlidar_ros/share/xtlidar_ros/environment/ament_prefix_path.sh
+[5.238s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/xtlidar_ros/share/xtlidar_ros/environment/ament_prefix_path.dsv
+[5.239s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/xtlidar_ros/share/xtlidar_ros/environment/path.sh
+[5.240s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/xtlidar_ros/share/xtlidar_ros/environment/path.dsv
+[5.241s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/xtlidar_ros/share/xtlidar_ros/local_setup.bash
+[5.242s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/xtlidar_ros/share/xtlidar_ros/local_setup.sh
+[5.243s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/xtlidar_ros/share/xtlidar_ros/local_setup.zsh
+[5.245s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/xtlidar_ros/share/xtlidar_ros/local_setup.dsv
+[5.249s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/xtlidar_ros/share/xtlidar_ros/package.dsv
+[5.250s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/xtlidar_ros/share/ament_index/resource_index/packages/xtlidar_ros
+[5.252s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/xtlidar_ros/share/xtlidar_ros/cmake/xtlidar_rosConfig.cmake
+[5.253s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/xtlidar_ros/share/xtlidar_ros/cmake/xtlidar_rosConfig-version.cmake
+[5.254s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/xtlidar_ros/share/xtlidar_ros/package.xml
+[6.182s] Invoked command in '/home/xtark/tarkbot/ros2_ws/build/xtlidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/xtark/tarkbot/ros2_ws/build/xtlidar_ros

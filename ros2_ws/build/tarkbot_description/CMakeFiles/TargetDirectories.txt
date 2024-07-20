@@ -1,0 +1,9 @@
+/home/xtark/tarkbot/ros2_ws/build/tarkbot_description/CMakeFiles/install/strip.dir
+/home/xtark/tarkbot/ros2_ws/build/tarkbot_description/CMakeFiles/install/local.dir
+/home/xtark/tarkbot/ros2_ws/build/tarkbot_description/CMakeFiles/install.dir
+/home/xtark/tarkbot/ros2_ws/build/tarkbot_description/CMakeFiles/list_install_components.dir
+/home/xtark/tarkbot/ros2_ws/build/tarkbot_description/CMakeFiles/rebuild_cache.dir
+/home/xtark/tarkbot/ros2_ws/build/tarkbot_description/CMakeFiles/edit_cache.dir
+/home/xtark/tarkbot/ros2_ws/build/tarkbot_description/CMakeFiles/test.dir
+/home/xtark/tarkbot/ros2_ws/build/tarkbot_description/CMakeFiles/tarkbot_description_uninstall.dir
+/home/xtark/tarkbot/ros2_ws/build/tarkbot_description/CMakeFiles/uninstall.dir

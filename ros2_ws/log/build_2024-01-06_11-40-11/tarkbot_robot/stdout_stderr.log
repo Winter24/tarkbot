@@ -1,0 +1,87 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+-- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: thread 
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /opt/ros/foxy/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+-- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+-- Found tf2_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_msgs/cmake)
+-- Found tf2_ros: 0.13.14 (/opt/ros/foxy/share/tf2_ros/cmake)
+-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found Threads: TRUE  
+-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/xtark/tarkbot/ros2_ws/src/tarkbot_robot/include/tarkbot_robot
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/xtark/tarkbot/ros2_ws/build/tarkbot_robot
+[35m[1mScanning dependencies of target tarkbot_robot_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/tarkbot_robot_node.dir/src/tarkbot_robot.cpp.o[0m
+[01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_robot/src/tarkbot_robot.cpp:[m[K In member function ‘[01m[Kvoid TarkbotRobot::calculateImuQuaternion(imu_data)[m[K’:
+[01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_robot/src/tarkbot_robot.cpp:498:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kroll[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  498 |     float [01;35m[Kroll[m[K,pitch,yaw ;
+      |           [01;35m[K^~~~[m[K
+[01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_robot/src/tarkbot_robot.cpp:498:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kpitch[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  498 |     float roll,[01;35m[Kpitch[m[K,yaw ;
+      |                [01;35m[K^~~~~[m[K
+[01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_robot/src/tarkbot_robot.cpp:498:22:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kyaw[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  498 |     float roll,pitch,[01;35m[Kyaw[m[K ;
+      |                      [01;35m[K^~~[m[K
+[100%] [32m[1mLinking CXX executable tarkbot_robot_node[0m
+[100%] Built target tarkbot_robot_node
+-- Install configuration: ""
+-- Installing: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/lib/tarkbot_robot/tarkbot_robot_node
+-- Set runtime path of "/home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/lib/tarkbot_robot/tarkbot_robot_node" to ""
+-- Installing: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/launch
+-- Installing: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/launch/__pycache__
+-- Installing: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/launch/__pycache__/robot.launch.cpython-38.pyc
+-- Installing: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/launch/robot.launch.py
+-- Installing: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/launch/robot2_lidar.launch.py
+-- Installing: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/config
+-- Installing: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/config/tarkbot_config.yaml
+-- Installing: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/ament_index/resource_index/package_run_dependencies/tarkbot_robot
+-- Installing: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/ament_index/resource_index/parent_prefix_path/tarkbot_robot
+-- Installing: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/environment/ament_prefix_path.sh
+-- Installing: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/environment/ament_prefix_path.dsv
+-- Installing: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/environment/path.sh
+-- Installing: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/environment/path.dsv
+-- Installing: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/local_setup.bash
+-- Installing: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/local_setup.sh
+-- Installing: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/local_setup.zsh
+-- Installing: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/local_setup.dsv
+-- Installing: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/package.dsv
+-- Installing: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/ament_index/resource_index/packages/tarkbot_robot
+-- Installing: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/cmake/tarkbot_robotConfig.cmake
+-- Installing: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/cmake/tarkbot_robotConfig-version.cmake
+-- Installing: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/package.xml

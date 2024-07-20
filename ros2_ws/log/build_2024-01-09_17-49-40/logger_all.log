@@ -1,0 +1,255 @@
+[9.799s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'ros2_astra_camera']
+[9.800s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffb0fef460>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=['ros2_astra_camera'], packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffb0fef460>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffb0fa3760>)
+[10.318s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[10.318s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[10.319s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[10.319s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[10.319s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[10.319s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[10.319s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/xtark/tarkbot/ros2_ws'
+[10.320s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[10.320s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[10.320s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[10.321s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[10.321s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[10.321s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[10.321s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[10.321s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[10.321s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[10.389s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[10.390s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[10.390s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[10.390s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[10.390s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[10.391s] Level 1:colcon.colcon_core.package_identification:_identify(Log) by extensions ['ignore', 'ignore_ament_install']
+[10.391s] Level 1:colcon.colcon_core.package_identification:_identify(Log) by extension 'ignore'
+[10.391s] Level 1:colcon.colcon_core.package_identification:_identify(Log) by extension 'ignore_ament_install'
+[10.392s] Level 1:colcon.colcon_core.package_identification:_identify(Log) by extensions ['colcon_pkg']
+[10.392s] Level 1:colcon.colcon_core.package_identification:_identify(Log) by extension 'colcon_pkg'
+[10.392s] Level 1:colcon.colcon_core.package_identification:_identify(Log) by extensions ['colcon_meta']
+[10.392s] Level 1:colcon.colcon_core.package_identification:_identify(Log) by extension 'colcon_meta'
+[10.392s] Level 1:colcon.colcon_core.package_identification:_identify(Log) by extensions ['ros']
+[10.392s] Level 1:colcon.colcon_core.package_identification:_identify(Log) by extension 'ros'
+[10.393s] Level 1:colcon.colcon_core.package_identification:_identify(Log) by extensions ['cmake', 'python']
+[10.393s] Level 1:colcon.colcon_core.package_identification:_identify(Log) by extension 'cmake'
+[10.393s] Level 1:colcon.colcon_core.package_identification:_identify(Log) by extension 'python'
+[10.393s] Level 1:colcon.colcon_core.package_identification:_identify(Log) by extensions ['python_setup_py']
+[10.393s] Level 1:colcon.colcon_core.package_identification:_identify(Log) by extension 'python_setup_py'
+[10.394s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[10.394s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[10.394s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[10.395s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[10.396s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[10.396s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[10.397s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[10.397s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[10.397s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[10.398s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[10.398s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[10.398s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[10.398s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[10.399s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[10.399s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[10.399s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[10.399s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[10.399s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[10.400s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[10.400s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[10.400s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[10.400s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[10.400s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[10.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera) by extensions ['ignore', 'ignore_ament_install']
+[10.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera) by extension 'ignore'
+[10.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera) by extension 'ignore_ament_install'
+[10.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera) by extensions ['colcon_pkg']
+[10.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera) by extension 'colcon_pkg'
+[10.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera) by extensions ['colcon_meta']
+[10.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera) by extension 'colcon_meta'
+[10.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera) by extensions ['ros']
+[10.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera) by extension 'ros'
+[10.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera) by extensions ['cmake', 'python']
+[10.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera) by extension 'cmake'
+[10.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera) by extension 'python'
+[10.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera) by extensions ['python_setup_py']
+[10.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera) by extension 'python_setup_py'
+[10.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera) by extensions ['ignore', 'ignore_ament_install']
+[10.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera) by extension 'ignore'
+[10.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera) by extension 'ignore_ament_install'
+[10.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera) by extensions ['colcon_pkg']
+[10.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera) by extension 'colcon_pkg'
+[10.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera) by extensions ['colcon_meta']
+[10.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera) by extension 'colcon_meta'
+[10.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera) by extensions ['ros']
+[10.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera) by extension 'ros'
+[10.424s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_astra_camera/astra_camera' with type 'ros.ament_cmake' and name 'astra_camera'
+[10.425s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera_msgs) by extensions ['ignore', 'ignore_ament_install']
+[10.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera_msgs) by extension 'ignore'
+[10.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera_msgs) by extension 'ignore_ament_install'
+[10.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera_msgs) by extensions ['colcon_pkg']
+[10.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera_msgs) by extension 'colcon_pkg'
+[10.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera_msgs) by extensions ['colcon_meta']
+[10.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera_msgs) by extension 'colcon_meta'
+[10.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera_msgs) by extensions ['ros']
+[10.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera_msgs) by extension 'ros'
+[10.429s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_astra_camera/astra_camera_msgs' with type 'ros.ament_cmake' and name 'astra_camera_msgs'
+[10.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_description) by extensions ['ignore', 'ignore_ament_install']
+[10.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_description) by extension 'ignore'
+[10.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_description) by extension 'ignore_ament_install'
+[10.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_description) by extensions ['colcon_pkg']
+[10.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_description) by extension 'colcon_pkg'
+[10.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_description) by extensions ['colcon_meta']
+[10.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_description) by extension 'colcon_meta'
+[10.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_description) by extensions ['ros']
+[10.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_description) by extension 'ros'
+[10.435s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tarkbot_description' with type 'ros.ament_cmake' and name 'tarkbot_description'
+[10.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_nav) by extensions ['ignore', 'ignore_ament_install']
+[10.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_nav) by extension 'ignore'
+[10.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_nav) by extension 'ignore_ament_install'
+[10.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_nav) by extensions ['colcon_pkg']
+[10.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_nav) by extension 'colcon_pkg'
+[10.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_nav) by extensions ['colcon_meta']
+[10.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_nav) by extension 'colcon_meta'
+[10.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_nav) by extensions ['ros']
+[10.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_nav) by extension 'ros'
+[10.444s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tarkbot_nav' with type 'ros.ament_cmake' and name 'tarkbot_nav'
+[10.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package) by extensions ['ignore', 'ignore_ament_install']
+[10.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package) by extension 'ignore'
+[10.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package) by extension 'ignore_ament_install'
+[10.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package) by extensions ['colcon_pkg']
+[10.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package) by extension 'colcon_pkg'
+[10.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package) by extensions ['colcon_meta']
+[10.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package) by extension 'colcon_meta'
+[10.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package) by extensions ['ros']
+[10.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package) by extension 'ros'
+[10.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package) by extensions ['cmake', 'python']
+[10.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package) by extension 'cmake'
+[10.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package) by extension 'python'
+[10.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package) by extensions ['python_setup_py']
+[10.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package) by extension 'python_setup_py'
+[10.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package/tarkbot_lidar) by extensions ['ignore', 'ignore_ament_install']
+[10.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package/tarkbot_lidar) by extension 'ignore'
+[10.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package/tarkbot_lidar) by extension 'ignore_ament_install'
+[10.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package/tarkbot_lidar) by extensions ['colcon_pkg']
+[10.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package/tarkbot_lidar) by extension 'colcon_pkg'
+[10.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package/tarkbot_lidar) by extensions ['colcon_meta']
+[10.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package/tarkbot_lidar) by extension 'colcon_meta'
+[10.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package/tarkbot_lidar) by extensions ['ros']
+[10.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package/tarkbot_lidar) by extension 'ros'
+[10.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package/tarkbot_lidar) by extensions ['cmake', 'python']
+[10.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package/tarkbot_lidar) by extension 'cmake'
+[10.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package/tarkbot_lidar) by extension 'python'
+[10.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package/tarkbot_lidar) by extensions ['python_setup_py']
+[10.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package/tarkbot_lidar) by extension 'python_setup_py'
+[10.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package/tarkbot_lidar/lakibeam1) by extensions ['ignore', 'ignore_ament_install']
+[10.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package/tarkbot_lidar/lakibeam1) by extension 'ignore'
+[10.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package/tarkbot_lidar/lakibeam1) by extension 'ignore_ament_install'
+[10.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package/tarkbot_lidar/lakibeam1) by extensions ['colcon_pkg']
+[10.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package/tarkbot_lidar/lakibeam1) by extension 'colcon_pkg'
+[10.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package/tarkbot_lidar/lakibeam1) by extensions ['colcon_meta']
+[10.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package/tarkbot_lidar/lakibeam1) by extension 'colcon_meta'
+[10.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package/tarkbot_lidar/lakibeam1) by extensions ['ros']
+[10.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package/tarkbot_lidar/lakibeam1) by extension 'ros'
+[10.462s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tarkbot_package/tarkbot_lidar/lakibeam1' with type 'ros.ament_cmake' and name 'lakibeam1'
+[10.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package/tarkbot_lidar/ldlidar_stl_ros2) by extensions ['ignore', 'ignore_ament_install']
+[10.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package/tarkbot_lidar/ldlidar_stl_ros2) by extension 'ignore'
+[10.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package/tarkbot_lidar/ldlidar_stl_ros2) by extension 'ignore_ament_install'
+[10.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package/tarkbot_lidar/ldlidar_stl_ros2) by extensions ['colcon_pkg']
+[10.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package/tarkbot_lidar/ldlidar_stl_ros2) by extension 'colcon_pkg'
+[10.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package/tarkbot_lidar/ldlidar_stl_ros2) by extensions ['colcon_meta']
+[10.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package/tarkbot_lidar/ldlidar_stl_ros2) by extension 'colcon_meta'
+[10.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package/tarkbot_lidar/ldlidar_stl_ros2) by extensions ['ros']
+[10.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package/tarkbot_lidar/ldlidar_stl_ros2) by extension 'ros'
+[10.470s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tarkbot_package/tarkbot_lidar/ldlidar_stl_ros2' with type 'ros.ament_cmake' and name 'ldlidar_stl_ros2'
+[10.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package/tarkbot_lidar/m1ct_d2) by extensions ['ignore', 'ignore_ament_install']
+[10.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package/tarkbot_lidar/m1ct_d2) by extension 'ignore'
+[10.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package/tarkbot_lidar/m1ct_d2) by extension 'ignore_ament_install'
+[10.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package/tarkbot_lidar/m1ct_d2) by extensions ['colcon_pkg']
+[10.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package/tarkbot_lidar/m1ct_d2) by extension 'colcon_pkg'
+[10.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package/tarkbot_lidar/m1ct_d2) by extensions ['colcon_meta']
+[10.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package/tarkbot_lidar/m1ct_d2) by extension 'colcon_meta'
+[10.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package/tarkbot_lidar/m1ct_d2) by extensions ['ros']
+[10.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package/tarkbot_lidar/m1ct_d2) by extension 'ros'
+[10.476s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tarkbot_package/tarkbot_lidar/m1ct_d2' with type 'ros.ament_cmake' and name 'm1ct_d2'
+[10.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package/tarkbot_lidar/rplidar_ros) by extensions ['ignore', 'ignore_ament_install']
+[10.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package/tarkbot_lidar/rplidar_ros) by extension 'ignore'
+[10.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package/tarkbot_lidar/rplidar_ros) by extension 'ignore_ament_install'
+[10.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package/tarkbot_lidar/rplidar_ros) by extensions ['colcon_pkg']
+[10.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package/tarkbot_lidar/rplidar_ros) by extension 'colcon_pkg'
+[10.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package/tarkbot_lidar/rplidar_ros) by extensions ['colcon_meta']
+[10.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package/tarkbot_lidar/rplidar_ros) by extension 'colcon_meta'
+[10.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package/tarkbot_lidar/rplidar_ros) by extensions ['ros']
+[10.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package/tarkbot_lidar/rplidar_ros) by extension 'ros'
+[10.483s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tarkbot_package/tarkbot_lidar/rplidar_ros' with type 'ros.ament_cmake' and name 'rplidar_ros'
+[10.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package/tarkbot_lidar/xtlidar_ros) by extensions ['ignore', 'ignore_ament_install']
+[10.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package/tarkbot_lidar/xtlidar_ros) by extension 'ignore'
+[10.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package/tarkbot_lidar/xtlidar_ros) by extension 'ignore_ament_install'
+[10.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package/tarkbot_lidar/xtlidar_ros) by extensions ['colcon_pkg']
+[10.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package/tarkbot_lidar/xtlidar_ros) by extension 'colcon_pkg'
+[10.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package/tarkbot_lidar/xtlidar_ros) by extensions ['colcon_meta']
+[10.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package/tarkbot_lidar/xtlidar_ros) by extension 'colcon_meta'
+[10.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package/tarkbot_lidar/xtlidar_ros) by extensions ['ros']
+[10.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package/tarkbot_lidar/xtlidar_ros) by extension 'ros'
+[10.490s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tarkbot_package/tarkbot_lidar/xtlidar_ros' with type 'ros.ament_cmake' and name 'xtlidar_ros'
+[10.490s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_robot) by extensions ['ignore', 'ignore_ament_install']
+[10.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_robot) by extension 'ignore'
+[10.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_robot) by extension 'ignore_ament_install'
+[10.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_robot) by extensions ['colcon_pkg']
+[10.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_robot) by extension 'colcon_pkg'
+[10.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_robot) by extensions ['colcon_meta']
+[10.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_robot) by extension 'colcon_meta'
+[10.493s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_robot) by extensions ['ros']
+[10.493s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_robot) by extension 'ros'
+[10.499s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tarkbot_robot' with type 'ros.ament_cmake' and name 'tarkbot_robot'
+[10.500s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_slam) by extensions ['ignore', 'ignore_ament_install']
+[10.500s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_slam) by extension 'ignore'
+[10.500s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_slam) by extension 'ignore_ament_install'
+[10.501s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_slam) by extensions ['colcon_pkg']
+[10.501s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_slam) by extension 'colcon_pkg'
+[10.501s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_slam) by extensions ['colcon_meta']
+[10.501s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_slam) by extension 'colcon_meta'
+[10.501s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_slam) by extensions ['ros']
+[10.501s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_slam) by extension 'ros'
+[10.507s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tarkbot_slam' with type 'ros.ament_cmake' and name 'tarkbot_slam'
+[10.508s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[10.508s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[10.508s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[10.508s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[10.508s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[10.685s] WARNING:colcon.colcon_core.package_selection:ignoring unknown package 'ros2_astra_camera' in --packages-select
+[11.100s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'astra_camera_msgs' in 'src/ros2_astra_camera/astra_camera_msgs'
+[11.101s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'lakibeam1' in 'src/tarkbot_package/tarkbot_lidar/lakibeam1'
+[11.101s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'ldlidar_stl_ros2' in 'src/tarkbot_package/tarkbot_lidar/ldlidar_stl_ros2'
+[11.101s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'm1ct_d2' in 'src/tarkbot_package/tarkbot_lidar/m1ct_d2'
+[11.101s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'rplidar_ros' in 'src/tarkbot_package/tarkbot_lidar/rplidar_ros'
+[11.101s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'tarkbot_description' in 'src/tarkbot_description'
+[11.101s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'tarkbot_nav' in 'src/tarkbot_nav'
+[11.101s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'tarkbot_robot' in 'src/tarkbot_robot'
+[11.101s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'tarkbot_slam' in 'src/tarkbot_slam'
+[11.101s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'xtlidar_ros' in 'src/tarkbot_package/tarkbot_lidar/xtlidar_ros'
+[11.102s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'astra_camera' in 'src/ros2_astra_camera/astra_camera'
+[11.424s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[11.425s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[11.768s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 14 installed packages in /home/xtark/tarkbot/ros2_ws/install
+[11.944s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 330 installed packages in /opt/ros/foxy
+[11.953s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[12.730s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[12.894s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[12.895s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[12.896s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[12.896s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[12.897s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[13.096s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[13.097s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[13.097s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[13.852s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[14.242s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[14.244s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/xtark/tarkbot/ros2_ws/install/local_setup.ps1'
+[14.250s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/xtark/tarkbot/ros2_ws/install/_local_setup_util_ps1.py'
+[14.263s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/xtark/tarkbot/ros2_ws/install/setup.ps1'
+[14.568s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/xtark/tarkbot/ros2_ws/install/local_setup.sh'
+[14.573s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/xtark/tarkbot/ros2_ws/install/_local_setup_util_sh.py'
+[14.576s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/xtark/tarkbot/ros2_ws/install/setup.sh'
+[14.894s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/xtark/tarkbot/ros2_ws/install/local_setup.bash'
+[14.900s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/xtark/tarkbot/ros2_ws/install/setup.bash'
+[15.257s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/xtark/tarkbot/ros2_ws/install/local_setup.zsh'
+[15.267s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/xtark/tarkbot/ros2_ws/install/setup.zsh'

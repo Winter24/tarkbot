@@ -1,0 +1,31 @@
+[22.822s] Invoking command in '/home/xtark/tarkbot/ros2_ws/build/tarkbot_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/xtark/tarkbot/ros2_ws/build/tarkbot_robot -- -j4 -l4
+[23.550s] [100%] Built target tarkbot_robot_node
+[30.907s] Invoked command in '/home/xtark/tarkbot/ros2_ws/build/tarkbot_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/xtark/tarkbot/ros2_ws/build/tarkbot_robot -- -j4 -l4
+[31.212s] Invoking command in '/home/xtark/tarkbot/ros2_ws/build/tarkbot_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/xtark/tarkbot/ros2_ws/build/tarkbot_robot
+[31.293s] -- Install configuration: "Release"
+[31.296s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/lib/tarkbot_robot/tarkbot_robot_node
+[31.299s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/launch
+[31.303s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/launch/__pycache__
+[31.304s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/launch/__pycache__/robot.launch.cpython-38.pyc
+[31.309s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/launch/robot.launch test.py
+[31.313s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/launch/robot.launch.py
+[31.318s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/launch/robot2_lidar.launch test.py
+[31.323s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/launch/robot2_lidar.launch.py
+[31.323s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/config
+[31.324s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/config/tarkbot_config.yaml
+[31.324s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/ament_index/resource_index/package_run_dependencies/tarkbot_robot
+[31.324s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/ament_index/resource_index/parent_prefix_path/tarkbot_robot
+[31.325s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/environment/ament_prefix_path.sh
+[31.325s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/environment/ament_prefix_path.dsv
+[31.326s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/environment/path.sh
+[31.327s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/environment/path.dsv
+[31.328s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/local_setup.bash
+[31.328s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/local_setup.sh
+[31.329s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/local_setup.zsh
+[31.331s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/local_setup.dsv
+[31.333s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/package.dsv
+[31.335s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/ament_index/resource_index/packages/tarkbot_robot
+[31.336s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/cmake/tarkbot_robotConfig.cmake
+[31.337s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/cmake/tarkbot_robotConfig-version.cmake
+[31.339s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/package.xml
+[33.650s] Invoked command in '/home/xtark/tarkbot/ros2_ws/build/tarkbot_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/xtark/tarkbot/ros2_ws/build/tarkbot_robot

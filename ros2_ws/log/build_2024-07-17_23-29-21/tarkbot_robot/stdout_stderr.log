@@ -1,0 +1,55 @@
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+-- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+-- Found tf2_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_msgs/cmake)
+-- Found tf2_ros: 0.13.14 (/opt/ros/foxy/share/tf2_ros/cmake)
+-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/xtark/tarkbot/ros2_ws/src/tarkbot_robot/include/tarkbot_robot
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/xtark/tarkbot/ros2_ws/build/tarkbot_robot
+[ 50%] [32m[1mLinking CXX executable tarkbot_robot_node[0m
+[100%] Built target tarkbot_robot_node
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/lib/tarkbot_robot/tarkbot_robot_node
+-- Symlinking: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/launch/__pycache__/robot.launch.cpython-38.pyc
+-- Symlinking: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/launch/robot.launch test.py
+-- Symlinking: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/launch/robot.launch.py
+-- Symlinking: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/launch/robot2_lidar.launch test.py
+-- Symlinking: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/launch/robot2_lidar.launch.py
+-- Symlinking: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/config/tarkbot_config.yaml
+-- Symlinking: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/ament_index/resource_index/package_run_dependencies/tarkbot_robot
+-- Symlinking: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/ament_index/resource_index/parent_prefix_path/tarkbot_robot
+-- Symlinking: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/environment/ament_prefix_path.sh
+-- Symlinking: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/environment/ament_prefix_path.dsv
+-- Symlinking: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/environment/path.sh
+-- Symlinking: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/environment/path.dsv
+-- Symlinking: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/local_setup.bash
+-- Symlinking: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/local_setup.sh
+-- Symlinking: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/local_setup.zsh
+-- Symlinking: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/local_setup.dsv
+-- Symlinking: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/package.dsv
+-- Symlinking: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/ament_index/resource_index/packages/tarkbot_robot
+-- Symlinking: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/cmake/tarkbot_robotConfig.cmake
+-- Symlinking: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/cmake/tarkbot_robotConfig-version.cmake
+-- Symlinking: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/package.xml

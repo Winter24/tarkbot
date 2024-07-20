@@ -1,0 +1,60 @@
+[8.224s] Invoking command in '/home/xtark/tarkbot/ros2_ws/build/tarkbot_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/xtark/tarkbot/ros2_ws/src/tarkbot_robot -DCMAKE_INSTALL_PREFIX=/home/xtark/tarkbot/ros2_ws/install/tarkbot_robot
+[10.751s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[10.752s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[10.752s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[10.753s] -- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)
+[10.753s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[10.753s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[11.000s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[11.184s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[11.620s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[11.889s] -- Found tf2_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_msgs/cmake)
+[12.600s] -- Found tf2_ros: 0.13.14 (/opt/ros/foxy/share/tf2_ros/cmake)
+[12.810s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[12.817s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[14.147s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[14.778s] -- Added test 'copyright' to check source files copyright and LICENSE
+[14.793s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[14.796s] -- Configured cppcheck include dirs: /home/xtark/tarkbot/ros2_ws/src/tarkbot_robot/include/tarkbot_robot
+[14.797s] -- Configured cppcheck exclude dirs and/or files: 
+[14.844s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[14.844s] -- Configured cpplint exclude dirs and/or files: 
+[14.849s] -- Added test 'flake8' to check Python code syntax and style conventions
+[14.857s] -- Added test 'lint_cmake' to check CMake code style
+[14.863s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[14.875s] -- Added test 'uncrustify' to check C / C++ code style
+[14.879s] -- Configured uncrustify additional arguments: 
+[14.883s] -- Added test 'xmllint' to check XML markup files
+[14.921s] -- Configuring done
+[15.080s] -- Generating done
+[15.107s] -- Build files have been written to: /home/xtark/tarkbot/ros2_ws/build/tarkbot_robot
+[16.466s] Invoked command in '/home/xtark/tarkbot/ros2_ws/build/tarkbot_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/xtark/tarkbot/ros2_ws/src/tarkbot_robot -DCMAKE_INSTALL_PREFIX=/home/xtark/tarkbot/ros2_ws/install/tarkbot_robot
+[16.471s] Invoking command in '/home/xtark/tarkbot/ros2_ws/build/tarkbot_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/xtark/tarkbot/ros2_ws/build/tarkbot_robot -- -j4 -l4
+[16.943s] [100%] Built target tarkbot_robot_node
+[22.220s] Invoked command in '/home/xtark/tarkbot/ros2_ws/build/tarkbot_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/xtark/tarkbot/ros2_ws/build/tarkbot_robot -- -j4 -l4
+[22.487s] Invoking command in '/home/xtark/tarkbot/ros2_ws/build/tarkbot_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/xtark/tarkbot/ros2_ws/build/tarkbot_robot
+[22.560s] -- Install configuration: "Release"
+[22.564s] -- Execute custom install script
+[22.570s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/lib/tarkbot_robot/tarkbot_robot_node
+[22.578s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/launch/__pycache__/robot.launch.cpython-38.pyc
+[22.582s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/launch/robot.launch test.py
+[22.586s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/launch/robot.launch.py
+[22.589s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/launch/robot2_lidar.launch test.py
+[22.601s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/launch/robot2_lidar.launch.py
+[22.603s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/config/tarkbot_config.yaml
+[22.605s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/ament_index/resource_index/package_run_dependencies/tarkbot_robot
+[22.606s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/ament_index/resource_index/parent_prefix_path/tarkbot_robot
+[22.606s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/environment/ament_prefix_path.sh
+[22.610s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/environment/ament_prefix_path.dsv
+[22.612s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/environment/path.sh
+[22.615s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/environment/path.dsv
+[22.619s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/local_setup.bash
+[22.622s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/local_setup.sh
+[22.625s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/local_setup.zsh
+[22.629s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/local_setup.dsv
+[22.631s] -- Symlinking: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/package.dsv
+[22.711s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/ament_index/resource_index/packages/tarkbot_robot
+[22.712s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/cmake/tarkbot_robotConfig.cmake
+[22.716s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/cmake/tarkbot_robotConfig-version.cmake
+[22.719s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/package.xml
+[22.728s] Invoked command in '/home/xtark/tarkbot/ros2_ws/build/tarkbot_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/xtark/tarkbot/ros2_ws/build/tarkbot_robot

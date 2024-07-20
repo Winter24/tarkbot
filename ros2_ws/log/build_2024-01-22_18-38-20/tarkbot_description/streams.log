@@ -1,0 +1,42 @@
+[2.599s] Invoking command in '/home/xtark/tarkbot/ros2_ws/build/tarkbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/xtark/tarkbot/ros2_ws/build/tarkbot_description -- -j4 -l4
+[3.787s] Invoked command in '/home/xtark/tarkbot/ros2_ws/build/tarkbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/xtark/tarkbot/ros2_ws/build/tarkbot_description -- -j4 -l4
+[3.938s] Invoking command in '/home/xtark/tarkbot/ros2_ws/build/tarkbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/xtark/tarkbot/ros2_ws/build/tarkbot_description
+[3.988s] -- Install configuration: "Release"
+[3.990s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_description/share/tarkbot_description/launch
+[3.992s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_description/share/tarkbot_description/launch/model.launch.py
+[3.993s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_description/share/tarkbot_description/urdf
+[3.995s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_description/share/tarkbot_description/urdf/tarkbot_r10_twd.urdf
+[3.996s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_description/share/tarkbot_description/urdf/tarkbot_r20_akm.urdf
+[3.998s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_description/share/tarkbot_description/urdf/tarkbot_r20_fwd.urdf
+[3.999s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_description/share/tarkbot_description/urdf/tarkbot_r10_akm.urdf
+[4.001s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_description/share/tarkbot_description/urdf/tarkbot_r20_mec.urdf
+[4.005s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_description/share/tarkbot_description/urdf/tarkbot_r10_mec.urdf
+[4.008s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_description/share/tarkbot_description/urdf/tarkbot_r10_fwd.urdf
+[4.010s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_description/share/tarkbot_description/urdf/tarkbot_r10_omni.urdf
+[4.012s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_description/share/tarkbot_description/meshes
+[4.013s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_description/share/tarkbot_description/meshes/base_r10_omni.stl
+[4.014s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_description/share/tarkbot_description/meshes/base_r20_mec.stl
+[4.015s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_description/share/tarkbot_description/meshes/base_r10_fwd.stl
+[4.015s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_description/share/tarkbot_description/meshes/depthcamera.stl
+[4.016s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_description/share/tarkbot_description/meshes/laser.stl
+[4.017s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_description/share/tarkbot_description/meshes/base_r10_mec.stl
+[4.018s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_description/share/tarkbot_description/meshes/base_r20_akm.stl
+[4.026s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_description/share/tarkbot_description/meshes/base_r10_twd.stl
+[4.028s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_description/share/tarkbot_description/meshes/base_r10_akm.stl
+[4.029s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_description/share/tarkbot_description/meshes/base_r20_fwd.stl
+[4.030s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_description/share/ament_index/resource_index/package_run_dependencies/tarkbot_description
+[4.031s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_description/share/ament_index/resource_index/parent_prefix_path/tarkbot_description
+[4.031s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_description/share/tarkbot_description/environment/ament_prefix_path.sh
+[4.032s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_description/share/tarkbot_description/environment/ament_prefix_path.dsv
+[4.036s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_description/share/tarkbot_description/environment/path.sh
+[4.036s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_description/share/tarkbot_description/environment/path.dsv
+[4.043s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_description/share/tarkbot_description/local_setup.bash
+[4.044s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_description/share/tarkbot_description/local_setup.sh
+[4.044s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_description/share/tarkbot_description/local_setup.zsh
+[4.045s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_description/share/tarkbot_description/local_setup.dsv
+[4.045s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/tarkbot_description/share/tarkbot_description/package.dsv
+[4.045s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_description/share/ament_index/resource_index/packages/tarkbot_description
+[4.046s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_description/share/tarkbot_description/cmake/tarkbot_descriptionConfig.cmake
+[4.046s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_description/share/tarkbot_description/cmake/tarkbot_descriptionConfig-version.cmake
+[4.046s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_description/share/tarkbot_description/package.xml
+[4.049s] Invoked command in '/home/xtark/tarkbot/ros2_ws/build/tarkbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/xtark/tarkbot/ros2_ws/build/tarkbot_description

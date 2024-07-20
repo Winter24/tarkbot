@@ -1,0 +1,10 @@
+LD19:
+  ros__parameters:
+    product_name: "LDLiDAR_LD19"
+    topic_name: "scan"
+    port_name: "/dev/tarkbot_lidar"
+    frame_id: "laser_link"
+    laser_scan_dir: True
+    enable_angle_crop_func: True
+    angle_crop_min: 130.0
+    angle_crop_max: 230.0

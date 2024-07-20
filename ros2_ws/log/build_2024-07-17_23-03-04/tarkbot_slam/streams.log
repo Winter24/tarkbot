@@ -1,0 +1,33 @@
+[8.756s] Invoking command in '/home/xtark/tarkbot/ros2_ws/build/tarkbot_slam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/xtark/tarkbot/ros2_ws/build/tarkbot_slam -- -j4 -l4
+[13.810s] Invoked command in '/home/xtark/tarkbot/ros2_ws/build/tarkbot_slam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/xtark/tarkbot/ros2_ws/build/tarkbot_slam -- -j4 -l4
+[14.023s] Invoking command in '/home/xtark/tarkbot/ros2_ws/build/tarkbot_slam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/xtark/tarkbot/ros2_ws/build/tarkbot_slam
+[14.145s] -- Install configuration: "Release"
+[14.152s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_slam/share/tarkbot_slam/launch
+[14.154s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_slam/share/tarkbot_slam/launch/mapping.launch.py
+[14.154s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_slam/share/tarkbot_slam/launch/include
+[14.155s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_slam/share/tarkbot_slam/launch/include/online_async_launch.py
+[14.156s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_slam/share/tarkbot_slam/config
+[14.157s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_slam/share/tarkbot_slam/config/mapping
+[14.159s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_slam/share/tarkbot_slam/config/mapping/mapper_params_online_async.yaml
+[14.160s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_slam/share/tarkbot_slam/config/mapping/map_saver_params.yaml
+[14.161s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_slam/share/tarkbot_slam/maps
+[14.162s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_slam/share/tarkbot_slam/maps/test.yaml
+[14.163s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_slam/share/tarkbot_slam/maps/my_map.yaml
+[14.170s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_slam/share/tarkbot_slam/maps/my_map.pgm
+[14.173s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_slam/share/tarkbot_slam/maps/test.pgm
+[14.174s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_slam/share/ament_index/resource_index/package_run_dependencies/tarkbot_slam
+[14.175s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_slam/share/ament_index/resource_index/parent_prefix_path/tarkbot_slam
+[14.180s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_slam/share/tarkbot_slam/environment/ament_prefix_path.sh
+[14.181s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_slam/share/tarkbot_slam/environment/ament_prefix_path.dsv
+[14.182s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_slam/share/tarkbot_slam/environment/path.sh
+[14.182s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_slam/share/tarkbot_slam/environment/path.dsv
+[14.183s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_slam/share/tarkbot_slam/local_setup.bash
+[14.183s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_slam/share/tarkbot_slam/local_setup.sh
+[14.184s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_slam/share/tarkbot_slam/local_setup.zsh
+[14.184s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_slam/share/tarkbot_slam/local_setup.dsv
+[14.185s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/tarkbot_slam/share/tarkbot_slam/package.dsv
+[14.201s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_slam/share/ament_index/resource_index/packages/tarkbot_slam
+[14.201s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_slam/share/tarkbot_slam/cmake/tarkbot_slamConfig.cmake
+[14.202s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_slam/share/tarkbot_slam/cmake/tarkbot_slamConfig-version.cmake
+[14.202s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_slam/share/tarkbot_slam/package.xml
+[16.335s] Invoked command in '/home/xtark/tarkbot/ros2_ws/build/tarkbot_slam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/xtark/tarkbot/ros2_ws/build/tarkbot_slam

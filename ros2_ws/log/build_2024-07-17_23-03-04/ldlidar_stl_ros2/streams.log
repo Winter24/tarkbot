@@ -1,0 +1,42 @@
+[4.264s] Invoking command in '/home/xtark/tarkbot/ros2_ws/build/ldlidar_stl_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/xtark/tarkbot/ros2_ws/build/ldlidar_stl_ros2 -- -j4 -l4
+[4.897s] [100%] Built target ldlidar_stl_ros2_node
+[5.050s] Invoked command in '/home/xtark/tarkbot/ros2_ws/build/ldlidar_stl_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/xtark/tarkbot/ros2_ws/build/ldlidar_stl_ros2 -- -j4 -l4
+[5.519s] Invoking command in '/home/xtark/tarkbot/ros2_ws/build/ldlidar_stl_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/xtark/tarkbot/ros2_ws/build/ldlidar_stl_ros2
+[5.607s] -- Install configuration: "Release"
+[5.608s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/launch
+[5.609s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/launch/ld19.launch.py
+[5.609s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/launch/__pycache__
+[5.610s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/launch/__pycache__/ld06.launch.cpython-38.pyc
+[5.611s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/launch/viewer_ld19.launch.py
+[5.612s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/launch/ld06.launch.py
+[5.612s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/launch/viewer_ld06.launch.py
+[5.613s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/launch/tarkbot_ld19.launch.py
+[5.613s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/params
+[5.614s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/params/LD19.yaml
+[5.638s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/ldlidar_stl_ros2/lib/ldlidar_stl_ros2/ldlidar_stl_ros2_node
+[5.638s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2//launch
+[5.639s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2//launch/ld19.launch.py
+[5.640s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2//launch/__pycache__
+[5.640s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2//launch/__pycache__/ld06.launch.cpython-38.pyc
+[5.641s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2//launch/viewer_ld19.launch.py
+[5.642s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2//launch/ld06.launch.py
+[5.643s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2//launch/viewer_ld06.launch.py
+[5.643s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2//launch/tarkbot_ld19.launch.py
+[5.645s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2//rviz2
+[5.645s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2//rviz2/ldlidar.rviz
+[5.649s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/ldlidar_stl_ros2/share/ament_index/resource_index/package_run_dependencies/ldlidar_stl_ros2
+[5.686s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/ldlidar_stl_ros2/share/ament_index/resource_index/parent_prefix_path/ldlidar_stl_ros2
+[5.687s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/environment/ament_prefix_path.sh
+[5.687s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/environment/ament_prefix_path.dsv
+[5.687s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/environment/path.sh
+[5.688s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/environment/path.dsv
+[5.688s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/local_setup.bash
+[5.689s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/local_setup.sh
+[5.689s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/local_setup.zsh
+[5.689s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/local_setup.dsv
+[5.690s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/package.dsv
+[5.691s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/ldlidar_stl_ros2/share/ament_index/resource_index/packages/ldlidar_stl_ros2
+[5.691s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/cmake/ldlidar_stl_ros2Config.cmake
+[5.692s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/cmake/ldlidar_stl_ros2Config-version.cmake
+[5.692s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/package.xml
+[7.766s] Invoked command in '/home/xtark/tarkbot/ros2_ws/build/ldlidar_stl_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/xtark/tarkbot/ros2_ws/build/ldlidar_stl_ros2

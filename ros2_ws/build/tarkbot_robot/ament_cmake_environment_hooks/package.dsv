@@ -1,0 +1,4 @@
+source;share/tarkbot_robot/local_setup.bash
+source;share/tarkbot_robot/local_setup.dsv
+source;share/tarkbot_robot/local_setup.sh
+source;share/tarkbot_robot/local_setup.zsh

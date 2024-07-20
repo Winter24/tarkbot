@@ -1,0 +1,26 @@
+[35m[1mScanning dependencies of target tarkbot_robot_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/tarkbot_robot_node.dir/src/tarkbot_robot.cpp.o[0m
+[01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_robot/src/tarkbot_robot.cpp:[m[K In member function ‘[01m[Kvoid TarkbotRobot::recvDataHandle(uint8_t*)[m[K’:
+[01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_robot/src/tarkbot_robot.cpp:288:9:[m[K [01;31m[Kerror: [m[K‘[01m[KROS_INFO[m[K’ was not declared in this scope
+  288 |         [01;31m[KROS_INFO[m[K("Hello World!")
+      |         [01;31m[K^~~~~~~~[m[K
+[01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_robot/src/tarkbot_robot.cpp:[m[K In member function ‘[01m[Kvoid TarkbotRobot::calculateImuQuaternion(imu_data)[m[K’:
+[01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_robot/src/tarkbot_robot.cpp:499:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kroll[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  499 |     float [01;35m[Kroll[m[K,pitch,yaw ;
+      |           [01;35m[K^~~~[m[K
+[01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_robot/src/tarkbot_robot.cpp:499:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kpitch[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  499 |     float roll,[01;35m[Kpitch[m[K,yaw ;
+      |                [01;35m[K^~~~~[m[K
+[01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_robot/src/tarkbot_robot.cpp:499:22:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kyaw[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  499 |     float roll,pitch,[01;35m[Kyaw[m[K ;
+      |                      [01;35m[K^~~[m[K
+[01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_robot/src/tarkbot_robot.cpp:[m[K In function ‘[01m[Kfloat invSqrt(float)[m[K’:
+[01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_robot/src/tarkbot_robot.cpp:586:12:[m[K [01;35m[Kwarning: [m[Kdereferencing type-punned pointer will break strict-aliasing rules [[01;35m[K-Wstrict-aliasing[m[K]
+  586 |     i = * [01;35m[K(( long * ) &y)[m[K;
+      |           [01;35m[K~^~~~~~~~~~~~~~[m[K
+[01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_robot/src/tarkbot_robot.cpp:589:12:[m[K [01;35m[Kwarning: [m[Kdereferencing type-punned pointer will break strict-aliasing rules [[01;35m[K-Wstrict-aliasing[m[K]
+  589 |     y = * [01;35m[K(( float * ) &i)[m[K;
+      |           [01;35m[K~^~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/tarkbot_robot_node.dir/build.make:63: CMakeFiles/tarkbot_robot_node.dir/src/tarkbot_robot.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/tarkbot_robot_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

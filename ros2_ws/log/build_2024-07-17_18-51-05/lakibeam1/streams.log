@@ -1,0 +1,32 @@
+[6.133s] Invoking command in '/home/xtark/tarkbot/ros2_ws/build/lakibeam1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/xtark/tarkbot/ros2_ws/build/lakibeam1 -- -j4 -l4
+[6.670s] [100%] Built target lakibeam1_scan_node
+[6.862s] Invoked command in '/home/xtark/tarkbot/ros2_ws/build/lakibeam1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/xtark/tarkbot/ros2_ws/build/lakibeam1 -- -j4 -l4
+[7.222s] Invoking command in '/home/xtark/tarkbot/ros2_ws/build/lakibeam1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/xtark/tarkbot/ros2_ws/build/lakibeam1
+[7.305s] -- Install configuration: "Release"
+[7.306s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/lakibeam1/share/ament_index/resource_index/package_run_dependencies/lakibeam1
+[7.306s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/lakibeam1/share/ament_index/resource_index/parent_prefix_path/lakibeam1
+[7.307s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/lakibeam1/share/lakibeam1/environment/ament_prefix_path.sh
+[7.308s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/lakibeam1/share/lakibeam1/environment/ament_prefix_path.dsv
+[7.308s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/lakibeam1/share/lakibeam1/environment/path.sh
+[7.309s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/lakibeam1/share/lakibeam1/environment/path.dsv
+[7.320s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/lakibeam1/share/lakibeam1/local_setup.bash
+[7.321s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/lakibeam1/share/lakibeam1/local_setup.sh
+[7.322s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/lakibeam1/share/lakibeam1/local_setup.zsh
+[7.323s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/lakibeam1/share/lakibeam1/local_setup.dsv
+[7.336s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/lakibeam1/share/lakibeam1/package.dsv
+[7.339s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/lakibeam1/share/ament_index/resource_index/packages/lakibeam1
+[7.340s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/lakibeam1/share/lakibeam1/cmake/lakibeam1Config.cmake
+[7.341s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/lakibeam1/share/lakibeam1/cmake/lakibeam1Config-version.cmake
+[7.342s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/lakibeam1/share/lakibeam1/package.xml
+[7.343s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/lakibeam1/lib/lakibeam1/lakibeam1_scan_node
+[7.344s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/lakibeam1/share/lakibeam1/launch
+[7.345s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/lakibeam1/share/lakibeam1/launch/tarkbot_lakibeam1_scan.launch.py
+[7.346s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/lakibeam1/share/lakibeam1/launch/lakibeam1_scan.launch.py
+[7.346s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/lakibeam1/share/lakibeam1/launch/lakibeam1_scan_dual_lidar.launch.py
+[7.355s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/lakibeam1/share/lakibeam1/launch/lakibeam1_scan_view.launch.py
+[7.359s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/lakibeam1/share/lakibeam1/launch/lakibeam1_scan_dual_lidar_view.launch.py
+[7.368s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/lakibeam1/share/lakibeam1/rviz
+[7.369s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/lakibeam1/share/lakibeam1/rviz/rviz_scan.rviz
+[7.369s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/lakibeam1/share/lakibeam1/rviz/lakibeam1_scan.rviz
+[7.370s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/lakibeam1/share/lakibeam1/rviz/lakibeam1_scan_dual.rviz
+[7.372s] Invoked command in '/home/xtark/tarkbot/ros2_ws/build/lakibeam1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/xtark/tarkbot/ros2_ws/build/lakibeam1

@@ -1,0 +1,1 @@
+/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/lakibeam1/launch/lakibeam1_scan_view.launch.py

@@ -1,0 +1,105 @@
+[3.391s] Invoking command in '/home/xtark/tarkbot/ros2_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/rplidar_ros -DCMAKE_INSTALL_PREFIX=/home/xtark/tarkbot/ros2_ws/install/rplidar_ros
+[3.461s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[3.594s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.786s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[5.000s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.015s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[6.284s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.539s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[6.551s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.251s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[7.731s] -- Found std_srvs: 2.0.5 (/opt/ros/foxy/share/std_srvs/cmake)
+[8.126s] -- Configuring done
+[8.200s] -- Generating done
+[8.213s] -- Build files have been written to: /home/xtark/tarkbot/ros2_ws/build/rplidar_ros
+[8.281s] Invoked command in '/home/xtark/tarkbot/ros2_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/rplidar_ros -DCMAKE_INSTALL_PREFIX=/home/xtark/tarkbot/ros2_ws/install/rplidar_ros
+[8.283s] Invoking command in '/home/xtark/tarkbot/ros2_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/xtark/tarkbot/ros2_ws/build/rplidar_ros -- -j4 -l4
+[8.757s] [100%] Built target rplidar_node
+[9.628s] Invoked command in '/home/xtark/tarkbot/ros2_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/xtark/tarkbot/ros2_ws/build/rplidar_ros -- -j4 -l4
+[10.646s] Invoking command in '/home/xtark/tarkbot/ros2_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/xtark/tarkbot/ros2_ws/build/rplidar_ros
+[10.704s] -- Install configuration: "Release"
+[10.705s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_node
+[10.706s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//launch
+[10.707s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//launch/rplidar_a3.launch
+[10.707s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//launch/view_rplidar_a3.launch
+[10.708s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//launch/__pycache__
+[10.709s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//launch/__pycache__/rplidar_tarkbot.launch.cpython-38.pyc
+[10.710s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//launch/rplidar_tarkbot.launch.py
+[10.710s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//launch/rplidar_s1.launch
+[10.711s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//launch/rplidar.launch
+[10.714s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//launch/rplidar_s1_tcp.launch
+[10.715s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//launch/test_rplidar.launch
+[10.715s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//launch/view_rplidar.launch
+[10.718s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//launch/view_rplidar_s1.launch
+[10.718s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//launch/test_rplidar_a3.launch
+[10.719s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//launch/view_rplidar_s1_tcp.launch
+[10.720s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//rviz
+[10.721s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//rviz/rplidar.rviz
+[10.725s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//sdk
+[10.726s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//sdk/src
+[10.727s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//sdk/src/rplidar_driver.cpp
+[10.728s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//sdk/src/rplidar_driver_serial.h
+[10.729s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//sdk/src/arch
+[10.729s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//sdk/src/arch/linux
+[10.732s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//sdk/src/arch/linux/arch_linux.h
+[10.733s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//sdk/src/arch/linux/net_serial.h
+[10.733s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//sdk/src/arch/linux/net_serial.cpp
+[10.734s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//sdk/src/arch/linux/net_socket.cpp
+[10.735s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//sdk/src/arch/linux/thread.hpp
+[10.737s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//sdk/src/arch/linux/timer.h
+[10.741s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//sdk/src/arch/linux/timer.cpp
+[10.744s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//sdk/src/arch/win32
+[10.745s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//sdk/src/arch/win32/net_serial.h
+[10.746s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//sdk/src/arch/win32/net_serial.cpp
+[10.746s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//sdk/src/arch/win32/net_socket.cpp
+[10.747s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//sdk/src/arch/win32/winthread.hpp
+[10.747s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//sdk/src/arch/win32/arch_win32.h
+[10.748s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//sdk/src/arch/win32/timer.h
+[10.748s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//sdk/src/arch/win32/timer.cpp
+[10.749s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//sdk/src/arch/macOS
+[10.749s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//sdk/src/arch/macOS/net_serial.h
+[10.750s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//sdk/src/arch/macOS/net_serial.cpp
+[10.751s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//sdk/src/arch/macOS/net_socket.cpp
+[10.751s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//sdk/src/arch/macOS/thread.hpp
+[10.752s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//sdk/src/arch/macOS/timer.h
+[10.752s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//sdk/src/arch/macOS/arch_macOS.h
+[10.753s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//sdk/src/arch/macOS/timer.cpp
+[10.754s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//sdk/src/rplidar_driver_TCP.h
+[10.755s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//sdk/src/rplidar_driver_impl.h
+[10.756s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//sdk/src/hal
+[10.761s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//sdk/src/hal/util.h
+[10.762s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//sdk/src/hal/thread.cpp
+[10.762s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//sdk/src/hal/thread.h
+[10.762s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//sdk/src/hal/types.h
+[10.763s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//sdk/src/hal/abs_rxtx.h
+[10.763s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//sdk/src/hal/locker.h
+[10.764s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//sdk/src/hal/byteops.h
+[10.764s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//sdk/src/hal/socket.h
+[10.765s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//sdk/src/hal/assert.h
+[10.765s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//sdk/src/hal/event.h
+[10.766s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//sdk/src/sdkcommon.h
+[10.766s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//sdk/README.txt
+[10.766s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//sdk/include
+[10.767s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//sdk/include/rptypes.h
+[10.767s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//sdk/include/rplidar_protocol.h
+[10.776s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//sdk/include/rplidar.h
+[10.777s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//sdk/include/rplidar_cmd.h
+[10.777s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//sdk/include/rplidar_driver.h
+[10.778s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//config
+[10.778s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//config/rplidar_config.yaml
+[10.779s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/ament_index/resource_index/package_run_dependencies/rplidar_ros
+[10.779s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/ament_index/resource_index/parent_prefix_path/rplidar_ros
+[10.783s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.sh
+[10.783s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.dsv
+[10.784s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros/environment/path.sh
+[10.785s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros/environment/path.dsv
+[10.786s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros/local_setup.bash
+[10.787s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros/local_setup.sh
+[10.787s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros/local_setup.zsh
+[10.788s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros/local_setup.dsv
+[10.809s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.dsv
+[10.810s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/ament_index/resource_index/packages/rplidar_ros
+[10.810s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig.cmake
+[10.811s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig-version.cmake
+[10.811s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.xml
+[10.812s] Invoked command in '/home/xtark/tarkbot/ros2_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/xtark/tarkbot/ros2_ws/build/rplidar_ros

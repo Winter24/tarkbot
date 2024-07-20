@@ -1,0 +1,233 @@
+[8.050s] Invoking command in '/home/xtark/tarkbot/ros2_ws/build/astra_camera_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/xtark/tarkbot/ros2_ws/build/astra_camera_msgs -- -j4 -l4
+[8.676s] [  1%] Built target astra_camera_msgs__cpp
+[8.763s] [ 12%] Built target astra_camera_msgs__rosidl_generator_c
+[10.833s] [ 28%] Built target astra_camera_msgs__rosidl_typesupport_cpp
+[10.835s] [ 35%] Built target astra_camera_msgs__rosidl_typesupport_introspection_cpp
+[10.982s] [ 47%] Built target astra_camera_msgs__rosidl_typesupport_fastrtps_cpp
+[11.177s] [ 63%] Built target astra_camera_msgs__rosidl_typesupport_c
+[11.177s] [ 70%] Built target astra_camera_msgs__rosidl_typesupport_introspection_c
+[11.308s] [ 82%] Built target astra_camera_msgs__rosidl_typesupport_fastrtps_c
+[11.450s] [ 82%] Built target astra_camera_msgs
+[11.571s] [ 83%] Built target astra_camera_msgs__py
+[11.770s] [ 93%] Built target astra_camera_msgs__python
+[11.966s] [ 97%] Built target astra_camera_msgs__rosidl_typesupport_fastrtps_c__pyext
+[11.967s] [ 97%] Built target astra_camera_msgs__rosidl_typesupport_c__pyext
+[11.980s] [100%] Built target astra_camera_msgs__rosidl_typesupport_introspection_c__pyext
+[16.148s] Invoked command in '/home/xtark/tarkbot/ros2_ws/build/astra_camera_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/xtark/tarkbot/ros2_ws/build/astra_camera_msgs -- -j4 -l4
+[26.280s] Invoking command in '/home/xtark/tarkbot/ros2_ws/build/astra_camera_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/xtark/tarkbot/ros2_ws/build/astra_camera_msgs
+[28.354s] -- Install configuration: "Release"
+[28.357s] -- Execute custom install script
+[28.358s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/ament_index/resource_index/rosidl_interfaces/astra_camera_msgs
+[28.359s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/device_info__functions.h
+[28.360s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/device_info__struct.h
+[28.361s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/device_info__type_support.h
+[28.362s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/extrinsics__functions.h
+[28.363s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/extrinsics__struct.h
+[28.363s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/extrinsics__type_support.h
+[28.364s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/metadata__functions.h
+[28.364s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/metadata__struct.h
+[28.367s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/metadata__type_support.h
+[28.368s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/device_info.h
+[28.368s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/extrinsics.h
+[28.369s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/metadata.h
+[28.370s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/rosidl_generator_c__visibility_control.h
+[28.371s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_camera_info__functions.h
+[28.372s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_camera_info__struct.h
+[28.381s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_camera_info__type_support.h
+[28.383s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_camera_params__functions.h
+[28.384s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_camera_params__struct.h
+[28.384s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_camera_params__type_support.h
+[28.385s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_device_info__functions.h
+[28.385s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_device_info__struct.h
+[28.386s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_device_info__type_support.h
+[28.386s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_int32__functions.h
+[28.388s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_int32__struct.h
+[28.389s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_int32__type_support.h
+[28.389s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_string__functions.h
+[28.390s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_string__struct.h
+[28.391s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_string__type_support.h
+[28.391s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/set_int32__functions.h
+[28.392s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/set_int32__struct.h
+[28.392s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/set_int32__type_support.h
+[28.393s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/get_camera_info.h
+[28.393s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/get_camera_params.h
+[28.394s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/get_device_info.h
+[28.394s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/get_int32.h
+[28.395s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/get_string.h
+[28.396s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/set_int32.h
+[28.396s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/environment/library_path.sh
+[28.397s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/environment/library_path.dsv
+[28.397s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/device_info__rosidl_typesupport_fastrtps_c.h
+[28.398s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_fastrtps_c.h
+[28.399s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/metadata__rosidl_typesupport_fastrtps_c.h
+[28.399s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[28.400s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_camera_info__rosidl_typesupport_fastrtps_c.h
+[28.402s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_camera_params__rosidl_typesupport_fastrtps_c.h
+[28.404s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_device_info__rosidl_typesupport_fastrtps_c.h
+[28.407s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_int32__rosidl_typesupport_fastrtps_c.h
+[28.408s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_string__rosidl_typesupport_fastrtps_c.h
+[28.409s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/set_int32__rosidl_typesupport_fastrtps_c.h
+[28.410s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_typesupport_fastrtps_c.so
+[28.411s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/device_info__rosidl_typesupport_fastrtps_cpp.hpp
+[28.412s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_fastrtps_cpp.hpp
+[28.413s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/metadata__rosidl_typesupport_fastrtps_cpp.hpp
+[28.414s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[28.415s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_camera_info__rosidl_typesupport_fastrtps_cpp.hpp
+[28.416s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_camera_params__rosidl_typesupport_fastrtps_cpp.hpp
+[28.418s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_device_info__rosidl_typesupport_fastrtps_cpp.hpp
+[28.418s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_int32__rosidl_typesupport_fastrtps_cpp.hpp
+[28.419s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_string__rosidl_typesupport_fastrtps_cpp.hpp
+[28.421s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/set_int32__rosidl_typesupport_fastrtps_cpp.hpp
+[28.421s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_typesupport_fastrtps_cpp.so
+[28.430s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/device_info__rosidl_typesupport_introspection_c.h
+[28.435s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_introspection_c.h
+[28.436s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/metadata__rosidl_typesupport_introspection_c.h
+[28.436s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[28.436s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_camera_info__rosidl_typesupport_introspection_c.h
+[28.437s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_camera_params__rosidl_typesupport_introspection_c.h
+[28.438s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_device_info__rosidl_typesupport_introspection_c.h
+[28.439s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_int32__rosidl_typesupport_introspection_c.h
+[28.439s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_string__rosidl_typesupport_introspection_c.h
+[28.439s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/set_int32__rosidl_typesupport_introspection_c.h
+[28.445s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/device_info__builder.hpp
+[28.446s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/device_info__struct.hpp
+[28.446s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/device_info__traits.hpp
+[28.447s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/device_info__type_support.hpp
+[28.447s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/extrinsics__builder.hpp
+[28.450s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/extrinsics__struct.hpp
+[28.450s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/extrinsics__traits.hpp
+[28.471s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/extrinsics__type_support.hpp
+[28.474s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/metadata__builder.hpp
+[28.475s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/metadata__struct.hpp
+[28.476s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/metadata__traits.hpp
+[28.478s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/metadata__type_support.hpp
+[28.480s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/device_info.hpp
+[28.481s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/extrinsics.hpp
+[28.482s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/metadata.hpp
+[28.483s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[28.484s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_camera_info__builder.hpp
+[28.485s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_camera_info__struct.hpp
+[28.486s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_camera_info__traits.hpp
+[28.489s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_camera_info__type_support.hpp
+[28.490s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_camera_params__builder.hpp
+[28.491s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_camera_params__struct.hpp
+[28.492s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_camera_params__traits.hpp
+[28.494s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_camera_params__type_support.hpp
+[28.504s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_device_info__builder.hpp
+[28.507s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_device_info__struct.hpp
+[28.508s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_device_info__traits.hpp
+[28.509s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_device_info__type_support.hpp
+[28.510s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_int32__builder.hpp
+[28.511s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_int32__struct.hpp
+[28.511s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_int32__traits.hpp
+[28.512s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_int32__type_support.hpp
+[28.512s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_string__builder.hpp
+[28.513s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_string__struct.hpp
+[28.514s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_string__traits.hpp
+[28.515s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_string__type_support.hpp
+[28.515s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/set_int32__builder.hpp
+[28.517s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/set_int32__struct.hpp
+[28.517s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/set_int32__traits.hpp
+[28.518s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/set_int32__type_support.hpp
+[28.518s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/get_camera_info.hpp
+[28.519s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/get_camera_params.hpp
+[28.520s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/get_device_info.hpp
+[28.520s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/get_int32.hpp
+[28.520s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/get_string.hpp
+[28.521s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/set_int32.hpp
+[28.521s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/device_info__rosidl_typesupport_introspection_cpp.hpp
+[28.522s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_introspection_cpp.hpp
+[28.522s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/metadata__rosidl_typesupport_introspection_cpp.hpp
+[28.523s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_camera_info__rosidl_typesupport_introspection_cpp.hpp
+[28.524s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_camera_params__rosidl_typesupport_introspection_cpp.hpp
+[28.524s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_device_info__rosidl_typesupport_introspection_cpp.hpp
+[28.525s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_int32__rosidl_typesupport_introspection_cpp.hpp
+[28.525s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_string__rosidl_typesupport_introspection_cpp.hpp
+[28.526s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/set_int32__rosidl_typesupport_introspection_cpp.hpp
+[28.527s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/environment/pythonpath.sh
+[28.527s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/environment/pythonpath.dsv
+[28.528s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/lib/python3.8/site-packages/astra_camera_msgs/__init__.py
+[28.528s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/lib/python3.8/site-packages/astra_camera_msgs/msg/__init__.py
+[28.529s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/lib/python3.8/site-packages/astra_camera_msgs/msg/_device_info.py
+[28.529s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/lib/python3.8/site-packages/astra_camera_msgs/msg/_extrinsics.py
+[28.530s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/lib/python3.8/site-packages/astra_camera_msgs/msg/_metadata.py
+[28.530s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/lib/python3.8/site-packages/astra_camera_msgs/srv/__init__.py
+[28.538s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/lib/python3.8/site-packages/astra_camera_msgs/srv/_get_camera_info.py
+[28.539s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/lib/python3.8/site-packages/astra_camera_msgs/srv/_get_camera_params.py
+[28.540s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/lib/python3.8/site-packages/astra_camera_msgs/srv/_get_device_info.py
+[28.542s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/lib/python3.8/site-packages/astra_camera_msgs/srv/_get_int32.py
+[28.543s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/lib/python3.8/site-packages/astra_camera_msgs/srv/_get_string.py
+[28.544s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/lib/python3.8/site-packages/astra_camera_msgs/srv/_set_int32.py
+[28.544s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/lib/python3.8/site-packages/astra_camera_msgs/astra_camera_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[28.545s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/lib/python3.8/site-packages/astra_camera_msgs/astra_camera_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[28.546s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/lib/python3.8/site-packages/astra_camera_msgs/astra_camera_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[28.546s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/lib/libastra_camera_msgs__python.so
+[28.547s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/msg/DeviceInfo.idl
+[28.548s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/msg/Extrinsics.idl
+[28.548s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/msg/Metadata.idl
+[28.549s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetDeviceInfo.idl
+[28.549s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetCameraInfo.idl
+[28.550s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetCameraParams.idl
+[28.551s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetInt32.idl
+[28.557s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetString.idl
+[28.558s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/SetInt32.idl
+[28.559s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/msg/DeviceInfo.msg
+[28.561s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/msg/Extrinsics.msg
+[28.562s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/msg/Metadata.msg
+[28.563s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetDeviceInfo.srv
+[28.564s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetDeviceInfo_Request.msg
+[28.565s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetDeviceInfo_Response.msg
+[28.566s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetCameraInfo.srv
+[28.566s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetCameraInfo_Request.msg
+[28.567s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetCameraInfo_Response.msg
+[28.568s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetCameraParams.srv
+[28.568s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetCameraParams_Request.msg
+[28.569s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetCameraParams_Response.msg
+[28.569s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetInt32.srv
+[28.570s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetInt32_Request.msg
+[28.570s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetInt32_Response.msg
+[28.571s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetString.srv
+[28.571s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetString_Request.msg
+[28.572s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetString_Response.msg
+[28.573s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/SetInt32.srv
+[28.573s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/SetInt32_Request.msg
+[28.574s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/SetInt32_Response.msg
+[28.574s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/ament_index/resource_index/package_run_dependencies/astra_camera_msgs
+[28.575s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/ament_index/resource_index/parent_prefix_path/astra_camera_msgs
+[28.575s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/environment/ament_prefix_path.sh
+[28.576s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/environment/ament_prefix_path.dsv
+[28.577s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/environment/path.sh
+[28.578s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/environment/path.dsv
+[28.579s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/local_setup.bash
+[28.579s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/local_setup.sh
+[28.580s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/local_setup.zsh
+[28.580s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/local_setup.dsv
+[28.581s] -- Symlinking: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/package.dsv
+[28.585s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/ament_index/resource_index/packages/astra_camera_msgs
+[28.585s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/rosidl_cmake-extras.cmake
+[28.586s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[28.587s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[28.588s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[28.588s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[28.589s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[28.590s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[28.590s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgsConfig.cmake
+[28.591s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgsConfig-version.cmake
+[28.592s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/package.xml
+[28.601s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_generator_c.so
+[28.608s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_typesupport_introspection_c.so
+[28.612s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_typesupport_c.so
+[28.618s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_typesupport_introspection_cpp.so
+[28.622s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_typesupport_cpp.so
+[28.868s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgs__rosidl_generator_cExport.cmake
+[28.869s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgs__rosidl_generator_cExport-release.cmake
+[28.872s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgs__rosidl_typesupport_introspection_cExport.cmake
+[28.873s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+[28.874s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgs__rosidl_typesupport_cExport.cmake
+[28.875s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgs__rosidl_typesupport_cExport-release.cmake
+[28.881s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgs__rosidl_generator_cppExport.cmake
+[28.883s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[28.885s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+[28.891s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgs__rosidl_typesupport_cppExport.cmake
+[28.894s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgs__rosidl_typesupport_cppExport-release.cmake
+[28.927s] Invoked command in '/home/xtark/tarkbot/ros2_ws/build/astra_camera_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/xtark/tarkbot/ros2_ws/build/astra_camera_msgs

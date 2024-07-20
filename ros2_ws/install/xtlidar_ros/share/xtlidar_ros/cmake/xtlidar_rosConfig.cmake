@@ -1,0 +1,1 @@
+/home/xtark/tarkbot/ros2_ws/build/xtlidar_ros/ament_cmake_core/xtlidar_rosConfig.cmake

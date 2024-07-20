@@ -1,0 +1,6 @@
+Invoking command in '/home/xtark/tarkbot/ros2_ws/build/orbbec_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/xtark/tarkbot/ros2_ws/src/OrbbecSDK_ROS2/orbbec_description -DCMAKE_INSTALL_PREFIX=/home/xtark/tarkbot/ros2_ws/install/orbbec_description
+Invoked command in '/home/xtark/tarkbot/ros2_ws/build/orbbec_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/xtark/tarkbot/ros2_ws/src/OrbbecSDK_ROS2/orbbec_description -DCMAKE_INSTALL_PREFIX=/home/xtark/tarkbot/ros2_ws/install/orbbec_description
+Invoking command in '/home/xtark/tarkbot/ros2_ws/build/orbbec_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/xtark/tarkbot/ros2_ws/build/orbbec_description -- -j4 -l4
+Invoked command in '/home/xtark/tarkbot/ros2_ws/build/orbbec_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/xtark/tarkbot/ros2_ws/build/orbbec_description -- -j4 -l4
+Invoking command in '/home/xtark/tarkbot/ros2_ws/build/orbbec_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/xtark/tarkbot/ros2_ws/build/orbbec_description
+Invoked command in '/home/xtark/tarkbot/ros2_ws/build/orbbec_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/xtark/tarkbot/ros2_ws/build/orbbec_description

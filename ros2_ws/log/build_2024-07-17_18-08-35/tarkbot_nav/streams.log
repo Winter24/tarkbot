@@ -1,0 +1,45 @@
+[8.018s] Invoking command in '/home/xtark/tarkbot/ros2_ws/build/tarkbot_nav': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/xtark/tarkbot/ros2_ws/build/tarkbot_nav -- -j4 -l4
+[12.123s] Invoked command in '/home/xtark/tarkbot/ros2_ws/build/tarkbot_nav' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/xtark/tarkbot/ros2_ws/build/tarkbot_nav -- -j4 -l4
+[27.846s] Invoking command in '/home/xtark/tarkbot/ros2_ws/build/tarkbot_nav': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/xtark/tarkbot/ros2_ws/build/tarkbot_nav
+[31.583s] -- Install configuration: "Release"
+[31.589s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_nav/share/tarkbot_nav/launch
+[31.593s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_nav/share/tarkbot_nav/launch/navigation.launch.py
+[31.603s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_nav/share/tarkbot_nav/launch/include
+[31.605s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_nav/share/tarkbot_nav/launch/include/localization_launch.py
+[31.607s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_nav/share/tarkbot_nav/launch/include/bringup_nav_launch.py
+[31.609s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_nav/share/tarkbot_nav/launch/include/navigation_core_launch.py
+[31.610s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_nav/share/tarkbot_nav/config
+[31.610s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_nav/share/tarkbot_nav/config/navigation
+[31.611s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_nav/share/tarkbot_nav/config/navigation/nav2_params.yaml
+[31.612s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_nav/share/tarkbot_nav/maps
+[31.612s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_nav/share/tarkbot_nav/maps/test.yaml
+[31.613s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_nav/share/tarkbot_nav/maps/atom_test1.yaml
+[31.613s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_nav/share/tarkbot_nav/maps/atom_test.pgm
+[31.614s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_nav/share/tarkbot_nav/maps/atom_test.yaml
+[31.615s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_nav/share/tarkbot_nav/maps/web_test.pgm
+[31.615s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_nav/share/tarkbot_nav/maps/atom_test1.pgm
+[31.616s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_nav/share/tarkbot_nav/maps/test.pgm
+[31.617s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_nav/share/tarkbot_nav/maps/web_test.yaml
+[31.617s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_nav/share/tarkbot_nav/behavior_trees
+[31.618s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_nav/share/tarkbot_nav/behavior_trees/navigate_w_replanning_distance.xml
+[31.618s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_nav/share/tarkbot_nav/behavior_trees/navigate_w_replanning_time.xml
+[31.632s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_nav/share/tarkbot_nav/behavior_trees/navigate_w_replanning_and_round_robin_recovery.xml
+[31.633s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_nav/share/tarkbot_nav/behavior_trees/navigate_w_replanning_and_recovery.xml
+[31.634s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_nav/share/tarkbot_nav/behavior_trees/follow_point.xml
+[31.635s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_nav/share/tarkbot_nav/behavior_trees/navigate_w_replanning_speed.xml
+[31.636s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_nav/share/ament_index/resource_index/package_run_dependencies/tarkbot_nav
+[31.636s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_nav/share/ament_index/resource_index/parent_prefix_path/tarkbot_nav
+[31.637s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_nav/share/tarkbot_nav/environment/ament_prefix_path.sh
+[31.638s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_nav/share/tarkbot_nav/environment/ament_prefix_path.dsv
+[31.639s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_nav/share/tarkbot_nav/environment/path.sh
+[31.640s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_nav/share/tarkbot_nav/environment/path.dsv
+[31.640s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_nav/share/tarkbot_nav/local_setup.bash
+[31.641s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_nav/share/tarkbot_nav/local_setup.sh
+[31.641s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_nav/share/tarkbot_nav/local_setup.zsh
+[31.642s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_nav/share/tarkbot_nav/local_setup.dsv
+[31.659s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/tarkbot_nav/share/tarkbot_nav/package.dsv
+[31.660s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_nav/share/ament_index/resource_index/packages/tarkbot_nav
+[31.661s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_nav/share/tarkbot_nav/cmake/tarkbot_navConfig.cmake
+[31.662s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_nav/share/tarkbot_nav/cmake/tarkbot_navConfig-version.cmake
+[31.662s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_nav/share/tarkbot_nav/package.xml
+[34.869s] Invoked command in '/home/xtark/tarkbot/ros2_ws/build/tarkbot_nav' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/xtark/tarkbot/ros2_ws/build/tarkbot_nav

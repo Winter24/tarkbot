@@ -1,0 +1,93 @@
+[1.494s] Invoking command in '/home/xtark/tarkbot/ros2_ws/build/tarkbot_robot': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/xtark/tarkbot/ros2_ws/src/tarkbot_robot -DCMAKE_INSTALL_PREFIX=/home/xtark/tarkbot/ros2_ws/install/tarkbot_robot
+[2.217s] -- The C compiler identification is GNU 9.4.0
+[2.650s] -- The CXX compiler identification is GNU 9.4.0
+[2.697s] -- Check for working C compiler: /usr/bin/cc
+[3.631s] -- Check for working C compiler: /usr/bin/cc -- works
+[3.635s] -- Detecting C compiler ABI info
+[4.522s] -- Detecting C compiler ABI info - done
+[4.607s] -- Detecting C compile features
+[4.609s] -- Detecting C compile features - done
+[4.632s] -- Check for working CXX compiler: /usr/bin/c++
+[5.513s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[5.519s] -- Detecting CXX compiler ABI info
+[6.376s] -- Detecting CXX compiler ABI info - done
+[6.471s] -- Detecting CXX compile features
+[6.473s] -- Detecting CXX compile features - done
+[6.526s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+[10.022s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: thread 
+[10.072s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[10.417s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[10.419s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[12.895s] -- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)
+[13.262s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[13.336s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[14.569s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[15.022s] -- Found FastRTPS: /opt/ros/foxy/include  
+[16.377s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[16.700s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[17.416s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[17.906s] -- Found tf2_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_msgs/cmake)
+[19.305s] -- Found tf2_ros: 0.13.14 (/opt/ros/foxy/share/tf2_ros/cmake)
+[19.844s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[19.865s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[19.880s] -- Found Threads: TRUE  
+[21.852s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[22.688s] -- Added test 'copyright' to check source files copyright and LICENSE
+[22.700s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[22.701s] -- Configured cppcheck include dirs: /home/xtark/tarkbot/ros2_ws/src/tarkbot_robot/include/tarkbot_robot
+[22.702s] -- Configured cppcheck exclude dirs and/or files: 
+[22.712s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[22.713s] -- Configured cpplint exclude dirs and/or files: 
+[22.716s] -- Added test 'flake8' to check Python code syntax and style conventions
+[22.721s] -- Added test 'lint_cmake' to check CMake code style
+[22.725s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[22.738s] -- Added test 'uncrustify' to check C / C++ code style
+[22.739s] -- Configured uncrustify additional arguments: 
+[22.761s] -- Added test 'xmllint' to check XML markup files
+[22.818s] -- Configuring done
+[22.912s] -- Generating done
+[22.926s] -- Build files have been written to: /home/xtark/tarkbot/ros2_ws/build/tarkbot_robot
+[23.056s] Invoked command in '/home/xtark/tarkbot/ros2_ws/build/tarkbot_robot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/xtark/tarkbot/ros2_ws/src/tarkbot_robot -DCMAKE_INSTALL_PREFIX=/home/xtark/tarkbot/ros2_ws/install/tarkbot_robot
+[23.058s] Invoking command in '/home/xtark/tarkbot/ros2_ws/build/tarkbot_robot': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/xtark/tarkbot/ros2_ws/build/tarkbot_robot -- -j4 -l4
+[23.520s] [35m[1mScanning dependencies of target tarkbot_robot_node[0m
+[23.896s] [ 50%] [32mBuilding CXX object CMakeFiles/tarkbot_robot_node.dir/src/tarkbot_robot.cpp.o[0m
+[49.712s] [01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_robot/src/tarkbot_robot.cpp:[m[K In member function ‘[01m[Kvoid TarkbotRobot::calculateImuQuaternion(imu_data)[m[K’:
+[49.713s] [01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_robot/src/tarkbot_robot.cpp:498:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kroll[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[49.714s]   498 |     float [01;35m[Kroll[m[K,pitch,yaw ;
+[49.715s]       |           [01;35m[K^~~~[m[K
+[49.716s] [01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_robot/src/tarkbot_robot.cpp:498:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kpitch[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[49.717s]   498 |     float roll,[01;35m[Kpitch[m[K,yaw ;
+[49.717s]       |                [01;35m[K^~~~~[m[K
+[49.718s] [01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_robot/src/tarkbot_robot.cpp:498:22:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kyaw[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[49.719s]   498 |     float roll,pitch,[01;35m[Kyaw[m[K ;
+[49.720s]       |                      [01;35m[K^~~[m[K
+[90.790s] [100%] [32m[1mLinking CXX executable tarkbot_robot_node[0m
+[93.123s] [100%] Built target tarkbot_robot_node
+[93.178s] Invoked command in '/home/xtark/tarkbot/ros2_ws/build/tarkbot_robot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/xtark/tarkbot/ros2_ws/build/tarkbot_robot -- -j4 -l4
+[93.333s] Invoking command in '/home/xtark/tarkbot/ros2_ws/build/tarkbot_robot': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/xtark/tarkbot/ros2_ws/build/tarkbot_robot
+[93.380s] -- Install configuration: ""
+[93.382s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/lib/tarkbot_robot/tarkbot_robot_node
+[93.421s] -- Set runtime path of "/home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/lib/tarkbot_robot/tarkbot_robot_node" to ""
+[93.421s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/launch
+[93.426s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/launch/__pycache__
+[93.426s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/launch/__pycache__/robot.launch.cpython-38.pyc
+[93.431s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/launch/robot.launch.py
+[93.431s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/launch/robot2_lidar.launch.py
+[93.432s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/config
+[93.433s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/config/tarkbot_config.yaml
+[93.433s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/ament_index/resource_index/package_run_dependencies/tarkbot_robot
+[93.434s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/ament_index/resource_index/parent_prefix_path/tarkbot_robot
+[93.435s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/environment/ament_prefix_path.sh
+[93.435s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/environment/ament_prefix_path.dsv
+[93.460s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/environment/path.sh
+[93.468s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/environment/path.dsv
+[93.468s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/local_setup.bash
+[93.469s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/local_setup.sh
+[93.470s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/local_setup.zsh
+[93.470s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/local_setup.dsv
+[93.471s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/package.dsv
+[93.472s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/ament_index/resource_index/packages/tarkbot_robot
+[93.472s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/cmake/tarkbot_robotConfig.cmake
+[93.473s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/cmake/tarkbot_robotConfig-version.cmake
+[93.474s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/package.xml
+[93.500s] Invoked command in '/home/xtark/tarkbot/ros2_ws/build/tarkbot_robot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/xtark/tarkbot/ros2_ws/build/tarkbot_robot

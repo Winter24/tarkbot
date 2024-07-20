@@ -1,0 +1,755 @@
+[30.234s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'tarkbot_robot']
+[30.234s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffa53cda90>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=['tarkbot_robot'], packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffa53cda90>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffa53cd460>)
+[31.324s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[31.324s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[31.324s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[31.324s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[31.325s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[31.325s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[31.325s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/xtark/tarkbot/ros2_ws'
+[31.326s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[31.326s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[31.326s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[31.326s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[31.327s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[31.327s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[31.327s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[31.327s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[31.327s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[31.371s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[31.371s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[31.372s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[31.372s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[31.372s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[31.373s] Level 1:colcon.colcon_core.package_identification:_identify(Log) by extensions ['ignore', 'ignore_ament_install']
+[31.373s] Level 1:colcon.colcon_core.package_identification:_identify(Log) by extension 'ignore'
+[31.374s] Level 1:colcon.colcon_core.package_identification:_identify(Log) by extension 'ignore_ament_install'
+[31.374s] Level 1:colcon.colcon_core.package_identification:_identify(Log) by extensions ['colcon_pkg']
+[31.374s] Level 1:colcon.colcon_core.package_identification:_identify(Log) by extension 'colcon_pkg'
+[31.375s] Level 1:colcon.colcon_core.package_identification:_identify(Log) by extensions ['colcon_meta']
+[31.375s] Level 1:colcon.colcon_core.package_identification:_identify(Log) by extension 'colcon_meta'
+[31.375s] Level 1:colcon.colcon_core.package_identification:_identify(Log) by extensions ['ros']
+[31.375s] Level 1:colcon.colcon_core.package_identification:_identify(Log) by extension 'ros'
+[31.376s] Level 1:colcon.colcon_core.package_identification:_identify(Log) by extensions ['cmake', 'python']
+[31.376s] Level 1:colcon.colcon_core.package_identification:_identify(Log) by extension 'cmake'
+[31.376s] Level 1:colcon.colcon_core.package_identification:_identify(Log) by extension 'python'
+[31.376s] Level 1:colcon.colcon_core.package_identification:_identify(Log) by extensions ['python_setup_py']
+[31.377s] Level 1:colcon.colcon_core.package_identification:_identify(Log) by extension 'python_setup_py'
+[31.377s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[31.378s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[31.378s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[31.379s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[31.380s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[31.380s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[31.381s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[31.382s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[31.382s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[31.383s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[31.383s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[31.384s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[31.384s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[31.384s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[31.384s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[31.385s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[31.385s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[31.385s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[31.386s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[31.386s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[31.386s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[31.386s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[31.386s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[31.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[31.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/__pycache__) by extension 'ignore'
+[31.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/__pycache__) by extension 'ignore_ament_install'
+[31.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/__pycache__) by extensions ['colcon_pkg']
+[31.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/__pycache__) by extension 'colcon_pkg'
+[31.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/__pycache__) by extensions ['colcon_meta']
+[31.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/__pycache__) by extension 'colcon_meta'
+[31.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/__pycache__) by extensions ['ros']
+[31.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/__pycache__) by extension 'ros'
+[31.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/__pycache__) by extensions ['cmake', 'python']
+[31.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/__pycache__) by extension 'cmake'
+[31.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/__pycache__) by extension 'python'
+[31.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/__pycache__) by extensions ['python_setup_py']
+[31.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/__pycache__) by extension 'python_setup_py'
+[31.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera) by extensions ['ignore', 'ignore_ament_install']
+[31.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera) by extension 'ignore'
+[31.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera) by extension 'ignore_ament_install'
+[31.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera) by extensions ['colcon_pkg']
+[31.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera) by extension 'colcon_pkg'
+[31.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera) by extensions ['colcon_meta']
+[31.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera) by extension 'colcon_meta'
+[31.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera) by extensions ['ros']
+[31.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera) by extension 'ros'
+[31.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera) by extensions ['cmake', 'python']
+[31.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera) by extension 'cmake'
+[31.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera) by extension 'python'
+[31.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera) by extensions ['python_setup_py']
+[31.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera) by extension 'python_setup_py'
+[31.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera) by extensions ['ignore', 'ignore_ament_install']
+[31.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera) by extension 'ignore'
+[31.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera) by extension 'ignore_ament_install'
+[31.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera) by extensions ['colcon_pkg']
+[31.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera) by extension 'colcon_pkg'
+[31.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera) by extensions ['colcon_meta']
+[31.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera) by extension 'colcon_meta'
+[31.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera) by extensions ['ros']
+[31.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera) by extension 'ros'
+[31.416s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_astra_camera/astra_camera' with type 'ros.ament_cmake' and name 'astra_camera'
+[31.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera_msgs) by extensions ['ignore', 'ignore_ament_install']
+[31.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera_msgs) by extension 'ignore'
+[31.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera_msgs) by extension 'ignore_ament_install'
+[31.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera_msgs) by extensions ['colcon_pkg']
+[31.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera_msgs) by extension 'colcon_pkg'
+[31.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera_msgs) by extensions ['colcon_meta']
+[31.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera_msgs) by extension 'colcon_meta'
+[31.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera_msgs) by extensions ['ros']
+[31.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera_msgs) by extension 'ros'
+[31.420s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_astra_camera/astra_camera_msgs' with type 'ros.ament_cmake' and name 'astra_camera_msgs'
+[31.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch) by extensions ['ignore', 'ignore_ament_install']
+[31.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch) by extension 'ignore'
+[31.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch) by extension 'ignore_ament_install'
+[31.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch) by extensions ['colcon_pkg']
+[31.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch) by extension 'colcon_pkg'
+[31.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch) by extensions ['colcon_meta']
+[31.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch) by extension 'colcon_meta'
+[31.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch) by extensions ['ros']
+[31.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch) by extension 'ros'
+[31.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch) by extensions ['cmake', 'python']
+[31.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch) by extension 'cmake'
+[31.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch) by extension 'python'
+[31.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch) by extensions ['python_setup_py']
+[31.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch) by extension 'python_setup_py'
+[31.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[31.425s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/__pycache__) by extension 'ignore'
+[31.425s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/__pycache__) by extension 'ignore_ament_install'
+[31.425s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/__pycache__) by extensions ['colcon_pkg']
+[31.425s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/__pycache__) by extension 'colcon_pkg'
+[31.425s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/__pycache__) by extensions ['colcon_meta']
+[31.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/__pycache__) by extension 'colcon_meta'
+[31.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/__pycache__) by extensions ['ros']
+[31.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/__pycache__) by extension 'ros'
+[31.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/__pycache__) by extensions ['cmake', 'python']
+[31.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/__pycache__) by extension 'cmake'
+[31.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/__pycache__) by extension 'python'
+[31.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/__pycache__) by extensions ['python_setup_py']
+[31.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/__pycache__) by extension 'python_setup_py'
+[31.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/base) by extensions ['ignore', 'ignore_ament_install']
+[31.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/base) by extension 'ignore'
+[31.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/base) by extension 'ignore_ament_install'
+[31.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/base) by extensions ['colcon_pkg']
+[31.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/base) by extension 'colcon_pkg'
+[31.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/base) by extensions ['colcon_meta']
+[31.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/base) by extension 'colcon_meta'
+[31.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/base) by extensions ['ros']
+[31.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/base) by extension 'ros'
+[31.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/base) by extensions ['cmake', 'python']
+[31.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/base) by extension 'cmake'
+[31.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/base) by extension 'python'
+[31.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/base) by extensions ['python_setup_py']
+[31.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/base) by extension 'python_setup_py'
+[31.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/base/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[31.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/base/__pycache__) by extension 'ignore'
+[31.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/base/__pycache__) by extension 'ignore_ament_install'
+[31.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/base/__pycache__) by extensions ['colcon_pkg']
+[31.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/base/__pycache__) by extension 'colcon_pkg'
+[31.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/base/__pycache__) by extensions ['colcon_meta']
+[31.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/base/__pycache__) by extension 'colcon_meta'
+[31.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/base/__pycache__) by extensions ['ros']
+[31.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/base/__pycache__) by extension 'ros'
+[31.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/base/__pycache__) by extensions ['cmake', 'python']
+[31.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/base/__pycache__) by extension 'cmake'
+[31.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/base/__pycache__) by extension 'python'
+[31.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/base/__pycache__) by extensions ['python_setup_py']
+[31.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/base/__pycache__) by extension 'python_setup_py'
+[31.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/datasets) by extensions ['ignore', 'ignore_ament_install']
+[31.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/datasets) by extension 'ignore'
+[31.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/datasets) by extension 'ignore_ament_install'
+[31.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/datasets) by extensions ['colcon_pkg']
+[31.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/datasets) by extension 'colcon_pkg'
+[31.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/datasets) by extensions ['colcon_meta']
+[31.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/datasets) by extension 'colcon_meta'
+[31.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/datasets) by extensions ['ros']
+[31.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/datasets) by extension 'ros'
+[31.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/datasets) by extensions ['cmake', 'python']
+[31.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/datasets) by extension 'cmake'
+[31.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/datasets) by extension 'python'
+[31.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/datasets) by extensions ['python_setup_py']
+[31.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/datasets) by extension 'python_setup_py'
+[31.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/datasets/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[31.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/datasets/__pycache__) by extension 'ignore'
+[31.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/datasets/__pycache__) by extension 'ignore_ament_install'
+[31.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/datasets/__pycache__) by extensions ['colcon_pkg']
+[31.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/datasets/__pycache__) by extension 'colcon_pkg'
+[31.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/datasets/__pycache__) by extensions ['colcon_meta']
+[31.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/datasets/__pycache__) by extension 'colcon_meta'
+[31.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/datasets/__pycache__) by extensions ['ros']
+[31.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/datasets/__pycache__) by extension 'ros'
+[31.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/datasets/__pycache__) by extensions ['cmake', 'python']
+[31.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/datasets/__pycache__) by extension 'cmake'
+[31.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/datasets/__pycache__) by extension 'python'
+[31.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/datasets/__pycache__) by extensions ['python_setup_py']
+[31.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/datasets/__pycache__) by extension 'python_setup_py'
+[31.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders) by extensions ['ignore', 'ignore_ament_install']
+[31.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders) by extension 'ignore'
+[31.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders) by extension 'ignore_ament_install'
+[31.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders) by extensions ['colcon_pkg']
+[31.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders) by extension 'colcon_pkg'
+[31.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders) by extensions ['colcon_meta']
+[31.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders) by extension 'colcon_meta'
+[31.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders) by extensions ['ros']
+[31.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders) by extension 'ros'
+[31.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders) by extensions ['cmake', 'python']
+[31.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders) by extension 'cmake'
+[31.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders) by extension 'python'
+[31.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders) by extensions ['python_setup_py']
+[31.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders) by extension 'python_setup_py'
+[31.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[31.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/__pycache__) by extension 'ignore'
+[31.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/__pycache__) by extension 'ignore_ament_install'
+[31.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/__pycache__) by extensions ['colcon_pkg']
+[31.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/__pycache__) by extension 'colcon_pkg'
+[31.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/__pycache__) by extensions ['colcon_meta']
+[31.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/__pycache__) by extension 'colcon_meta'
+[31.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/__pycache__) by extensions ['ros']
+[31.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/__pycache__) by extension 'ros'
+[31.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/__pycache__) by extensions ['cmake', 'python']
+[31.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/__pycache__) by extension 'cmake'
+[31.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/__pycache__) by extension 'python'
+[31.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/__pycache__) by extensions ['python_setup_py']
+[31.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/__pycache__) by extension 'python_setup_py'
+[31.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/deeplabv3) by extensions ['ignore', 'ignore_ament_install']
+[31.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/deeplabv3) by extension 'ignore'
+[31.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/deeplabv3) by extension 'ignore_ament_install'
+[31.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/deeplabv3) by extensions ['colcon_pkg']
+[31.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/deeplabv3) by extension 'colcon_pkg'
+[31.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/deeplabv3) by extensions ['colcon_meta']
+[31.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/deeplabv3) by extension 'colcon_meta'
+[31.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/deeplabv3) by extensions ['ros']
+[31.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/deeplabv3) by extension 'ros'
+[31.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/deeplabv3) by extensions ['cmake', 'python']
+[31.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/deeplabv3) by extension 'cmake'
+[31.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/deeplabv3) by extension 'python'
+[31.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/deeplabv3) by extensions ['python_setup_py']
+[31.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/deeplabv3) by extension 'python_setup_py'
+[31.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/deeplabv3/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[31.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/deeplabv3/__pycache__) by extension 'ignore'
+[31.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/deeplabv3/__pycache__) by extension 'ignore_ament_install'
+[31.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/deeplabv3/__pycache__) by extensions ['colcon_pkg']
+[31.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/deeplabv3/__pycache__) by extension 'colcon_pkg'
+[31.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/deeplabv3/__pycache__) by extensions ['colcon_meta']
+[31.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/deeplabv3/__pycache__) by extension 'colcon_meta'
+[31.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/deeplabv3/__pycache__) by extensions ['ros']
+[31.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/deeplabv3/__pycache__) by extension 'ros'
+[31.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/deeplabv3/__pycache__) by extensions ['cmake', 'python']
+[31.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/deeplabv3/__pycache__) by extension 'cmake'
+[31.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/deeplabv3/__pycache__) by extension 'python'
+[31.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/deeplabv3/__pycache__) by extensions ['python_setup_py']
+[31.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/deeplabv3/__pycache__) by extension 'python_setup_py'
+[31.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/fpn) by extensions ['ignore', 'ignore_ament_install']
+[31.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/fpn) by extension 'ignore'
+[31.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/fpn) by extension 'ignore_ament_install'
+[31.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/fpn) by extensions ['colcon_pkg']
+[31.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/fpn) by extension 'colcon_pkg'
+[31.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/fpn) by extensions ['colcon_meta']
+[31.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/fpn) by extension 'colcon_meta'
+[31.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/fpn) by extensions ['ros']
+[31.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/fpn) by extension 'ros'
+[31.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/fpn) by extensions ['cmake', 'python']
+[31.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/fpn) by extension 'cmake'
+[31.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/fpn) by extension 'python'
+[31.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/fpn) by extensions ['python_setup_py']
+[31.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/fpn) by extension 'python_setup_py'
+[31.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/fpn/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[31.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/fpn/__pycache__) by extension 'ignore'
+[31.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/fpn/__pycache__) by extension 'ignore_ament_install'
+[31.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/fpn/__pycache__) by extensions ['colcon_pkg']
+[31.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/fpn/__pycache__) by extension 'colcon_pkg'
+[31.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/fpn/__pycache__) by extensions ['colcon_meta']
+[31.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/fpn/__pycache__) by extension 'colcon_meta'
+[31.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/fpn/__pycache__) by extensions ['ros']
+[31.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/fpn/__pycache__) by extension 'ros'
+[31.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/fpn/__pycache__) by extensions ['cmake', 'python']
+[31.458s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/fpn/__pycache__) by extension 'cmake'
+[31.458s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/fpn/__pycache__) by extension 'python'
+[31.458s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/fpn/__pycache__) by extensions ['python_setup_py']
+[31.458s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/fpn/__pycache__) by extension 'python_setup_py'
+[31.458s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/linknet) by extensions ['ignore', 'ignore_ament_install']
+[31.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/linknet) by extension 'ignore'
+[31.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/linknet) by extension 'ignore_ament_install'
+[31.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/linknet) by extensions ['colcon_pkg']
+[31.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/linknet) by extension 'colcon_pkg'
+[31.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/linknet) by extensions ['colcon_meta']
+[31.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/linknet) by extension 'colcon_meta'
+[31.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/linknet) by extensions ['ros']
+[31.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/linknet) by extension 'ros'
+[31.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/linknet) by extensions ['cmake', 'python']
+[31.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/linknet) by extension 'cmake'
+[31.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/linknet) by extension 'python'
+[31.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/linknet) by extensions ['python_setup_py']
+[31.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/linknet) by extension 'python_setup_py'
+[31.462s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/linknet/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[31.462s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/linknet/__pycache__) by extension 'ignore'
+[31.462s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/linknet/__pycache__) by extension 'ignore_ament_install'
+[31.462s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/linknet/__pycache__) by extensions ['colcon_pkg']
+[31.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/linknet/__pycache__) by extension 'colcon_pkg'
+[31.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/linknet/__pycache__) by extensions ['colcon_meta']
+[31.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/linknet/__pycache__) by extension 'colcon_meta'
+[31.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/linknet/__pycache__) by extensions ['ros']
+[31.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/linknet/__pycache__) by extension 'ros'
+[31.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/linknet/__pycache__) by extensions ['cmake', 'python']
+[31.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/linknet/__pycache__) by extension 'cmake'
+[31.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/linknet/__pycache__) by extension 'python'
+[31.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/linknet/__pycache__) by extensions ['python_setup_py']
+[31.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/linknet/__pycache__) by extension 'python_setup_py'
+[31.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/manet) by extensions ['ignore', 'ignore_ament_install']
+[31.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/manet) by extension 'ignore'
+[31.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/manet) by extension 'ignore_ament_install'
+[31.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/manet) by extensions ['colcon_pkg']
+[31.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/manet) by extension 'colcon_pkg'
+[31.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/manet) by extensions ['colcon_meta']
+[31.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/manet) by extension 'colcon_meta'
+[31.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/manet) by extensions ['ros']
+[31.467s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/manet) by extension 'ros'
+[31.467s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/manet) by extensions ['cmake', 'python']
+[31.467s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/manet) by extension 'cmake'
+[31.467s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/manet) by extension 'python'
+[31.467s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/manet) by extensions ['python_setup_py']
+[31.467s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/manet) by extension 'python_setup_py'
+[31.468s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/manet/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[31.468s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/manet/__pycache__) by extension 'ignore'
+[31.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/manet/__pycache__) by extension 'ignore_ament_install'
+[31.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/manet/__pycache__) by extensions ['colcon_pkg']
+[31.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/manet/__pycache__) by extension 'colcon_pkg'
+[31.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/manet/__pycache__) by extensions ['colcon_meta']
+[31.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/manet/__pycache__) by extension 'colcon_meta'
+[31.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/manet/__pycache__) by extensions ['ros']
+[31.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/manet/__pycache__) by extension 'ros'
+[31.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/manet/__pycache__) by extensions ['cmake', 'python']
+[31.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/manet/__pycache__) by extension 'cmake'
+[31.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/manet/__pycache__) by extension 'python'
+[31.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/manet/__pycache__) by extensions ['python_setup_py']
+[31.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/manet/__pycache__) by extension 'python_setup_py'
+[31.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/pan) by extensions ['ignore', 'ignore_ament_install']
+[31.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/pan) by extension 'ignore'
+[31.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/pan) by extension 'ignore_ament_install'
+[31.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/pan) by extensions ['colcon_pkg']
+[31.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/pan) by extension 'colcon_pkg'
+[31.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/pan) by extensions ['colcon_meta']
+[31.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/pan) by extension 'colcon_meta'
+[31.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/pan) by extensions ['ros']
+[31.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/pan) by extension 'ros'
+[31.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/pan) by extensions ['cmake', 'python']
+[31.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/pan) by extension 'cmake'
+[31.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/pan) by extension 'python'
+[31.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/pan) by extensions ['python_setup_py']
+[31.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/pan) by extension 'python_setup_py'
+[31.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/pan/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[31.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/pan/__pycache__) by extension 'ignore'
+[31.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/pan/__pycache__) by extension 'ignore_ament_install'
+[31.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/pan/__pycache__) by extensions ['colcon_pkg']
+[31.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/pan/__pycache__) by extension 'colcon_pkg'
+[31.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/pan/__pycache__) by extensions ['colcon_meta']
+[31.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/pan/__pycache__) by extension 'colcon_meta'
+[31.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/pan/__pycache__) by extensions ['ros']
+[31.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/pan/__pycache__) by extension 'ros'
+[31.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/pan/__pycache__) by extensions ['cmake', 'python']
+[31.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/pan/__pycache__) by extension 'cmake'
+[31.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/pan/__pycache__) by extension 'python'
+[31.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/pan/__pycache__) by extensions ['python_setup_py']
+[31.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/pan/__pycache__) by extension 'python_setup_py'
+[31.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/pspnet) by extensions ['ignore', 'ignore_ament_install']
+[31.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/pspnet) by extension 'ignore'
+[31.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/pspnet) by extension 'ignore_ament_install'
+[31.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/pspnet) by extensions ['colcon_pkg']
+[31.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/pspnet) by extension 'colcon_pkg'
+[31.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/pspnet) by extensions ['colcon_meta']
+[31.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/pspnet) by extension 'colcon_meta'
+[31.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/pspnet) by extensions ['ros']
+[31.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/pspnet) by extension 'ros'
+[31.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/pspnet) by extensions ['cmake', 'python']
+[31.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/pspnet) by extension 'cmake'
+[31.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/pspnet) by extension 'python'
+[31.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/pspnet) by extensions ['python_setup_py']
+[31.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/pspnet) by extension 'python_setup_py'
+[31.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/pspnet/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[31.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/pspnet/__pycache__) by extension 'ignore'
+[31.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/pspnet/__pycache__) by extension 'ignore_ament_install'
+[31.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/pspnet/__pycache__) by extensions ['colcon_pkg']
+[31.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/pspnet/__pycache__) by extension 'colcon_pkg'
+[31.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/pspnet/__pycache__) by extensions ['colcon_meta']
+[31.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/pspnet/__pycache__) by extension 'colcon_meta'
+[31.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/pspnet/__pycache__) by extensions ['ros']
+[31.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/pspnet/__pycache__) by extension 'ros'
+[31.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/pspnet/__pycache__) by extensions ['cmake', 'python']
+[31.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/pspnet/__pycache__) by extension 'cmake'
+[31.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/pspnet/__pycache__) by extension 'python'
+[31.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/pspnet/__pycache__) by extensions ['python_setup_py']
+[31.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/pspnet/__pycache__) by extension 'python_setup_py'
+[31.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/unet) by extensions ['ignore', 'ignore_ament_install']
+[31.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/unet) by extension 'ignore'
+[31.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/unet) by extension 'ignore_ament_install'
+[31.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/unet) by extensions ['colcon_pkg']
+[31.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/unet) by extension 'colcon_pkg'
+[31.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/unet) by extensions ['colcon_meta']
+[31.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/unet) by extension 'colcon_meta'
+[31.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/unet) by extensions ['ros']
+[31.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/unet) by extension 'ros'
+[31.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/unet) by extensions ['cmake', 'python']
+[31.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/unet) by extension 'cmake'
+[31.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/unet) by extension 'python'
+[31.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/unet) by extensions ['python_setup_py']
+[31.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/unet) by extension 'python_setup_py'
+[31.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/unet/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[31.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/unet/__pycache__) by extension 'ignore'
+[31.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/unet/__pycache__) by extension 'ignore_ament_install'
+[31.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/unet/__pycache__) by extensions ['colcon_pkg']
+[31.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/unet/__pycache__) by extension 'colcon_pkg'
+[31.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/unet/__pycache__) by extensions ['colcon_meta']
+[31.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/unet/__pycache__) by extension 'colcon_meta'
+[31.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/unet/__pycache__) by extensions ['ros']
+[31.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/unet/__pycache__) by extension 'ros'
+[31.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/unet/__pycache__) by extensions ['cmake', 'python']
+[31.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/unet/__pycache__) by extension 'cmake'
+[31.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/unet/__pycache__) by extension 'python'
+[31.490s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/unet/__pycache__) by extensions ['python_setup_py']
+[31.490s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/unet/__pycache__) by extension 'python_setup_py'
+[31.490s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/unetplusplus) by extensions ['ignore', 'ignore_ament_install']
+[31.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/unetplusplus) by extension 'ignore'
+[31.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/unetplusplus) by extension 'ignore_ament_install'
+[31.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/unetplusplus) by extensions ['colcon_pkg']
+[31.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/unetplusplus) by extension 'colcon_pkg'
+[31.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/unetplusplus) by extensions ['colcon_meta']
+[31.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/unetplusplus) by extension 'colcon_meta'
+[31.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/unetplusplus) by extensions ['ros']
+[31.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/unetplusplus) by extension 'ros'
+[31.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/unetplusplus) by extensions ['cmake', 'python']
+[31.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/unetplusplus) by extension 'cmake'
+[31.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/unetplusplus) by extension 'python'
+[31.493s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/unetplusplus) by extensions ['python_setup_py']
+[31.493s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/unetplusplus) by extension 'python_setup_py'
+[31.493s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/unetplusplus/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[31.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/unetplusplus/__pycache__) by extension 'ignore'
+[31.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/unetplusplus/__pycache__) by extension 'ignore_ament_install'
+[31.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/unetplusplus/__pycache__) by extensions ['colcon_pkg']
+[31.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/unetplusplus/__pycache__) by extension 'colcon_pkg'
+[31.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/unetplusplus/__pycache__) by extensions ['colcon_meta']
+[31.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/unetplusplus/__pycache__) by extension 'colcon_meta'
+[31.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/unetplusplus/__pycache__) by extensions ['ros']
+[31.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/unetplusplus/__pycache__) by extension 'ros'
+[31.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/unetplusplus/__pycache__) by extensions ['cmake', 'python']
+[31.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/unetplusplus/__pycache__) by extension 'cmake'
+[31.496s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/unetplusplus/__pycache__) by extension 'python'
+[31.496s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/unetplusplus/__pycache__) by extensions ['python_setup_py']
+[31.496s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/decoders/unetplusplus/__pycache__) by extension 'python_setup_py'
+[31.497s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/encoders) by extensions ['ignore', 'ignore_ament_install']
+[31.497s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/encoders) by extension 'ignore'
+[31.497s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/encoders) by extension 'ignore_ament_install'
+[31.498s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/encoders) by extensions ['colcon_pkg']
+[31.498s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/encoders) by extension 'colcon_pkg'
+[31.498s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/encoders) by extensions ['colcon_meta']
+[31.498s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/encoders) by extension 'colcon_meta'
+[31.498s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/encoders) by extensions ['ros']
+[31.498s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/encoders) by extension 'ros'
+[31.499s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/encoders) by extensions ['cmake', 'python']
+[31.499s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/encoders) by extension 'cmake'
+[31.499s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/encoders) by extension 'python'
+[31.499s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/encoders) by extensions ['python_setup_py']
+[31.499s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/encoders) by extension 'python_setup_py'
+[31.500s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/encoders/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[31.500s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/encoders/__pycache__) by extension 'ignore'
+[31.501s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/encoders/__pycache__) by extension 'ignore_ament_install'
+[31.501s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/encoders/__pycache__) by extensions ['colcon_pkg']
+[31.501s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/encoders/__pycache__) by extension 'colcon_pkg'
+[31.501s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/encoders/__pycache__) by extensions ['colcon_meta']
+[31.501s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/encoders/__pycache__) by extension 'colcon_meta'
+[31.502s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/encoders/__pycache__) by extensions ['ros']
+[31.502s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/encoders/__pycache__) by extension 'ros'
+[31.502s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/encoders/__pycache__) by extensions ['cmake', 'python']
+[31.502s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/encoders/__pycache__) by extension 'cmake'
+[31.502s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/encoders/__pycache__) by extension 'python'
+[31.502s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/encoders/__pycache__) by extensions ['python_setup_py']
+[31.503s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/encoders/__pycache__) by extension 'python_setup_py'
+[31.503s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/losses) by extensions ['ignore', 'ignore_ament_install']
+[31.503s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/losses) by extension 'ignore'
+[31.504s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/losses) by extension 'ignore_ament_install'
+[31.504s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/losses) by extensions ['colcon_pkg']
+[31.504s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/losses) by extension 'colcon_pkg'
+[31.504s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/losses) by extensions ['colcon_meta']
+[31.504s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/losses) by extension 'colcon_meta'
+[31.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/losses) by extensions ['ros']
+[31.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/losses) by extension 'ros'
+[31.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/losses) by extensions ['cmake', 'python']
+[31.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/losses) by extension 'cmake'
+[31.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/losses) by extension 'python'
+[31.506s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/losses) by extensions ['python_setup_py']
+[31.506s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/losses) by extension 'python_setup_py'
+[31.506s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/losses/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[31.507s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/losses/__pycache__) by extension 'ignore'
+[31.507s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/losses/__pycache__) by extension 'ignore_ament_install'
+[31.507s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/losses/__pycache__) by extensions ['colcon_pkg']
+[31.507s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/losses/__pycache__) by extension 'colcon_pkg'
+[31.507s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/losses/__pycache__) by extensions ['colcon_meta']
+[31.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/losses/__pycache__) by extension 'colcon_meta'
+[31.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/losses/__pycache__) by extensions ['ros']
+[31.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/losses/__pycache__) by extension 'ros'
+[31.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/losses/__pycache__) by extensions ['cmake', 'python']
+[31.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/losses/__pycache__) by extension 'cmake'
+[31.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/losses/__pycache__) by extension 'python'
+[31.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/losses/__pycache__) by extensions ['python_setup_py']
+[31.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/losses/__pycache__) by extension 'python_setup_py'
+[31.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/metrics) by extensions ['ignore', 'ignore_ament_install']
+[31.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/metrics) by extension 'ignore'
+[31.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/metrics) by extension 'ignore_ament_install'
+[31.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/metrics) by extensions ['colcon_pkg']
+[31.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/metrics) by extension 'colcon_pkg'
+[31.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/metrics) by extensions ['colcon_meta']
+[31.511s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/metrics) by extension 'colcon_meta'
+[31.511s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/metrics) by extensions ['ros']
+[31.511s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/metrics) by extension 'ros'
+[31.511s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/metrics) by extensions ['cmake', 'python']
+[31.511s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/metrics) by extension 'cmake'
+[31.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/metrics) by extension 'python'
+[31.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/metrics) by extensions ['python_setup_py']
+[31.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/metrics) by extension 'python_setup_py'
+[31.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/metrics/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[31.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/metrics/__pycache__) by extension 'ignore'
+[31.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/metrics/__pycache__) by extension 'ignore_ament_install'
+[31.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/metrics/__pycache__) by extensions ['colcon_pkg']
+[31.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/metrics/__pycache__) by extension 'colcon_pkg'
+[31.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/metrics/__pycache__) by extensions ['colcon_meta']
+[31.514s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/metrics/__pycache__) by extension 'colcon_meta'
+[31.514s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/metrics/__pycache__) by extensions ['ros']
+[31.514s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/metrics/__pycache__) by extension 'ros'
+[31.514s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/metrics/__pycache__) by extensions ['cmake', 'python']
+[31.514s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/metrics/__pycache__) by extension 'cmake'
+[31.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/metrics/__pycache__) by extension 'python'
+[31.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/metrics/__pycache__) by extensions ['python_setup_py']
+[31.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/metrics/__pycache__) by extension 'python_setup_py'
+[31.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/utils) by extensions ['ignore', 'ignore_ament_install']
+[31.516s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/utils) by extension 'ignore'
+[31.516s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/utils) by extension 'ignore_ament_install'
+[31.516s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/utils) by extensions ['colcon_pkg']
+[31.516s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/utils) by extension 'colcon_pkg'
+[31.517s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/utils) by extensions ['colcon_meta']
+[31.517s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/utils) by extension 'colcon_meta'
+[31.517s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/utils) by extensions ['ros']
+[31.517s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/utils) by extension 'ros'
+[31.517s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/utils) by extensions ['cmake', 'python']
+[31.518s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/utils) by extension 'cmake'
+[31.518s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/utils) by extension 'python'
+[31.518s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/utils) by extensions ['python_setup_py']
+[31.518s] Level 1:colcon.colcon_core.package_identification:_identify(src/segmentation_models_pytorch/utils) by extension 'python_setup_py'
+[31.518s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_description) by extensions ['ignore', 'ignore_ament_install']
+[31.519s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_description) by extension 'ignore'
+[31.519s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_description) by extension 'ignore_ament_install'
+[31.519s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_description) by extensions ['colcon_pkg']
+[31.519s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_description) by extension 'colcon_pkg'
+[31.520s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_description) by extensions ['colcon_meta']
+[31.520s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_description) by extension 'colcon_meta'
+[31.520s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_description) by extensions ['ros']
+[31.520s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_description) by extension 'ros'
+[31.522s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tarkbot_description' with type 'ros.ament_cmake' and name 'tarkbot_description'
+[31.522s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_nav) by extensions ['ignore', 'ignore_ament_install']
+[31.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_nav) by extension 'ignore'
+[31.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_nav) by extension 'ignore_ament_install'
+[31.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_nav) by extensions ['colcon_pkg']
+[31.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_nav) by extension 'colcon_pkg'
+[31.524s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_nav) by extensions ['colcon_meta']
+[31.524s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_nav) by extension 'colcon_meta'
+[31.524s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_nav) by extensions ['ros']
+[31.524s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_nav) by extension 'ros'
+[31.528s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tarkbot_nav' with type 'ros.ament_cmake' and name 'tarkbot_nav'
+[31.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package) by extensions ['ignore', 'ignore_ament_install']
+[31.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package) by extension 'ignore'
+[31.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package) by extension 'ignore_ament_install'
+[31.530s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package) by extensions ['colcon_pkg']
+[31.530s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package) by extension 'colcon_pkg'
+[31.530s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package) by extensions ['colcon_meta']
+[31.530s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package) by extension 'colcon_meta'
+[31.530s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package) by extensions ['ros']
+[31.531s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package) by extension 'ros'
+[31.531s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package) by extensions ['cmake', 'python']
+[31.531s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package) by extension 'cmake'
+[31.531s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package) by extension 'python'
+[31.531s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package) by extensions ['python_setup_py']
+[31.531s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package) by extension 'python_setup_py'
+[31.532s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package/tarkbot_lidar) by extensions ['ignore', 'ignore_ament_install']
+[31.532s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package/tarkbot_lidar) by extension 'ignore'
+[31.533s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package/tarkbot_lidar) by extension 'ignore_ament_install'
+[31.533s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package/tarkbot_lidar) by extensions ['colcon_pkg']
+[31.533s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package/tarkbot_lidar) by extension 'colcon_pkg'
+[31.533s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package/tarkbot_lidar) by extensions ['colcon_meta']
+[31.533s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package/tarkbot_lidar) by extension 'colcon_meta'
+[31.533s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package/tarkbot_lidar) by extensions ['ros']
+[31.534s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package/tarkbot_lidar) by extension 'ros'
+[31.534s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package/tarkbot_lidar) by extensions ['cmake', 'python']
+[31.534s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package/tarkbot_lidar) by extension 'cmake'
+[31.534s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package/tarkbot_lidar) by extension 'python'
+[31.534s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package/tarkbot_lidar) by extensions ['python_setup_py']
+[31.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package/tarkbot_lidar) by extension 'python_setup_py'
+[31.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package/tarkbot_lidar/lakibeam1) by extensions ['ignore', 'ignore_ament_install']
+[31.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package/tarkbot_lidar/lakibeam1) by extension 'ignore'
+[31.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package/tarkbot_lidar/lakibeam1) by extension 'ignore_ament_install'
+[31.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package/tarkbot_lidar/lakibeam1) by extensions ['colcon_pkg']
+[31.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package/tarkbot_lidar/lakibeam1) by extension 'colcon_pkg'
+[31.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package/tarkbot_lidar/lakibeam1) by extensions ['colcon_meta']
+[31.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package/tarkbot_lidar/lakibeam1) by extension 'colcon_meta'
+[31.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package/tarkbot_lidar/lakibeam1) by extensions ['ros']
+[31.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package/tarkbot_lidar/lakibeam1) by extension 'ros'
+[31.541s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tarkbot_package/tarkbot_lidar/lakibeam1' with type 'ros.ament_cmake' and name 'lakibeam1'
+[31.542s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package/tarkbot_lidar/ldlidar_stl_ros2) by extensions ['ignore', 'ignore_ament_install']
+[31.542s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package/tarkbot_lidar/ldlidar_stl_ros2) by extension 'ignore'
+[31.543s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package/tarkbot_lidar/ldlidar_stl_ros2) by extension 'ignore_ament_install'
+[31.543s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package/tarkbot_lidar/ldlidar_stl_ros2) by extensions ['colcon_pkg']
+[31.543s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package/tarkbot_lidar/ldlidar_stl_ros2) by extension 'colcon_pkg'
+[31.543s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package/tarkbot_lidar/ldlidar_stl_ros2) by extensions ['colcon_meta']
+[31.543s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package/tarkbot_lidar/ldlidar_stl_ros2) by extension 'colcon_meta'
+[31.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package/tarkbot_lidar/ldlidar_stl_ros2) by extensions ['ros']
+[31.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package/tarkbot_lidar/ldlidar_stl_ros2) by extension 'ros'
+[31.546s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tarkbot_package/tarkbot_lidar/ldlidar_stl_ros2' with type 'ros.ament_cmake' and name 'ldlidar_stl_ros2'
+[31.547s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package/tarkbot_lidar/m1ct_d2) by extensions ['ignore', 'ignore_ament_install']
+[31.547s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package/tarkbot_lidar/m1ct_d2) by extension 'ignore'
+[31.547s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package/tarkbot_lidar/m1ct_d2) by extension 'ignore_ament_install'
+[31.548s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package/tarkbot_lidar/m1ct_d2) by extensions ['colcon_pkg']
+[31.548s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package/tarkbot_lidar/m1ct_d2) by extension 'colcon_pkg'
+[31.548s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package/tarkbot_lidar/m1ct_d2) by extensions ['colcon_meta']
+[31.548s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package/tarkbot_lidar/m1ct_d2) by extension 'colcon_meta'
+[31.548s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package/tarkbot_lidar/m1ct_d2) by extensions ['ros']
+[31.549s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package/tarkbot_lidar/m1ct_d2) by extension 'ros'
+[31.551s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tarkbot_package/tarkbot_lidar/m1ct_d2' with type 'ros.ament_cmake' and name 'm1ct_d2'
+[31.552s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package/tarkbot_lidar/rplidar_ros) by extensions ['ignore', 'ignore_ament_install']
+[31.552s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package/tarkbot_lidar/rplidar_ros) by extension 'ignore'
+[31.552s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package/tarkbot_lidar/rplidar_ros) by extension 'ignore_ament_install'
+[31.552s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package/tarkbot_lidar/rplidar_ros) by extensions ['colcon_pkg']
+[31.553s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package/tarkbot_lidar/rplidar_ros) by extension 'colcon_pkg'
+[31.553s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package/tarkbot_lidar/rplidar_ros) by extensions ['colcon_meta']
+[31.553s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package/tarkbot_lidar/rplidar_ros) by extension 'colcon_meta'
+[31.553s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package/tarkbot_lidar/rplidar_ros) by extensions ['ros']
+[31.553s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package/tarkbot_lidar/rplidar_ros) by extension 'ros'
+[31.555s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tarkbot_package/tarkbot_lidar/rplidar_ros' with type 'ros.ament_cmake' and name 'rplidar_ros'
+[31.556s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package/tarkbot_lidar/xtlidar_ros) by extensions ['ignore', 'ignore_ament_install']
+[31.556s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package/tarkbot_lidar/xtlidar_ros) by extension 'ignore'
+[31.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package/tarkbot_lidar/xtlidar_ros) by extension 'ignore_ament_install'
+[31.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package/tarkbot_lidar/xtlidar_ros) by extensions ['colcon_pkg']
+[31.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package/tarkbot_lidar/xtlidar_ros) by extension 'colcon_pkg'
+[31.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package/tarkbot_lidar/xtlidar_ros) by extensions ['colcon_meta']
+[31.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package/tarkbot_lidar/xtlidar_ros) by extension 'colcon_meta'
+[31.558s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package/tarkbot_lidar/xtlidar_ros) by extensions ['ros']
+[31.558s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_package/tarkbot_lidar/xtlidar_ros) by extension 'ros'
+[31.560s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tarkbot_package/tarkbot_lidar/xtlidar_ros' with type 'ros.ament_cmake' and name 'xtlidar_ros'
+[31.561s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_robot) by extensions ['ignore', 'ignore_ament_install']
+[31.562s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_robot) by extension 'ignore'
+[31.562s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_robot) by extension 'ignore_ament_install'
+[31.562s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_robot) by extensions ['colcon_pkg']
+[31.562s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_robot) by extension 'colcon_pkg'
+[31.562s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_robot) by extensions ['colcon_meta']
+[31.562s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_robot) by extension 'colcon_meta'
+[31.563s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_robot) by extensions ['ros']
+[31.563s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_robot) by extension 'ros'
+[31.566s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tarkbot_robot' with type 'ros.ament_cmake' and name 'tarkbot_robot'
+[31.567s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_slam) by extensions ['ignore', 'ignore_ament_install']
+[31.568s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_slam) by extension 'ignore'
+[31.568s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_slam) by extension 'ignore_ament_install'
+[31.569s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_slam) by extensions ['colcon_pkg']
+[31.569s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_slam) by extension 'colcon_pkg'
+[31.569s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_slam) by extensions ['colcon_meta']
+[31.570s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_slam) by extension 'colcon_meta'
+[31.570s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_slam) by extensions ['ros']
+[31.570s] Level 1:colcon.colcon_core.package_identification:_identify(src/tarkbot_slam) by extension 'ros'
+[31.575s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tarkbot_slam' with type 'ros.ament_cmake' and name 'tarkbot_slam'
+[31.576s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[31.576s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[31.576s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[31.576s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[31.576s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[33.085s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'astra_camera_msgs' in 'src/ros2_astra_camera/astra_camera_msgs'
+[33.086s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'lakibeam1' in 'src/tarkbot_package/tarkbot_lidar/lakibeam1'
+[33.086s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'ldlidar_stl_ros2' in 'src/tarkbot_package/tarkbot_lidar/ldlidar_stl_ros2'
+[33.086s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'm1ct_d2' in 'src/tarkbot_package/tarkbot_lidar/m1ct_d2'
+[33.086s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'rplidar_ros' in 'src/tarkbot_package/tarkbot_lidar/rplidar_ros'
+[33.086s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'tarkbot_description' in 'src/tarkbot_description'
+[33.086s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'tarkbot_nav' in 'src/tarkbot_nav'
+[33.086s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'tarkbot_slam' in 'src/tarkbot_slam'
+[33.086s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'xtlidar_ros' in 'src/tarkbot_package/tarkbot_lidar/xtlidar_ros'
+[33.086s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'astra_camera' in 'src/ros2_astra_camera/astra_camera'
+[34.225s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[34.225s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[35.443s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 14 installed packages in /home/xtark/tarkbot/ros2_ws/install
+[36.061s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 330 installed packages in /opt/ros/foxy
+[36.070s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[37.790s] Level 5:colcon.colcon_core.verb:set package 'tarkbot_robot' build argument 'cmake_args' from command line to 'None'
+[37.791s] Level 5:colcon.colcon_core.verb:set package 'tarkbot_robot' build argument 'cmake_target' from command line to 'None'
+[37.791s] Level 5:colcon.colcon_core.verb:set package 'tarkbot_robot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[37.791s] Level 5:colcon.colcon_core.verb:set package 'tarkbot_robot' build argument 'cmake_clean_cache' from command line to 'False'
+[37.791s] Level 5:colcon.colcon_core.verb:set package 'tarkbot_robot' build argument 'cmake_clean_first' from command line to 'False'
+[37.791s] Level 5:colcon.colcon_core.verb:set package 'tarkbot_robot' build argument 'cmake_force_configure' from command line to 'False'
+[37.792s] Level 5:colcon.colcon_core.verb:set package 'tarkbot_robot' build argument 'ament_cmake_args' from command line to 'None'
+[37.792s] Level 5:colcon.colcon_core.verb:set package 'tarkbot_robot' build argument 'catkin_cmake_args' from command line to 'None'
+[37.792s] Level 5:colcon.colcon_core.verb:set package 'tarkbot_robot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[37.792s] DEBUG:colcon.colcon_core.verb:Building package 'tarkbot_robot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/xtark/tarkbot/ros2_ws/build/tarkbot_robot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/xtark/tarkbot/ros2_ws/install/tarkbot_robot', 'merge_install': False, 'path': '/home/xtark/tarkbot/ros2_ws/src/tarkbot_robot', 'symlink_install': False, 'test_result_base': None}
+[38.395s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[38.975s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[38.976s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/xtark/tarkbot/ros2_ws/src/tarkbot_robot' with build type 'ament_cmake'
+[38.977s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/xtark/tarkbot/ros2_ws/src/tarkbot_robot'
+[39.731s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[39.732s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[39.732s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[41.732s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xtark/tarkbot/ros2_ws/build/tarkbot_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/xtark/tarkbot/ros2_ws/build/tarkbot_robot -- -j4 -l4
+[100.832s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xtark/tarkbot/ros2_ws/build/tarkbot_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/xtark/tarkbot/ros2_ws/build/tarkbot_robot -- -j4 -l4
+[101.042s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xtark/tarkbot/ros2_ws/build/tarkbot_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/xtark/tarkbot/ros2_ws/build/tarkbot_robot
+[101.105s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tarkbot_robot)
+[101.115s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xtark/tarkbot/ros2_ws/build/tarkbot_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/xtark/tarkbot/ros2_ws/build/tarkbot_robot
+[101.919s] Level 1:colcon.colcon_core.environment:checking '/home/xtark/tarkbot/ros2_ws/install/tarkbot_robot' for CMake module files
+[101.923s] Level 1:colcon.colcon_core.environment:checking '/home/xtark/tarkbot/ros2_ws/install/tarkbot_robot' for CMake config files
+[101.926s] Level 1:colcon.colcon_core.shell:create_environment_hook('tarkbot_robot', 'cmake_prefix_path')
+[102.593s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/hook/cmake_prefix_path.ps1'
+[102.596s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/hook/cmake_prefix_path.dsv'
+[102.599s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/hook/cmake_prefix_path.sh'
+[102.604s] Level 1:colcon.colcon_core.environment:checking '/home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/lib'
+[102.605s] Level 1:colcon.colcon_core.environment:checking '/home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/bin'
+[102.605s] Level 1:colcon.colcon_core.environment:checking '/home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/lib/pkgconfig/tarkbot_robot.pc'
+[102.607s] Level 1:colcon.colcon_core.environment:checking '/home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/lib/python3.8/site-packages'
+[102.608s] Level 1:colcon.colcon_core.environment:checking '/home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/bin'
+[103.246s] INFO:colcon.colcon_core.shell:Creating package script '/home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/package.ps1'
+[103.250s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/package.dsv'
+[103.253s] INFO:colcon.colcon_core.shell:Creating package script '/home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/package.sh'
+[103.258s] INFO:colcon.colcon_core.shell:Creating package script '/home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/package.bash'
+[103.262s] INFO:colcon.colcon_core.shell:Creating package script '/home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/package.zsh'
+[103.265s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/colcon-core/packages/tarkbot_robot)
+[104.070s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tarkbot_robot)
+[104.747s] Level 1:colcon.colcon_core.environment:checking '/home/xtark/tarkbot/ros2_ws/install/tarkbot_robot' for CMake module files
+[104.750s] Level 1:colcon.colcon_core.environment:checking '/home/xtark/tarkbot/ros2_ws/install/tarkbot_robot' for CMake config files
+[104.752s] Level 1:colcon.colcon_core.shell:create_environment_hook('tarkbot_robot', 'cmake_prefix_path')
+[105.423s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/hook/cmake_prefix_path.ps1'
+[105.425s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/hook/cmake_prefix_path.dsv'
+[105.428s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/hook/cmake_prefix_path.sh'
+[105.431s] Level 1:colcon.colcon_core.environment:checking '/home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/lib'
+[105.432s] Level 1:colcon.colcon_core.environment:checking '/home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/bin'
+[105.432s] Level 1:colcon.colcon_core.environment:checking '/home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/lib/pkgconfig/tarkbot_robot.pc'
+[105.433s] Level 1:colcon.colcon_core.environment:checking '/home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/lib/python3.8/site-packages'
+[105.434s] Level 1:colcon.colcon_core.environment:checking '/home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/bin'
+[106.109s] INFO:colcon.colcon_core.shell:Creating package script '/home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/package.ps1'
+[106.112s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/package.dsv'
+[106.115s] INFO:colcon.colcon_core.shell:Creating package script '/home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/package.sh'
+[106.118s] INFO:colcon.colcon_core.shell:Creating package script '/home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/package.bash'
+[106.121s] INFO:colcon.colcon_core.shell:Creating package script '/home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/package.zsh'
+[106.123s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/colcon-core/packages/tarkbot_robot)
+[106.126s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[106.127s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[106.130s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[106.130s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[106.849s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[106.849s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[106.850s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[106.911s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[107.652s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/xtark/tarkbot/ros2_ws/install/local_setup.ps1'
+[107.658s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/xtark/tarkbot/ros2_ws/install/_local_setup_util_ps1.py'
+[107.666s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/xtark/tarkbot/ros2_ws/install/setup.ps1'
+[108.528s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/xtark/tarkbot/ros2_ws/install/local_setup.sh'
+[108.534s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/xtark/tarkbot/ros2_ws/install/_local_setup_util_sh.py'
+[108.539s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/xtark/tarkbot/ros2_ws/install/setup.sh'
+[109.407s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/xtark/tarkbot/ros2_ws/install/local_setup.bash'
+[109.412s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/xtark/tarkbot/ros2_ws/install/setup.bash'
+[110.414s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/xtark/tarkbot/ros2_ws/install/local_setup.zsh'
+[110.420s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/xtark/tarkbot/ros2_ws/install/setup.zsh'

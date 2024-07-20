@@ -1,0 +1,24 @@
+[1.137s] Invoking command in '/home/xtark/tarkbot/ros2_ws/build/m1ct_d2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/xtark/tarkbot/ros2_ws/build/m1ct_d2 -- -j4 -l4
+[1.876s] [100%] Built target m1ct_d2
+[1.987s] Invoked command in '/home/xtark/tarkbot/ros2_ws/build/m1ct_d2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/xtark/tarkbot/ros2_ws/build/m1ct_d2 -- -j4 -l4
+[4.414s] Invoking command in '/home/xtark/tarkbot/ros2_ws/build/m1ct_d2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/xtark/tarkbot/ros2_ws/build/m1ct_d2
+[4.474s] -- Install configuration: ""
+[4.481s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/m1ct_d2/lib/m1ct_d2/m1ct_d2
+[4.484s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/m1ct_d2/share/m1ct_d2//launch
+[4.487s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/m1ct_d2/share/m1ct_d2//launch/tarkbot_m1ct.launch.py
+[4.489s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/m1ct_d2/share/ament_index/resource_index/package_run_dependencies/m1ct_d2
+[4.491s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/m1ct_d2/share/ament_index/resource_index/parent_prefix_path/m1ct_d2
+[4.492s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/m1ct_d2/share/m1ct_d2/environment/ament_prefix_path.sh
+[4.495s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/m1ct_d2/share/m1ct_d2/environment/ament_prefix_path.dsv
+[4.498s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/m1ct_d2/share/m1ct_d2/environment/path.sh
+[4.498s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/m1ct_d2/share/m1ct_d2/environment/path.dsv
+[4.501s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/m1ct_d2/share/m1ct_d2/local_setup.bash
+[4.503s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/m1ct_d2/share/m1ct_d2/local_setup.sh
+[4.503s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/m1ct_d2/share/m1ct_d2/local_setup.zsh
+[4.504s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/m1ct_d2/share/m1ct_d2/local_setup.dsv
+[4.505s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/m1ct_d2/share/m1ct_d2/package.dsv
+[4.512s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/m1ct_d2/share/ament_index/resource_index/packages/m1ct_d2
+[4.513s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/m1ct_d2/share/m1ct_d2/cmake/m1ct_d2Config.cmake
+[4.514s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/m1ct_d2/share/m1ct_d2/cmake/m1ct_d2Config-version.cmake
+[4.515s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/m1ct_d2/share/m1ct_d2/package.xml
+[6.757s] Invoked command in '/home/xtark/tarkbot/ros2_ws/build/m1ct_d2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/xtark/tarkbot/ros2_ws/build/m1ct_d2

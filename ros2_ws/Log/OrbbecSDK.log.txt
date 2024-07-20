@@ -1,0 +1,1935 @@
+[01/06 12:09:08.160833][debug][23577][Context.cpp:29] Context creating. work_dir=/home/xtark/tarkbot/ros2_ws
+[01/06 12:09:08.161259][debug][23577][Context.cpp:48] Config file version=1.1
+[01/06 12:09:08.161530][debug][23577][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[01/06 12:09:08.161786][info][23577][Context.cpp:67] Context created with config: /home/xtark/tarkbot/ros2_ws/install/orbbec_camera/share/orbbec_camera/config/OrbbecSDKConfig_v1.0.xml
+[01/06 12:09:08.162046][info][23577][Context.cpp:72] Context work_dir=/home/xtark/tarkbot/ros2_ws
+[01/06 12:09:08.162328][debug][23577][DeviceManager.cpp:30] DeviceManager init ...
+[01/06 12:09:08.162540][debug][23577][LinuxPal.cpp:38] createObPal: create LinuxPal!
+[01/06 12:09:08.164771][debug][23577][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[01/06 12:09:08.166257][debug][23577][EnumeratorLibusb.cpp:323] queryDevicesInfo done!
+[01/06 12:09:08.166499][debug][23577][ObV4lDevice.cpp:346] Found video4linux: video15
+[01/06 12:09:08.167749][debug][23577][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video15
+[01/06 12:09:08.167826][debug][23577][ObV4lDevice.cpp:346] Found video4linux: video13
+[01/06 12:09:08.168959][debug][23577][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video13
+[01/06 12:09:08.169023][debug][23577][ObV4lDevice.cpp:346] Found video4linux: video11
+[01/06 12:09:08.170076][debug][23577][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video11
+[01/06 12:09:08.170131][debug][23577][ObV4lDevice.cpp:346] Found video4linux: video16
+[01/06 12:09:08.171174][debug][23577][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video16
+[01/06 12:09:08.171231][debug][23577][ObV4lDevice.cpp:346] Found video4linux: video14
+[01/06 12:09:08.172326][debug][23577][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video14
+[01/06 12:09:08.172389][debug][23577][ObV4lDevice.cpp:346] Found video4linux: video12
+[01/06 12:09:08.173803][debug][23577][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video12
+[01/06 12:09:08.174217][debug][23577][ObV4lDevice.cpp:346] Found video4linux: video10
+[01/06 12:09:08.175534][debug][23577][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video10
+[01/06 12:09:08.175907][debug][23577][UsbDeviceEnumerator.cpp:161] Current usb device port list:
+[01/06 12:09:08.176185][debug][23577][UsbDeviceEnumerator.cpp:164]  - 1-1.1-6.0 | ORBBEC Close Depth Sensor
+[01/06 12:09:08.176374][debug][23577][UsbDeviceEnumerator.cpp:164]  - 1-1.1-6.1 | ORBBEC Audio Device
+[01/06 12:09:08.176656][warning][23577][OpenNIDeviceInfo.cpp:122] New openni device matched.
+[01/06 12:09:08.177280][info][23577][LinuxPal.cpp:112] Create PollingDeviceWatcher!
+[01/06 12:09:08.177625][debug][23577][UsbDeviceEnumerator.cpp:69] Found 1 device(s):
+[01/06 12:09:08.177860][debug][23577][UsbDeviceEnumerator.cpp:72]   - Name: Astra S, PID: 0x0402, SN/ID: , connection: USB2.0
+[01/06 12:09:08.178089][info][23577][DeviceManager.cpp:15] Current found device(s): (1)
+[01/06 12:09:08.178322][info][23577][DeviceManager.cpp:24] 	- Name: Astra S, PID: 0x0402, SN/ID: , Connection: USB2.0
+[01/06 12:09:08.178534][debug][23577][DeviceManager.cpp:55] DeviceManager construct done!
+[01/06 12:10:17.563754][debug][23611][Context.cpp:29] Context creating. work_dir=/home/xtark/tarkbot/ros2_ws
+[01/06 12:10:17.563950][debug][23611][Context.cpp:48] Config file version=1.1
+[01/06 12:10:17.564013][debug][23611][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[01/06 12:10:17.564044][info][23611][Context.cpp:67] Context created with config: /home/xtark/tarkbot/ros2_ws/install/orbbec_camera/share/orbbec_camera/config/OrbbecSDKConfig_v1.0.xml
+[01/06 12:10:17.564107][info][23611][Context.cpp:72] Context work_dir=/home/xtark/tarkbot/ros2_ws
+[01/06 12:10:17.564143][debug][23611][DeviceManager.cpp:30] DeviceManager init ...
+[01/06 12:10:17.564160][debug][23611][LinuxPal.cpp:38] createObPal: create LinuxPal!
+[01/06 12:10:17.566083][debug][23611][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[01/06 12:10:17.567160][debug][23611][EnumeratorLibusb.cpp:323] queryDevicesInfo done!
+[01/06 12:10:17.567357][debug][23611][ObV4lDevice.cpp:346] Found video4linux: video15
+[01/06 12:10:17.568481][debug][23611][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video15
+[01/06 12:10:17.568514][debug][23611][ObV4lDevice.cpp:346] Found video4linux: video13
+[01/06 12:10:17.569513][debug][23611][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video13
+[01/06 12:10:17.569538][debug][23611][ObV4lDevice.cpp:346] Found video4linux: video11
+[01/06 12:10:17.570516][debug][23611][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video11
+[01/06 12:10:17.570539][debug][23611][ObV4lDevice.cpp:346] Found video4linux: video16
+[01/06 12:10:17.571506][debug][23611][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video16
+[01/06 12:10:17.571528][debug][23611][ObV4lDevice.cpp:346] Found video4linux: video14
+[01/06 12:10:17.572492][debug][23611][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video14
+[01/06 12:10:17.572513][debug][23611][ObV4lDevice.cpp:346] Found video4linux: video12
+[01/06 12:10:17.573522][debug][23611][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video12
+[01/06 12:10:17.573548][debug][23611][ObV4lDevice.cpp:346] Found video4linux: video10
+[01/06 12:10:17.574519][debug][23611][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video10
+[01/06 12:10:17.574678][debug][23611][UsbDeviceEnumerator.cpp:161] Current usb device port list:
+[01/06 12:10:17.574702][debug][23611][UsbDeviceEnumerator.cpp:164]  - 1-1.1-6.0 | ORBBEC Close Depth Sensor
+[01/06 12:10:17.574718][debug][23611][UsbDeviceEnumerator.cpp:164]  - 1-1.1-6.1 | ORBBEC Audio Device
+[01/06 12:10:17.574758][warning][23611][OpenNIDeviceInfo.cpp:122] New openni device matched.
+[01/06 12:10:17.575010][info][23611][LinuxPal.cpp:112] Create PollingDeviceWatcher!
+[01/06 12:10:17.575063][debug][23611][UsbDeviceEnumerator.cpp:69] Found 1 device(s):
+[01/06 12:10:17.575084][debug][23611][UsbDeviceEnumerator.cpp:72]   - Name: Astra S, PID: 0x0402, SN/ID: , connection: USB2.0
+[01/06 12:10:17.575108][info][23611][DeviceManager.cpp:15] Current found device(s): (1)
+[01/06 12:10:17.575132][info][23611][DeviceManager.cpp:24] 	- Name: Astra S, PID: 0x0402, SN/ID: , Connection: USB2.0
+[01/06 12:10:17.575151][debug][23611][DeviceManager.cpp:55] DeviceManager construct done!
+[01/06 12:16:37.780645][debug][26677][Context.cpp:29] Context creating. work_dir=/home/xtark/tarkbot/ros2_ws
+[01/06 12:16:37.780787][debug][26677][Context.cpp:48] Config file version=1.1
+[01/06 12:16:37.780860][debug][26677][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[01/06 12:16:37.780891][info][26677][Context.cpp:67] Context created with config: /home/xtark/tarkbot/ros2_ws/install/orbbec_camera/share/orbbec_camera/config/OrbbecSDKConfig_v1.0.xml
+[01/06 12:16:37.780965][info][26677][Context.cpp:72] Context work_dir=/home/xtark/tarkbot/ros2_ws
+[01/06 12:16:37.781000][debug][26677][DeviceManager.cpp:30] DeviceManager init ...
+[01/06 12:16:37.781017][debug][26677][LinuxPal.cpp:38] createObPal: create LinuxPal!
+[01/06 12:16:37.782890][debug][26677][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[01/06 12:16:37.783957][debug][26677][EnumeratorLibusb.cpp:323] queryDevicesInfo done!
+[01/06 12:16:37.784146][debug][26677][ObV4lDevice.cpp:346] Found video4linux: video15
+[01/06 12:16:37.785274][debug][26677][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video15
+[01/06 12:16:37.785320][debug][26677][ObV4lDevice.cpp:346] Found video4linux: video13
+[01/06 12:16:37.786304][debug][26677][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video13
+[01/06 12:16:37.786328][debug][26677][ObV4lDevice.cpp:346] Found video4linux: video11
+[01/06 12:16:37.787298][debug][26677][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video11
+[01/06 12:16:37.787323][debug][26677][ObV4lDevice.cpp:346] Found video4linux: video16
+[01/06 12:16:37.788298][debug][26677][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video16
+[01/06 12:16:37.788322][debug][26677][ObV4lDevice.cpp:346] Found video4linux: video14
+[01/06 12:16:37.789457][debug][26677][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video14
+[01/06 12:16:37.789489][debug][26677][ObV4lDevice.cpp:346] Found video4linux: video12
+[01/06 12:16:37.790525][debug][26677][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video12
+[01/06 12:16:37.790548][debug][26677][ObV4lDevice.cpp:346] Found video4linux: video10
+[01/06 12:16:37.791567][debug][26677][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video10
+[01/06 12:16:37.791642][debug][26677][UsbDeviceEnumerator.cpp:161] Current usb device port list:
+[01/06 12:16:37.791660][debug][26677][UsbDeviceEnumerator.cpp:164]  - 1-1.1-6.0 | ORBBEC Close Depth Sensor
+[01/06 12:16:37.791675][debug][26677][UsbDeviceEnumerator.cpp:164]  - 1-1.1-6.1 | ORBBEC Audio Device
+[01/06 12:16:37.791744][warning][26677][OpenNIDeviceInfo.cpp:122] New openni device matched.
+[01/06 12:16:37.792001][info][26677][LinuxPal.cpp:112] Create PollingDeviceWatcher!
+[01/06 12:16:37.792057][debug][26677][UsbDeviceEnumerator.cpp:69] Found 1 device(s):
+[01/06 12:16:37.792080][debug][26677][UsbDeviceEnumerator.cpp:72]   - Name: Astra S, PID: 0x0402, SN/ID: , connection: USB2.0
+[01/06 12:16:37.792107][info][26677][DeviceManager.cpp:15] Current found device(s): (1)
+[01/06 12:16:37.792132][info][26677][DeviceManager.cpp:24] 	- Name: Astra S, PID: 0x0402, SN/ID: , Connection: USB2.0
+[01/06 12:16:37.792152][debug][26677][DeviceManager.cpp:55] DeviceManager construct done!
+[01/06 12:21:15.412944][debug][28222][Context.cpp:29] Context creating. work_dir=/home/xtark/tarkbot/ros2_ws
+[01/06 12:21:15.413085][debug][28222][Context.cpp:48] Config file version=1.1
+[01/06 12:21:15.413140][debug][28222][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[01/06 12:21:15.413169][info][28222][Context.cpp:67] Context created with config: /home/xtark/tarkbot/ros2_ws/install/orbbec_camera/share/orbbec_camera/config/OrbbecSDKConfig_v1.0.xml
+[01/06 12:21:15.413232][info][28222][Context.cpp:72] Context work_dir=/home/xtark/tarkbot/ros2_ws
+[01/06 12:21:15.413269][debug][28222][DeviceManager.cpp:30] DeviceManager init ...
+[01/06 12:21:15.413286][debug][28222][LinuxPal.cpp:38] createObPal: create LinuxPal!
+[01/06 12:21:15.415225][debug][28222][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[01/06 12:21:15.416309][debug][28222][EnumeratorLibusb.cpp:323] queryDevicesInfo done!
+[01/06 12:21:15.416474][debug][28222][ObV4lDevice.cpp:346] Found video4linux: video15
+[01/06 12:21:15.417593][debug][28222][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video15
+[01/06 12:21:15.417629][debug][28222][ObV4lDevice.cpp:346] Found video4linux: video13
+[01/06 12:21:15.418613][debug][28222][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video13
+[01/06 12:21:15.418641][debug][28222][ObV4lDevice.cpp:346] Found video4linux: video11
+[01/06 12:21:15.419663][debug][28222][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video11
+[01/06 12:21:15.419688][debug][28222][ObV4lDevice.cpp:346] Found video4linux: video16
+[01/06 12:21:15.420674][debug][28222][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video16
+[01/06 12:21:15.420701][debug][28222][ObV4lDevice.cpp:346] Found video4linux: video14
+[01/06 12:21:15.421667][debug][28222][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video14
+[01/06 12:21:15.421691][debug][28222][ObV4lDevice.cpp:346] Found video4linux: video12
+[01/06 12:21:15.422656][debug][28222][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video12
+[01/06 12:21:15.422679][debug][28222][ObV4lDevice.cpp:346] Found video4linux: video10
+[01/06 12:21:15.423636][debug][28222][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video10
+[01/06 12:21:15.423706][debug][28222][UsbDeviceEnumerator.cpp:161] Current usb device port list:
+[01/06 12:21:15.423726][debug][28222][UsbDeviceEnumerator.cpp:164]  - 1-1.1-6.0 | ORBBEC Close Depth Sensor
+[01/06 12:21:15.423742][debug][28222][UsbDeviceEnumerator.cpp:164]  - 1-1.1-6.1 | ORBBEC Audio Device
+[01/06 12:21:15.423781][warning][28222][OpenNIDeviceInfo.cpp:122] New openni device matched.
+[01/06 12:21:15.424113][info][28222][LinuxPal.cpp:112] Create PollingDeviceWatcher!
+[01/06 12:21:15.424171][debug][28222][UsbDeviceEnumerator.cpp:69] Found 1 device(s):
+[01/06 12:21:15.424192][debug][28222][UsbDeviceEnumerator.cpp:72]   - Name: Astra S, PID: 0x0402, SN/ID: , connection: USB2.0
+[01/06 12:21:15.424215][info][28222][DeviceManager.cpp:15] Current found device(s): (1)
+[01/06 12:21:15.424239][info][28222][DeviceManager.cpp:24] 	- Name: Astra S, PID: 0x0402, SN/ID: , Connection: USB2.0
+[01/06 12:21:15.424257][debug][28222][DeviceManager.cpp:55] DeviceManager construct done!
+[01/06 12:21:43.965439][debug][28277][Context.cpp:29] Context creating. work_dir=/home/xtark/tarkbot/ros2_ws
+[01/06 12:21:43.965618][debug][28277][Context.cpp:48] Config file version=1.1
+[01/06 12:21:43.965680][debug][28277][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[01/06 12:21:43.965710][info][28277][Context.cpp:67] Context created with config: /home/xtark/tarkbot/ros2_ws/install/orbbec_camera/share/orbbec_camera/config/OrbbecSDKConfig_v1.0.xml
+[01/06 12:21:43.965768][info][28277][Context.cpp:72] Context work_dir=/home/xtark/tarkbot/ros2_ws
+[01/06 12:21:43.965804][debug][28277][DeviceManager.cpp:30] DeviceManager init ...
+[01/06 12:21:43.965820][debug][28277][LinuxPal.cpp:38] createObPal: create LinuxPal!
+[01/06 12:21:43.967744][debug][28277][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[01/06 12:21:43.968838][debug][28277][EnumeratorLibusb.cpp:323] queryDevicesInfo done!
+[01/06 12:21:43.969011][debug][28277][ObV4lDevice.cpp:346] Found video4linux: video15
+[01/06 12:21:43.970085][debug][28277][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video15
+[01/06 12:21:43.970116][debug][28277][ObV4lDevice.cpp:346] Found video4linux: video13
+[01/06 12:21:43.971091][debug][28277][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video13
+[01/06 12:21:43.971114][debug][28277][ObV4lDevice.cpp:346] Found video4linux: video11
+[01/06 12:21:43.972142][debug][28277][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video11
+[01/06 12:21:43.972164][debug][28277][ObV4lDevice.cpp:346] Found video4linux: video16
+[01/06 12:21:43.973159][debug][28277][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video16
+[01/06 12:21:43.973186][debug][28277][ObV4lDevice.cpp:346] Found video4linux: video14
+[01/06 12:21:43.974155][debug][28277][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video14
+[01/06 12:21:43.974177][debug][28277][ObV4lDevice.cpp:346] Found video4linux: video12
+[01/06 12:21:43.975151][debug][28277][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video12
+[01/06 12:21:43.975173][debug][28277][ObV4lDevice.cpp:346] Found video4linux: video10
+[01/06 12:21:43.976149][debug][28277][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video10
+[01/06 12:21:43.976260][debug][28277][UsbDeviceEnumerator.cpp:161] Current usb device port list:
+[01/06 12:21:43.976278][debug][28277][UsbDeviceEnumerator.cpp:164]  - 1-1.1-6.0 | ORBBEC Close Depth Sensor
+[01/06 12:21:43.976291][debug][28277][UsbDeviceEnumerator.cpp:164]  - 1-1.1-6.1 | ORBBEC Audio Device
+[01/06 12:21:43.976330][warning][28277][OpenNIDeviceInfo.cpp:122] New openni device matched.
+[01/06 12:21:43.976643][info][28277][LinuxPal.cpp:112] Create PollingDeviceWatcher!
+[01/06 12:21:43.976707][debug][28277][UsbDeviceEnumerator.cpp:69] Found 1 device(s):
+[01/06 12:21:43.976728][debug][28277][UsbDeviceEnumerator.cpp:72]   - Name: Astra S, PID: 0x0402, SN/ID: , connection: USB2.0
+[01/06 12:21:43.976751][info][28277][DeviceManager.cpp:15] Current found device(s): (1)
+[01/06 12:21:43.976775][info][28277][DeviceManager.cpp:24] 	- Name: Astra S, PID: 0x0402, SN/ID: , Connection: USB2.0
+[01/06 12:21:43.976795][debug][28277][DeviceManager.cpp:55] DeviceManager construct done!
+[01/06 12:21:50.130064][debug][28307][Context.cpp:29] Context creating. work_dir=/home/xtark/tarkbot/ros2_ws
+[01/06 12:21:50.130217][debug][28307][Context.cpp:48] Config file version=1.1
+[01/06 12:21:50.130310][debug][28307][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[01/06 12:21:50.130340][info][28307][Context.cpp:67] Context created with config: /home/xtark/tarkbot/ros2_ws/install/orbbec_camera/share/orbbec_camera/config/OrbbecSDKConfig_v1.0.xml
+[01/06 12:21:50.130401][info][28307][Context.cpp:72] Context work_dir=/home/xtark/tarkbot/ros2_ws
+[01/06 12:21:50.130446][debug][28307][DeviceManager.cpp:30] DeviceManager init ...
+[01/06 12:21:50.130462][debug][28307][LinuxPal.cpp:38] createObPal: create LinuxPal!
+[01/06 12:21:50.132393][debug][28307][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[01/06 12:21:50.133502][debug][28307][EnumeratorLibusb.cpp:323] queryDevicesInfo done!
+[01/06 12:21:50.133667][debug][28307][ObV4lDevice.cpp:346] Found video4linux: video15
+[01/06 12:21:50.134738][debug][28307][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video15
+[01/06 12:21:50.134769][debug][28307][ObV4lDevice.cpp:346] Found video4linux: video13
+[01/06 12:21:50.135735][debug][28307][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video13
+[01/06 12:21:50.135758][debug][28307][ObV4lDevice.cpp:346] Found video4linux: video11
+[01/06 12:21:50.136749][debug][28307][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video11
+[01/06 12:21:50.136778][debug][28307][ObV4lDevice.cpp:346] Found video4linux: video16
+[01/06 12:21:50.137770][debug][28307][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video16
+[01/06 12:21:50.137792][debug][28307][ObV4lDevice.cpp:346] Found video4linux: video14
+[01/06 12:21:50.138738][debug][28307][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video14
+[01/06 12:21:50.138759][debug][28307][ObV4lDevice.cpp:346] Found video4linux: video12
+[01/06 12:21:50.139719][debug][28307][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video12
+[01/06 12:21:50.139740][debug][28307][ObV4lDevice.cpp:346] Found video4linux: video10
+[01/06 12:21:50.140713][debug][28307][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video10
+[01/06 12:21:50.140783][debug][28307][UsbDeviceEnumerator.cpp:161] Current usb device port list:
+[01/06 12:21:50.140801][debug][28307][UsbDeviceEnumerator.cpp:164]  - 1-1.1-6.0 | ORBBEC Close Depth Sensor
+[01/06 12:21:50.140815][debug][28307][UsbDeviceEnumerator.cpp:164]  - 1-1.1-6.1 | ORBBEC Audio Device
+[01/06 12:21:50.140853][warning][28307][OpenNIDeviceInfo.cpp:122] New openni device matched.
+[01/06 12:21:50.141092][info][28307][LinuxPal.cpp:112] Create PollingDeviceWatcher!
+[01/06 12:21:50.141142][debug][28307][UsbDeviceEnumerator.cpp:69] Found 1 device(s):
+[01/06 12:21:50.141163][debug][28307][UsbDeviceEnumerator.cpp:72]   - Name: Astra S, PID: 0x0402, SN/ID: , connection: USB2.0
+[01/06 12:21:50.141186][info][28307][DeviceManager.cpp:15] Current found device(s): (1)
+[01/06 12:21:50.141209][info][28307][DeviceManager.cpp:24] 	- Name: Astra S, PID: 0x0402, SN/ID: , Connection: USB2.0
+[01/06 12:21:50.141228][debug][28307][DeviceManager.cpp:55] DeviceManager construct done!
+[01/06 12:23:44.301848][debug][29835][Context.cpp:29] Context creating. work_dir=/home/xtark/tarkbot/ros2_ws
+[01/06 12:23:44.302031][debug][29835][Context.cpp:48] Config file version=1.1
+[01/06 12:23:44.302134][debug][29835][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[01/06 12:23:44.302164][info][29835][Context.cpp:67] Context created with config: /home/xtark/tarkbot/ros2_ws/install/orbbec_camera/share/orbbec_camera/config/OrbbecSDKConfig_v1.0.xml
+[01/06 12:23:44.302225][info][29835][Context.cpp:72] Context work_dir=/home/xtark/tarkbot/ros2_ws
+[01/06 12:23:44.302262][debug][29835][DeviceManager.cpp:30] DeviceManager init ...
+[01/06 12:23:44.302281][debug][29835][LinuxPal.cpp:38] createObPal: create LinuxPal!
+[01/06 12:23:44.304168][debug][29835][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[01/06 12:23:44.305344][debug][29835][EnumeratorLibusb.cpp:323] queryDevicesInfo done!
+[01/06 12:23:44.305544][debug][29835][ObV4lDevice.cpp:346] Found video4linux: video15
+[01/06 12:23:44.306645][debug][29835][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video15
+[01/06 12:23:44.306703][debug][29835][ObV4lDevice.cpp:346] Found video4linux: video13
+[01/06 12:23:44.307716][debug][29835][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video13
+[01/06 12:23:44.307739][debug][29835][ObV4lDevice.cpp:346] Found video4linux: video11
+[01/06 12:23:44.308746][debug][29835][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video11
+[01/06 12:23:44.308774][debug][29835][ObV4lDevice.cpp:346] Found video4linux: video16
+[01/06 12:23:44.309739][debug][29835][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video16
+[01/06 12:23:44.309761][debug][29835][ObV4lDevice.cpp:346] Found video4linux: video14
+[01/06 12:23:44.310722][debug][29835][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video14
+[01/06 12:23:44.310745][debug][29835][ObV4lDevice.cpp:346] Found video4linux: video12
+[01/06 12:23:44.311712][debug][29835][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video12
+[01/06 12:23:44.311735][debug][29835][ObV4lDevice.cpp:346] Found video4linux: video10
+[01/06 12:23:44.312819][debug][29835][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video10
+[01/06 12:23:44.312892][debug][29835][UsbDeviceEnumerator.cpp:161] Current usb device port list:
+[01/06 12:23:44.312911][debug][29835][UsbDeviceEnumerator.cpp:164]  - 1-1.1-6.0 | ORBBEC Close Depth Sensor
+[01/06 12:23:44.312925][debug][29835][UsbDeviceEnumerator.cpp:164]  - 1-1.1-6.1 | ORBBEC Audio Device
+[01/06 12:23:44.312979][warning][29835][OpenNIDeviceInfo.cpp:122] New openni device matched.
+[01/06 12:23:44.313231][info][29835][LinuxPal.cpp:112] Create PollingDeviceWatcher!
+[01/06 12:23:44.313284][debug][29835][UsbDeviceEnumerator.cpp:69] Found 1 device(s):
+[01/06 12:23:44.313307][debug][29835][UsbDeviceEnumerator.cpp:72]   - Name: Astra S, PID: 0x0402, SN/ID: , connection: USB2.0
+[01/06 12:23:44.313329][info][29835][DeviceManager.cpp:15] Current found device(s): (1)
+[01/06 12:23:44.313352][info][29835][DeviceManager.cpp:24] 	- Name: Astra S, PID: 0x0402, SN/ID: , Connection: USB2.0
+[01/06 12:23:44.313371][debug][29835][DeviceManager.cpp:55] DeviceManager construct done!
+[01/06 12:26:28.198054][debug][31377][Context.cpp:29] Context creating. work_dir=/home/xtark/tarkbot/ros2_ws
+[01/06 12:26:28.198194][debug][31377][Context.cpp:48] Config file version=1.1
+[01/06 12:26:28.198257][debug][31377][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[01/06 12:26:28.198287][info][31377][Context.cpp:67] Context created with config: /home/xtark/tarkbot/ros2_ws/install/orbbec_camera/share/orbbec_camera/config/OrbbecSDKConfig_v1.0.xml
+[01/06 12:26:28.198347][info][31377][Context.cpp:72] Context work_dir=/home/xtark/tarkbot/ros2_ws
+[01/06 12:26:28.198383][debug][31377][DeviceManager.cpp:30] DeviceManager init ...
+[01/06 12:26:28.198401][debug][31377][LinuxPal.cpp:38] createObPal: create LinuxPal!
+[01/06 12:26:28.200292][debug][31377][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[01/06 12:26:28.201441][debug][31377][EnumeratorLibusb.cpp:323] queryDevicesInfo done!
+[01/06 12:26:28.201613][debug][31377][ObV4lDevice.cpp:346] Found video4linux: video15
+[01/06 12:26:28.202690][debug][31377][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video15
+[01/06 12:26:28.202724][debug][31377][ObV4lDevice.cpp:346] Found video4linux: video13
+[01/06 12:26:28.203721][debug][31377][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video13
+[01/06 12:26:28.203745][debug][31377][ObV4lDevice.cpp:346] Found video4linux: video11
+[01/06 12:26:28.204770][debug][31377][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video11
+[01/06 12:26:28.204798][debug][31377][ObV4lDevice.cpp:346] Found video4linux: video16
+[01/06 12:26:28.205777][debug][31377][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video16
+[01/06 12:26:28.205806][debug][31377][ObV4lDevice.cpp:346] Found video4linux: video14
+[01/06 12:26:28.206775][debug][31377][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video14
+[01/06 12:26:28.206831][debug][31377][ObV4lDevice.cpp:346] Found video4linux: video12
+[01/06 12:26:28.207836][debug][31377][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video12
+[01/06 12:26:28.207857][debug][31377][ObV4lDevice.cpp:346] Found video4linux: video10
+[01/06 12:26:28.208847][debug][31377][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video10
+[01/06 12:26:28.208923][debug][31377][UsbDeviceEnumerator.cpp:161] Current usb device port list:
+[01/06 12:26:28.208941][debug][31377][UsbDeviceEnumerator.cpp:164]  - 1-1.1-6.0 | ORBBEC Close Depth Sensor
+[01/06 12:26:28.208956][debug][31377][UsbDeviceEnumerator.cpp:164]  - 1-1.1-6.1 | ORBBEC Audio Device
+[01/06 12:26:28.208994][warning][31377][OpenNIDeviceInfo.cpp:122] New openni device matched.
+[01/06 12:26:28.209235][info][31377][LinuxPal.cpp:112] Create PollingDeviceWatcher!
+[01/06 12:26:28.209287][debug][31377][UsbDeviceEnumerator.cpp:69] Found 1 device(s):
+[01/06 12:26:28.209308][debug][31377][UsbDeviceEnumerator.cpp:72]   - Name: Astra S, PID: 0x0402, SN/ID: , connection: USB2.0
+[01/06 12:26:28.209331][info][31377][DeviceManager.cpp:15] Current found device(s): (1)
+[01/06 12:26:28.209355][info][31377][DeviceManager.cpp:24] 	- Name: Astra S, PID: 0x0402, SN/ID: , Connection: USB2.0
+[01/06 12:26:28.209374][debug][31377][DeviceManager.cpp:55] DeviceManager construct done!
+[01/06 12:27:07.289654][debug][31437][Context.cpp:29] Context creating. work_dir=/home/xtark/tarkbot/ros2_ws
+[01/06 12:27:07.289802][debug][31437][Context.cpp:48] Config file version=1.1
+[01/06 12:27:07.289861][debug][31437][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[01/06 12:27:07.289893][info][31437][Context.cpp:67] Context created with config: /home/xtark/tarkbot/ros2_ws/install/orbbec_camera/share/orbbec_camera/config/OrbbecSDKConfig_v1.0.xml
+[01/06 12:27:07.289955][info][31437][Context.cpp:72] Context work_dir=/home/xtark/tarkbot/ros2_ws
+[01/06 12:27:07.289991][debug][31437][DeviceManager.cpp:30] DeviceManager init ...
+[01/06 12:27:07.290008][debug][31437][LinuxPal.cpp:38] createObPal: create LinuxPal!
+[01/06 12:27:07.291940][debug][31437][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[01/06 12:27:07.293024][debug][31437][EnumeratorLibusb.cpp:323] queryDevicesInfo done!
+[01/06 12:27:07.293195][debug][31437][ObV4lDevice.cpp:346] Found video4linux: video15
+[01/06 12:27:07.294267][debug][31437][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video15
+[01/06 12:27:07.294298][debug][31437][ObV4lDevice.cpp:346] Found video4linux: video13
+[01/06 12:27:07.295295][debug][31437][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video13
+[01/06 12:27:07.295319][debug][31437][ObV4lDevice.cpp:346] Found video4linux: video11
+[01/06 12:27:07.296300][debug][31437][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video11
+[01/06 12:27:07.296323][debug][31437][ObV4lDevice.cpp:346] Found video4linux: video16
+[01/06 12:27:07.297324][debug][31437][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video16
+[01/06 12:27:07.297351][debug][31437][ObV4lDevice.cpp:346] Found video4linux: video14
+[01/06 12:27:07.298315][debug][31437][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video14
+[01/06 12:27:07.298337][debug][31437][ObV4lDevice.cpp:346] Found video4linux: video12
+[01/06 12:27:07.299320][debug][31437][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video12
+[01/06 12:27:07.299347][debug][31437][ObV4lDevice.cpp:346] Found video4linux: video10
+[01/06 12:27:07.300344][debug][31437][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video10
+[01/06 12:27:07.300417][debug][31437][UsbDeviceEnumerator.cpp:161] Current usb device port list:
+[01/06 12:27:07.300436][debug][31437][UsbDeviceEnumerator.cpp:164]  - 1-1.1-6.0 | ORBBEC Close Depth Sensor
+[01/06 12:27:07.300451][debug][31437][UsbDeviceEnumerator.cpp:164]  - 1-1.1-6.1 | ORBBEC Audio Device
+[01/06 12:27:07.300489][warning][31437][OpenNIDeviceInfo.cpp:122] New openni device matched.
+[01/06 12:27:07.300756][info][31437][LinuxPal.cpp:112] Create PollingDeviceWatcher!
+[01/06 12:27:07.300860][debug][31437][UsbDeviceEnumerator.cpp:69] Found 1 device(s):
+[01/06 12:27:07.300881][debug][31437][UsbDeviceEnumerator.cpp:72]   - Name: Astra S, PID: 0x0402, SN/ID: , connection: USB2.0
+[01/06 12:27:07.300922][info][31437][DeviceManager.cpp:15] Current found device(s): (1)
+[01/06 12:27:07.300947][info][31437][DeviceManager.cpp:24] 	- Name: Astra S, PID: 0x0402, SN/ID: , Connection: USB2.0
+[01/06 12:27:07.300965][debug][31437][DeviceManager.cpp:55] DeviceManager construct done!
+[01/06 12:30:09.063028][debug][31535][Context.cpp:29] Context creating. work_dir=/home/xtark/tarkbot/ros2_ws
+[01/06 12:30:09.063321][debug][31535][Context.cpp:48] Config file version=1.1
+[01/06 12:30:09.063389][debug][31535][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[01/06 12:30:09.063426][info][31535][Context.cpp:67] Context created with config: /home/xtark/tarkbot/ros2_ws/install/orbbec_camera/share/orbbec_camera/config/OrbbecSDKConfig_v1.0.xml
+[01/06 12:30:09.063499][info][31535][Context.cpp:72] Context work_dir=/home/xtark/tarkbot/ros2_ws
+[01/06 12:30:09.063544][debug][31535][DeviceManager.cpp:30] DeviceManager init ...
+[01/06 12:30:09.063565][debug][31535][LinuxPal.cpp:38] createObPal: create LinuxPal!
+[01/06 12:30:09.065793][debug][31535][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[01/06 12:30:09.067118][debug][31535][EnumeratorLibusb.cpp:323] queryDevicesInfo done!
+[01/06 12:30:09.067323][debug][31535][ObV4lDevice.cpp:346] Found video4linux: video15
+[01/06 12:30:09.068423][debug][31535][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video15
+[01/06 12:30:09.068460][debug][31535][ObV4lDevice.cpp:346] Found video4linux: video13
+[01/06 12:30:09.069492][debug][31535][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video13
+[01/06 12:30:09.069526][debug][31535][ObV4lDevice.cpp:346] Found video4linux: video11
+[01/06 12:30:09.070521][debug][31535][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video11
+[01/06 12:30:09.070546][debug][31535][ObV4lDevice.cpp:346] Found video4linux: video16
+[01/06 12:30:09.071557][debug][31535][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video16
+[01/06 12:30:09.071580][debug][31535][ObV4lDevice.cpp:346] Found video4linux: video14
+[01/06 12:30:09.072582][debug][31535][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video14
+[01/06 12:30:09.072610][debug][31535][ObV4lDevice.cpp:346] Found video4linux: video12
+[01/06 12:30:09.073589][debug][31535][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video12
+[01/06 12:30:09.073691][debug][31535][ObV4lDevice.cpp:346] Found video4linux: video10
+[01/06 12:30:09.074682][debug][31535][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video10
+[01/06 12:30:09.074759][debug][31535][UsbDeviceEnumerator.cpp:161] Current usb device port list:
+[01/06 12:30:09.074779][debug][31535][UsbDeviceEnumerator.cpp:164]  - 1-1.1-6.0 | ORBBEC Close Depth Sensor
+[01/06 12:30:09.074795][debug][31535][UsbDeviceEnumerator.cpp:164]  - 1-1.1-6.1 | ORBBEC Audio Device
+[01/06 12:30:09.074854][warning][31535][OpenNIDeviceInfo.cpp:122] New openni device matched.
+[01/06 12:30:09.075083][info][31535][LinuxPal.cpp:112] Create PollingDeviceWatcher!
+[01/06 12:30:09.075140][debug][31535][UsbDeviceEnumerator.cpp:69] Found 1 device(s):
+[01/06 12:30:09.075165][debug][31535][UsbDeviceEnumerator.cpp:72]   - Name: Astra S, PID: 0x0402, SN/ID: , connection: USB2.0
+[01/06 12:30:09.075194][info][31535][DeviceManager.cpp:15] Current found device(s): (1)
+[01/06 12:30:09.075222][info][31535][DeviceManager.cpp:24] 	- Name: Astra S, PID: 0x0402, SN/ID: , Connection: USB2.0
+[01/06 12:30:09.075246][debug][31535][DeviceManager.cpp:55] DeviceManager construct done!
+[01/06 12:32:53.508677][debug][31848][Context.cpp:29] Context creating. work_dir=/home/xtark/tarkbot/ros2_ws
+[01/06 12:32:53.508838][debug][31848][Context.cpp:48] Config file version=1.1
+[01/06 12:32:53.508912][debug][31848][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[01/06 12:32:53.508948][info][31848][Context.cpp:67] Context created with config: /home/xtark/tarkbot/ros2_ws/install/orbbec_camera/share/orbbec_camera/config/OrbbecSDKConfig_v1.0.xml
+[01/06 12:32:53.509050][info][31848][Context.cpp:72] Context work_dir=/home/xtark/tarkbot/ros2_ws
+[01/06 12:32:53.509092][debug][31848][DeviceManager.cpp:30] DeviceManager init ...
+[01/06 12:32:53.509108][debug][31848][LinuxPal.cpp:38] createObPal: create LinuxPal!
+[01/06 12:32:53.511088][debug][31848][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[01/06 12:32:53.512130][debug][31848][EnumeratorLibusb.cpp:323] queryDevicesInfo done!
+[01/06 12:32:53.512305][debug][31848][ObV4lDevice.cpp:346] Found video4linux: video15
+[01/06 12:32:53.513449][debug][31848][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video15
+[01/06 12:32:53.513519][debug][31848][ObV4lDevice.cpp:346] Found video4linux: video13
+[01/06 12:32:53.514524][debug][31848][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video13
+[01/06 12:32:53.514553][debug][31848][ObV4lDevice.cpp:346] Found video4linux: video11
+[01/06 12:32:53.515548][debug][31848][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video11
+[01/06 12:32:53.515571][debug][31848][ObV4lDevice.cpp:346] Found video4linux: video16
+[01/06 12:32:53.516557][debug][31848][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video16
+[01/06 12:32:53.516585][debug][31848][ObV4lDevice.cpp:346] Found video4linux: video14
+[01/06 12:32:53.517555][debug][31848][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video14
+[01/06 12:32:53.517581][debug][31848][ObV4lDevice.cpp:346] Found video4linux: video12
+[01/06 12:32:53.518570][debug][31848][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video12
+[01/06 12:32:53.518626][debug][31848][ObV4lDevice.cpp:346] Found video4linux: video10
+[01/06 12:32:53.519657][debug][31848][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video10
+[01/06 12:32:53.519755][debug][31848][UsbDeviceEnumerator.cpp:161] Current usb device port list:
+[01/06 12:32:53.519774][debug][31848][UsbDeviceEnumerator.cpp:164]  - 1-1.1-6.0 | ORBBEC Close Depth Sensor
+[01/06 12:32:53.519788][debug][31848][UsbDeviceEnumerator.cpp:164]  - 1-1.1-6.1 | ORBBEC Audio Device
+[01/06 12:32:53.519843][warning][31848][OpenNIDeviceInfo.cpp:122] New openni device matched.
+[01/06 12:32:53.520099][info][31848][LinuxPal.cpp:112] Create PollingDeviceWatcher!
+[01/06 12:32:53.520201][debug][31848][UsbDeviceEnumerator.cpp:69] Found 1 device(s):
+[01/06 12:32:53.520222][debug][31848][UsbDeviceEnumerator.cpp:72]   - Name: Astra S, PID: 0x0402, SN/ID: , connection: USB2.0
+[01/06 12:32:53.520245][info][31848][DeviceManager.cpp:15] Current found device(s): (1)
+[01/06 12:32:53.520268][info][31848][DeviceManager.cpp:24] 	- Name: Astra S, PID: 0x0402, SN/ID: , Connection: USB2.0
+[01/06 12:32:53.520287][debug][31848][DeviceManager.cpp:55] DeviceManager construct done!
+[01/06 12:34:17.986641][debug][31999][Context.cpp:29] Context creating. work_dir=/home/xtark/tarkbot/ros2_ws
+[01/06 12:34:17.986825][debug][31999][Context.cpp:48] Config file version=1.1
+[01/06 12:34:17.986892][debug][31999][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[01/06 12:34:17.986930][info][31999][Context.cpp:67] Context created with config: /home/xtark/tarkbot/ros2_ws/install/orbbec_camera/share/orbbec_camera/config/OrbbecSDKConfig_v1.0.xml
+[01/06 12:34:17.986994][info][31999][Context.cpp:72] Context work_dir=/home/xtark/tarkbot/ros2_ws
+[01/06 12:34:17.987033][debug][31999][DeviceManager.cpp:30] DeviceManager init ...
+[01/06 12:34:17.987050][debug][31999][LinuxPal.cpp:38] createObPal: create LinuxPal!
+[01/06 12:34:17.990466][debug][31999][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[01/06 12:34:17.992359][debug][31999][EnumeratorLibusb.cpp:323] queryDevicesInfo done!
+[01/06 12:34:17.992596][debug][31999][ObV4lDevice.cpp:346] Found video4linux: video15
+[01/06 12:34:17.993722][debug][31999][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video15
+[01/06 12:34:17.993757][debug][31999][ObV4lDevice.cpp:346] Found video4linux: video13
+[01/06 12:34:17.994802][debug][31999][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video13
+[01/06 12:34:17.994827][debug][31999][ObV4lDevice.cpp:346] Found video4linux: video11
+[01/06 12:34:17.995872][debug][31999][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video11
+[01/06 12:34:17.995897][debug][31999][ObV4lDevice.cpp:346] Found video4linux: video16
+[01/06 12:34:17.996952][debug][31999][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video16
+[01/06 12:34:17.996980][debug][31999][ObV4lDevice.cpp:346] Found video4linux: video14
+[01/06 12:34:17.998029][debug][31999][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video14
+[01/06 12:34:17.998052][debug][31999][ObV4lDevice.cpp:346] Found video4linux: video12
+[01/06 12:34:17.999081][debug][31999][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video12
+[01/06 12:34:17.999104][debug][31999][ObV4lDevice.cpp:346] Found video4linux: video10
+[01/06 12:34:18.000134][debug][31999][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video10
+[01/06 12:34:18.000224][debug][31999][UsbDeviceEnumerator.cpp:161] Current usb device port list:
+[01/06 12:34:18.000243][debug][31999][UsbDeviceEnumerator.cpp:164]  - 1-1.1-6.0 | ORBBEC Close Depth Sensor
+[01/06 12:34:18.000257][debug][31999][UsbDeviceEnumerator.cpp:164]  - 1-1.1-6.1 | ORBBEC Audio Device
+[01/06 12:34:18.000316][warning][31999][OpenNIDeviceInfo.cpp:122] New openni device matched.
+[01/06 12:34:18.000583][info][31999][LinuxPal.cpp:112] Create PollingDeviceWatcher!
+[01/06 12:34:18.000643][debug][31999][UsbDeviceEnumerator.cpp:69] Found 1 device(s):
+[01/06 12:34:18.000665][debug][31999][UsbDeviceEnumerator.cpp:72]   - Name: Astra S, PID: 0x0402, SN/ID: , connection: USB2.0
+[01/06 12:34:18.000691][info][31999][DeviceManager.cpp:15] Current found device(s): (1)
+[01/06 12:34:18.000717][info][31999][DeviceManager.cpp:24] 	- Name: Astra S, PID: 0x0402, SN/ID: , Connection: USB2.0
+[01/06 12:34:18.000738][debug][31999][DeviceManager.cpp:55] DeviceManager construct done!
+[01/06 12:38:55.202659][debug][33655][Context.cpp:29] Context creating. work_dir=/home/xtark/tarkbot/ros2_ws
+[01/06 12:38:55.202802][debug][33655][Context.cpp:48] Config file version=1.1
+[01/06 12:38:55.202861][debug][33655][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[01/06 12:38:55.202893][info][33655][Context.cpp:67] Context created with config: /home/xtark/tarkbot/ros2_ws/install/orbbec_camera/share/orbbec_camera/config/OrbbecSDKConfig_v1.0.xml
+[01/06 12:38:55.202954][info][33655][Context.cpp:72] Context work_dir=/home/xtark/tarkbot/ros2_ws
+[01/06 12:38:55.202991][debug][33655][DeviceManager.cpp:30] DeviceManager init ...
+[01/06 12:38:55.203008][debug][33655][LinuxPal.cpp:38] createObPal: create LinuxPal!
+[01/06 12:38:55.204965][debug][33655][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[01/06 12:38:55.206040][debug][33655][EnumeratorLibusb.cpp:323] queryDevicesInfo done!
+[01/06 12:38:55.206207][debug][33655][ObV4lDevice.cpp:346] Found video4linux: video15
+[01/06 12:38:55.207300][debug][33655][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video15
+[01/06 12:38:55.207332][debug][33655][ObV4lDevice.cpp:346] Found video4linux: video13
+[01/06 12:38:55.208335][debug][33655][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video13
+[01/06 12:38:55.208358][debug][33655][ObV4lDevice.cpp:346] Found video4linux: video11
+[01/06 12:38:55.209408][debug][33655][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video11
+[01/06 12:38:55.209438][debug][33655][ObV4lDevice.cpp:346] Found video4linux: video16
+[01/06 12:38:55.210420][debug][33655][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video16
+[01/06 12:38:55.210446][debug][33655][ObV4lDevice.cpp:346] Found video4linux: video14
+[01/06 12:38:55.211428][debug][33655][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video14
+[01/06 12:38:55.211451][debug][33655][ObV4lDevice.cpp:346] Found video4linux: video12
+[01/06 12:38:55.212483][debug][33655][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video12
+[01/06 12:38:55.212559][debug][33655][ObV4lDevice.cpp:346] Found video4linux: video10
+[01/06 12:38:55.213617][debug][33655][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video10
+[01/06 12:38:55.213691][debug][33655][UsbDeviceEnumerator.cpp:161] Current usb device port list:
+[01/06 12:38:55.213709][debug][33655][UsbDeviceEnumerator.cpp:164]  - 1-1.1-6.0 | ORBBEC Close Depth Sensor
+[01/06 12:38:55.213724][debug][33655][UsbDeviceEnumerator.cpp:164]  - 1-1.1-6.1 | ORBBEC Audio Device
+[01/06 12:38:55.213762][warning][33655][OpenNIDeviceInfo.cpp:122] New openni device matched.
+[01/06 12:38:55.214013][info][33655][LinuxPal.cpp:112] Create PollingDeviceWatcher!
+[01/06 12:38:55.214067][debug][33655][UsbDeviceEnumerator.cpp:69] Found 1 device(s):
+[01/06 12:38:55.214089][debug][33655][UsbDeviceEnumerator.cpp:72]   - Name: Astra S, PID: 0x0402, SN/ID: , connection: USB2.0
+[01/06 12:38:55.214130][info][33655][DeviceManager.cpp:15] Current found device(s): (1)
+[01/06 12:38:55.214157][info][33655][DeviceManager.cpp:24] 	- Name: Astra S, PID: 0x0402, SN/ID: , Connection: USB2.0
+[01/06 12:38:55.214177][debug][33655][DeviceManager.cpp:55] DeviceManager construct done!
+[01/07 03:53:10.570715][debug][4645][Context.cpp:29] Context creating. work_dir=/home/xtark/tarkbot/ros2_ws
+[01/07 03:53:10.571814][debug][4645][Context.cpp:48] Config file version=1.1
+[01/07 03:53:10.575758][debug][4645][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[01/07 03:53:10.575897][info][4645][Context.cpp:67] Context created with config: /home/xtark/tarkbot/ros2_ws/install/orbbec_camera/share/orbbec_camera/config/OrbbecSDKConfig_v1.0.xml
+[01/07 03:53:10.576032][info][4645][Context.cpp:72] Context work_dir=/home/xtark/tarkbot/ros2_ws
+[01/07 03:53:10.576098][debug][4645][DeviceManager.cpp:30] DeviceManager init ...
+[01/07 03:53:10.576127][debug][4645][LinuxPal.cpp:38] createObPal: create LinuxPal!
+[01/07 03:53:10.583366][debug][4645][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[01/07 03:53:10.585152][debug][4645][EnumeratorLibusb.cpp:323] queryDevicesInfo done!
+[01/07 03:53:10.585465][debug][4645][ObV4lDevice.cpp:346] Found video4linux: video15
+[01/07 03:53:10.587790][debug][4645][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video15
+[01/07 03:53:10.587914][debug][4645][ObV4lDevice.cpp:346] Found video4linux: video13
+[01/07 03:53:10.590060][debug][4645][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video13
+[01/07 03:53:10.590169][debug][4645][ObV4lDevice.cpp:346] Found video4linux: video11
+[01/07 03:53:10.591611][debug][4645][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video11
+[01/07 03:53:10.591699][debug][4645][ObV4lDevice.cpp:346] Found video4linux: video16
+[01/07 03:53:10.593177][debug][4645][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video16
+[01/07 03:53:10.593235][debug][4645][ObV4lDevice.cpp:346] Found video4linux: video14
+[01/07 03:53:10.594710][debug][4645][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video14
+[01/07 03:53:10.594765][debug][4645][ObV4lDevice.cpp:346] Found video4linux: video12
+[01/07 03:53:10.596060][debug][4645][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video12
+[01/07 03:53:10.596198][debug][4645][ObV4lDevice.cpp:346] Found video4linux: video10
+[01/07 03:53:10.597463][debug][4645][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video10
+[01/07 03:53:10.597573][debug][4645][UsbDeviceEnumerator.cpp:161] Current usb device port list:
+[01/07 03:53:10.597597][debug][4645][UsbDeviceEnumerator.cpp:164]  - 1-1.1-3.0 | ORBBEC Close Depth Sensor
+[01/07 03:53:10.597614][debug][4645][UsbDeviceEnumerator.cpp:164]  - 1-1.1-3.1 | ORBBEC Audio Device
+[01/07 03:53:10.597909][warning][4645][OpenNIDeviceInfo.cpp:122] New openni device matched.
+[01/07 03:53:10.598380][info][4645][LinuxPal.cpp:112] Create PollingDeviceWatcher!
+[01/07 03:53:10.598453][debug][4645][UsbDeviceEnumerator.cpp:69] Found 1 device(s):
+[01/07 03:53:10.598478][debug][4645][UsbDeviceEnumerator.cpp:72]   - Name: Astra S, PID: 0x0402, SN/ID: , connection: USB2.0
+[01/07 03:53:10.598913][info][4645][DeviceManager.cpp:15] Current found device(s): (1)
+[01/07 03:53:10.598985][info][4645][DeviceManager.cpp:24] 	- Name: Astra S, PID: 0x0402, SN/ID: , Connection: USB2.0
+[01/07 03:53:10.599009][debug][4645][DeviceManager.cpp:55] DeviceManager construct done!
+[01/07 03:56:14.844536][debug][4704][Context.cpp:29] Context creating. work_dir=/home/xtark/tarkbot/ros2_ws
+[01/07 03:56:14.844757][debug][4704][Context.cpp:48] Config file version=1.1
+[01/07 03:56:14.844827][debug][4704][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[01/07 03:56:14.844860][info][4704][Context.cpp:67] Context created with config: default config!
+[01/07 03:56:14.844922][info][4704][Context.cpp:72] Context work_dir=/home/xtark/tarkbot/ros2_ws
+[01/07 03:56:14.844967][debug][4704][DeviceManager.cpp:30] DeviceManager init ...
+[01/07 03:56:14.844984][debug][4704][LinuxPal.cpp:38] createObPal: create LinuxPal!
+[01/07 03:56:14.846830][debug][4704][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[01/07 03:56:14.848039][debug][4704][EnumeratorLibusb.cpp:323] queryDevicesInfo done!
+[01/07 03:56:14.848225][debug][4704][ObV4lDevice.cpp:346] Found video4linux: video15
+[01/07 03:56:14.849345][debug][4704][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video15
+[01/07 03:56:14.849379][debug][4704][ObV4lDevice.cpp:346] Found video4linux: video13
+[01/07 03:56:14.850370][debug][4704][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video13
+[01/07 03:56:14.850393][debug][4704][ObV4lDevice.cpp:346] Found video4linux: video11
+[01/07 03:56:14.851411][debug][4704][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video11
+[01/07 03:56:14.851434][debug][4704][ObV4lDevice.cpp:346] Found video4linux: video16
+[01/07 03:56:14.852446][debug][4704][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video16
+[01/07 03:56:14.852476][debug][4704][ObV4lDevice.cpp:346] Found video4linux: video14
+[01/07 03:56:14.853450][debug][4704][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video14
+[01/07 03:56:14.853472][debug][4704][ObV4lDevice.cpp:346] Found video4linux: video12
+[01/07 03:56:14.854455][debug][4704][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video12
+[01/07 03:56:14.854477][debug][4704][ObV4lDevice.cpp:346] Found video4linux: video10
+[01/07 03:56:14.855455][debug][4704][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video10
+[01/07 03:56:14.855537][debug][4704][UsbDeviceEnumerator.cpp:161] Current usb device port list:
+[01/07 03:56:14.855561][debug][4704][UsbDeviceEnumerator.cpp:164]  - 1-1.1-3.0 | ORBBEC Close Depth Sensor
+[01/07 03:56:14.855597][debug][4704][UsbDeviceEnumerator.cpp:164]  - 1-1.1-3.1 | ORBBEC Audio Device
+[01/07 03:56:14.855676][warning][4704][OpenNIDeviceInfo.cpp:122] New openni device matched.
+[01/07 03:56:14.855979][info][4704][LinuxPal.cpp:112] Create PollingDeviceWatcher!
+[01/07 03:56:14.856074][debug][4704][UsbDeviceEnumerator.cpp:69] Found 1 device(s):
+[01/07 03:56:14.856095][debug][4704][UsbDeviceEnumerator.cpp:72]   - Name: Astra S, PID: 0x0402, SN/ID: , connection: USB2.0
+[01/07 03:56:14.856118][info][4704][DeviceManager.cpp:15] Current found device(s): (1)
+[01/07 03:56:14.856154][info][4704][DeviceManager.cpp:24] 	- Name: Astra S, PID: 0x0402, SN/ID: , Connection: USB2.0
+[01/07 03:56:14.856186][debug][4704][DeviceManager.cpp:55] DeviceManager construct done!
+[01/07 04:02:14.762655][debug][6264][Context.cpp:29] Context creating. work_dir=/home/xtark/tarkbot/ros2_ws
+[01/07 04:02:14.762892][debug][6264][Context.cpp:48] Config file version=1.1
+[01/07 04:02:14.762950][debug][6264][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[01/07 04:02:14.762982][info][6264][Context.cpp:67] Context created with config: default config!
+[01/07 04:02:14.763049][info][6264][Context.cpp:72] Context work_dir=/home/xtark/tarkbot/ros2_ws
+[01/07 04:02:14.763093][debug][6264][DeviceManager.cpp:30] DeviceManager init ...
+[01/07 04:02:14.763109][debug][6264][LinuxPal.cpp:38] createObPal: create LinuxPal!
+[01/07 04:02:14.764954][debug][6264][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[01/07 04:02:14.766063][debug][6264][EnumeratorLibusb.cpp:323] queryDevicesInfo done!
+[01/07 04:02:14.766237][debug][6264][ObV4lDevice.cpp:346] Found video4linux: video15
+[01/07 04:02:14.767356][debug][6264][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video15
+[01/07 04:02:14.767390][debug][6264][ObV4lDevice.cpp:346] Found video4linux: video13
+[01/07 04:02:14.768401][debug][6264][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video13
+[01/07 04:02:14.768430][debug][6264][ObV4lDevice.cpp:346] Found video4linux: video11
+[01/07 04:02:14.769430][debug][6264][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video11
+[01/07 04:02:14.769453][debug][6264][ObV4lDevice.cpp:346] Found video4linux: video16
+[01/07 04:02:14.770435][debug][6264][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video16
+[01/07 04:02:14.770457][debug][6264][ObV4lDevice.cpp:346] Found video4linux: video14
+[01/07 04:02:14.771443][debug][6264][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video14
+[01/07 04:02:14.771464][debug][6264][ObV4lDevice.cpp:346] Found video4linux: video12
+[01/07 04:02:14.772559][debug][6264][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video12
+[01/07 04:02:14.772588][debug][6264][ObV4lDevice.cpp:346] Found video4linux: video10
+[01/07 04:02:14.773580][debug][6264][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video10
+[01/07 04:02:14.773643][debug][6264][UsbDeviceEnumerator.cpp:161] Current usb device port list:
+[01/07 04:02:14.773660][debug][6264][UsbDeviceEnumerator.cpp:164]  - 1-1.1-3.0 | ORBBEC Close Depth Sensor
+[01/07 04:02:14.773674][debug][6264][UsbDeviceEnumerator.cpp:164]  - 1-1.1-3.1 | ORBBEC Audio Device
+[01/07 04:02:14.773737][warning][6264][OpenNIDeviceInfo.cpp:122] New openni device matched.
+[01/07 04:02:14.773998][info][6264][LinuxPal.cpp:112] Create PollingDeviceWatcher!
+[01/07 04:02:14.774059][debug][6264][UsbDeviceEnumerator.cpp:69] Found 1 device(s):
+[01/07 04:02:14.774079][debug][6264][UsbDeviceEnumerator.cpp:72]   - Name: Astra S, PID: 0x0402, SN/ID: , connection: USB2.0
+[01/07 04:02:14.774100][info][6264][DeviceManager.cpp:15] Current found device(s): (1)
+[01/07 04:02:14.774132][info][6264][DeviceManager.cpp:24] 	- Name: Astra S, PID: 0x0402, SN/ID: , Connection: USB2.0
+[01/07 04:02:14.774164][debug][6264][DeviceManager.cpp:55] DeviceManager construct done!
+[01/07 04:02:20.745060][debug][6271][Context.cpp:29] Context creating. work_dir=/home/xtark/tarkbot/ros2_ws
+[01/07 04:02:20.745204][debug][6271][Context.cpp:48] Config file version=1.1
+[01/07 04:02:20.745260][debug][6271][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[01/07 04:02:20.745292][info][6271][Context.cpp:67] Context created with config: /home/xtark/tarkbot/ros2_ws/install/orbbec_camera/share/orbbec_camera/config/OrbbecSDKConfig_v1.0.xml
+[01/07 04:02:20.745362][info][6271][Context.cpp:72] Context work_dir=/home/xtark/tarkbot/ros2_ws
+[01/07 04:02:20.745398][debug][6271][DeviceManager.cpp:30] DeviceManager init ...
+[01/07 04:02:20.745416][debug][6271][LinuxPal.cpp:38] createObPal: create LinuxPal!
+[01/07 04:02:20.747339][debug][6271][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[01/07 04:02:20.748435][debug][6271][EnumeratorLibusb.cpp:323] queryDevicesInfo done!
+[01/07 04:02:20.748603][debug][6271][ObV4lDevice.cpp:346] Found video4linux: video15
+[01/07 04:02:20.749694][debug][6271][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video15
+[01/07 04:02:20.749727][debug][6271][ObV4lDevice.cpp:346] Found video4linux: video13
+[01/07 04:02:20.750715][debug][6271][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video13
+[01/07 04:02:20.750739][debug][6271][ObV4lDevice.cpp:346] Found video4linux: video11
+[01/07 04:02:20.751779][debug][6271][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video11
+[01/07 04:02:20.751810][debug][6271][ObV4lDevice.cpp:346] Found video4linux: video16
+[01/07 04:02:20.752789][debug][6271][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video16
+[01/07 04:02:20.752844][debug][6271][ObV4lDevice.cpp:346] Found video4linux: video14
+[01/07 04:02:20.753838][debug][6271][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video14
+[01/07 04:02:20.753860][debug][6271][ObV4lDevice.cpp:346] Found video4linux: video12
+[01/07 04:02:20.754847][debug][6271][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video12
+[01/07 04:02:20.754869][debug][6271][ObV4lDevice.cpp:346] Found video4linux: video10
+[01/07 04:02:20.755870][debug][6271][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video10
+[01/07 04:02:20.755948][debug][6271][UsbDeviceEnumerator.cpp:161] Current usb device port list:
+[01/07 04:02:20.755967][debug][6271][UsbDeviceEnumerator.cpp:164]  - 1-1.1-3.0 | ORBBEC Close Depth Sensor
+[01/07 04:02:20.755981][debug][6271][UsbDeviceEnumerator.cpp:164]  - 1-1.1-3.1 | ORBBEC Audio Device
+[01/07 04:02:20.756018][warning][6271][OpenNIDeviceInfo.cpp:122] New openni device matched.
+[01/07 04:02:20.756255][info][6271][LinuxPal.cpp:112] Create PollingDeviceWatcher!
+[01/07 04:02:20.756306][debug][6271][UsbDeviceEnumerator.cpp:69] Found 1 device(s):
+[01/07 04:02:20.756327][debug][6271][UsbDeviceEnumerator.cpp:72]   - Name: Astra S, PID: 0x0402, SN/ID: , connection: USB2.0
+[01/07 04:02:20.756366][info][6271][DeviceManager.cpp:15] Current found device(s): (1)
+[01/07 04:02:20.756390][info][6271][DeviceManager.cpp:24] 	- Name: Astra S, PID: 0x0402, SN/ID: , Connection: USB2.0
+[01/07 04:02:20.756409][debug][6271][DeviceManager.cpp:55] DeviceManager construct done!
+[01/07 04:05:05.035269][debug][7887][Context.cpp:29] Context creating. work_dir=/home/xtark/tarkbot/ros2_ws
+[01/07 04:05:05.035581][debug][7887][Context.cpp:48] Config file version=1.1
+[01/07 04:05:05.035647][debug][7887][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[01/07 04:05:05.035683][info][7887][Context.cpp:67] Context created with config: /home/xtark/tarkbot/ros2_ws/install/orbbec_camera/share/orbbec_camera/config/OrbbecSDKConfig_v1.0.xml
+[01/07 04:05:05.035747][info][7887][Context.cpp:72] Context work_dir=/home/xtark/tarkbot/ros2_ws
+[01/07 04:05:05.035787][debug][7887][DeviceManager.cpp:30] DeviceManager init ...
+[01/07 04:05:05.035806][debug][7887][LinuxPal.cpp:38] createObPal: create LinuxPal!
+[01/07 04:05:05.037827][debug][7887][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[01/07 04:05:05.038948][debug][7887][EnumeratorLibusb.cpp:323] queryDevicesInfo done!
+[01/07 04:05:05.039123][debug][7887][ObV4lDevice.cpp:346] Found video4linux: video15
+[01/07 04:05:05.040272][debug][7887][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video15
+[01/07 04:05:05.040319][debug][7887][ObV4lDevice.cpp:346] Found video4linux: video13
+[01/07 04:05:05.041335][debug][7887][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video13
+[01/07 04:05:05.041359][debug][7887][ObV4lDevice.cpp:346] Found video4linux: video11
+[01/07 04:05:05.042352][debug][7887][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video11
+[01/07 04:05:05.042376][debug][7887][ObV4lDevice.cpp:346] Found video4linux: video16
+[01/07 04:05:05.043362][debug][7887][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video16
+[01/07 04:05:05.043384][debug][7887][ObV4lDevice.cpp:346] Found video4linux: video14
+[01/07 04:05:05.044397][debug][7887][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video14
+[01/07 04:05:05.044425][debug][7887][ObV4lDevice.cpp:346] Found video4linux: video12
+[01/07 04:05:05.045419][debug][7887][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video12
+[01/07 04:05:05.045442][debug][7887][ObV4lDevice.cpp:346] Found video4linux: video10
+[01/07 04:05:05.046466][debug][7887][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video10
+[01/07 04:05:05.046540][debug][7887][UsbDeviceEnumerator.cpp:161] Current usb device port list:
+[01/07 04:05:05.046559][debug][7887][UsbDeviceEnumerator.cpp:164]  - 1-1.1-3.0 | ORBBEC Close Depth Sensor
+[01/07 04:05:05.046573][debug][7887][UsbDeviceEnumerator.cpp:164]  - 1-1.1-3.1 | ORBBEC Audio Device
+[01/07 04:05:05.046647][warning][7887][OpenNIDeviceInfo.cpp:122] New openni device matched.
+[01/07 04:05:05.046900][info][7887][LinuxPal.cpp:112] Create PollingDeviceWatcher!
+[01/07 04:05:05.046951][debug][7887][UsbDeviceEnumerator.cpp:69] Found 1 device(s):
+[01/07 04:05:05.046972][debug][7887][UsbDeviceEnumerator.cpp:72]   - Name: Astra S, PID: 0x0402, SN/ID: , connection: USB2.0
+[01/07 04:05:05.047010][info][7887][DeviceManager.cpp:15] Current found device(s): (1)
+[01/07 04:05:05.047035][info][7887][DeviceManager.cpp:24] 	- Name: Astra S, PID: 0x0402, SN/ID: , Connection: USB2.0
+[01/07 04:05:05.047054][debug][7887][DeviceManager.cpp:55] DeviceManager construct done!
+[01/07 10:31:07.446124][debug][3219][Context.cpp:29] Context creating. work_dir=/home/xtark/tarkbot/ros2_ws
+[01/07 10:31:07.447324][debug][3219][Context.cpp:48] Config file version=1.1
+[01/07 10:31:07.451236][debug][3219][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[01/07 10:31:07.451365][info][3219][Context.cpp:67] Context created with config: /home/xtark/tarkbot/ros2_ws/install/orbbec_camera/share/orbbec_camera/config/OrbbecSDKConfig_v1.0.xml
+[01/07 10:31:07.451482][info][3219][Context.cpp:72] Context work_dir=/home/xtark/tarkbot/ros2_ws
+[01/07 10:31:07.451537][debug][3219][DeviceManager.cpp:30] DeviceManager init ...
+[01/07 10:31:07.451561][debug][3219][LinuxPal.cpp:38] createObPal: create LinuxPal!
+[01/07 10:31:07.458301][debug][3219][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[01/07 10:31:07.459751][debug][3219][EnumeratorLibusb.cpp:323] queryDevicesInfo done!
+[01/07 10:31:07.460009][debug][3219][ObV4lDevice.cpp:346] Found video4linux: video15
+[01/07 10:31:07.461850][debug][3219][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video15
+[01/07 10:31:07.461902][debug][3219][ObV4lDevice.cpp:346] Found video4linux: video13
+[01/07 10:31:07.463577][debug][3219][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video13
+[01/07 10:31:07.463722][debug][3219][ObV4lDevice.cpp:346] Found video4linux: video11
+[01/07 10:31:07.465389][debug][3219][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video11
+[01/07 10:31:07.465428][debug][3219][ObV4lDevice.cpp:346] Found video4linux: video16
+[01/07 10:31:07.466725][debug][3219][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video16
+[01/07 10:31:07.466762][debug][3219][ObV4lDevice.cpp:346] Found video4linux: video14
+[01/07 10:31:07.467993][debug][3219][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video14
+[01/07 10:31:07.468027][debug][3219][ObV4lDevice.cpp:346] Found video4linux: video12
+[01/07 10:31:07.469208][debug][3219][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video12
+[01/07 10:31:07.469235][debug][3219][ObV4lDevice.cpp:346] Found video4linux: video10
+[01/07 10:31:07.470413][debug][3219][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video10
+[01/07 10:31:07.470489][debug][3219][UsbDeviceEnumerator.cpp:161] Current usb device port list:
+[01/07 10:31:07.470510][debug][3219][UsbDeviceEnumerator.cpp:164]  - 1-1.1-3.0 | ORBBEC Close Depth Sensor
+[01/07 10:31:07.470527][debug][3219][UsbDeviceEnumerator.cpp:164]  - 1-1.1-3.1 | ORBBEC Audio Device
+[01/07 10:31:07.470799][warning][3219][OpenNIDeviceInfo.cpp:122] New openni device matched.
+[01/07 10:31:07.471127][info][3219][LinuxPal.cpp:112] Create PollingDeviceWatcher!
+[01/07 10:31:07.471201][debug][3219][UsbDeviceEnumerator.cpp:69] Found 1 device(s):
+[01/07 10:31:07.471226][debug][3219][UsbDeviceEnumerator.cpp:72]   - Name: Astra S, PID: 0x0402, SN/ID: , connection: USB2.0
+[01/07 10:31:07.471542][info][3219][DeviceManager.cpp:15] Current found device(s): (1)
+[01/07 10:31:07.471613][info][3219][DeviceManager.cpp:24] 	- Name: Astra S, PID: 0x0402, SN/ID: , Connection: USB2.0
+[01/07 10:31:07.471638][debug][3219][DeviceManager.cpp:55] DeviceManager construct done!
+[01/07 10:36:41.924596][debug][3356][Context.cpp:29] Context creating. work_dir=/home/xtark/tarkbot/ros2_ws
+[01/07 10:36:41.924752][debug][3356][Context.cpp:48] Config file version=1.1
+[01/07 10:36:41.924813][debug][3356][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[01/07 10:36:41.924890][info][3356][Context.cpp:67] Context created with config: /home/xtark/tarkbot/ros2_ws/install/orbbec_camera/share/orbbec_camera/config/OrbbecSDKConfig_v1.0.xml
+[01/07 10:36:41.924957][info][3356][Context.cpp:72] Context work_dir=/home/xtark/tarkbot/ros2_ws
+[01/07 10:36:41.925002][debug][3356][DeviceManager.cpp:30] DeviceManager init ...
+[01/07 10:36:41.925018][debug][3356][LinuxPal.cpp:38] createObPal: create LinuxPal!
+[01/07 10:36:41.926919][debug][3356][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[01/07 10:36:41.927958][debug][3356][EnumeratorLibusb.cpp:323] queryDevicesInfo done!
+[01/07 10:36:41.928127][debug][3356][ObV4lDevice.cpp:346] Found video4linux: video15
+[01/07 10:36:41.929221][debug][3356][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video15
+[01/07 10:36:41.929253][debug][3356][ObV4lDevice.cpp:346] Found video4linux: video13
+[01/07 10:36:41.930236][debug][3356][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video13
+[01/07 10:36:41.930258][debug][3356][ObV4lDevice.cpp:346] Found video4linux: video11
+[01/07 10:36:41.931260][debug][3356][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video11
+[01/07 10:36:41.931286][debug][3356][ObV4lDevice.cpp:346] Found video4linux: video16
+[01/07 10:36:41.932247][debug][3356][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video16
+[01/07 10:36:41.932269][debug][3356][ObV4lDevice.cpp:346] Found video4linux: video14
+[01/07 10:36:41.933228][debug][3356][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video14
+[01/07 10:36:41.933250][debug][3356][ObV4lDevice.cpp:346] Found video4linux: video12
+[01/07 10:36:41.934224][debug][3356][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video12
+[01/07 10:36:41.934262][debug][3356][ObV4lDevice.cpp:346] Found video4linux: video10
+[01/07 10:36:41.935252][debug][3356][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video10
+[01/07 10:36:41.935330][debug][3356][UsbDeviceEnumerator.cpp:161] Current usb device port list:
+[01/07 10:36:41.935349][debug][3356][UsbDeviceEnumerator.cpp:164]  - 1-1.1-3.0 | ORBBEC Close Depth Sensor
+[01/07 10:36:41.935363][debug][3356][UsbDeviceEnumerator.cpp:164]  - 1-1.1-3.1 | ORBBEC Audio Device
+[01/07 10:36:41.935401][warning][3356][OpenNIDeviceInfo.cpp:122] New openni device matched.
+[01/07 10:36:41.935636][info][3356][LinuxPal.cpp:112] Create PollingDeviceWatcher!
+[01/07 10:36:41.935684][debug][3356][UsbDeviceEnumerator.cpp:69] Found 1 device(s):
+[01/07 10:36:41.935706][debug][3356][UsbDeviceEnumerator.cpp:72]   - Name: Astra S, PID: 0x0402, SN/ID: , connection: USB2.0
+[01/07 10:36:41.935729][info][3356][DeviceManager.cpp:15] Current found device(s): (1)
+[01/07 10:36:41.935752][info][3356][DeviceManager.cpp:24] 	- Name: Astra S, PID: 0x0402, SN/ID: , Connection: USB2.0
+[01/07 10:36:41.935771][debug][3356][DeviceManager.cpp:55] DeviceManager construct done!
+[01/07 10:41:50.876383][debug][5021][Context.cpp:29] Context creating. work_dir=/home/xtark/tarkbot/ros2_ws
+[01/07 10:41:50.876528][debug][5021][Context.cpp:48] Config file version=1.1
+[01/07 10:41:50.876580][debug][5021][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[01/07 10:41:50.876612][info][5021][Context.cpp:67] Context created with config: /home/xtark/tarkbot/ros2_ws/install/orbbec_camera/share/orbbec_camera/config/OrbbecSDKConfig_v1.0.xml
+[01/07 10:41:50.876672][info][5021][Context.cpp:72] Context work_dir=/home/xtark/tarkbot/ros2_ws
+[01/07 10:41:50.876711][debug][5021][DeviceManager.cpp:30] DeviceManager init ...
+[01/07 10:41:50.876727][debug][5021][LinuxPal.cpp:38] createObPal: create LinuxPal!
+[01/07 10:41:50.878622][debug][5021][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[01/07 10:41:50.879754][debug][5021][EnumeratorLibusb.cpp:323] queryDevicesInfo done!
+[01/07 10:41:50.879932][debug][5021][ObV4lDevice.cpp:346] Found video4linux: video15
+[01/07 10:41:50.881018][debug][5021][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video15
+[01/07 10:41:50.881083][debug][5021][ObV4lDevice.cpp:346] Found video4linux: video13
+[01/07 10:41:50.882069][debug][5021][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video13
+[01/07 10:41:50.882092][debug][5021][ObV4lDevice.cpp:346] Found video4linux: video11
+[01/07 10:41:50.883108][debug][5021][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video11
+[01/07 10:41:50.883137][debug][5021][ObV4lDevice.cpp:346] Found video4linux: video16
+[01/07 10:41:50.884129][debug][5021][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video16
+[01/07 10:41:50.884154][debug][5021][ObV4lDevice.cpp:346] Found video4linux: video14
+[01/07 10:41:50.885136][debug][5021][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video14
+[01/07 10:41:50.885160][debug][5021][ObV4lDevice.cpp:346] Found video4linux: video12
+[01/07 10:41:50.886184][debug][5021][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video12
+[01/07 10:41:50.886206][debug][5021][ObV4lDevice.cpp:346] Found video4linux: video10
+[01/07 10:41:50.887265][debug][5021][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video10
+[01/07 10:41:50.887342][debug][5021][UsbDeviceEnumerator.cpp:161] Current usb device port list:
+[01/07 10:41:50.887361][debug][5021][UsbDeviceEnumerator.cpp:164]  - 1-1.1-3.0 | ORBBEC Close Depth Sensor
+[01/07 10:41:50.887376][debug][5021][UsbDeviceEnumerator.cpp:164]  - 1-1.1-3.1 | ORBBEC Audio Device
+[01/07 10:41:50.887415][warning][5021][OpenNIDeviceInfo.cpp:122] New openni device matched.
+[01/07 10:41:50.887659][info][5021][LinuxPal.cpp:112] Create PollingDeviceWatcher!
+[01/07 10:41:50.887712][debug][5021][UsbDeviceEnumerator.cpp:69] Found 1 device(s):
+[01/07 10:41:50.887733][debug][5021][UsbDeviceEnumerator.cpp:72]   - Name: Astra S, PID: 0x0402, SN/ID: , connection: USB2.0
+[01/07 10:41:50.887776][info][5021][DeviceManager.cpp:15] Current found device(s): (1)
+[01/07 10:41:50.887800][info][5021][DeviceManager.cpp:24] 	- Name: Astra S, PID: 0x0402, SN/ID: , Connection: USB2.0
+[01/07 10:41:50.887820][debug][5021][DeviceManager.cpp:55] DeviceManager construct done!
+[01/07 18:19:49.647334][debug][8096][Context.cpp:29] Context creating. work_dir=/home/xtark/tarkbot/ros2_ws
+[01/07 18:19:49.648451][debug][8096][Context.cpp:48] Config file version=1.1
+[01/07 18:19:49.652376][debug][8096][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[01/07 18:19:49.652509][info][8096][Context.cpp:67] Context created with config: /home/xtark/tarkbot/ros2_ws/install/orbbec_camera/share/orbbec_camera/config/OrbbecSDKConfig_v1.0.xml
+[01/07 18:19:49.652628][info][8096][Context.cpp:72] Context work_dir=/home/xtark/tarkbot/ros2_ws
+[01/07 18:19:49.652696][debug][8096][DeviceManager.cpp:30] DeviceManager init ...
+[01/07 18:19:49.652726][debug][8096][LinuxPal.cpp:38] createObPal: create LinuxPal!
+[01/07 18:19:49.660038][debug][8096][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[01/07 18:19:49.661649][debug][8096][EnumeratorLibusb.cpp:323] queryDevicesInfo done!
+[01/07 18:19:49.661974][debug][8096][ObV4lDevice.cpp:346] Found video4linux: video15
+[01/07 18:19:49.664168][debug][8096][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video15
+[01/07 18:19:49.664234][debug][8096][ObV4lDevice.cpp:346] Found video4linux: video13
+[01/07 18:19:49.666301][debug][8096][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video13
+[01/07 18:19:49.666355][debug][8096][ObV4lDevice.cpp:346] Found video4linux: video11
+[01/07 18:19:49.667668][debug][8096][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video11
+[01/07 18:19:49.667698][debug][8096][ObV4lDevice.cpp:346] Found video4linux: video16
+[01/07 18:19:49.668985][debug][8096][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video16
+[01/07 18:19:49.669015][debug][8096][ObV4lDevice.cpp:346] Found video4linux: video14
+[01/07 18:19:49.670341][debug][8096][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video14
+[01/07 18:19:49.670396][debug][8096][ObV4lDevice.cpp:346] Found video4linux: video12
+[01/07 18:19:49.671729][debug][8096][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video12
+[01/07 18:19:49.671808][debug][8096][ObV4lDevice.cpp:346] Found video4linux: video10
+[01/07 18:19:49.673146][debug][8096][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video10
+[01/07 18:19:49.673299][debug][8096][UsbDeviceEnumerator.cpp:161] Current usb device port list:
+[01/07 18:19:49.673335][debug][8096][UsbDeviceEnumerator.cpp:164]  - 1-1.1-8.0 | ORBBEC Close Depth Sensor
+[01/07 18:19:49.673354][debug][8096][UsbDeviceEnumerator.cpp:164]  - 1-1.1-8.1 | ORBBEC Audio Device
+[01/07 18:19:49.673669][warning][8096][OpenNIDeviceInfo.cpp:122] New openni device matched.
+[01/07 18:19:49.674066][info][8096][LinuxPal.cpp:112] Create PollingDeviceWatcher!
+[01/07 18:19:49.674173][debug][8096][UsbDeviceEnumerator.cpp:69] Found 1 device(s):
+[01/07 18:19:49.674204][debug][8096][UsbDeviceEnumerator.cpp:72]   - Name: Astra S, PID: 0x0402, SN/ID: , connection: USB2.0
+[01/07 18:19:49.674548][info][8096][DeviceManager.cpp:15] Current found device(s): (1)
+[01/07 18:19:49.674633][info][8096][DeviceManager.cpp:24] 	- Name: Astra S, PID: 0x0402, SN/ID: , Connection: USB2.0
+[01/07 18:19:49.674659][debug][8096][DeviceManager.cpp:55] DeviceManager construct done!
+[01/07 18:22:14.635558][debug][9778][Context.cpp:29] Context creating. work_dir=/home/xtark/tarkbot/ros2_ws
+[01/07 18:22:14.635711][debug][9778][Context.cpp:48] Config file version=1.1
+[01/07 18:22:14.635769][debug][9778][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[01/07 18:22:14.635800][info][9778][Context.cpp:67] Context created with config: /home/xtark/tarkbot/ros2_ws/install/orbbec_camera/share/orbbec_camera/config/OrbbecSDKConfig_v1.0.xml
+[01/07 18:22:14.635860][info][9778][Context.cpp:72] Context work_dir=/home/xtark/tarkbot/ros2_ws
+[01/07 18:22:14.635904][debug][9778][DeviceManager.cpp:30] DeviceManager init ...
+[01/07 18:22:14.635922][debug][9778][LinuxPal.cpp:38] createObPal: create LinuxPal!
+[01/07 18:22:14.638080][debug][9778][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[01/07 18:22:14.639081][debug][9778][EnumeratorLibusb.cpp:323] queryDevicesInfo done!
+[01/07 18:22:14.639271][debug][9778][ObV4lDevice.cpp:346] Found video4linux: video15
+[01/07 18:22:14.640464][debug][9778][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video15
+[01/07 18:22:14.640501][debug][9778][ObV4lDevice.cpp:346] Found video4linux: video13
+[01/07 18:22:14.641529][debug][9778][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video13
+[01/07 18:22:14.641591][debug][9778][ObV4lDevice.cpp:346] Found video4linux: video11
+[01/07 18:22:14.642572][debug][9778][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video11
+[01/07 18:22:14.642595][debug][9778][ObV4lDevice.cpp:346] Found video4linux: video16
+[01/07 18:22:14.643591][debug][9778][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video16
+[01/07 18:22:14.643617][debug][9778][ObV4lDevice.cpp:346] Found video4linux: video14
+[01/07 18:22:14.644579][debug][9778][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video14
+[01/07 18:22:14.644602][debug][9778][ObV4lDevice.cpp:346] Found video4linux: video12
+[01/07 18:22:14.645593][debug][9778][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video12
+[01/07 18:22:14.645619][debug][9778][ObV4lDevice.cpp:346] Found video4linux: video10
+[01/07 18:22:14.646601][debug][9778][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video10
+[01/07 18:22:14.646677][debug][9778][UsbDeviceEnumerator.cpp:161] Current usb device port list:
+[01/07 18:22:14.646696][debug][9778][UsbDeviceEnumerator.cpp:164]  - 1-1.1-8.0 | ORBBEC Close Depth Sensor
+[01/07 18:22:14.646710][debug][9778][UsbDeviceEnumerator.cpp:164]  - 1-1.1-8.1 | ORBBEC Audio Device
+[01/07 18:22:14.646781][warning][9778][OpenNIDeviceInfo.cpp:122] New openni device matched.
+[01/07 18:22:14.647036][info][9778][LinuxPal.cpp:112] Create PollingDeviceWatcher!
+[01/07 18:22:14.647092][debug][9778][UsbDeviceEnumerator.cpp:69] Found 1 device(s):
+[01/07 18:22:14.647113][debug][9778][UsbDeviceEnumerator.cpp:72]   - Name: Astra S, PID: 0x0402, SN/ID: , connection: USB2.0
+[01/07 18:22:14.647171][info][9778][DeviceManager.cpp:15] Current found device(s): (1)
+[01/07 18:22:14.647196][info][9778][DeviceManager.cpp:24] 	- Name: Astra S, PID: 0x0402, SN/ID: , Connection: USB2.0
+[01/07 18:22:14.647215][debug][9778][DeviceManager.cpp:55] DeviceManager construct done!
+[01/07 18:26:23.286786][debug][9956][Context.cpp:29] Context creating. work_dir=/home/xtark/tarkbot/ros2_ws
+[01/07 18:26:23.286936][debug][9956][Context.cpp:48] Config file version=1.1
+[01/07 18:26:23.286994][debug][9956][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[01/07 18:26:23.287025][info][9956][Context.cpp:67] Context created with config: /home/xtark/tarkbot/ros2_ws/install/orbbec_camera/share/orbbec_camera/config/OrbbecSDKConfig_v1.0.xml
+[01/07 18:26:23.287088][info][9956][Context.cpp:72] Context work_dir=/home/xtark/tarkbot/ros2_ws
+[01/07 18:26:23.287136][debug][9956][DeviceManager.cpp:30] DeviceManager init ...
+[01/07 18:26:23.287153][debug][9956][LinuxPal.cpp:38] createObPal: create LinuxPal!
+[01/07 18:26:23.289115][debug][9956][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[01/07 18:26:23.290202][debug][9956][EnumeratorLibusb.cpp:323] queryDevicesInfo done!
+[01/07 18:26:23.290372][debug][9956][ObV4lDevice.cpp:346] Found video4linux: video15
+[01/07 18:26:23.291459][debug][9956][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video15
+[01/07 18:26:23.291492][debug][9956][ObV4lDevice.cpp:346] Found video4linux: video13
+[01/07 18:26:23.292482][debug][9956][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video13
+[01/07 18:26:23.292505][debug][9956][ObV4lDevice.cpp:346] Found video4linux: video11
+[01/07 18:26:23.293496][debug][9956][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video11
+[01/07 18:26:23.293519][debug][9956][ObV4lDevice.cpp:346] Found video4linux: video16
+[01/07 18:26:23.294513][debug][9956][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video16
+[01/07 18:26:23.294540][debug][9956][ObV4lDevice.cpp:346] Found video4linux: video14
+[01/07 18:26:23.295551][debug][9956][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video14
+[01/07 18:26:23.295574][debug][9956][ObV4lDevice.cpp:346] Found video4linux: video12
+[01/07 18:26:23.296556][debug][9956][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video12
+[01/07 18:26:23.296579][debug][9956][ObV4lDevice.cpp:346] Found video4linux: video10
+[01/07 18:26:23.297589][debug][9956][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video10
+[01/07 18:26:23.297657][debug][9956][UsbDeviceEnumerator.cpp:161] Current usb device port list:
+[01/07 18:26:23.297676][debug][9956][UsbDeviceEnumerator.cpp:164]  - 1-1.1-8.0 | ORBBEC Close Depth Sensor
+[01/07 18:26:23.297692][debug][9956][UsbDeviceEnumerator.cpp:164]  - 1-1.1-8.1 | ORBBEC Audio Device
+[01/07 18:26:23.297731][warning][9956][OpenNIDeviceInfo.cpp:122] New openni device matched.
+[01/07 18:26:23.297967][info][9956][LinuxPal.cpp:112] Create PollingDeviceWatcher!
+[01/07 18:26:23.298016][debug][9956][UsbDeviceEnumerator.cpp:69] Found 1 device(s):
+[01/07 18:26:23.298037][debug][9956][UsbDeviceEnumerator.cpp:72]   - Name: Astra S, PID: 0x0402, SN/ID: , connection: USB2.0
+[01/07 18:26:23.298062][info][9956][DeviceManager.cpp:15] Current found device(s): (1)
+[01/07 18:26:23.298086][info][9956][DeviceManager.cpp:24] 	- Name: Astra S, PID: 0x0402, SN/ID: , Connection: USB2.0
+[01/07 18:26:23.298106][debug][9956][DeviceManager.cpp:55] DeviceManager construct done!
+[01/07 18:26:28.899900][debug][9986][Context.cpp:29] Context creating. work_dir=/home/xtark/tarkbot/ros2_ws
+[01/07 18:26:28.900142][debug][9986][Context.cpp:48] Config file version=1.1
+[01/07 18:26:28.900199][debug][9986][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[01/07 18:26:28.900230][info][9986][Context.cpp:67] Context created with config: default config!
+[01/07 18:26:28.900299][info][9986][Context.cpp:72] Context work_dir=/home/xtark/tarkbot/ros2_ws
+[01/07 18:26:28.900344][debug][9986][DeviceManager.cpp:30] DeviceManager init ...
+[01/07 18:26:28.900393][debug][9986][LinuxPal.cpp:38] createObPal: create LinuxPal!
+[01/07 18:26:28.902225][debug][9986][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[01/07 18:26:28.903219][debug][9986][EnumeratorLibusb.cpp:323] queryDevicesInfo done!
+[01/07 18:26:28.903384][debug][9986][ObV4lDevice.cpp:346] Found video4linux: video15
+[01/07 18:26:28.904482][debug][9986][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video15
+[01/07 18:26:28.904540][debug][9986][ObV4lDevice.cpp:346] Found video4linux: video13
+[01/07 18:26:28.905531][debug][9986][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video13
+[01/07 18:26:28.905578][debug][9986][ObV4lDevice.cpp:346] Found video4linux: video11
+[01/07 18:26:28.906574][debug][9986][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video11
+[01/07 18:26:28.906597][debug][9986][ObV4lDevice.cpp:346] Found video4linux: video16
+[01/07 18:26:28.907612][debug][9986][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video16
+[01/07 18:26:28.907634][debug][9986][ObV4lDevice.cpp:346] Found video4linux: video14
+[01/07 18:26:28.908616][debug][9986][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video14
+[01/07 18:26:28.908637][debug][9986][ObV4lDevice.cpp:346] Found video4linux: video12
+[01/07 18:26:28.909654][debug][9986][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video12
+[01/07 18:26:28.909680][debug][9986][ObV4lDevice.cpp:346] Found video4linux: video10
+[01/07 18:26:28.910665][debug][9986][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video10
+[01/07 18:26:28.910732][debug][9986][UsbDeviceEnumerator.cpp:161] Current usb device port list:
+[01/07 18:26:28.910750][debug][9986][UsbDeviceEnumerator.cpp:164]  - 1-1.1-8.0 | ORBBEC Close Depth Sensor
+[01/07 18:26:28.910763][debug][9986][UsbDeviceEnumerator.cpp:164]  - 1-1.1-8.1 | ORBBEC Audio Device
+[01/07 18:26:28.910810][warning][9986][OpenNIDeviceInfo.cpp:122] New openni device matched.
+[01/07 18:26:28.911050][info][9986][LinuxPal.cpp:112] Create PollingDeviceWatcher!
+[01/07 18:26:28.911110][debug][9986][UsbDeviceEnumerator.cpp:69] Found 1 device(s):
+[01/07 18:26:28.911131][debug][9986][UsbDeviceEnumerator.cpp:72]   - Name: Astra S, PID: 0x0402, SN/ID: , connection: USB2.0
+[01/07 18:26:28.911153][info][9986][DeviceManager.cpp:15] Current found device(s): (1)
+[01/07 18:26:28.911185][info][9986][DeviceManager.cpp:24] 	- Name: Astra S, PID: 0x0402, SN/ID: , Connection: USB2.0
+[01/07 18:26:28.911217][debug][9986][DeviceManager.cpp:55] DeviceManager construct done!
+[01/07 18:29:58.059456][debug][11630][Context.cpp:29] Context creating. work_dir=/home/xtark/tarkbot/ros2_ws
+[01/07 18:29:58.059600][debug][11630][Context.cpp:48] Config file version=1.1
+[01/07 18:29:58.059658][debug][11630][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[01/07 18:29:58.059689][info][11630][Context.cpp:67] Context created with config: /home/xtark/tarkbot/ros2_ws/install/orbbec_camera/share/orbbec_camera/config/OrbbecSDKConfig_v1.0.xml
+[01/07 18:29:58.059750][info][11630][Context.cpp:72] Context work_dir=/home/xtark/tarkbot/ros2_ws
+[01/07 18:29:58.059785][debug][11630][DeviceManager.cpp:30] DeviceManager init ...
+[01/07 18:29:58.059802][debug][11630][LinuxPal.cpp:38] createObPal: create LinuxPal!
+[01/07 18:29:58.061727][debug][11630][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[01/07 18:29:58.062753][debug][11630][EnumeratorLibusb.cpp:323] queryDevicesInfo done!
+[01/07 18:29:58.062955][debug][11630][ObV4lDevice.cpp:346] Found video4linux: video15
+[01/07 18:29:58.064031][debug][11630][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video15
+[01/07 18:29:58.064062][debug][11630][ObV4lDevice.cpp:346] Found video4linux: video13
+[01/07 18:29:58.065046][debug][11630][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video13
+[01/07 18:29:58.065068][debug][11630][ObV4lDevice.cpp:346] Found video4linux: video11
+[01/07 18:29:58.066073][debug][11630][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video11
+[01/07 18:29:58.066132][debug][11630][ObV4lDevice.cpp:346] Found video4linux: video16
+[01/07 18:29:58.067102][debug][11630][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video16
+[01/07 18:29:58.067125][debug][11630][ObV4lDevice.cpp:346] Found video4linux: video14
+[01/07 18:29:58.068111][debug][11630][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video14
+[01/07 18:29:58.068133][debug][11630][ObV4lDevice.cpp:346] Found video4linux: video12
+[01/07 18:29:58.069097][debug][11630][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video12
+[01/07 18:29:58.069118][debug][11630][ObV4lDevice.cpp:346] Found video4linux: video10
+[01/07 18:29:58.070107][debug][11630][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video10
+[01/07 18:29:58.070174][debug][11630][UsbDeviceEnumerator.cpp:161] Current usb device port list:
+[01/07 18:29:58.070191][debug][11630][UsbDeviceEnumerator.cpp:164]  - 1-1.1-8.0 | ORBBEC Close Depth Sensor
+[01/07 18:29:58.070205][debug][11630][UsbDeviceEnumerator.cpp:164]  - 1-1.1-8.1 | ORBBEC Audio Device
+[01/07 18:29:58.070258][warning][11630][OpenNIDeviceInfo.cpp:122] New openni device matched.
+[01/07 18:29:58.070491][info][11630][LinuxPal.cpp:112] Create PollingDeviceWatcher!
+[01/07 18:29:58.070539][debug][11630][UsbDeviceEnumerator.cpp:69] Found 1 device(s):
+[01/07 18:29:58.070559][debug][11630][UsbDeviceEnumerator.cpp:72]   - Name: Astra S, PID: 0x0402, SN/ID: , connection: USB2.0
+[01/07 18:29:58.070583][info][11630][DeviceManager.cpp:15] Current found device(s): (1)
+[01/07 18:29:58.070607][info][11630][DeviceManager.cpp:24] 	- Name: Astra S, PID: 0x0402, SN/ID: , Connection: USB2.0
+[01/07 18:29:58.070625][debug][11630][DeviceManager.cpp:55] DeviceManager construct done!
+[01/07 18:31:40.088939][debug][13218][Context.cpp:29] Context creating. work_dir=/home/xtark/tarkbot/ros2_ws
+[01/07 18:31:40.089089][debug][13218][Context.cpp:48] Config file version=1.1
+[01/07 18:31:40.089146][debug][13218][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[01/07 18:31:40.089176][info][13218][Context.cpp:67] Context created with config: /home/xtark/tarkbot/ros2_ws/install/orbbec_camera/share/orbbec_camera/config/OrbbecSDKConfig_v1.0.xml
+[01/07 18:31:40.089248][info][13218][Context.cpp:72] Context work_dir=/home/xtark/tarkbot/ros2_ws
+[01/07 18:31:40.089285][debug][13218][DeviceManager.cpp:30] DeviceManager init ...
+[01/07 18:31:40.089301][debug][13218][LinuxPal.cpp:38] createObPal: create LinuxPal!
+[01/07 18:31:40.091323][debug][13218][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[01/07 18:31:40.092294][debug][13218][EnumeratorLibusb.cpp:323] queryDevicesInfo done!
+[01/07 18:31:40.092475][debug][13218][ObV4lDevice.cpp:346] Found video4linux: video15
+[01/07 18:31:40.093631][debug][13218][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video15
+[01/07 18:31:40.093675][debug][13218][ObV4lDevice.cpp:346] Found video4linux: video13
+[01/07 18:31:40.094677][debug][13218][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video13
+[01/07 18:31:40.094710][debug][13218][ObV4lDevice.cpp:346] Found video4linux: video11
+[01/07 18:31:40.095722][debug][13218][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video11
+[01/07 18:31:40.095749][debug][13218][ObV4lDevice.cpp:346] Found video4linux: video16
+[01/07 18:31:40.096728][debug][13218][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video16
+[01/07 18:31:40.096751][debug][13218][ObV4lDevice.cpp:346] Found video4linux: video14
+[01/07 18:31:40.097746][debug][13218][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video14
+[01/07 18:31:40.097773][debug][13218][ObV4lDevice.cpp:346] Found video4linux: video12
+[01/07 18:31:40.098768][debug][13218][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video12
+[01/07 18:31:40.098791][debug][13218][ObV4lDevice.cpp:346] Found video4linux: video10
+[01/07 18:31:40.099774][debug][13218][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video10
+[01/07 18:31:40.099851][debug][13218][UsbDeviceEnumerator.cpp:161] Current usb device port list:
+[01/07 18:31:40.099870][debug][13218][UsbDeviceEnumerator.cpp:164]  - 1-1.1-8.0 | ORBBEC Close Depth Sensor
+[01/07 18:31:40.099915][debug][13218][UsbDeviceEnumerator.cpp:164]  - 1-1.1-8.1 | ORBBEC Audio Device
+[01/07 18:31:40.099972][warning][13218][OpenNIDeviceInfo.cpp:122] New openni device matched.
+[01/07 18:31:40.100235][info][13218][LinuxPal.cpp:112] Create PollingDeviceWatcher!
+[01/07 18:31:40.100284][debug][13218][UsbDeviceEnumerator.cpp:69] Found 1 device(s):
+[01/07 18:31:40.100305][debug][13218][UsbDeviceEnumerator.cpp:72]   - Name: Astra S, PID: 0x0402, SN/ID: , connection: USB2.0
+[01/07 18:31:40.100328][info][13218][DeviceManager.cpp:15] Current found device(s): (1)
+[01/07 18:31:40.100350][info][13218][DeviceManager.cpp:24] 	- Name: Astra S, PID: 0x0402, SN/ID: , Connection: USB2.0
+[01/07 18:31:40.100369][debug][13218][DeviceManager.cpp:55] DeviceManager construct done!
+[01/07 18:34:18.883860][debug][13376][Context.cpp:29] Context creating. work_dir=/home/xtark/tarkbot/ros2_ws
+[01/07 18:34:18.884016][debug][13376][Context.cpp:48] Config file version=1.1
+[01/07 18:34:18.884073][debug][13376][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[01/07 18:34:18.884103][info][13376][Context.cpp:67] Context created with config: /home/xtark/tarkbot/ros2_ws/install/orbbec_camera/share/orbbec_camera/config/OrbbecSDKConfig_v1.0.xml
+[01/07 18:34:18.884161][info][13376][Context.cpp:72] Context work_dir=/home/xtark/tarkbot/ros2_ws
+[01/07 18:34:18.884197][debug][13376][DeviceManager.cpp:30] DeviceManager init ...
+[01/07 18:34:18.884212][debug][13376][LinuxPal.cpp:38] createObPal: create LinuxPal!
+[01/07 18:34:18.886167][debug][13376][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[01/07 18:34:18.887175][debug][13376][EnumeratorLibusb.cpp:323] queryDevicesInfo done!
+[01/07 18:34:18.887338][debug][13376][ObV4lDevice.cpp:346] Found video4linux: video15
+[01/07 18:34:18.888405][debug][13376][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video15
+[01/07 18:34:18.888439][debug][13376][ObV4lDevice.cpp:346] Found video4linux: video13
+[01/07 18:34:18.889408][debug][13376][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video13
+[01/07 18:34:18.889433][debug][13376][ObV4lDevice.cpp:346] Found video4linux: video11
+[01/07 18:34:18.890442][debug][13376][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video11
+[01/07 18:34:18.890495][debug][13376][ObV4lDevice.cpp:346] Found video4linux: video16
+[01/07 18:34:18.891476][debug][13376][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video16
+[01/07 18:34:18.891498][debug][13376][ObV4lDevice.cpp:346] Found video4linux: video14
+[01/07 18:34:18.892489][debug][13376][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video14
+[01/07 18:34:18.892512][debug][13376][ObV4lDevice.cpp:346] Found video4linux: video12
+[01/07 18:34:18.893474][debug][13376][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video12
+[01/07 18:34:18.893496][debug][13376][ObV4lDevice.cpp:346] Found video4linux: video10
+[01/07 18:34:18.894481][debug][13376][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video10
+[01/07 18:34:18.894552][debug][13376][UsbDeviceEnumerator.cpp:161] Current usb device port list:
+[01/07 18:34:18.894571][debug][13376][UsbDeviceEnumerator.cpp:164]  - 1-1.1-8.0 | ORBBEC Close Depth Sensor
+[01/07 18:34:18.894586][debug][13376][UsbDeviceEnumerator.cpp:164]  - 1-1.1-8.1 | ORBBEC Audio Device
+[01/07 18:34:18.894640][warning][13376][OpenNIDeviceInfo.cpp:122] New openni device matched.
+[01/07 18:34:18.894871][info][13376][LinuxPal.cpp:112] Create PollingDeviceWatcher!
+[01/07 18:34:18.894921][debug][13376][UsbDeviceEnumerator.cpp:69] Found 1 device(s):
+[01/07 18:34:18.894944][debug][13376][UsbDeviceEnumerator.cpp:72]   - Name: Astra S, PID: 0x0402, SN/ID: , connection: USB2.0
+[01/07 18:34:18.894969][info][13376][DeviceManager.cpp:15] Current found device(s): (1)
+[01/07 18:34:18.894993][info][13376][DeviceManager.cpp:24] 	- Name: Astra S, PID: 0x0402, SN/ID: , Connection: USB2.0
+[01/07 18:34:18.895012][debug][13376][DeviceManager.cpp:55] DeviceManager construct done!
+[01/07 18:40:50.642065][debug][15008][Context.cpp:29] Context creating. work_dir=/home/xtark/tarkbot/ros2_ws
+[01/07 18:40:50.642250][debug][15008][Context.cpp:48] Config file version=1.1
+[01/07 18:40:50.642308][debug][15008][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[01/07 18:40:50.642339][info][15008][Context.cpp:67] Context created with config: /home/xtark/tarkbot/ros2_ws/install/orbbec_camera/share/orbbec_camera/config/OrbbecSDKConfig_v1.0.xml
+[01/07 18:40:50.642399][info][15008][Context.cpp:72] Context work_dir=/home/xtark/tarkbot/ros2_ws
+[01/07 18:40:50.642435][debug][15008][DeviceManager.cpp:30] DeviceManager init ...
+[01/07 18:40:50.642452][debug][15008][LinuxPal.cpp:38] createObPal: create LinuxPal!
+[01/07 18:40:50.644343][debug][15008][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[01/07 18:40:50.645322][debug][15008][EnumeratorLibusb.cpp:323] queryDevicesInfo done!
+[01/07 18:40:50.645482][debug][15008][ObV4lDevice.cpp:346] Found video4linux: video15
+[01/07 18:40:50.646618][debug][15008][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video15
+[01/07 18:40:50.646656][debug][15008][ObV4lDevice.cpp:346] Found video4linux: video13
+[01/07 18:40:50.647635][debug][15008][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video13
+[01/07 18:40:50.647658][debug][15008][ObV4lDevice.cpp:346] Found video4linux: video11
+[01/07 18:40:50.648648][debug][15008][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video11
+[01/07 18:40:50.648670][debug][15008][ObV4lDevice.cpp:346] Found video4linux: video16
+[01/07 18:40:50.649674][debug][15008][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video16
+[01/07 18:40:50.649699][debug][15008][ObV4lDevice.cpp:346] Found video4linux: video14
+[01/07 18:40:50.650668][debug][15008][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video14
+[01/07 18:40:50.650690][debug][15008][ObV4lDevice.cpp:346] Found video4linux: video12
+[01/07 18:40:50.651697][debug][15008][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video12
+[01/07 18:40:50.651719][debug][15008][ObV4lDevice.cpp:346] Found video4linux: video10
+[01/07 18:40:50.652684][debug][15008][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video10
+[01/07 18:40:50.652776][debug][15008][UsbDeviceEnumerator.cpp:161] Current usb device port list:
+[01/07 18:40:50.652795][debug][15008][UsbDeviceEnumerator.cpp:164]  - 1-1.1-8.0 | ORBBEC Close Depth Sensor
+[01/07 18:40:50.652810][debug][15008][UsbDeviceEnumerator.cpp:164]  - 1-1.1-8.1 | ORBBEC Audio Device
+[01/07 18:40:50.652849][warning][15008][OpenNIDeviceInfo.cpp:122] New openni device matched.
+[01/07 18:40:50.653084][info][15008][LinuxPal.cpp:112] Create PollingDeviceWatcher!
+[01/07 18:40:50.653140][debug][15008][UsbDeviceEnumerator.cpp:69] Found 1 device(s):
+[01/07 18:40:50.653164][debug][15008][UsbDeviceEnumerator.cpp:72]   - Name: Astra S, PID: 0x0402, SN/ID: , connection: USB2.0
+[01/07 18:40:50.653203][info][15008][DeviceManager.cpp:15] Current found device(s): (1)
+[01/07 18:40:50.653227][info][15008][DeviceManager.cpp:24] 	- Name: Astra S, PID: 0x0402, SN/ID: , Connection: USB2.0
+[01/07 18:40:50.653247][debug][15008][DeviceManager.cpp:55] DeviceManager construct done!
+[01/07 18:42:34.013479][debug][16614][Context.cpp:29] Context creating. work_dir=/home/xtark/tarkbot/ros2_ws
+[01/07 18:42:34.013722][debug][16614][Context.cpp:48] Config file version=1.1
+[01/07 18:42:34.013791][debug][16614][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[01/07 18:42:34.013829][info][16614][Context.cpp:67] Context created with config: /home/xtark/tarkbot/ros2_ws/install/orbbec_camera/share/orbbec_camera/config/OrbbecSDKConfig_v1.0.xml
+[01/07 18:42:34.013894][info][16614][Context.cpp:72] Context work_dir=/home/xtark/tarkbot/ros2_ws
+[01/07 18:42:34.013931][debug][16614][DeviceManager.cpp:30] DeviceManager init ...
+[01/07 18:42:34.013948][debug][16614][LinuxPal.cpp:38] createObPal: create LinuxPal!
+[01/07 18:42:34.015805][debug][16614][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[01/07 18:42:34.016922][debug][16614][EnumeratorLibusb.cpp:323] queryDevicesInfo done!
+[01/07 18:42:34.017100][debug][16614][ObV4lDevice.cpp:346] Found video4linux: video15
+[01/07 18:42:34.018261][debug][16614][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video15
+[01/07 18:42:34.018316][debug][16614][ObV4lDevice.cpp:346] Found video4linux: video13
+[01/07 18:42:34.019310][debug][16614][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video13
+[01/07 18:42:34.019335][debug][16614][ObV4lDevice.cpp:346] Found video4linux: video11
+[01/07 18:42:34.020318][debug][16614][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video11
+[01/07 18:42:34.020350][debug][16614][ObV4lDevice.cpp:346] Found video4linux: video16
+[01/07 18:42:34.021332][debug][16614][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video16
+[01/07 18:42:34.021355][debug][16614][ObV4lDevice.cpp:346] Found video4linux: video14
+[01/07 18:42:34.022341][debug][16614][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video14
+[01/07 18:42:34.022368][debug][16614][ObV4lDevice.cpp:346] Found video4linux: video12
+[01/07 18:42:34.023362][debug][16614][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video12
+[01/07 18:42:34.023385][debug][16614][ObV4lDevice.cpp:346] Found video4linux: video10
+[01/07 18:42:34.024348][debug][16614][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video10
+[01/07 18:42:34.024424][debug][16614][UsbDeviceEnumerator.cpp:161] Current usb device port list:
+[01/07 18:42:34.024442][debug][16614][UsbDeviceEnumerator.cpp:164]  - 1-1.1-8.0 | ORBBEC Close Depth Sensor
+[01/07 18:42:34.024456][debug][16614][UsbDeviceEnumerator.cpp:164]  - 1-1.1-8.1 | ORBBEC Audio Device
+[01/07 18:42:34.024510][warning][16614][OpenNIDeviceInfo.cpp:122] New openni device matched.
+[01/07 18:42:34.024761][info][16614][LinuxPal.cpp:112] Create PollingDeviceWatcher!
+[01/07 18:42:34.024811][debug][16614][UsbDeviceEnumerator.cpp:69] Found 1 device(s):
+[01/07 18:42:34.024833][debug][16614][UsbDeviceEnumerator.cpp:72]   - Name: Astra S, PID: 0x0402, SN/ID: , connection: USB2.0
+[01/07 18:42:34.024855][info][16614][DeviceManager.cpp:15] Current found device(s): (1)
+[01/07 18:42:34.024878][info][16614][DeviceManager.cpp:24] 	- Name: Astra S, PID: 0x0402, SN/ID: , Connection: USB2.0
+[01/07 18:42:34.024897][debug][16614][DeviceManager.cpp:55] DeviceManager construct done!
+[01/07 18:55:52.876177][debug][18251][Context.cpp:29] Context creating. work_dir=/home/xtark/tarkbot/ros2_ws
+[01/07 18:55:52.876326][debug][18251][Context.cpp:48] Config file version=1.1
+[01/07 18:55:52.876382][debug][18251][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[01/07 18:55:52.876413][info][18251][Context.cpp:67] Context created with config: /home/xtark/tarkbot/ros2_ws/install/orbbec_camera/share/orbbec_camera/config/OrbbecSDKConfig_v1.0.xml
+[01/07 18:55:52.876474][info][18251][Context.cpp:72] Context work_dir=/home/xtark/tarkbot/ros2_ws
+[01/07 18:55:52.876509][debug][18251][DeviceManager.cpp:30] DeviceManager init ...
+[01/07 18:55:52.876527][debug][18251][LinuxPal.cpp:38] createObPal: create LinuxPal!
+[01/07 18:55:52.878498][debug][18251][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[01/07 18:55:52.879455][debug][18251][EnumeratorLibusb.cpp:323] queryDevicesInfo done!
+[01/07 18:55:52.879616][debug][18251][ObV4lDevice.cpp:346] Found video4linux: video15
+[01/07 18:55:52.880693][debug][18251][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video15
+[01/07 18:55:52.880727][debug][18251][ObV4lDevice.cpp:346] Found video4linux: video13
+[01/07 18:55:52.881787][debug][18251][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video13
+[01/07 18:55:52.881816][debug][18251][ObV4lDevice.cpp:346] Found video4linux: video11
+[01/07 18:55:52.882799][debug][18251][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video11
+[01/07 18:55:52.882847][debug][18251][ObV4lDevice.cpp:346] Found video4linux: video16
+[01/07 18:55:52.883835][debug][18251][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video16
+[01/07 18:55:52.883890][debug][18251][ObV4lDevice.cpp:346] Found video4linux: video14
+[01/07 18:55:52.884872][debug][18251][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video14
+[01/07 18:55:52.884893][debug][18251][ObV4lDevice.cpp:346] Found video4linux: video12
+[01/07 18:55:52.885887][debug][18251][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video12
+[01/07 18:55:52.885913][debug][18251][ObV4lDevice.cpp:346] Found video4linux: video10
+[01/07 18:55:52.886883][debug][18251][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video10
+[01/07 18:55:52.886950][debug][18251][UsbDeviceEnumerator.cpp:161] Current usb device port list:
+[01/07 18:55:52.886967][debug][18251][UsbDeviceEnumerator.cpp:164]  - 1-1.1-8.0 | ORBBEC Close Depth Sensor
+[01/07 18:55:52.886980][debug][18251][UsbDeviceEnumerator.cpp:164]  - 1-1.1-8.1 | ORBBEC Audio Device
+[01/07 18:55:52.887034][warning][18251][OpenNIDeviceInfo.cpp:122] New openni device matched.
+[01/07 18:55:52.887266][info][18251][LinuxPal.cpp:112] Create PollingDeviceWatcher!
+[01/07 18:55:52.887312][debug][18251][UsbDeviceEnumerator.cpp:69] Found 1 device(s):
+[01/07 18:55:52.887333][debug][18251][UsbDeviceEnumerator.cpp:72]   - Name: Astra S, PID: 0x0402, SN/ID: , connection: USB2.0
+[01/07 18:55:52.887356][info][18251][DeviceManager.cpp:15] Current found device(s): (1)
+[01/07 18:55:52.887378][info][18251][DeviceManager.cpp:24] 	- Name: Astra S, PID: 0x0402, SN/ID: , Connection: USB2.0
+[01/07 18:55:52.887397][debug][18251][DeviceManager.cpp:55] DeviceManager construct done!
+[01/07 18:56:01.374875][debug][18286][Context.cpp:29] Context creating. work_dir=/home/xtark/tarkbot/ros2_ws
+[01/07 18:56:01.375019][debug][18286][Context.cpp:48] Config file version=1.1
+[01/07 18:56:01.375075][debug][18286][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[01/07 18:56:01.375103][info][18286][Context.cpp:67] Context created with config: /home/xtark/tarkbot/ros2_ws/install/orbbec_camera/share/orbbec_camera/config/OrbbecSDKConfig_v1.0.xml
+[01/07 18:56:01.375162][info][18286][Context.cpp:72] Context work_dir=/home/xtark/tarkbot/ros2_ws
+[01/07 18:56:01.375208][debug][18286][DeviceManager.cpp:30] DeviceManager init ...
+[01/07 18:56:01.375224][debug][18286][LinuxPal.cpp:38] createObPal: create LinuxPal!
+[01/07 18:56:01.377131][debug][18286][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[01/07 18:56:01.378193][debug][18286][EnumeratorLibusb.cpp:323] queryDevicesInfo done!
+[01/07 18:56:01.378373][debug][18286][ObV4lDevice.cpp:346] Found video4linux: video15
+[01/07 18:56:01.379450][debug][18286][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video15
+[01/07 18:56:01.379483][debug][18286][ObV4lDevice.cpp:346] Found video4linux: video13
+[01/07 18:56:01.380468][debug][18286][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video13
+[01/07 18:56:01.380491][debug][18286][ObV4lDevice.cpp:346] Found video4linux: video11
+[01/07 18:56:01.381476][debug][18286][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video11
+[01/07 18:56:01.381498][debug][18286][ObV4lDevice.cpp:346] Found video4linux: video16
+[01/07 18:56:01.382501][debug][18286][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video16
+[01/07 18:56:01.382528][debug][18286][ObV4lDevice.cpp:346] Found video4linux: video14
+[01/07 18:56:01.383525][debug][18286][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video14
+[01/07 18:56:01.383548][debug][18286][ObV4lDevice.cpp:346] Found video4linux: video12
+[01/07 18:56:01.384535][debug][18286][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video12
+[01/07 18:56:01.384557][debug][18286][ObV4lDevice.cpp:346] Found video4linux: video10
+[01/07 18:56:01.385519][debug][18286][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video10
+[01/07 18:56:01.385631][debug][18286][UsbDeviceEnumerator.cpp:161] Current usb device port list:
+[01/07 18:56:01.385653][debug][18286][UsbDeviceEnumerator.cpp:164]  - 1-1.1-8.0 | ORBBEC Close Depth Sensor
+[01/07 18:56:01.385667][debug][18286][UsbDeviceEnumerator.cpp:164]  - 1-1.1-8.1 | ORBBEC Audio Device
+[01/07 18:56:01.385738][warning][18286][OpenNIDeviceInfo.cpp:122] New openni device matched.
+[01/07 18:56:01.385978][info][18286][LinuxPal.cpp:112] Create PollingDeviceWatcher!
+[01/07 18:56:01.386026][debug][18286][UsbDeviceEnumerator.cpp:69] Found 1 device(s):
+[01/07 18:56:01.386047][debug][18286][UsbDeviceEnumerator.cpp:72]   - Name: Astra S, PID: 0x0402, SN/ID: , connection: USB2.0
+[01/07 18:56:01.386074][info][18286][DeviceManager.cpp:15] Current found device(s): (1)
+[01/07 18:56:01.386096][info][18286][DeviceManager.cpp:24] 	- Name: Astra S, PID: 0x0402, SN/ID: , Connection: USB2.0
+[01/07 18:56:01.386115][debug][18286][DeviceManager.cpp:55] DeviceManager construct done!
+[01/07 19:01:18.271651][debug][19841][Context.cpp:29] Context creating. work_dir=/home/xtark/tarkbot/ros2_ws
+[01/07 19:01:18.271842][debug][19841][Context.cpp:48] Config file version=1.1
+[01/07 19:01:18.271902][debug][19841][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[01/07 19:01:18.271931][info][19841][Context.cpp:67] Context created with config: /home/xtark/tarkbot/ros2_ws/install/orbbec_camera/share/orbbec_camera/config/OrbbecSDKConfig_v1.0.xml
+[01/07 19:01:18.271993][info][19841][Context.cpp:72] Context work_dir=/home/xtark/tarkbot/ros2_ws
+[01/07 19:01:18.272031][debug][19841][DeviceManager.cpp:30] DeviceManager init ...
+[01/07 19:01:18.272048][debug][19841][LinuxPal.cpp:38] createObPal: create LinuxPal!
+[01/07 19:01:18.273990][debug][19841][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[01/07 19:01:18.275079][debug][19841][EnumeratorLibusb.cpp:323] queryDevicesInfo done!
+[01/07 19:01:18.275316][debug][19841][ObV4lDevice.cpp:346] Found video4linux: video15
+[01/07 19:01:18.276411][debug][19841][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video15
+[01/07 19:01:18.276453][debug][19841][ObV4lDevice.cpp:346] Found video4linux: video13
+[01/07 19:01:18.277439][debug][19841][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video13
+[01/07 19:01:18.277463][debug][19841][ObV4lDevice.cpp:346] Found video4linux: video11
+[01/07 19:01:18.278507][debug][19841][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video11
+[01/07 19:01:18.278537][debug][19841][ObV4lDevice.cpp:346] Found video4linux: video16
+[01/07 19:01:18.279515][debug][19841][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video16
+[01/07 19:01:18.279542][debug][19841][ObV4lDevice.cpp:346] Found video4linux: video14
+[01/07 19:01:18.280539][debug][19841][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video14
+[01/07 19:01:18.280566][debug][19841][ObV4lDevice.cpp:346] Found video4linux: video12
+[01/07 19:01:18.281537][debug][19841][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video12
+[01/07 19:01:18.281577][debug][19841][ObV4lDevice.cpp:346] Found video4linux: video10
+[01/07 19:01:18.282546][debug][19841][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video10
+[01/07 19:01:18.282642][debug][19841][UsbDeviceEnumerator.cpp:161] Current usb device port list:
+[01/07 19:01:18.282662][debug][19841][UsbDeviceEnumerator.cpp:164]  - 1-1.1-8.0 | ORBBEC Close Depth Sensor
+[01/07 19:01:18.282677][debug][19841][UsbDeviceEnumerator.cpp:164]  - 1-1.1-8.1 | ORBBEC Audio Device
+[01/07 19:01:18.282733][warning][19841][OpenNIDeviceInfo.cpp:122] New openni device matched.
+[01/07 19:01:18.282982][info][19841][LinuxPal.cpp:112] Create PollingDeviceWatcher!
+[01/07 19:01:18.283037][debug][19841][UsbDeviceEnumerator.cpp:69] Found 1 device(s):
+[01/07 19:01:18.283061][debug][19841][UsbDeviceEnumerator.cpp:72]   - Name: Astra S, PID: 0x0402, SN/ID: , connection: USB2.0
+[01/07 19:01:18.283086][info][19841][DeviceManager.cpp:15] Current found device(s): (1)
+[01/07 19:01:18.283110][info][19841][DeviceManager.cpp:24] 	- Name: Astra S, PID: 0x0402, SN/ID: , Connection: USB2.0
+[01/07 19:01:18.283130][debug][19841][DeviceManager.cpp:55] DeviceManager construct done!
+[01/07 19:11:09.521331][debug][21479][Context.cpp:29] Context creating. work_dir=/home/xtark/tarkbot/ros2_ws
+[01/07 19:11:09.521513][debug][21479][Context.cpp:48] Config file version=1.1
+[01/07 19:11:09.521628][debug][21479][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[01/07 19:11:09.521666][info][21479][Context.cpp:67] Context created with config: /home/xtark/tarkbot/ros2_ws/install/orbbec_camera/share/orbbec_camera/config/OrbbecSDKConfig_v1.0.xml
+[01/07 19:11:09.521738][info][21479][Context.cpp:72] Context work_dir=/home/xtark/tarkbot/ros2_ws
+[01/07 19:11:09.521774][debug][21479][DeviceManager.cpp:30] DeviceManager init ...
+[01/07 19:11:09.521789][debug][21479][LinuxPal.cpp:38] createObPal: create LinuxPal!
+[01/07 19:11:09.523717][debug][21479][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[01/07 19:11:09.524672][debug][21479][EnumeratorLibusb.cpp:323] queryDevicesInfo done!
+[01/07 19:11:09.524841][debug][21479][ObV4lDevice.cpp:346] Found video4linux: video15
+[01/07 19:11:09.525962][debug][21479][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video15
+[01/07 19:11:09.526000][debug][21479][ObV4lDevice.cpp:346] Found video4linux: video13
+[01/07 19:11:09.527164][debug][21479][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video13
+[01/07 19:11:09.527195][debug][21479][ObV4lDevice.cpp:346] Found video4linux: video11
+[01/07 19:11:09.528803][debug][21479][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video11
+[01/07 19:11:09.528839][debug][21479][ObV4lDevice.cpp:346] Found video4linux: video16
+[01/07 19:11:09.529879][debug][21479][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video16
+[01/07 19:11:09.529909][debug][21479][ObV4lDevice.cpp:346] Found video4linux: video14
+[01/07 19:11:09.530889][debug][21479][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video14
+[01/07 19:11:09.530911][debug][21479][ObV4lDevice.cpp:346] Found video4linux: video12
+[01/07 19:11:09.531888][debug][21479][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video12
+[01/07 19:11:09.531910][debug][21479][ObV4lDevice.cpp:346] Found video4linux: video10
+[01/07 19:11:09.532910][debug][21479][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video10
+[01/07 19:11:09.532983][debug][21479][UsbDeviceEnumerator.cpp:161] Current usb device port list:
+[01/07 19:11:09.533001][debug][21479][UsbDeviceEnumerator.cpp:164]  - 1-1.1-8.0 | ORBBEC Close Depth Sensor
+[01/07 19:11:09.533016][debug][21479][UsbDeviceEnumerator.cpp:164]  - 1-1.1-8.1 | ORBBEC Audio Device
+[01/07 19:11:09.533054][warning][21479][OpenNIDeviceInfo.cpp:122] New openni device matched.
+[01/07 19:11:09.533304][info][21479][LinuxPal.cpp:112] Create PollingDeviceWatcher!
+[01/07 19:11:09.533361][debug][21479][UsbDeviceEnumerator.cpp:69] Found 1 device(s):
+[01/07 19:11:09.533384][debug][21479][UsbDeviceEnumerator.cpp:72]   - Name: Astra S, PID: 0x0402, SN/ID: , connection: USB2.0
+[01/07 19:11:09.533425][info][21479][DeviceManager.cpp:15] Current found device(s): (1)
+[01/07 19:11:09.533449][info][21479][DeviceManager.cpp:24] 	- Name: Astra S, PID: 0x0402, SN/ID: , Connection: USB2.0
+[01/07 19:11:09.533467][debug][21479][DeviceManager.cpp:55] DeviceManager construct done!
+[01/07 19:13:37.721372][debug][23106][Context.cpp:29] Context creating. work_dir=/home/xtark/tarkbot/ros2_ws
+[01/07 19:13:37.721862][debug][23106][Context.cpp:48] Config file version=1.1
+[01/07 19:13:37.722138][debug][23106][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[01/07 19:13:37.722360][info][23106][Context.cpp:67] Context created with config: /home/xtark/tarkbot/ros2_ws/install/orbbec_camera/share/orbbec_camera/config/OrbbecSDKConfig_v1.0.xml
+[01/07 19:13:37.722630][info][23106][Context.cpp:72] Context work_dir=/home/xtark/tarkbot/ros2_ws
+[01/07 19:13:37.722888][debug][23106][DeviceManager.cpp:30] DeviceManager init ...
+[01/07 19:13:37.723110][debug][23106][LinuxPal.cpp:38] createObPal: create LinuxPal!
+[01/07 19:13:37.725330][debug][23106][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[01/07 19:13:37.726630][debug][23106][EnumeratorLibusb.cpp:323] queryDevicesInfo done!
+[01/07 19:13:37.726860][debug][23106][ObV4lDevice.cpp:346] Found video4linux: video15
+[01/07 19:13:37.728040][debug][23106][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video15
+[01/07 19:13:37.728114][debug][23106][ObV4lDevice.cpp:346] Found video4linux: video13
+[01/07 19:13:37.729162][debug][23106][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video13
+[01/07 19:13:37.729214][debug][23106][ObV4lDevice.cpp:346] Found video4linux: video11
+[01/07 19:13:37.730286][debug][23106][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video11
+[01/07 19:13:37.730335][debug][23106][ObV4lDevice.cpp:346] Found video4linux: video16
+[01/07 19:13:37.731401][debug][23106][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video16
+[01/07 19:13:37.731447][debug][23106][ObV4lDevice.cpp:346] Found video4linux: video14
+[01/07 19:13:37.732462][debug][23106][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video14
+[01/07 19:13:37.732500][debug][23106][ObV4lDevice.cpp:346] Found video4linux: video12
+[01/07 19:13:37.733518][debug][23106][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video12
+[01/07 19:13:37.734008][debug][23106][ObV4lDevice.cpp:346] Found video4linux: video10
+[01/07 19:13:37.735282][debug][23106][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video10
+[01/07 19:13:37.735820][debug][23106][UsbDeviceEnumerator.cpp:161] Current usb device port list:
+[01/07 19:13:37.735964][debug][23106][UsbDeviceEnumerator.cpp:164]  - 1-1.1-8.0 | ORBBEC Close Depth Sensor
+[01/07 19:13:37.736003][debug][23106][UsbDeviceEnumerator.cpp:164]  - 1-1.1-8.1 | ORBBEC Audio Device
+[01/07 19:13:37.736097][warning][23106][OpenNIDeviceInfo.cpp:122] New openni device matched.
+[01/07 19:13:37.736874][info][23106][LinuxPal.cpp:112] Create PollingDeviceWatcher!
+[01/07 19:13:37.737219][debug][23106][UsbDeviceEnumerator.cpp:69] Found 1 device(s):
+[01/07 19:13:37.737333][debug][23106][UsbDeviceEnumerator.cpp:72]   - Name: Astra S, PID: 0x0402, SN/ID: , connection: USB2.0
+[01/07 19:13:37.737394][info][23106][DeviceManager.cpp:15] Current found device(s): (1)
+[01/07 19:13:37.737456][info][23106][DeviceManager.cpp:24] 	- Name: Astra S, PID: 0x0402, SN/ID: , Connection: USB2.0
+[01/07 19:13:37.737482][debug][23106][DeviceManager.cpp:55] DeviceManager construct done!
+[01/07 19:14:20.212526][debug][23190][Context.cpp:29] Context creating. work_dir=/home/xtark/tarkbot/ros2_ws
+[01/07 19:14:20.212795][debug][23190][Context.cpp:48] Config file version=1.1
+[01/07 19:14:20.212857][debug][23190][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[01/07 19:14:20.212893][info][23190][Context.cpp:67] Context created with config: default config!
+[01/07 19:14:20.212966][info][23190][Context.cpp:72] Context work_dir=/home/xtark/tarkbot/ros2_ws
+[01/07 19:14:20.213015][debug][23190][DeviceManager.cpp:30] DeviceManager init ...
+[01/07 19:14:20.213035][debug][23190][LinuxPal.cpp:38] createObPal: create LinuxPal!
+[01/07 19:14:20.214973][debug][23190][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[01/07 19:14:20.216057][debug][23190][EnumeratorLibusb.cpp:323] queryDevicesInfo done!
+[01/07 19:14:20.216247][debug][23190][ObV4lDevice.cpp:346] Found video4linux: video15
+[01/07 19:14:20.217663][debug][23190][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video15
+[01/07 19:14:20.217708][debug][23190][ObV4lDevice.cpp:346] Found video4linux: video13
+[01/07 19:14:20.218815][debug][23190][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video13
+[01/07 19:14:20.218839][debug][23190][ObV4lDevice.cpp:346] Found video4linux: video11
+[01/07 19:14:20.219855][debug][23190][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video11
+[01/07 19:14:20.219877][debug][23190][ObV4lDevice.cpp:346] Found video4linux: video16
+[01/07 19:14:20.220852][debug][23190][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video16
+[01/07 19:14:20.220873][debug][23190][ObV4lDevice.cpp:346] Found video4linux: video14
+[01/07 19:14:20.221874][debug][23190][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video14
+[01/07 19:14:20.221901][debug][23190][ObV4lDevice.cpp:346] Found video4linux: video12
+[01/07 19:14:20.222917][debug][23190][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video12
+[01/07 19:14:20.222939][debug][23190][ObV4lDevice.cpp:346] Found video4linux: video10
+[01/07 19:14:20.223937][debug][23190][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video10
+[01/07 19:14:20.224002][debug][23190][UsbDeviceEnumerator.cpp:161] Current usb device port list:
+[01/07 19:14:20.224020][debug][23190][UsbDeviceEnumerator.cpp:164]  - 1-1.1-8.0 | ORBBEC Close Depth Sensor
+[01/07 19:14:20.224033][debug][23190][UsbDeviceEnumerator.cpp:164]  - 1-1.1-8.1 | ORBBEC Audio Device
+[01/07 19:14:20.224084][warning][23190][OpenNIDeviceInfo.cpp:122] New openni device matched.
+[01/07 19:14:20.224322][info][23190][LinuxPal.cpp:112] Create PollingDeviceWatcher!
+[01/07 19:14:20.224383][debug][23190][UsbDeviceEnumerator.cpp:69] Found 1 device(s):
+[01/07 19:14:20.224404][debug][23190][UsbDeviceEnumerator.cpp:72]   - Name: Astra S, PID: 0x0402, SN/ID: , connection: USB2.0
+[01/07 19:14:20.224425][info][23190][DeviceManager.cpp:15] Current found device(s): (1)
+[01/07 19:14:20.224456][info][23190][DeviceManager.cpp:24] 	- Name: Astra S, PID: 0x0402, SN/ID: , Connection: USB2.0
+[01/07 19:14:20.224482][debug][23190][DeviceManager.cpp:55] DeviceManager construct done!
+[01/07 19:14:20.224497][info][23190][Pipeline.cpp:15] Try to create pipeline with default device.
+[01/07 19:14:20.224527][debug][23190][DeviceManager.cpp:112] DeviceManager  createDevice...
+[01/07 19:14:20.224540][debug][23190][UsbDeviceEnumerator.cpp:289] UsbDeviceEnumerator createDevice...
+[01/07 19:14:20.225362][info][23190][OpenNIHostProtocol.cpp:546] Hardware versions: FW=5.8.22 (14), HW=0, Chip=0, Sensor=0, SYS=12
+[01/07 19:14:20.225755][error][23190][OpenNIHostProtocol.cpp:563] Get usb core type failed!
+[01/07 19:14:20.225818][debug][23190][OpenNIHostProtocol.cpp:644] Requesting KeepAlive...
+[01/07 19:14:20.226088][debug][23190][OpenNIHostProtocol.cpp:651] Got KeepAlive Reply.
+[01/07 19:14:20.227458][debug][23190][OpenNIHostProtocol.cpp:644] Requesting KeepAlive...
+[01/07 19:14:20.227728][debug][23190][OpenNIHostProtocol.cpp:651] Got KeepAlive Reply.
+[01/07 19:14:20.227751][debug][23190][OpenNIHostProtocol.cpp:669] Getting the fixed params...
+[01/07 19:14:20.228172][debug][23190][OpenNIHostProtocol.cpp:709] Reading sensor serial number...
+[01/07 19:14:20.228444][info][23190][OpenNISensorFirmware.cpp:1125] Sensor serial number:17062710297
+[01/07 19:14:20.228880][debug][23190][OpenNIHostProtocol.cpp:781] Reading sensor platform string...
+[01/07 19:14:20.229182][info][23190][OpenNISensorFirmware.cpp:1153] Firmware version RD109Y-007
+[01/07 19:14:20.229486][info][23190][OpenNISensorFirmware.cpp:1159] Device frequency 100
+[01/07 19:14:20.229530][debug][23190][OpenNIHostProtocol.cpp:858] Update supported depth video modes from firmware
+[01/07 19:14:20.229585][debug][23190][OpenNIHostProtocol.cpp:894] Reading CMOS 0 supported presets...
+[01/07 19:14:20.237940][debug][23190][OpenNISensorFirmware.cpp:1171] OpenNI camera params read.
+[01/07 19:14:20.238709][debug][23190][OpenNISensorFirmware.cpp:1864] OpenNI camera params read end.
+[01/07 19:14:20.439854][error][23190][OpenNIHostProtocol.cpp:931] Support sub cmd error!
+[01/07 19:14:20.440053][warning][23190][OpenNISensorFirmware.cpp:148] OpenNI2 camera don't support Watchdog function!
+[01/07 19:14:20.440150][debug][23190][OpenNISensorIO.cpp:29] Opening endpoint 0x81 for depth...
+[01/07 19:14:20.440195][debug][23190][OpenNISensorIO.cpp:41] Depth endpoint(0x81) was successfully opened.
+[01/07 19:14:20.440242][debug][23190][OpenNISensorIO.cpp:48] Opening endpoint 0x82 for IR...
+[01/07 19:14:20.440284][debug][23190][OpenNISensorIO.cpp:54] IR endpoint(0x82) was successfully opened.
+[01/07 19:14:20.440322][debug][23190][OpenNISensorIO.cpp:60] Opening endpoint 0x84  for image...
+[01/07 19:14:20.440359][debug][23190][OpenNISensorIO.cpp:65] Image endpoint is not supported...
+[01/07 19:14:20.440396][debug][23190][OpenNISensorIO.cpp:75] Opening endpoint 0x83 for misc...
+[01/07 19:14:20.440432][debug][23190][OpenNISensorIO.cpp:80] Misc endpoint is not supported...
+[01/07 19:14:20.440541][debug][23190][OpenNISensorIO.cpp:87] Endpoints open end.
+[01/07 19:14:20.440592][debug][23190][VendorCommand.cpp:189] VendorCommand constructor aaab1e095070
+[01/07 19:14:20.440632][debug][23190][OpenNIDevice.cpp:190] init sensor map start!
+[01/07 19:14:20.440683][debug][23190][OpenNIDevice.cpp:204] init sensor map done!
+[01/07 19:14:20.440887][debug][23190][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1000, dataLen: 164
+[01/07 19:14:20.440999][debug][23190][AbstractDevice.cpp:352] Not default config found!
+[01/07 19:14:20.441046][debug][23190][OpenNIDevice.cpp:430] Init depth process param start!
+[01/07 19:14:20.441102][debug][23190][OpenNIDevice.cpp:452] Device baseline: 7.5, zpd: 65, zpps: 0.056983333081007004
+[01/07 19:14:20.441141][debug][23190][OpenNIDevice.cpp:477] Init depth process param done!
+[01/07 19:14:20.441193][info][23190][OpenNIDevice.cpp:33] OpenNI device created! PID: 0x0402, SN: 17062710297
+[01/07 19:14:20.441302][debug][23190][UsbDeviceEnumerator.cpp:338] Device created successfully! Name: Astra S, PID: 0x0402, SN/ID: 
+[01/07 19:14:20.441350][info][23190][DeviceManager.cpp:157] Device created successfully! Name: Astra S, PID: 0x0402, SN/ID: 
+[01/07 19:14:20.441515][debug][23190][Pipeline.cpp:29] Pipeline init ...
+[01/07 19:14:20.441826][debug][23190][Pipeline.cpp:169] loadFrameQueueSizeConfig() config queue size: 10
+[01/07 19:14:20.441963][warning][23190][ObException.cpp:5] Current device does not support frame sync!
+[01/07 19:14:20.442384][warning][23190][Pipeline.cpp:43] Execute failure! A libobsensor_exception has occurred!
+	 - where:43#Pipeline
+	 - msg:Current device does not support frame sync!
+	 - type:N11libobsensor31unsupported_operation_exceptionE
+[01/07 19:14:20.442592][info][23190][Pipeline.cpp:46] Pipeline created with device: {name: Astra S, sn: 17062710297}, @0xAAAB1E0CC410
+[01/07 19:14:20.442774][debug][23190][Pipeline.cpp:69] Pipeline deInit start!
+[01/07 19:14:20.442838][info][23190][Pipeline.cpp:76] Pipeline destroyed! @0xAAAB1E0CC410
+[01/07 19:14:20.442998][info][23190][OpenNIDevice.cpp:37] OpenNI device destroyed! PID: 0x0402, SN: 17062710297
+[01/07 19:14:20.443127][debug][23190][VendorCommand.cpp:197] destructor aaab1e095070
+[01/07 19:14:20.443206][debug][23190][VendorCommand.cpp:443] disableHeartBeat heartBeatHelper_: 0
+[01/07 19:14:20.443253][debug][23190][HostProtocol.cpp:139] ~HostProtocol()
+[01/07 19:14:20.443354][debug][23194][HostProtocol.cpp:167] emitTranDataFutureSignalThread_ finish
+[01/07 19:14:20.444074][debug][23190][Context.cpp:80] Context destroying ...
+[01/07 19:14:20.444183][debug][23190][DeviceManager.cpp:59] DeviceManager destroy ...
+[01/07 19:14:20.444226][debug][23190][DeviceManager.cpp:67] DeviceManager Destructors done
+[01/07 19:14:20.444882][info][23190][Context.cpp:83] Context destroyed
+[01/07 19:15:20.657244][debug][23197][Context.cpp:29] Context creating. work_dir=/home/xtark/tarkbot/ros2_ws
+[01/07 19:15:20.657526][debug][23197][Context.cpp:48] Config file version=1.1
+[01/07 19:15:20.657611][debug][23197][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[01/07 19:15:20.657645][info][23197][Context.cpp:67] Context created with config: default config!
+[01/07 19:15:20.657708][info][23197][Context.cpp:72] Context work_dir=/home/xtark/tarkbot/ros2_ws
+[01/07 19:15:20.657752][debug][23197][DeviceManager.cpp:30] DeviceManager init ...
+[01/07 19:15:20.657769][debug][23197][LinuxPal.cpp:38] createObPal: create LinuxPal!
+[01/07 19:15:20.659476][debug][23197][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[01/07 19:15:20.660393][debug][23197][EnumeratorLibusb.cpp:323] queryDevicesInfo done!
+[01/07 19:15:20.660552][debug][23197][ObV4lDevice.cpp:346] Found video4linux: video15
+[01/07 19:15:20.661675][debug][23197][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video15
+[01/07 19:15:20.661713][debug][23197][ObV4lDevice.cpp:346] Found video4linux: video13
+[01/07 19:15:20.662677][debug][23197][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video13
+[01/07 19:15:20.662731][debug][23197][ObV4lDevice.cpp:346] Found video4linux: video11
+[01/07 19:15:20.663700][debug][23197][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video11
+[01/07 19:15:20.663722][debug][23197][ObV4lDevice.cpp:346] Found video4linux: video16
+[01/07 19:15:20.664677][debug][23197][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video16
+[01/07 19:15:20.664700][debug][23197][ObV4lDevice.cpp:346] Found video4linux: video14
+[01/07 19:15:20.665700][debug][23197][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video14
+[01/07 19:15:20.665725][debug][23197][ObV4lDevice.cpp:346] Found video4linux: video12
+[01/07 19:15:20.666708][debug][23197][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video12
+[01/07 19:15:20.666729][debug][23197][ObV4lDevice.cpp:346] Found video4linux: video10
+[01/07 19:15:20.667673][debug][23197][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video10
+[01/07 19:15:20.667737][debug][23197][UsbDeviceEnumerator.cpp:161] Current usb device port list:
+[01/07 19:15:20.667754][debug][23197][UsbDeviceEnumerator.cpp:164]  - 1-1.1-8.0 | ORBBEC Close Depth Sensor
+[01/07 19:15:20.667767][debug][23197][UsbDeviceEnumerator.cpp:164]  - 1-1.1-8.1 | ORBBEC Audio Device
+[01/07 19:15:20.667833][warning][23197][OpenNIDeviceInfo.cpp:122] New openni device matched.
+[01/07 19:15:20.668118][info][23197][LinuxPal.cpp:112] Create PollingDeviceWatcher!
+[01/07 19:15:20.668181][debug][23197][UsbDeviceEnumerator.cpp:69] Found 1 device(s):
+[01/07 19:15:20.668203][debug][23197][UsbDeviceEnumerator.cpp:72]   - Name: Astra S, PID: 0x0402, SN/ID: , connection: USB2.0
+[01/07 19:15:20.668226][info][23197][DeviceManager.cpp:15] Current found device(s): (1)
+[01/07 19:15:20.668256][info][23197][DeviceManager.cpp:24] 	- Name: Astra S, PID: 0x0402, SN/ID: , Connection: USB2.0
+[01/07 19:15:20.668282][debug][23197][DeviceManager.cpp:55] DeviceManager construct done!
+[01/07 19:15:51.317541][debug][23204][Context.cpp:29] Context creating. work_dir=/home/xtark/tarkbot/ros2_ws
+[01/07 19:15:51.317921][debug][23204][Context.cpp:48] Config file version=1.1
+[01/07 19:15:51.318011][debug][23204][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[01/07 19:15:51.318061][info][23204][Context.cpp:67] Context created with config: default config!
+[01/07 19:15:51.318153][info][23204][Context.cpp:72] Context work_dir=/home/xtark/tarkbot/ros2_ws
+[01/07 19:15:51.318209][debug][23204][DeviceManager.cpp:30] DeviceManager init ...
+[01/07 19:15:51.318229][debug][23204][LinuxPal.cpp:38] createObPal: create LinuxPal!
+[01/07 19:15:51.320790][debug][23204][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[01/07 19:15:51.326324][debug][23204][EnumeratorLibusb.cpp:323] queryDevicesInfo done!
+[01/07 19:15:51.326573][debug][23204][ObV4lDevice.cpp:346] Found video4linux: video15
+[01/07 19:15:51.327744][debug][23204][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video15
+[01/07 19:15:51.327809][debug][23204][ObV4lDevice.cpp:346] Found video4linux: video13
+[01/07 19:15:51.328809][debug][23204][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video13
+[01/07 19:15:51.328864][debug][23204][ObV4lDevice.cpp:346] Found video4linux: video11
+[01/07 19:15:51.329916][debug][23204][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video11
+[01/07 19:15:51.329979][debug][23204][ObV4lDevice.cpp:346] Found video4linux: video16
+[01/07 19:15:51.330973][debug][23204][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video16
+[01/07 19:15:51.331024][debug][23204][ObV4lDevice.cpp:346] Found video4linux: video14
+[01/07 19:15:51.332010][debug][23204][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video14
+[01/07 19:15:51.332065][debug][23204][ObV4lDevice.cpp:346] Found video4linux: video12
+[01/07 19:15:51.333080][debug][23204][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video12
+[01/07 19:15:51.333139][debug][23204][ObV4lDevice.cpp:346] Found video4linux: video10
+[01/07 19:15:51.334168][debug][23204][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video10
+[01/07 19:15:51.334338][debug][23204][UsbDeviceEnumerator.cpp:161] Current usb device port list:
+[01/07 19:15:51.334361][debug][23204][UsbDeviceEnumerator.cpp:164]  - 1-1.1-8.0 | ORBBEC Close Depth Sensor
+[01/07 19:15:51.334375][debug][23204][UsbDeviceEnumerator.cpp:164]  - 1-1.1-8.1 | ORBBEC Audio Device
+[01/07 19:15:51.334418][warning][23204][OpenNIDeviceInfo.cpp:122] New openni device matched.
+[01/07 19:15:51.335030][info][23204][LinuxPal.cpp:112] Create PollingDeviceWatcher!
+[01/07 19:15:51.335092][debug][23204][UsbDeviceEnumerator.cpp:69] Found 1 device(s):
+[01/07 19:15:51.335113][debug][23204][UsbDeviceEnumerator.cpp:72]   - Name: Astra S, PID: 0x0402, SN/ID: , connection: USB2.0
+[01/07 19:15:51.335134][info][23204][DeviceManager.cpp:15] Current found device(s): (1)
+[01/07 19:15:51.335225][info][23204][DeviceManager.cpp:24] 	- Name: Astra S, PID: 0x0402, SN/ID: , Connection: USB2.0
+[01/07 19:15:51.335279][debug][23204][DeviceManager.cpp:55] DeviceManager construct done!
+[01/07 19:15:51.335324][info][23204][Pipeline.cpp:15] Try to create pipeline with default device.
+[01/07 19:15:51.335384][debug][23204][DeviceManager.cpp:112] DeviceManager  createDevice...
+[01/07 19:15:51.335418][debug][23204][UsbDeviceEnumerator.cpp:289] UsbDeviceEnumerator createDevice...
+[01/07 19:15:51.336456][info][23204][OpenNIHostProtocol.cpp:546] Hardware versions: FW=5.8.22 (14), HW=0, Chip=0, Sensor=0, SYS=12
+[01/07 19:15:51.336997][error][23204][OpenNIHostProtocol.cpp:563] Get usb core type failed!
+[01/07 19:15:51.337211][debug][23204][OpenNIHostProtocol.cpp:644] Requesting KeepAlive...
+[01/07 19:15:51.337534][debug][23204][OpenNIHostProtocol.cpp:651] Got KeepAlive Reply.
+[01/07 19:15:51.338984][debug][23204][OpenNIHostProtocol.cpp:644] Requesting KeepAlive...
+[01/07 19:15:51.339412][debug][23204][OpenNIHostProtocol.cpp:651] Got KeepAlive Reply.
+[01/07 19:15:51.339450][debug][23204][OpenNIHostProtocol.cpp:669] Getting the fixed params...
+[01/07 19:15:51.339873][debug][23204][OpenNIHostProtocol.cpp:709] Reading sensor serial number...
+[01/07 19:15:51.340221][info][23204][OpenNISensorFirmware.cpp:1125] Sensor serial number:17062710297
+[01/07 19:15:51.340802][debug][23204][OpenNIHostProtocol.cpp:781] Reading sensor platform string...
+[01/07 19:15:51.341138][info][23204][OpenNISensorFirmware.cpp:1153] Firmware version RD109Y-007
+[01/07 19:15:51.341675][info][23204][OpenNISensorFirmware.cpp:1159] Device frequency 100
+[01/07 19:15:51.341859][debug][23204][OpenNIHostProtocol.cpp:858] Update supported depth video modes from firmware
+[01/07 19:15:51.341902][debug][23204][OpenNIHostProtocol.cpp:894] Reading CMOS 0 supported presets...
+[01/07 19:15:51.351066][debug][23204][OpenNISensorFirmware.cpp:1171] OpenNI camera params read.
+[01/07 19:15:51.351914][debug][23204][OpenNISensorFirmware.cpp:1864] OpenNI camera params read end.
+[01/07 19:15:51.552994][error][23204][OpenNIHostProtocol.cpp:931] Support sub cmd error!
+[01/07 19:15:51.553137][warning][23204][OpenNISensorFirmware.cpp:148] OpenNI2 camera don't support Watchdog function!
+[01/07 19:15:51.553181][debug][23204][OpenNISensorIO.cpp:29] Opening endpoint 0x81 for depth...
+[01/07 19:15:51.553220][debug][23204][OpenNISensorIO.cpp:41] Depth endpoint(0x81) was successfully opened.
+[01/07 19:15:51.553258][debug][23204][OpenNISensorIO.cpp:48] Opening endpoint 0x82 for IR...
+[01/07 19:15:51.553277][debug][23204][OpenNISensorIO.cpp:54] IR endpoint(0x82) was successfully opened.
+[01/07 19:15:51.553291][debug][23204][OpenNISensorIO.cpp:60] Opening endpoint 0x84  for image...
+[01/07 19:15:51.553306][debug][23204][OpenNISensorIO.cpp:65] Image endpoint is not supported...
+[01/07 19:15:51.553320][debug][23204][OpenNISensorIO.cpp:75] Opening endpoint 0x83 for misc...
+[01/07 19:15:51.553333][debug][23204][OpenNISensorIO.cpp:80] Misc endpoint is not supported...
+[01/07 19:15:51.553346][debug][23204][OpenNISensorIO.cpp:87] Endpoints open end.
+[01/07 19:15:51.553434][debug][23204][VendorCommand.cpp:189] VendorCommand constructor aaaabf8cf070
+[01/07 19:15:51.553464][debug][23204][OpenNIDevice.cpp:190] init sensor map start!
+[01/07 19:15:51.553657][debug][23204][OpenNIDevice.cpp:204] init sensor map done!
+[01/07 19:15:51.553966][debug][23204][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1000, dataLen: 164
+[01/07 19:15:51.554190][debug][23204][AbstractDevice.cpp:352] Not default config found!
+[01/07 19:15:51.554270][debug][23204][OpenNIDevice.cpp:430] Init depth process param start!
+[01/07 19:15:51.554328][debug][23204][OpenNIDevice.cpp:452] Device baseline: 7.5, zpd: 65, zpps: 0.056983333081007004
+[01/07 19:15:51.554344][debug][23204][OpenNIDevice.cpp:477] Init depth process param done!
+[01/07 19:15:51.554391][info][23204][OpenNIDevice.cpp:33] OpenNI device created! PID: 0x0402, SN: 17062710297
+[01/07 19:15:51.554518][debug][23204][UsbDeviceEnumerator.cpp:338] Device created successfully! Name: Astra S, PID: 0x0402, SN/ID: 
+[01/07 19:15:51.554554][info][23204][DeviceManager.cpp:157] Device created successfully! Name: Astra S, PID: 0x0402, SN/ID: 
+[01/07 19:15:51.554613][debug][23204][Pipeline.cpp:29] Pipeline init ...
+[01/07 19:15:51.554706][debug][23204][Pipeline.cpp:169] loadFrameQueueSizeConfig() config queue size: 10
+[01/07 19:15:51.554742][warning][23204][ObException.cpp:5] Current device does not support frame sync!
+[01/07 19:15:51.555118][warning][23204][Pipeline.cpp:43] Execute failure! A libobsensor_exception has occurred!
+	 - where:43#Pipeline
+	 - msg:Current device does not support frame sync!
+	 - type:N11libobsensor31unsupported_operation_exceptionE
+[01/07 19:15:51.555463][info][23204][Pipeline.cpp:46] Pipeline created with device: {name: Astra S, sn: 17062710297}, @0xAAAABF906350
+[01/07 19:15:51.555760][debug][23204][Pipeline.cpp:69] Pipeline deInit start!
+[01/07 19:15:51.555873][info][23204][Pipeline.cpp:76] Pipeline destroyed! @0xAAAABF906350
+[01/07 19:15:51.556208][info][23204][OpenNIDevice.cpp:37] OpenNI device destroyed! PID: 0x0402, SN: 17062710297
+[01/07 19:15:51.556426][debug][23204][VendorCommand.cpp:197] destructor aaaabf8cf070
+[01/07 19:15:51.556473][debug][23204][VendorCommand.cpp:443] disableHeartBeat heartBeatHelper_: 0
+[01/07 19:15:51.556493][debug][23204][HostProtocol.cpp:139] ~HostProtocol()
+[01/07 19:15:51.556543][debug][23208][HostProtocol.cpp:167] emitTranDataFutureSignalThread_ finish
+[01/07 19:15:51.556886][debug][23204][Context.cpp:80] Context destroying ...
+[01/07 19:15:51.556924][debug][23204][DeviceManager.cpp:59] DeviceManager destroy ...
+[01/07 19:15:51.556940][debug][23204][DeviceManager.cpp:67] DeviceManager Destructors done
+[01/07 19:15:51.557195][info][23204][Context.cpp:83] Context destroyed
+[01/07 19:17:24.390332][debug][23216][Context.cpp:29] Context creating. work_dir=/home/xtark/tarkbot/ros2_ws
+[01/07 19:17:24.390488][debug][23216][Context.cpp:48] Config file version=1.1
+[01/07 19:17:24.390549][debug][23216][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[01/07 19:17:24.390585][info][23216][Context.cpp:67] Context created with config: /home/xtark/tarkbot/ros2_ws/install/orbbec_camera/share/orbbec_camera/config/OrbbecSDKConfig_v1.0.xml
+[01/07 19:17:24.390654][info][23216][Context.cpp:72] Context work_dir=/home/xtark/tarkbot/ros2_ws
+[01/07 19:17:24.390695][debug][23216][DeviceManager.cpp:30] DeviceManager init ...
+[01/07 19:17:24.390714][debug][23216][LinuxPal.cpp:38] createObPal: create LinuxPal!
+[01/07 19:17:24.392646][debug][23216][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[01/07 19:17:24.393667][debug][23216][EnumeratorLibusb.cpp:323] queryDevicesInfo done!
+[01/07 19:17:24.393843][debug][23216][ObV4lDevice.cpp:346] Found video4linux: video15
+[01/07 19:17:24.394926][debug][23216][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video15
+[01/07 19:17:24.394959][debug][23216][ObV4lDevice.cpp:346] Found video4linux: video13
+[01/07 19:17:24.395944][debug][23216][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video13
+[01/07 19:17:24.395972][debug][23216][ObV4lDevice.cpp:346] Found video4linux: video11
+[01/07 19:17:24.396961][debug][23216][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video11
+[01/07 19:17:24.397017][debug][23216][ObV4lDevice.cpp:346] Found video4linux: video16
+[01/07 19:17:24.398097][debug][23216][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video16
+[01/07 19:17:24.398127][debug][23216][ObV4lDevice.cpp:346] Found video4linux: video14
+[01/07 19:17:24.399095][debug][23216][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video14
+[01/07 19:17:24.399118][debug][23216][ObV4lDevice.cpp:346] Found video4linux: video12
+[01/07 19:17:24.400094][debug][23216][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video12
+[01/07 19:17:24.400137][debug][23216][ObV4lDevice.cpp:346] Found video4linux: video10
+[01/07 19:17:24.401109][debug][23216][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video10
+[01/07 19:17:24.401182][debug][23216][UsbDeviceEnumerator.cpp:161] Current usb device port list:
+[01/07 19:17:24.401200][debug][23216][UsbDeviceEnumerator.cpp:164]  - 1-1.1-8.0 | ORBBEC Close Depth Sensor
+[01/07 19:17:24.401214][debug][23216][UsbDeviceEnumerator.cpp:164]  - 1-1.1-8.1 | ORBBEC Audio Device
+[01/07 19:17:24.401268][warning][23216][OpenNIDeviceInfo.cpp:122] New openni device matched.
+[01/07 19:17:24.401514][info][23216][LinuxPal.cpp:112] Create PollingDeviceWatcher!
+[01/07 19:17:24.401593][debug][23216][UsbDeviceEnumerator.cpp:69] Found 1 device(s):
+[01/07 19:17:24.401621][debug][23216][UsbDeviceEnumerator.cpp:72]   - Name: Astra S, PID: 0x0402, SN/ID: , connection: USB2.0
+[01/07 19:17:24.401644][info][23216][DeviceManager.cpp:15] Current found device(s): (1)
+[01/07 19:17:24.401669][info][23216][DeviceManager.cpp:24] 	- Name: Astra S, PID: 0x0402, SN/ID: , Connection: USB2.0
+[01/07 19:17:24.401688][debug][23216][DeviceManager.cpp:55] DeviceManager construct done!
+[01/08 10:27:42.774897][debug][2881][Context.cpp:29] Context creating. work_dir=/home/xtark/tarkbot/ros2_ws
+[01/08 10:27:42.776086][debug][2881][Context.cpp:48] Config file version=1.1
+[01/08 10:27:42.780187][debug][2881][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[01/08 10:27:42.780329][info][2881][Context.cpp:67] Context created with config: /home/xtark/tarkbot/ros2_ws/install/orbbec_camera/share/orbbec_camera/config/OrbbecSDKConfig_v1.0.xml
+[01/08 10:27:42.780457][info][2881][Context.cpp:72] Context work_dir=/home/xtark/tarkbot/ros2_ws
+[01/08 10:27:42.780567][debug][2881][DeviceManager.cpp:30] DeviceManager init ...
+[01/08 10:27:42.780598][debug][2881][LinuxPal.cpp:38] createObPal: create LinuxPal!
+[01/08 10:27:42.787971][debug][2881][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[01/08 10:27:42.789633][debug][2881][EnumeratorLibusb.cpp:323] queryDevicesInfo done!
+[01/08 10:27:42.789921][debug][2881][ObV4lDevice.cpp:346] Found video4linux: video15
+[01/08 10:27:42.792256][debug][2881][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video15
+[01/08 10:27:42.792308][debug][2881][ObV4lDevice.cpp:346] Found video4linux: video13
+[01/08 10:27:42.793721][debug][2881][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video13
+[01/08 10:27:42.793755][debug][2881][ObV4lDevice.cpp:346] Found video4linux: video11
+[01/08 10:27:42.795152][debug][2881][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video11
+[01/08 10:27:42.795184][debug][2881][ObV4lDevice.cpp:346] Found video4linux: video16
+[01/08 10:27:42.796620][debug][2881][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video16
+[01/08 10:27:42.796666][debug][2881][ObV4lDevice.cpp:346] Found video4linux: video14
+[01/08 10:27:42.798067][debug][2881][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video14
+[01/08 10:27:42.798099][debug][2881][ObV4lDevice.cpp:346] Found video4linux: video12
+[01/08 10:27:42.799485][debug][2881][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video12
+[01/08 10:27:42.799517][debug][2881][ObV4lDevice.cpp:346] Found video4linux: video10
+[01/08 10:27:42.800949][debug][2881][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video10
+[01/08 10:27:42.801142][debug][2881][UsbDeviceEnumerator.cpp:161] Current usb device port list:
+[01/08 10:27:42.801225][debug][2881][UsbDeviceEnumerator.cpp:164]  - 1-1.1-3.0 | ORBBEC Close Depth Sensor
+[01/08 10:27:42.801246][debug][2881][UsbDeviceEnumerator.cpp:164]  - 1-1.1-3.1 | ORBBEC Audio Device
+[01/08 10:27:42.801538][warning][2881][OpenNIDeviceInfo.cpp:122] New openni device matched.
+[01/08 10:27:42.801942][info][2881][LinuxPal.cpp:112] Create PollingDeviceWatcher!
+[01/08 10:27:42.802020][debug][2881][UsbDeviceEnumerator.cpp:69] Found 1 device(s):
+[01/08 10:27:42.802049][debug][2881][UsbDeviceEnumerator.cpp:72]   - Name: Astra S, PID: 0x0402, SN/ID: , connection: USB2.0
+[01/08 10:27:42.802368][info][2881][DeviceManager.cpp:15] Current found device(s): (1)
+[01/08 10:27:42.802433][info][2881][DeviceManager.cpp:24] 	- Name: Astra S, PID: 0x0402, SN/ID: , Connection: USB2.0
+[01/08 10:27:42.802461][debug][2881][DeviceManager.cpp:55] DeviceManager construct done!
+[01/08 10:39:13.759580][debug][4613][Context.cpp:29] Context creating. work_dir=/home/xtark/tarkbot/ros2_ws
+[01/08 10:39:13.759729][debug][4613][Context.cpp:48] Config file version=1.1
+[01/08 10:39:13.759784][debug][4613][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[01/08 10:39:13.759816][info][4613][Context.cpp:67] Context created with config: /home/xtark/tarkbot/ros2_ws/install/orbbec_camera/share/orbbec_camera/config/OrbbecSDKConfig_v1.0.xml
+[01/08 10:39:13.759879][info][4613][Context.cpp:72] Context work_dir=/home/xtark/tarkbot/ros2_ws
+[01/08 10:39:13.760129][debug][4613][DeviceManager.cpp:30] DeviceManager init ...
+[01/08 10:39:13.760149][debug][4613][LinuxPal.cpp:38] createObPal: create LinuxPal!
+[01/08 10:39:13.762086][debug][4613][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[01/08 10:39:13.762967][debug][4613][EnumeratorLibusb.cpp:323] queryDevicesInfo done!
+[01/08 10:39:13.763124][debug][4613][ObV4lDevice.cpp:346] Found video4linux: video15
+[01/08 10:39:13.764244][debug][4613][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video15
+[01/08 10:39:13.764283][debug][4613][ObV4lDevice.cpp:346] Found video4linux: video13
+[01/08 10:39:13.765282][debug][4613][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video13
+[01/08 10:39:13.765330][debug][4613][ObV4lDevice.cpp:346] Found video4linux: video11
+[01/08 10:39:13.766318][debug][4613][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video11
+[01/08 10:39:13.766341][debug][4613][ObV4lDevice.cpp:346] Found video4linux: video16
+[01/08 10:39:13.767331][debug][4613][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video16
+[01/08 10:39:13.767353][debug][4613][ObV4lDevice.cpp:346] Found video4linux: video14
+[01/08 10:39:13.768349][debug][4613][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video14
+[01/08 10:39:13.768375][debug][4613][ObV4lDevice.cpp:346] Found video4linux: video12
+[01/08 10:39:13.769348][debug][4613][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video12
+[01/08 10:39:13.769371][debug][4613][ObV4lDevice.cpp:346] Found video4linux: video10
+[01/08 10:39:13.770353][debug][4613][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video10
+[01/08 10:39:13.770424][debug][4613][UsbDeviceEnumerator.cpp:161] Current usb device port list:
+[01/08 10:39:13.770443][debug][4613][UsbDeviceEnumerator.cpp:164]  - 1-1.1-3.0 | ORBBEC Close Depth Sensor
+[01/08 10:39:13.770458][debug][4613][UsbDeviceEnumerator.cpp:164]  - 1-1.1-3.1 | ORBBEC Audio Device
+[01/08 10:39:13.770524][warning][4613][OpenNIDeviceInfo.cpp:122] New openni device matched.
+[01/08 10:39:13.770763][info][4613][LinuxPal.cpp:112] Create PollingDeviceWatcher!
+[01/08 10:39:13.770813][debug][4613][UsbDeviceEnumerator.cpp:69] Found 1 device(s):
+[01/08 10:39:13.770835][debug][4613][UsbDeviceEnumerator.cpp:72]   - Name: Astra S, PID: 0x0402, SN/ID: , connection: USB2.0
+[01/08 10:39:13.770859][info][4613][DeviceManager.cpp:15] Current found device(s): (1)
+[01/08 10:39:13.770883][info][4613][DeviceManager.cpp:24] 	- Name: Astra S, PID: 0x0402, SN/ID: , Connection: USB2.0
+[01/08 10:39:13.770902][debug][4613][DeviceManager.cpp:55] DeviceManager construct done!
+[01/08 10:41:55.920328][debug][4808][Context.cpp:29] Context creating. work_dir=/home/xtark/tarkbot/ros2_ws
+[01/08 10:41:55.920551][debug][4808][Context.cpp:48] Config file version=1.1
+[01/08 10:41:55.920608][debug][4808][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[01/08 10:41:55.920640][info][4808][Context.cpp:67] Context created with config: default config!
+[01/08 10:41:55.920700][info][4808][Context.cpp:72] Context work_dir=/home/xtark/tarkbot/ros2_ws
+[01/08 10:41:55.920749][debug][4808][DeviceManager.cpp:30] DeviceManager init ...
+[01/08 10:41:55.920766][debug][4808][LinuxPal.cpp:38] createObPal: create LinuxPal!
+[01/08 10:41:55.922548][debug][4808][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[01/08 10:41:55.923446][debug][4808][EnumeratorLibusb.cpp:323] queryDevicesInfo done!
+[01/08 10:41:55.923603][debug][4808][ObV4lDevice.cpp:346] Found video4linux: video15
+[01/08 10:41:55.924827][debug][4808][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video15
+[01/08 10:41:55.924869][debug][4808][ObV4lDevice.cpp:346] Found video4linux: video13
+[01/08 10:41:55.925855][debug][4808][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video13
+[01/08 10:41:55.925900][debug][4808][ObV4lDevice.cpp:346] Found video4linux: video11
+[01/08 10:41:55.926927][debug][4808][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video11
+[01/08 10:41:55.926983][debug][4808][ObV4lDevice.cpp:346] Found video4linux: video16
+[01/08 10:41:55.928102][debug][4808][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video16
+[01/08 10:41:55.928177][debug][4808][ObV4lDevice.cpp:346] Found video4linux: video14
+[01/08 10:41:55.929226][debug][4808][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video14
+[01/08 10:41:55.929308][debug][4808][ObV4lDevice.cpp:346] Found video4linux: video12
+[01/08 10:41:55.930356][debug][4808][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video12
+[01/08 10:41:55.930424][debug][4808][ObV4lDevice.cpp:346] Found video4linux: video10
+[01/08 10:41:55.931439][debug][4808][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video10
+[01/08 10:41:55.931559][debug][4808][UsbDeviceEnumerator.cpp:161] Current usb device port list:
+[01/08 10:41:55.931583][debug][4808][UsbDeviceEnumerator.cpp:164]  - 1-1.1-3.0 | ORBBEC Close Depth Sensor
+[01/08 10:41:55.931597][debug][4808][UsbDeviceEnumerator.cpp:164]  - 1-1.1-3.1 | ORBBEC Audio Device
+[01/08 10:41:55.931673][warning][4808][OpenNIDeviceInfo.cpp:122] New openni device matched.
+[01/08 10:41:55.931985][info][4808][LinuxPal.cpp:112] Create PollingDeviceWatcher!
+[01/08 10:41:55.932058][debug][4808][UsbDeviceEnumerator.cpp:69] Found 1 device(s):
+[01/08 10:41:55.932078][debug][4808][UsbDeviceEnumerator.cpp:72]   - Name: Astra S, PID: 0x0402, SN/ID: , connection: USB2.0
+[01/08 10:41:55.932102][info][4808][DeviceManager.cpp:15] Current found device(s): (1)
+[01/08 10:41:55.932135][info][4808][DeviceManager.cpp:24] 	- Name: Astra S, PID: 0x0402, SN/ID: , Connection: USB2.0
+[01/08 10:41:55.932168][debug][4808][DeviceManager.cpp:55] DeviceManager construct done!
+[01/08 10:43:52.544105][debug][6329][Context.cpp:29] Context creating. work_dir=/home/xtark/tarkbot/ros2_ws
+[01/08 10:43:52.544323][debug][6329][Context.cpp:48] Config file version=1.1
+[01/08 10:43:52.544426][debug][6329][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[01/08 10:43:52.544458][info][6329][Context.cpp:67] Context created with config: default config!
+[01/08 10:43:52.544520][info][6329][Context.cpp:72] Context work_dir=/home/xtark/tarkbot/ros2_ws
+[01/08 10:43:52.544575][debug][6329][DeviceManager.cpp:30] DeviceManager init ...
+[01/08 10:43:52.544593][debug][6329][LinuxPal.cpp:38] createObPal: create LinuxPal!
+[01/08 10:43:52.546355][debug][6329][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[01/08 10:43:52.547201][debug][6329][EnumeratorLibusb.cpp:323] queryDevicesInfo done!
+[01/08 10:43:52.547369][debug][6329][ObV4lDevice.cpp:346] Found video4linux: video15
+[01/08 10:43:52.548502][debug][6329][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video15
+[01/08 10:43:52.548582][debug][6329][ObV4lDevice.cpp:346] Found video4linux: video13
+[01/08 10:43:52.549581][debug][6329][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video13
+[01/08 10:43:52.549604][debug][6329][ObV4lDevice.cpp:346] Found video4linux: video11
+[01/08 10:43:52.550574][debug][6329][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video11
+[01/08 10:43:52.550595][debug][6329][ObV4lDevice.cpp:346] Found video4linux: video16
+[01/08 10:43:52.551560][debug][6329][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video16
+[01/08 10:43:52.551580][debug][6329][ObV4lDevice.cpp:346] Found video4linux: video14
+[01/08 10:43:52.552563][debug][6329][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video14
+[01/08 10:43:52.552589][debug][6329][ObV4lDevice.cpp:346] Found video4linux: video12
+[01/08 10:43:52.553555][debug][6329][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video12
+[01/08 10:43:52.553578][debug][6329][ObV4lDevice.cpp:346] Found video4linux: video10
+[01/08 10:43:52.554579][debug][6329][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video10
+[01/08 10:43:52.554637][debug][6329][UsbDeviceEnumerator.cpp:161] Current usb device port list:
+[01/08 10:43:52.554654][debug][6329][UsbDeviceEnumerator.cpp:164]  - 1-1.1-3.0 | ORBBEC Close Depth Sensor
+[01/08 10:43:52.554668][debug][6329][UsbDeviceEnumerator.cpp:164]  - 1-1.1-3.1 | ORBBEC Audio Device
+[01/08 10:43:52.554712][warning][6329][OpenNIDeviceInfo.cpp:122] New openni device matched.
+[01/08 10:43:52.554955][info][6329][LinuxPal.cpp:112] Create PollingDeviceWatcher!
+[01/08 10:43:52.555019][debug][6329][UsbDeviceEnumerator.cpp:69] Found 1 device(s):
+[01/08 10:43:52.555040][debug][6329][UsbDeviceEnumerator.cpp:72]   - Name: Astra S, PID: 0x0402, SN/ID: , connection: USB2.0
+[01/08 10:43:52.555062][info][6329][DeviceManager.cpp:15] Current found device(s): (1)
+[01/08 10:43:52.555094][info][6329][DeviceManager.cpp:24] 	- Name: Astra S, PID: 0x0402, SN/ID: , Connection: USB2.0
+[01/08 10:43:52.555122][debug][6329][DeviceManager.cpp:55] DeviceManager construct done!
+[01/08 10:44:06.447246][debug][6340][Context.cpp:29] Context creating. work_dir=/home/xtark/tarkbot/ros2_ws
+[01/08 10:44:06.447407][debug][6340][Context.cpp:48] Config file version=1.1
+[01/08 10:44:06.447503][debug][6340][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[01/08 10:44:06.447542][info][6340][Context.cpp:67] Context created with config: /home/xtark/tarkbot/ros2_ws/install/orbbec_camera/share/orbbec_camera/config/OrbbecSDKConfig_v1.0.xml
+[01/08 10:44:06.447609][info][6340][Context.cpp:72] Context work_dir=/home/xtark/tarkbot/ros2_ws
+[01/08 10:44:06.447643][debug][6340][DeviceManager.cpp:30] DeviceManager init ...
+[01/08 10:44:06.447660][debug][6340][LinuxPal.cpp:38] createObPal: create LinuxPal!
+[01/08 10:44:06.450161][debug][6340][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[01/08 10:44:06.451111][debug][6340][EnumeratorLibusb.cpp:323] queryDevicesInfo done!
+[01/08 10:44:06.451304][debug][6340][ObV4lDevice.cpp:346] Found video4linux: video15
+[01/08 10:44:06.452428][debug][6340][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video15
+[01/08 10:44:06.452469][debug][6340][ObV4lDevice.cpp:346] Found video4linux: video13
+[01/08 10:44:06.453496][debug][6340][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video13
+[01/08 10:44:06.453530][debug][6340][ObV4lDevice.cpp:346] Found video4linux: video11
+[01/08 10:44:06.454541][debug][6340][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video11
+[01/08 10:44:06.454567][debug][6340][ObV4lDevice.cpp:346] Found video4linux: video16
+[01/08 10:44:06.455577][debug][6340][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video16
+[01/08 10:44:06.455606][debug][6340][ObV4lDevice.cpp:346] Found video4linux: video14
+[01/08 10:44:06.456700][debug][6340][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video14
+[01/08 10:44:06.456736][debug][6340][ObV4lDevice.cpp:346] Found video4linux: video12
+[01/08 10:44:06.458051][debug][6340][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video12
+[01/08 10:44:06.458079][debug][6340][ObV4lDevice.cpp:346] Found video4linux: video10
+[01/08 10:44:06.459343][debug][6340][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video10
+[01/08 10:44:06.459437][debug][6340][UsbDeviceEnumerator.cpp:161] Current usb device port list:
+[01/08 10:44:06.459463][debug][6340][UsbDeviceEnumerator.cpp:164]  - 1-1.1-3.0 | ORBBEC Close Depth Sensor
+[01/08 10:44:06.459480][debug][6340][UsbDeviceEnumerator.cpp:164]  - 1-1.1-3.1 | ORBBEC Audio Device
+[01/08 10:44:06.459547][warning][6340][OpenNIDeviceInfo.cpp:122] New openni device matched.
+[01/08 10:44:06.459815][info][6340][LinuxPal.cpp:112] Create PollingDeviceWatcher!
+[01/08 10:44:06.459880][debug][6340][UsbDeviceEnumerator.cpp:69] Found 1 device(s):
+[01/08 10:44:06.459940][debug][6340][UsbDeviceEnumerator.cpp:72]   - Name: Astra S, PID: 0x0402, SN/ID: , connection: USB2.0
+[01/08 10:44:06.459970][info][6340][DeviceManager.cpp:15] Current found device(s): (1)
+[01/08 10:44:06.460002][info][6340][DeviceManager.cpp:24] 	- Name: Astra S, PID: 0x0402, SN/ID: , Connection: USB2.0
+[01/08 10:44:06.460027][debug][6340][DeviceManager.cpp:55] DeviceManager construct done!
+[01/08 10:48:18.129790][debug][7991][Context.cpp:29] Context creating. work_dir=/home/xtark/tarkbot/ros2_ws
+[01/08 10:48:18.129986][debug][7991][Context.cpp:48] Config file version=1.1
+[01/08 10:48:18.130054][debug][7991][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[01/08 10:48:18.130097][info][7991][Context.cpp:67] Context created with config: /home/xtark/tarkbot/ros2_ws/install/orbbec_camera/share/orbbec_camera/config/OrbbecSDKConfig_v1.0.xml
+[01/08 10:48:18.130173][info][7991][Context.cpp:72] Context work_dir=/home/xtark/tarkbot/ros2_ws
+[01/08 10:48:18.130223][debug][7991][DeviceManager.cpp:30] DeviceManager init ...
+[01/08 10:48:18.130241][debug][7991][LinuxPal.cpp:38] createObPal: create LinuxPal!
+[01/08 10:48:18.132543][debug][7991][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[01/08 10:48:18.136110][debug][7991][EnumeratorLibusb.cpp:323] queryDevicesInfo done!
+[01/08 10:48:18.136616][debug][7991][ObV4lDevice.cpp:346] Found video4linux: video15
+[01/08 10:48:18.137910][debug][7991][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video15
+[01/08 10:48:18.138202][debug][7991][ObV4lDevice.cpp:346] Found video4linux: video13
+[01/08 10:48:18.139446][debug][7991][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video13
+[01/08 10:48:18.139667][debug][7991][ObV4lDevice.cpp:346] Found video4linux: video11
+[01/08 10:48:18.140884][debug][7991][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video11
+[01/08 10:48:18.141131][debug][7991][ObV4lDevice.cpp:346] Found video4linux: video16
+[01/08 10:48:18.142297][debug][7991][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video16
+[01/08 10:48:18.142540][debug][7991][ObV4lDevice.cpp:346] Found video4linux: video14
+[01/08 10:48:18.143751][debug][7991][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video14
+[01/08 10:48:18.144020][debug][7991][ObV4lDevice.cpp:346] Found video4linux: video12
+[01/08 10:48:18.145198][debug][7991][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video12
+[01/08 10:48:18.145417][debug][7991][ObV4lDevice.cpp:346] Found video4linux: video10
+[01/08 10:48:18.146570][debug][7991][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video10
+[01/08 10:48:18.146866][debug][7991][UsbDeviceEnumerator.cpp:161] Current usb device port list:
+[01/08 10:48:18.147030][debug][7991][UsbDeviceEnumerator.cpp:164]  - 1-1.1-3.0 | ORBBEC Close Depth Sensor
+[01/08 10:48:18.147174][debug][7991][UsbDeviceEnumerator.cpp:164]  - 1-1.1-3.1 | ORBBEC Audio Device
+[01/08 10:48:18.147347][warning][7991][OpenNIDeviceInfo.cpp:122] New openni device matched.
+[01/08 10:48:18.147828][info][7991][LinuxPal.cpp:112] Create PollingDeviceWatcher!
+[01/08 10:48:18.148242][debug][7991][UsbDeviceEnumerator.cpp:69] Found 1 device(s):
+[01/08 10:48:18.148780][debug][7991][UsbDeviceEnumerator.cpp:72]   - Name: Astra S, PID: 0x0402, SN/ID: , connection: USB2.0
+[01/08 10:48:18.149077][info][7991][DeviceManager.cpp:15] Current found device(s): (1)
+[01/08 10:48:18.149283][info][7991][DeviceManager.cpp:24] 	- Name: Astra S, PID: 0x0402, SN/ID: , Connection: USB2.0
+[01/08 10:48:18.149469][debug][7991][DeviceManager.cpp:55] DeviceManager construct done!
+[01/08 10:51:08.998519][debug][8199][Context.cpp:29] Context creating. work_dir=/home/xtark/tarkbot/ros2_ws
+[01/08 10:51:08.998709][debug][8199][Context.cpp:48] Config file version=1.1
+[01/08 10:51:08.998769][debug][8199][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[01/08 10:51:08.998800][info][8199][Context.cpp:67] Context created with config: /home/xtark/tarkbot/ros2_ws/install/orbbec_camera/share/orbbec_camera/config/OrbbecSDKConfig_v1.0.xml
+[01/08 10:51:08.998859][info][8199][Context.cpp:72] Context work_dir=/home/xtark/tarkbot/ros2_ws
+[01/08 10:51:08.998896][debug][8199][DeviceManager.cpp:30] DeviceManager init ...
+[01/08 10:51:08.998915][debug][8199][LinuxPal.cpp:38] createObPal: create LinuxPal!
+[01/08 10:51:09.000864][debug][8199][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[01/08 10:51:09.001754][debug][8199][EnumeratorLibusb.cpp:323] queryDevicesInfo done!
+[01/08 10:51:09.001920][debug][8199][ObV4lDevice.cpp:346] Found video4linux: video15
+[01/08 10:51:09.003013][debug][8199][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video15
+[01/08 10:51:09.003045][debug][8199][ObV4lDevice.cpp:346] Found video4linux: video13
+[01/08 10:51:09.004155][debug][8199][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video13
+[01/08 10:51:09.004187][debug][8199][ObV4lDevice.cpp:346] Found video4linux: video11
+[01/08 10:51:09.005173][debug][8199][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video11
+[01/08 10:51:09.005198][debug][8199][ObV4lDevice.cpp:346] Found video4linux: video16
+[01/08 10:51:09.006179][debug][8199][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video16
+[01/08 10:51:09.006202][debug][8199][ObV4lDevice.cpp:346] Found video4linux: video14
+[01/08 10:51:09.007186][debug][8199][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video14
+[01/08 10:51:09.007209][debug][8199][ObV4lDevice.cpp:346] Found video4linux: video12
+[01/08 10:51:09.008204][debug][8199][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video12
+[01/08 10:51:09.008230][debug][8199][ObV4lDevice.cpp:346] Found video4linux: video10
+[01/08 10:51:09.009226][debug][8199][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video10
+[01/08 10:51:09.009293][debug][8199][UsbDeviceEnumerator.cpp:161] Current usb device port list:
+[01/08 10:51:09.009312][debug][8199][UsbDeviceEnumerator.cpp:164]  - 1-1.1-3.0 | ORBBEC Close Depth Sensor
+[01/08 10:51:09.009327][debug][8199][UsbDeviceEnumerator.cpp:164]  - 1-1.1-3.1 | ORBBEC Audio Device
+[01/08 10:51:09.009366][warning][8199][OpenNIDeviceInfo.cpp:122] New openni device matched.
+[01/08 10:51:09.009622][info][8199][LinuxPal.cpp:112] Create PollingDeviceWatcher!
+[01/08 10:51:09.009669][debug][8199][UsbDeviceEnumerator.cpp:69] Found 1 device(s):
+[01/08 10:51:09.009692][debug][8199][UsbDeviceEnumerator.cpp:72]   - Name: Astra S, PID: 0x0402, SN/ID: , connection: USB2.0
+[01/08 10:51:09.009714][info][8199][DeviceManager.cpp:15] Current found device(s): (1)
+[01/08 10:51:09.009738][info][8199][DeviceManager.cpp:24] 	- Name: Astra S, PID: 0x0402, SN/ID: , Connection: USB2.0
+[01/08 10:51:09.009758][debug][8199][DeviceManager.cpp:55] DeviceManager construct done!
+[01/08 11:25:17.273605][debug][2783][Context.cpp:29] Context creating. work_dir=/home/xtark/tarkbot/ros2_ws
+[01/08 11:25:17.274665][debug][2783][Context.cpp:48] Config file version=1.1
+[01/08 11:25:17.278573][debug][2783][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[01/08 11:25:17.278711][info][2783][Context.cpp:67] Context created with config: /home/xtark/tarkbot/ros2_ws/install/orbbec_camera/share/orbbec_camera/config/OrbbecSDKConfig_v1.0.xml
+[01/08 11:25:17.278837][info][2783][Context.cpp:72] Context work_dir=/home/xtark/tarkbot/ros2_ws
+[01/08 11:25:17.278945][debug][2783][DeviceManager.cpp:30] DeviceManager init ...
+[01/08 11:25:17.278972][debug][2783][LinuxPal.cpp:38] createObPal: create LinuxPal!
+[01/08 11:25:17.286294][debug][2783][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[01/08 11:25:17.287972][debug][2783][EnumeratorLibusb.cpp:323] queryDevicesInfo done!
+[01/08 11:25:17.288266][debug][2783][ObV4lDevice.cpp:346] Found video4linux: video15
+[01/08 11:25:17.290611][debug][2783][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video15
+[01/08 11:25:17.290682][debug][2783][ObV4lDevice.cpp:346] Found video4linux: video13
+[01/08 11:25:17.292155][debug][2783][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video13
+[01/08 11:25:17.292196][debug][2783][ObV4lDevice.cpp:346] Found video4linux: video11
+[01/08 11:25:17.293516][debug][2783][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video11
+[01/08 11:25:17.293552][debug][2783][ObV4lDevice.cpp:346] Found video4linux: video16
+[01/08 11:25:17.294829][debug][2783][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video16
+[01/08 11:25:17.294858][debug][2783][ObV4lDevice.cpp:346] Found video4linux: video14
+[01/08 11:25:17.296149][debug][2783][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video14
+[01/08 11:25:17.296177][debug][2783][ObV4lDevice.cpp:346] Found video4linux: video12
+[01/08 11:25:17.297479][debug][2783][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video12
+[01/08 11:25:17.297523][debug][2783][ObV4lDevice.cpp:346] Found video4linux: video10
+[01/08 11:25:17.298781][debug][2783][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video10
+[01/08 11:25:17.298949][debug][2783][UsbDeviceEnumerator.cpp:161] Current usb device port list:
+[01/08 11:25:17.298981][debug][2783][UsbDeviceEnumerator.cpp:164]  - 1-1.1-6.0 | ORBBEC Close Depth Sensor
+[01/08 11:25:17.299001][debug][2783][UsbDeviceEnumerator.cpp:164]  - 1-1.1-6.1 | ORBBEC Audio Device
+[01/08 11:25:17.299293][warning][2783][OpenNIDeviceInfo.cpp:122] New openni device matched.
+[01/08 11:25:17.299632][info][2783][LinuxPal.cpp:112] Create PollingDeviceWatcher!
+[01/08 11:25:17.299699][debug][2783][UsbDeviceEnumerator.cpp:69] Found 1 device(s):
+[01/08 11:25:17.299726][debug][2783][UsbDeviceEnumerator.cpp:72]   - Name: Astra S, PID: 0x0402, SN/ID: , connection: USB2.0
+[01/08 11:25:17.300047][info][2783][DeviceManager.cpp:15] Current found device(s): (1)
+[01/08 11:25:17.300118][info][2783][DeviceManager.cpp:24] 	- Name: Astra S, PID: 0x0402, SN/ID: , Connection: USB2.0
+[01/08 11:25:17.300145][debug][2783][DeviceManager.cpp:55] DeviceManager construct done!
+[01/08 11:26:43.113659][debug][4380][Context.cpp:29] Context creating. work_dir=/home/xtark/tarkbot/ros2_ws
+[01/08 11:26:43.113810][debug][4380][Context.cpp:48] Config file version=1.1
+[01/08 11:26:43.113870][debug][4380][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[01/08 11:26:43.113904][info][4380][Context.cpp:67] Context created with config: /home/xtark/tarkbot/ros2_ws/install/orbbec_camera/share/orbbec_camera/config/OrbbecSDKConfig_v1.0.xml
+[01/08 11:26:43.113969][info][4380][Context.cpp:72] Context work_dir=/home/xtark/tarkbot/ros2_ws
+[01/08 11:26:43.114005][debug][4380][DeviceManager.cpp:30] DeviceManager init ...
+[01/08 11:26:43.114023][debug][4380][LinuxPal.cpp:38] createObPal: create LinuxPal!
+[01/08 11:26:43.115902][debug][4380][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[01/08 11:26:43.116850][debug][4380][EnumeratorLibusb.cpp:323] queryDevicesInfo done!
+[01/08 11:26:43.117026][debug][4380][ObV4lDevice.cpp:346] Found video4linux: video15
+[01/08 11:26:43.118129][debug][4380][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video15
+[01/08 11:26:43.118168][debug][4380][ObV4lDevice.cpp:346] Found video4linux: video13
+[01/08 11:26:43.119153][debug][4380][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video13
+[01/08 11:26:43.119177][debug][4380][ObV4lDevice.cpp:346] Found video4linux: video11
+[01/08 11:26:43.120195][debug][4380][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video11
+[01/08 11:26:43.120219][debug][4380][ObV4lDevice.cpp:346] Found video4linux: video16
+[01/08 11:26:43.121221][debug][4380][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video16
+[01/08 11:26:43.121248][debug][4380][ObV4lDevice.cpp:346] Found video4linux: video14
+[01/08 11:26:43.122276][debug][4380][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video14
+[01/08 11:26:43.122300][debug][4380][ObV4lDevice.cpp:346] Found video4linux: video12
+[01/08 11:26:43.123288][debug][4380][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video12
+[01/08 11:26:43.123310][debug][4380][ObV4lDevice.cpp:346] Found video4linux: video10
+[01/08 11:26:43.124297][debug][4380][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video10
+[01/08 11:26:43.124370][debug][4380][UsbDeviceEnumerator.cpp:161] Current usb device port list:
+[01/08 11:26:43.124389][debug][4380][UsbDeviceEnumerator.cpp:164]  - 1-1.1-6.0 | ORBBEC Close Depth Sensor
+[01/08 11:26:43.124403][debug][4380][UsbDeviceEnumerator.cpp:164]  - 1-1.1-6.1 | ORBBEC Audio Device
+[01/08 11:26:43.124441][warning][4380][OpenNIDeviceInfo.cpp:122] New openni device matched.
+[01/08 11:26:43.124758][info][4380][LinuxPal.cpp:112] Create PollingDeviceWatcher!
+[01/08 11:26:43.124823][debug][4380][UsbDeviceEnumerator.cpp:69] Found 1 device(s):
+[01/08 11:26:43.124844][debug][4380][UsbDeviceEnumerator.cpp:72]   - Name: Astra S, PID: 0x0402, SN/ID: , connection: USB2.0
+[01/08 11:26:43.124868][info][4380][DeviceManager.cpp:15] Current found device(s): (1)
+[01/08 11:26:43.124893][info][4380][DeviceManager.cpp:24] 	- Name: Astra S, PID: 0x0402, SN/ID: , Connection: USB2.0
+[01/08 11:26:43.124912][debug][4380][DeviceManager.cpp:55] DeviceManager construct done!
+[01/08 11:29:20.520275][debug][5977][Context.cpp:29] Context creating. work_dir=/home/xtark/tarkbot/ros2_ws
+[01/08 11:29:20.520422][debug][5977][Context.cpp:48] Config file version=1.1
+[01/08 11:29:20.520479][debug][5977][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[01/08 11:29:20.520510][info][5977][Context.cpp:67] Context created with config: /home/xtark/tarkbot/ros2_ws/install/orbbec_camera/share/orbbec_camera/config/OrbbecSDKConfig_v1.0.xml
+[01/08 11:29:20.520572][info][5977][Context.cpp:72] Context work_dir=/home/xtark/tarkbot/ros2_ws
+[01/08 11:29:20.520642][debug][5977][DeviceManager.cpp:30] DeviceManager init ...
+[01/08 11:29:20.520664][debug][5977][LinuxPal.cpp:38] createObPal: create LinuxPal!
+[01/08 11:29:20.522554][debug][5977][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[01/08 11:29:20.523530][debug][5977][EnumeratorLibusb.cpp:323] queryDevicesInfo done!
+[01/08 11:29:20.523706][debug][5977][ObV4lDevice.cpp:346] Found video4linux: video15
+[01/08 11:29:20.524818][debug][5977][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video15
+[01/08 11:29:20.524856][debug][5977][ObV4lDevice.cpp:346] Found video4linux: video13
+[01/08 11:29:20.525836][debug][5977][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video13
+[01/08 11:29:20.525950][debug][5977][ObV4lDevice.cpp:346] Found video4linux: video11
+[01/08 11:29:20.526935][debug][5977][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video11
+[01/08 11:29:20.526958][debug][5977][ObV4lDevice.cpp:346] Found video4linux: video16
+[01/08 11:29:20.528043][debug][5977][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video16
+[01/08 11:29:20.528070][debug][5977][ObV4lDevice.cpp:346] Found video4linux: video14
+[01/08 11:29:20.529326][debug][5977][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video14
+[01/08 11:29:20.529357][debug][5977][ObV4lDevice.cpp:346] Found video4linux: video12
+[01/08 11:29:20.530516][debug][5977][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video12
+[01/08 11:29:20.530544][debug][5977][ObV4lDevice.cpp:346] Found video4linux: video10
+[01/08 11:29:20.531695][debug][5977][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video10
+[01/08 11:29:20.531774][debug][5977][UsbDeviceEnumerator.cpp:161] Current usb device port list:
+[01/08 11:29:20.531834][debug][5977][UsbDeviceEnumerator.cpp:164]  - 1-1.1-6.0 | ORBBEC Close Depth Sensor
+[01/08 11:29:20.531850][debug][5977][UsbDeviceEnumerator.cpp:164]  - 1-1.1-6.1 | ORBBEC Audio Device
+[01/08 11:29:20.531922][warning][5977][OpenNIDeviceInfo.cpp:122] New openni device matched.
+[01/08 11:29:20.532187][info][5977][LinuxPal.cpp:112] Create PollingDeviceWatcher!
+[01/08 11:29:20.532247][debug][5977][UsbDeviceEnumerator.cpp:69] Found 1 device(s):
+[01/08 11:29:20.532272][debug][5977][UsbDeviceEnumerator.cpp:72]   - Name: Astra S, PID: 0x0402, SN/ID: , connection: USB2.0
+[01/08 11:29:20.532297][info][5977][DeviceManager.cpp:15] Current found device(s): (1)
+[01/08 11:29:20.532326][info][5977][DeviceManager.cpp:24] 	- Name: Astra S, PID: 0x0402, SN/ID: , Connection: USB2.0
+[01/08 11:29:20.532348][debug][5977][DeviceManager.cpp:55] DeviceManager construct done!
+[01/08 11:30:58.372967][debug][7592][Context.cpp:29] Context creating. work_dir=/home/xtark/tarkbot/ros2_ws
+[01/08 11:30:58.373110][debug][7592][Context.cpp:48] Config file version=1.1
+[01/08 11:30:58.373165][debug][7592][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[01/08 11:30:58.373194][info][7592][Context.cpp:67] Context created with config: /home/xtark/tarkbot/ros2_ws/install/orbbec_camera/share/orbbec_camera/config/OrbbecSDKConfig_v1.0.xml
+[01/08 11:30:58.373266][info][7592][Context.cpp:72] Context work_dir=/home/xtark/tarkbot/ros2_ws
+[01/08 11:30:58.373305][debug][7592][DeviceManager.cpp:30] DeviceManager init ...
+[01/08 11:30:58.373321][debug][7592][LinuxPal.cpp:38] createObPal: create LinuxPal!
+[01/08 11:30:58.375161][debug][7592][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[01/08 11:30:58.376125][debug][7592][EnumeratorLibusb.cpp:323] queryDevicesInfo done!
+[01/08 11:30:58.376343][debug][7592][ObV4lDevice.cpp:346] Found video4linux: video15
+[01/08 11:30:58.377673][debug][7592][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video15
+[01/08 11:30:58.377726][debug][7592][ObV4lDevice.cpp:346] Found video4linux: video13
+[01/08 11:30:58.378876][debug][7592][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video13
+[01/08 11:30:58.378904][debug][7592][ObV4lDevice.cpp:346] Found video4linux: video11
+[01/08 11:30:58.379888][debug][7592][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video11
+[01/08 11:30:58.379911][debug][7592][ObV4lDevice.cpp:346] Found video4linux: video16
+[01/08 11:30:58.380907][debug][7592][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video16
+[01/08 11:30:58.380937][debug][7592][ObV4lDevice.cpp:346] Found video4linux: video14
+[01/08 11:30:58.381989][debug][7592][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video14
+[01/08 11:30:58.382017][debug][7592][ObV4lDevice.cpp:346] Found video4linux: video12
+[01/08 11:30:58.383184][debug][7592][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video12
+[01/08 11:30:58.383212][debug][7592][ObV4lDevice.cpp:346] Found video4linux: video10
+[01/08 11:30:58.384366][debug][7592][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video10
+[01/08 11:30:58.384448][debug][7592][UsbDeviceEnumerator.cpp:161] Current usb device port list:
+[01/08 11:30:58.384471][debug][7592][UsbDeviceEnumerator.cpp:164]  - 1-1.1-6.0 | ORBBEC Close Depth Sensor
+[01/08 11:30:58.384489][debug][7592][UsbDeviceEnumerator.cpp:164]  - 1-1.1-6.1 | ORBBEC Audio Device
+[01/08 11:30:58.384553][warning][7592][OpenNIDeviceInfo.cpp:122] New openni device matched.
+[01/08 11:30:58.384866][info][7592][LinuxPal.cpp:112] Create PollingDeviceWatcher!
+[01/08 11:30:58.384936][debug][7592][UsbDeviceEnumerator.cpp:69] Found 1 device(s):
+[01/08 11:30:58.384963][debug][7592][UsbDeviceEnumerator.cpp:72]   - Name: Astra S, PID: 0x0402, SN/ID: , connection: USB2.0
+[01/08 11:30:58.384990][info][7592][DeviceManager.cpp:15] Current found device(s): (1)
+[01/08 11:30:58.385019][info][7592][DeviceManager.cpp:24] 	- Name: Astra S, PID: 0x0402, SN/ID: , Connection: USB2.0
+[01/08 11:30:58.385043][debug][7592][DeviceManager.cpp:55] DeviceManager construct done!
+[01/08 11:31:17.410310][debug][7668][Context.cpp:29] Context creating. work_dir=/home/xtark/tarkbot/ros2_ws
+[01/08 11:31:17.410450][debug][7668][Context.cpp:48] Config file version=1.1
+[01/08 11:31:17.410505][debug][7668][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[01/08 11:31:17.410534][info][7668][Context.cpp:67] Context created with config: /home/xtark/tarkbot/ros2_ws/install/orbbec_camera/share/orbbec_camera/config/OrbbecSDKConfig_v1.0.xml
+[01/08 11:31:17.410591][info][7668][Context.cpp:72] Context work_dir=/home/xtark/tarkbot/ros2_ws
+[01/08 11:31:17.410629][debug][7668][DeviceManager.cpp:30] DeviceManager init ...
+[01/08 11:31:17.410646][debug][7668][LinuxPal.cpp:38] createObPal: create LinuxPal!
+[01/08 11:31:17.412520][debug][7668][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[01/08 11:31:17.413452][debug][7668][EnumeratorLibusb.cpp:323] queryDevicesInfo done!
+[01/08 11:31:17.413620][debug][7668][ObV4lDevice.cpp:346] Found video4linux: video15
+[01/08 11:31:17.414697][debug][7668][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video15
+[01/08 11:31:17.414730][debug][7668][ObV4lDevice.cpp:346] Found video4linux: video13
+[01/08 11:31:17.415740][debug][7668][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video13
+[01/08 11:31:17.415763][debug][7668][ObV4lDevice.cpp:346] Found video4linux: video11
+[01/08 11:31:17.416761][debug][7668][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video11
+[01/08 11:31:17.416789][debug][7668][ObV4lDevice.cpp:346] Found video4linux: video16
+[01/08 11:31:17.417759][debug][7668][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video16
+[01/08 11:31:17.417781][debug][7668][ObV4lDevice.cpp:346] Found video4linux: video14
+[01/08 11:31:17.418752][debug][7668][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video14
+[01/08 11:31:17.418799][debug][7668][ObV4lDevice.cpp:346] Found video4linux: video12
+[01/08 11:31:17.419813][debug][7668][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video12
+[01/08 11:31:17.419835][debug][7668][ObV4lDevice.cpp:346] Found video4linux: video10
+[01/08 11:31:17.420905][debug][7668][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video10
+[01/08 11:31:17.420983][debug][7668][UsbDeviceEnumerator.cpp:161] Current usb device port list:
+[01/08 11:31:17.421001][debug][7668][UsbDeviceEnumerator.cpp:164]  - 1-1.1-6.0 | ORBBEC Close Depth Sensor
+[01/08 11:31:17.421015][debug][7668][UsbDeviceEnumerator.cpp:164]  - 1-1.1-6.1 | ORBBEC Audio Device
+[01/08 11:31:17.421054][warning][7668][OpenNIDeviceInfo.cpp:122] New openni device matched.
+[01/08 11:31:17.421308][info][7668][LinuxPal.cpp:112] Create PollingDeviceWatcher!
+[01/08 11:31:17.421359][debug][7668][UsbDeviceEnumerator.cpp:69] Found 1 device(s):
+[01/08 11:31:17.421380][debug][7668][UsbDeviceEnumerator.cpp:72]   - Name: Astra S, PID: 0x0402, SN/ID: , connection: USB2.0
+[01/08 11:31:17.421402][info][7668][DeviceManager.cpp:15] Current found device(s): (1)
+[01/08 11:31:17.421424][info][7668][DeviceManager.cpp:24] 	- Name: Astra S, PID: 0x0402, SN/ID: , Connection: USB2.0
+[01/08 11:31:17.421442][debug][7668][DeviceManager.cpp:55] DeviceManager construct done!
+[01/08 11:35:48.662525][debug][9311][Context.cpp:29] Context creating. work_dir=/home/xtark/tarkbot/ros2_ws
+[01/08 11:35:48.663316][debug][9311][Context.cpp:48] Config file version=1.1
+[01/08 11:35:48.663638][debug][9311][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[01/08 11:35:48.663861][info][9311][Context.cpp:67] Context created with config: /home/xtark/tarkbot/ros2_ws/install/orbbec_camera/share/orbbec_camera/config/OrbbecSDKConfig_v1.0.xml
+[01/08 11:35:48.664165][info][9311][Context.cpp:72] Context work_dir=/home/xtark/tarkbot/ros2_ws
+[01/08 11:35:48.664480][debug][9311][DeviceManager.cpp:30] DeviceManager init ...
+[01/08 11:35:48.664742][debug][9311][LinuxPal.cpp:38] createObPal: create LinuxPal!
+[01/08 11:35:48.667174][debug][9311][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[01/08 11:35:48.668252][debug][9311][EnumeratorLibusb.cpp:323] queryDevicesInfo done!
+[01/08 11:35:48.668452][debug][9311][ObV4lDevice.cpp:346] Found video4linux: video15
+[01/08 11:35:48.669653][debug][9311][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video15
+[01/08 11:35:48.669718][debug][9311][ObV4lDevice.cpp:346] Found video4linux: video13
+[01/08 11:35:48.670724][debug][9311][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video13
+[01/08 11:35:48.670764][debug][9311][ObV4lDevice.cpp:346] Found video4linux: video11
+[01/08 11:35:48.671749][debug][9311][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video11
+[01/08 11:35:48.671786][debug][9311][ObV4lDevice.cpp:346] Found video4linux: video16
+[01/08 11:35:48.673112][debug][9311][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video16
+[01/08 11:35:48.673344][debug][9311][ObV4lDevice.cpp:346] Found video4linux: video14
+[01/08 11:35:48.674617][debug][9311][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video14
+[01/08 11:35:48.674684][debug][9311][ObV4lDevice.cpp:346] Found video4linux: video12
+[01/08 11:35:48.675681][debug][9311][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video12
+[01/08 11:35:48.675706][debug][9311][ObV4lDevice.cpp:346] Found video4linux: video10
+[01/08 11:35:48.676706][debug][9311][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video10
+[01/08 11:35:48.676799][debug][9311][UsbDeviceEnumerator.cpp:161] Current usb device port list:
+[01/08 11:35:48.676820][debug][9311][UsbDeviceEnumerator.cpp:164]  - 1-1.1-6.0 | ORBBEC Close Depth Sensor
+[01/08 11:35:48.676834][debug][9311][UsbDeviceEnumerator.cpp:164]  - 1-1.1-6.1 | ORBBEC Audio Device
+[01/08 11:35:48.676877][warning][9311][OpenNIDeviceInfo.cpp:122] New openni device matched.
+[01/08 11:35:48.677382][info][9311][LinuxPal.cpp:112] Create PollingDeviceWatcher!
+[01/08 11:35:48.677647][debug][9311][UsbDeviceEnumerator.cpp:69] Found 1 device(s):
+[01/08 11:35:48.677729][debug][9311][UsbDeviceEnumerator.cpp:72]   - Name: Astra S, PID: 0x0402, SN/ID: , connection: USB2.0
+[01/08 11:35:48.677826][info][9311][DeviceManager.cpp:15] Current found device(s): (1)
+[01/08 11:35:48.677896][info][9311][DeviceManager.cpp:24] 	- Name: Astra S, PID: 0x0402, SN/ID: , Connection: USB2.0
+[01/08 11:35:48.677923][debug][9311][DeviceManager.cpp:55] DeviceManager construct done!
+[01/08 11:59:22.555911][debug][11210][Context.cpp:29] Context creating. work_dir=/home/xtark/tarkbot/ros2_ws
+[01/08 11:59:22.556063][debug][11210][Context.cpp:48] Config file version=1.1
+[01/08 11:59:22.556119][debug][11210][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[01/08 11:59:22.556150][info][11210][Context.cpp:67] Context created with config: /home/xtark/tarkbot/ros2_ws/install/orbbec_camera/share/orbbec_camera/config/OrbbecSDKConfig_v1.0.xml
+[01/08 11:59:22.556212][info][11210][Context.cpp:72] Context work_dir=/home/xtark/tarkbot/ros2_ws
+[01/08 11:59:22.556250][debug][11210][DeviceManager.cpp:30] DeviceManager init ...
+[01/08 11:59:22.556268][debug][11210][LinuxPal.cpp:38] createObPal: create LinuxPal!
+[01/08 11:59:22.558243][debug][11210][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[01/08 11:59:22.559158][debug][11210][EnumeratorLibusb.cpp:323] queryDevicesInfo done!
+[01/08 11:59:22.559326][debug][11210][ObV4lDevice.cpp:346] Found video4linux: video15
+[01/08 11:59:22.560448][debug][11210][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video15
+[01/08 11:59:22.560483][debug][11210][ObV4lDevice.cpp:346] Found video4linux: video13
+[01/08 11:59:22.561485][debug][11210][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video13
+[01/08 11:59:22.561514][debug][11210][ObV4lDevice.cpp:346] Found video4linux: video11
+[01/08 11:59:22.562498][debug][11210][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video11
+[01/08 11:59:22.562521][debug][11210][ObV4lDevice.cpp:346] Found video4linux: video16
+[01/08 11:59:22.563508][debug][11210][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video16
+[01/08 11:59:22.563536][debug][11210][ObV4lDevice.cpp:346] Found video4linux: video14
+[01/08 11:59:22.564558][debug][11210][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video14
+[01/08 11:59:22.564580][debug][11210][ObV4lDevice.cpp:346] Found video4linux: video12
+[01/08 11:59:22.565608][debug][11210][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video12
+[01/08 11:59:22.565634][debug][11210][ObV4lDevice.cpp:346] Found video4linux: video10
+[01/08 11:59:22.566607][debug][11210][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video10
+[01/08 11:59:22.566680][debug][11210][UsbDeviceEnumerator.cpp:161] Current usb device port list:
+[01/08 11:59:22.566698][debug][11210][UsbDeviceEnumerator.cpp:164]  - 1-1.1-6.0 | ORBBEC Close Depth Sensor
+[01/08 11:59:22.566712][debug][11210][UsbDeviceEnumerator.cpp:164]  - 1-1.1-6.1 | ORBBEC Audio Device
+[01/08 11:59:22.566766][warning][11210][OpenNIDeviceInfo.cpp:122] New openni device matched.
+[01/08 11:59:22.567020][info][11210][LinuxPal.cpp:112] Create PollingDeviceWatcher!
+[01/08 11:59:22.567075][debug][11210][UsbDeviceEnumerator.cpp:69] Found 1 device(s):
+[01/08 11:59:22.567095][debug][11210][UsbDeviceEnumerator.cpp:72]   - Name: Astra S, PID: 0x0402, SN/ID: , connection: USB2.0
+[01/08 11:59:22.567118][info][11210][DeviceManager.cpp:15] Current found device(s): (1)
+[01/08 11:59:22.567141][info][11210][DeviceManager.cpp:24] 	- Name: Astra S, PID: 0x0402, SN/ID: , Connection: USB2.0
+[01/08 11:59:22.567160][debug][11210][DeviceManager.cpp:55] DeviceManager construct done!
+[01/08 12:10:40.439816][debug][12933][Context.cpp:29] Context creating. work_dir=/home/xtark/tarkbot/ros2_ws
+[01/08 12:10:40.440049][debug][12933][Context.cpp:48] Config file version=1.1
+[01/08 12:10:40.440104][debug][12933][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[01/08 12:10:40.440136][info][12933][Context.cpp:67] Context created with config: default config!
+[01/08 12:10:40.440201][info][12933][Context.cpp:72] Context work_dir=/home/xtark/tarkbot/ros2_ws
+[01/08 12:10:40.440254][debug][12933][DeviceManager.cpp:30] DeviceManager init ...
+[01/08 12:10:40.440271][debug][12933][LinuxPal.cpp:38] createObPal: create LinuxPal!
+[01/08 12:10:40.442069][debug][12933][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[01/08 12:10:40.443071][debug][12933][EnumeratorLibusb.cpp:323] queryDevicesInfo done!
+[01/08 12:10:40.443299][debug][12933][ObV4lDevice.cpp:346] Found video4linux: video15
+[01/08 12:10:40.444412][debug][12933][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video15
+[01/08 12:10:40.444447][debug][12933][ObV4lDevice.cpp:346] Found video4linux: video13
+[01/08 12:10:40.445504][debug][12933][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video13
+[01/08 12:10:40.445535][debug][12933][ObV4lDevice.cpp:346] Found video4linux: video11
+[01/08 12:10:40.446569][debug][12933][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video11
+[01/08 12:10:40.446592][debug][12933][ObV4lDevice.cpp:346] Found video4linux: video16
+[01/08 12:10:40.447624][debug][12933][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video16
+[01/08 12:10:40.447648][debug][12933][ObV4lDevice.cpp:346] Found video4linux: video14
+[01/08 12:10:40.448710][debug][12933][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video14
+[01/08 12:10:40.448738][debug][12933][ObV4lDevice.cpp:346] Found video4linux: video12
+[01/08 12:10:40.449760][debug][12933][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video12
+[01/08 12:10:40.449783][debug][12933][ObV4lDevice.cpp:346] Found video4linux: video10
+[01/08 12:10:40.450805][debug][12933][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video10
+[01/08 12:10:40.450877][debug][12933][UsbDeviceEnumerator.cpp:161] Current usb device port list:
+[01/08 12:10:40.450897][debug][12933][UsbDeviceEnumerator.cpp:164]  - 1-1.1-6.0 | ORBBEC Close Depth Sensor
+[01/08 12:10:40.450913][debug][12933][UsbDeviceEnumerator.cpp:164]  - 1-1.1-6.1 | ORBBEC Audio Device
+[01/08 12:10:40.450963][warning][12933][OpenNIDeviceInfo.cpp:122] New openni device matched.
+[01/08 12:10:40.451270][info][12933][LinuxPal.cpp:112] Create PollingDeviceWatcher!
+[01/08 12:10:40.451335][debug][12933][UsbDeviceEnumerator.cpp:69] Found 1 device(s):
+[01/08 12:10:40.451357][debug][12933][UsbDeviceEnumerator.cpp:72]   - Name: Astra S, PID: 0x0402, SN/ID: , connection: USB2.0
+[01/08 12:10:40.451381][info][12933][DeviceManager.cpp:15] Current found device(s): (1)
+[01/08 12:10:40.451415][info][12933][DeviceManager.cpp:24] 	- Name: Astra S, PID: 0x0402, SN/ID: , Connection: USB2.0
+[01/08 12:10:40.451444][debug][12933][DeviceManager.cpp:55] DeviceManager construct done!
+[01/09 02:17:55.509566][debug][12977][Context.cpp:29] Context creating. work_dir=/home/xtark/tarkbot/ros2_ws
+[01/09 02:17:55.510771][debug][12977][Context.cpp:48] Config file version=1.1
+[01/09 02:17:55.514696][debug][12977][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[01/09 02:17:55.514828][info][12977][Context.cpp:67] Context created with config: default config!
+[01/09 02:17:55.514942][info][12977][Context.cpp:72] Context work_dir=/home/xtark/tarkbot/ros2_ws
+[01/09 02:17:55.515008][debug][12977][DeviceManager.cpp:30] DeviceManager init ...
+[01/09 02:17:55.515033][debug][12977][LinuxPal.cpp:38] createObPal: create LinuxPal!
+[01/09 02:17:55.521310][debug][12977][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[01/09 02:17:55.523001][debug][12977][EnumeratorLibusb.cpp:323] queryDevicesInfo done!
+[01/09 02:17:55.523303][debug][12977][ObV4lDevice.cpp:346] Found video4linux: video15
+[01/09 02:17:55.525619][debug][12977][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video15
+[01/09 02:17:55.525700][debug][12977][ObV4lDevice.cpp:346] Found video4linux: video13
+[01/09 02:17:55.527674][debug][12977][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video13
+[01/09 02:17:55.527730][debug][12977][ObV4lDevice.cpp:346] Found video4linux: video11
+[01/09 02:17:55.529733][debug][12977][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video11
+[01/09 02:17:55.529930][debug][12977][ObV4lDevice.cpp:346] Found video4linux: video16
+[01/09 02:17:55.531958][debug][12977][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video16
+[01/09 02:17:55.532019][debug][12977][ObV4lDevice.cpp:346] Found video4linux: video14
+[01/09 02:17:55.533554][debug][12977][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video14
+[01/09 02:17:55.533585][debug][12977][ObV4lDevice.cpp:346] Found video4linux: video12
+[01/09 02:17:55.534635][debug][12977][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video12
+[01/09 02:17:55.534663][debug][12977][ObV4lDevice.cpp:346] Found video4linux: video10
+[01/09 02:17:55.535714][debug][12977][ObV4lDevice.cpp:396] Cannot find busnum/devnum for /dev/video10
+[01/09 02:17:55.535839][debug][12977][UsbDeviceEnumerator.cpp:161] Current usb device port list:
+[01/09 02:17:55.535862][debug][12977][UsbDeviceEnumerator.cpp:164]  - 1-1.1-3.0 | ORBBEC Close Depth Sensor
+[01/09 02:17:55.535879][debug][12977][UsbDeviceEnumerator.cpp:164]  - 1-1.1-3.1 | ORBBEC Audio Device
+[01/09 02:17:55.536169][warning][12977][OpenNIDeviceInfo.cpp:122] New openni device matched.
+[01/09 02:17:55.536500][info][12977][LinuxPal.cpp:112] Create PollingDeviceWatcher!
+[01/09 02:17:55.536573][debug][12977][UsbDeviceEnumerator.cpp:69] Found 1 device(s):
+[01/09 02:17:55.536599][debug][12977][UsbDeviceEnumerator.cpp:72]   - Name: Astra S, PID: 0x0402, SN/ID: , connection: USB2.0
+[01/09 02:17:55.536878][info][12977][DeviceManager.cpp:15] Current found device(s): (1)
+[01/09 02:17:55.536950][info][12977][DeviceManager.cpp:24] 	- Name: Astra S, PID: 0x0402, SN/ID: , Connection: USB2.0
+[01/09 02:17:55.536990][debug][12977][DeviceManager.cpp:55] DeviceManager construct done!

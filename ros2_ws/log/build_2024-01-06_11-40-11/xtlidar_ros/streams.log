@@ -1,0 +1,117 @@
+[1.751s] Invoking command in '/home/xtark/tarkbot/ros2_ws/build/xtlidar_ros': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/xtlidar_ros -DCMAKE_INSTALL_PREFIX=/home/xtark/tarkbot/ros2_ws/install/xtlidar_ros
+[2.512s] -- The C compiler identification is GNU 9.4.0
+[2.979s] -- The CXX compiler identification is GNU 9.4.0
+[3.036s] -- Check for working C compiler: /usr/bin/cc
+[3.928s] -- Check for working C compiler: /usr/bin/cc -- works
+[3.933s] -- Detecting C compiler ABI info
+[4.706s] -- Detecting C compiler ABI info - done
+[4.764s] -- Detecting C compile features
+[4.768s] -- Detecting C compile features - done
+[4.783s] -- Check for working CXX compiler: /usr/bin/c++
+[5.760s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[5.772s] -- Detecting CXX compiler ABI info
+[6.443s] -- Detecting CXX compiler ABI info - done
+[6.518s] -- Detecting CXX compile features
+[6.521s] -- Detecting CXX compile features - done
+[6.576s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[6.851s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[6.852s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[9.287s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[9.895s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[9.969s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[11.470s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[11.846s] -- Found FastRTPS: /opt/ros/foxy/include  
+[13.137s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[13.645s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[13.653s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[13.662s] -- Looking for pthread.h
+[14.412s] -- Looking for pthread.h - found
+[14.414s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[15.308s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[15.308s] -- Looking for pthread_create in pthreads
+[16.048s] -- Looking for pthread_create in pthreads - not found
+[16.049s] -- Looking for pthread_create in pthread
+[16.994s] -- Looking for pthread_create in pthread - found
+[17.001s] -- Found Threads: TRUE  
+[18.150s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[18.813s] -- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)
+[19.399s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[20.215s] -- Added test 'copyright' to check source files copyright and LICENSE
+[20.229s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[20.230s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/xtlidar_ros/include>
+[20.231s] -- Configured cppcheck exclude dirs and/or files: 
+[20.243s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[20.245s] -- Configured cpplint exclude dirs and/or files: 
+[20.250s] -- Added test 'flake8' to check Python code syntax and style conventions
+[20.256s] -- Added test 'lint_cmake' to check CMake code style
+[20.260s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[20.273s] -- Added test 'uncrustify' to check C / C++ code style
+[20.274s] -- Configured uncrustify additional arguments: 
+[20.279s] -- Added test 'xmllint' to check XML markup files
+[20.319s] -- Configuring done
+[20.430s] -- Generating done
+[20.447s] -- Build files have been written to: /home/xtark/tarkbot/ros2_ws/build/xtlidar_ros
+[20.536s] Invoked command in '/home/xtark/tarkbot/ros2_ws/build/xtlidar_ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/xtlidar_ros -DCMAKE_INSTALL_PREFIX=/home/xtark/tarkbot/ros2_ws/install/xtlidar_ros
+[20.542s] Invoking command in '/home/xtark/tarkbot/ros2_ws/build/xtlidar_ros': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/xtark/tarkbot/ros2_ws/build/xtlidar_ros -- -j4 -l4
+[20.916s] [35m[1mScanning dependencies of target xtlidar_driver2_node[0m
+[21.635s] [ 14%] [32mBuilding CXX object CMakeFiles/xtlidar_driver2_node.dir/src/xtlidar_node.cpp.o[0m
+[46.799s] [ 28%] [32mBuilding CXX object CMakeFiles/xtlidar_driver2_node.dir/src/udp_reader.cpp.o[0m
+[47.119s] [01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/xtlidar_ros/src/udp_reader.cpp:[m[K In function ‘[01m[Kbool send_cmd_udp_f(int, const char*, int, int, int, int, const void*, bool)[m[K’:
+[47.121s] [01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/xtlidar_ros/src/udp_reader.cpp:104:6:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kn[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[47.122s]   104 |  int [01;35m[Kn[m[K = sizeof(CmdHeader);
+[47.152s]       |      [01;35m[K^[m[K
+[47.160s] [01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/xtlidar_ros/src/udp_reader.cpp:[m[K In function ‘[01m[Kbool udp_talk(void*, int, const char*, int, const char*, int, char*)[m[K’:
+[47.165s] [01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/xtlidar_ros/src/udp_reader.cpp:147:6:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Krt[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[47.167s]   147 |  int [01;35m[Krt[m[K = send_cmd_udp(fd_udp, info->lidar_ip, info->lidar_port, 0x0043, sn, n, cmd);
+[47.168s]       |      [01;35m[K^~[m[K
+[47.191s] [01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/xtlidar_ros/src/udp_reader.cpp:[m[K In function ‘[01m[Kvoid* UdpThreadProc(void*)[m[K’:
+[47.192s] [01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/xtlidar_ros/src/udp_reader.cpp:209:6:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Krt[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[47.193s]   209 |  int [01;35m[Krt[m[K = send_cmd_udp(fd_udp, info->lidar_ip, info->lidar_port, 0x0043, rand(), 6, cmd);
+[47.193s]       |      [01;35m[K^~[m[K
+[47.452s] [ 42%] [32mBuilding CXX object CMakeFiles/xtlidar_driver2_node.dir/src/tcp_reader.cpp.o[0m
+[47.921s] [ 57%] [32mBuilding C object CMakeFiles/xtlidar_driver2_node.dir/src/uart.c.o[0m
+[48.165s] [ 71%] [32mBuilding CXX object CMakeFiles/xtlidar_driver2_node.dir/src/uart_reader.cpp.o[0m
+[48.738s] [ 85%] [32mBuilding CXX object CMakeFiles/xtlidar_driver2_node.dir/src/parser.cpp.o[0m
+[48.867s] [01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/xtlidar_ros/src/parser.cpp:[m[K In function ‘[01m[KFanSegment* GetFanSegment(const RawDataHdr7&, uint8_t*, bool)[m[K’:
+[48.868s] [01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/xtlidar_ros/src/parser.cpp:237:78:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kwith_chk[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[48.869s]   237 | static FanSegment* GetFanSegment(const RawDataHdr7& hdr, uint8_t* pdat, [01;35m[Kbool with_chk[m[K)
+[48.871s]       |                                                                         [01;35m[K~~~~~^~~~~~~~[m[K
+[48.876s] [01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/xtlidar_ros/src/parser.cpp:[m[K In function ‘[01m[KRawData* GetData0xC7(Parser*, const RawDataHdr7&, uint8_t*)[m[K’:
+[48.878s] [01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/xtlidar_ros/src/parser.cpp:347:21:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K-Wsign-compare[m[K]
+[48.879s]   347 |  if (parser->dev_id != ANYONE && hdr.dev_id != parser->dev_id) {
+[48.885s] [01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/xtlidar_ros/src/parser.cpp:410:10:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Klong unsigned int[m[K’ [[01;35m[K-Wsign-compare[m[K]
+[48.887s]   410 |    if ([01;35m[KN > sizeof(dat->points)/sizeof(dat->points[0])[m[K )
+[48.889s]       |        [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[48.916s] [01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/xtlidar_ros/src/parser.cpp:[m[K In function ‘[01m[Kint ParserRun(HParser, int, unsigned char*, RawData**)[m[K’:
+[48.917s] [01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/xtlidar_ros/src/parser.cpp:841:11:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Klong unsigned int[m[K’ [[01;35m[K-Wsign-compare[m[K]
+[48.918s]   841 |   if ([01;35m[Klen >= hdr.len + sizeof(PacketUart)[m[K )
+[48.920s]       |       [01;35m[K~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[48.921s] [01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/xtlidar_ros/src/parser.cpp:843:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K-Wsign-compare[m[K]
+[48.923s]   843 |    if (parser->dev_id != ANYONE && hdr.dev_id != parser->dev_id) {
+[49.302s] [100%] [32m[1mLinking CXX executable xtlidar_driver2_node[0m
+[50.752s] [100%] Built target xtlidar_driver2_node
+[50.807s] Invoked command in '/home/xtark/tarkbot/ros2_ws/build/xtlidar_ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/xtark/tarkbot/ros2_ws/build/xtlidar_ros -- -j4 -l4
+[51.071s] Invoking command in '/home/xtark/tarkbot/ros2_ws/build/xtlidar_ros': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/xtark/tarkbot/ros2_ws/build/xtlidar_ros
+[51.170s] -- Install configuration: ""
+[51.173s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/xtlidar_ros/lib/xtlidar_ros/xtlidar_driver2_node
+[51.182s] -- Set runtime path of "/home/xtark/tarkbot/ros2_ws/install/xtlidar_ros/lib/xtlidar_ros/xtlidar_driver2_node" to ""
+[51.184s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/xtlidar_ros/share/xtlidar_ros/launch
+[51.186s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/xtlidar_ros/share/xtlidar_ros/launch/tarkbot_xtlidar_e300.launch.py
+[51.189s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/xtlidar_ros/share/xtlidar_ros/params
+[51.192s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/xtlidar_ros/share/xtlidar_ros/params/XTLIDAR_E300.yaml
+[51.196s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/xtlidar_ros/share/ament_index/resource_index/package_run_dependencies/xtlidar_ros
+[51.199s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/xtlidar_ros/share/ament_index/resource_index/parent_prefix_path/xtlidar_ros
+[51.203s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/xtlidar_ros/share/xtlidar_ros/environment/ament_prefix_path.sh
+[51.207s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/xtlidar_ros/share/xtlidar_ros/environment/ament_prefix_path.dsv
+[51.210s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/xtlidar_ros/share/xtlidar_ros/environment/path.sh
+[51.213s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/xtlidar_ros/share/xtlidar_ros/environment/path.dsv
+[51.218s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/xtlidar_ros/share/xtlidar_ros/local_setup.bash
+[51.222s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/xtlidar_ros/share/xtlidar_ros/local_setup.sh
+[51.226s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/xtlidar_ros/share/xtlidar_ros/local_setup.zsh
+[51.229s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/xtlidar_ros/share/xtlidar_ros/local_setup.dsv
+[51.233s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/xtlidar_ros/share/xtlidar_ros/package.dsv
+[51.236s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/xtlidar_ros/share/ament_index/resource_index/packages/xtlidar_ros
+[51.240s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/xtlidar_ros/share/xtlidar_ros/cmake/xtlidar_rosConfig.cmake
+[51.243s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/xtlidar_ros/share/xtlidar_ros/cmake/xtlidar_rosConfig-version.cmake
+[51.246s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/xtlidar_ros/share/xtlidar_ros/package.xml
+[51.264s] Invoked command in '/home/xtark/tarkbot/ros2_ws/build/xtlidar_ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/xtark/tarkbot/ros2_ws/build/xtlidar_ros

@@ -1,0 +1,125 @@
+[0.000000] (-) TimerEvent: {}
+[0.000933] (astra_camera_msgs) JobQueued: {'identifier': 'astra_camera_msgs', 'dependencies': OrderedDict()}
+[0.001266] (lakibeam1) JobQueued: {'identifier': 'lakibeam1', 'dependencies': OrderedDict()}
+[0.002810] (ldlidar_stl_ros2) JobQueued: {'identifier': 'ldlidar_stl_ros2', 'dependencies': OrderedDict()}
+[0.003331] (m1ct_d2) JobQueued: {'identifier': 'm1ct_d2', 'dependencies': OrderedDict()}
+[0.003573] (rplidar_ros) JobQueued: {'identifier': 'rplidar_ros', 'dependencies': OrderedDict()}
+[0.003673] (tarkbot_description) JobQueued: {'identifier': 'tarkbot_description', 'dependencies': OrderedDict()}
+[0.003747] (tarkbot_nav) JobQueued: {'identifier': 'tarkbot_nav', 'dependencies': OrderedDict()}
+[0.003817] (tarkbot_robot) JobQueued: {'identifier': 'tarkbot_robot', 'dependencies': OrderedDict()}
+[0.003887] (tarkbot_slam) JobQueued: {'identifier': 'tarkbot_slam', 'dependencies': OrderedDict()}
+[0.003957] (xtlidar_ros) JobQueued: {'identifier': 'xtlidar_ros', 'dependencies': OrderedDict()}
+[0.004026] (astra_camera) JobQueued: {'identifier': 'astra_camera', 'dependencies': OrderedDict([('astra_camera_msgs', '/home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs')])}
+[0.004106] (astra_camera_msgs) JobStarted: {'identifier': 'astra_camera_msgs'}
+[0.099205] (-) TimerEvent: {}
+[0.200498] (-) TimerEvent: {}
+[0.303272] (-) TimerEvent: {}
+[0.404522] (-) TimerEvent: {}
+[0.505652] (-) TimerEvent: {}
+[0.606808] (-) TimerEvent: {}
+[0.707868] (-) TimerEvent: {}
+[0.809767] (-) TimerEvent: {}
+[0.911580] (-) TimerEvent: {}
+[1.013516] (-) TimerEvent: {}
+[1.114810] (-) TimerEvent: {}
+[1.217560] (-) TimerEvent: {}
+[1.319127] (-) TimerEvent: {}
+[1.420487] (-) TimerEvent: {}
+[1.521757] (-) TimerEvent: {}
+[1.622365] (-) TimerEvent: {}
+[1.723415] (-) TimerEvent: {}
+[1.824403] (-) TimerEvent: {}
+[1.927221] (-) TimerEvent: {}
+[2.018502] (lakibeam1) JobStarted: {'identifier': 'lakibeam1'}
+[2.027415] (-) TimerEvent: {}
+[2.128303] (-) TimerEvent: {}
+[2.229748] (-) TimerEvent: {}
+[2.331742] (-) TimerEvent: {}
+[2.432968] (-) TimerEvent: {}
+[2.533750] (-) TimerEvent: {}
+[2.635045] (-) TimerEvent: {}
+[2.738759] (-) TimerEvent: {}
+[2.841002] (-) TimerEvent: {}
+[2.945480] (-) TimerEvent: {}
+[3.046792] (-) TimerEvent: {}
+[3.148664] (-) TimerEvent: {}
+[3.251154] (-) TimerEvent: {}
+[3.352348] (-) TimerEvent: {}
+[3.453996] (-) TimerEvent: {}
+[3.555773] (-) TimerEvent: {}
+[3.656640] (-) TimerEvent: {}
+[3.757530] (-) TimerEvent: {}
+[3.858345] (-) TimerEvent: {}
+[3.959216] (-) TimerEvent: {}
+[3.995054] (ldlidar_stl_ros2) JobStarted: {'identifier': 'ldlidar_stl_ros2'}
+[4.059487] (-) TimerEvent: {}
+[4.160724] (-) TimerEvent: {}
+[4.264501] (-) TimerEvent: {}
+[4.365884] (-) TimerEvent: {}
+[4.467896] (-) TimerEvent: {}
+[4.569771] (-) TimerEvent: {}
+[4.670839] (-) TimerEvent: {}
+[4.772694] (-) TimerEvent: {}
+[4.875232] (-) TimerEvent: {}
+[4.976045] (-) TimerEvent: {}
+[5.077637] (-) TimerEvent: {}
+[5.178614] (-) TimerEvent: {}
+[5.279876] (-) TimerEvent: {}
+[5.380722] (-) TimerEvent: {}
+[5.482681] (-) TimerEvent: {}
+[5.583330] (-) TimerEvent: {}
+[5.684457] (-) TimerEvent: {}
+[5.785692] (-) TimerEvent: {}
+[5.886508] (-) TimerEvent: {}
+[5.987213] (-) TimerEvent: {}
+[6.087946] (-) TimerEvent: {}
+[6.189207] (-) TimerEvent: {}
+[6.290581] (-) TimerEvent: {}
+[6.391688] (-) TimerEvent: {}
+[6.493095] (-) TimerEvent: {}
+[6.594431] (-) TimerEvent: {}
+[6.695604] (-) TimerEvent: {}
+[6.796978] (-) TimerEvent: {}
+[6.898451] (-) TimerEvent: {}
+[6.999658] (-) TimerEvent: {}
+[7.100871] (-) TimerEvent: {}
+[7.202127] (-) TimerEvent: {}
+[7.303444] (-) TimerEvent: {}
+[7.404655] (-) TimerEvent: {}
+[7.505991] (-) TimerEvent: {}
+[7.607256] (-) TimerEvent: {}
+[7.708476] (-) TimerEvent: {}
+[7.809698] (-) TimerEvent: {}
+[7.834108] (ldlidar_stl_ros2) JobEnded: {'identifier': 'ldlidar_stl_ros2', 'rc': 0}
+[7.839988] (m1ct_d2) JobStarted: {'identifier': 'm1ct_d2'}
+[7.910310] (-) TimerEvent: {}
+[8.011248] (-) TimerEvent: {}
+[8.112802] (-) TimerEvent: {}
+[8.214799] (-) TimerEvent: {}
+[8.317847] (-) TimerEvent: {}
+[8.420143] (-) TimerEvent: {}
+[8.521024] (-) TimerEvent: {}
+[8.624090] (-) TimerEvent: {}
+[8.726314] (-) TimerEvent: {}
+[8.827447] (-) TimerEvent: {}
+[8.928773] (-) TimerEvent: {}
+[9.029840] (-) TimerEvent: {}
+[9.133109] (-) TimerEvent: {}
+[9.234556] (-) TimerEvent: {}
+[9.335937] (-) TimerEvent: {}
+[9.436763] (-) TimerEvent: {}
+[9.539243] (-) TimerEvent: {}
+[9.640622] (-) TimerEvent: {}
+[9.743660] (-) TimerEvent: {}
+[9.845155] (-) TimerEvent: {}
+[9.899070] (astra_camera_msgs) JobEnded: {'identifier': 'astra_camera_msgs', 'rc': 'SIGINT'}
+[9.902523] (lakibeam1) JobEnded: {'identifier': 'lakibeam1', 'rc': 'SIGINT'}
+[9.906007] (m1ct_d2) JobEnded: {'identifier': 'm1ct_d2', 'rc': 'SIGINT'}
+[9.917590] (rplidar_ros) JobSkipped: {'identifier': 'rplidar_ros'}
+[9.917844] (tarkbot_description) JobSkipped: {'identifier': 'tarkbot_description'}
+[9.917965] (tarkbot_nav) JobSkipped: {'identifier': 'tarkbot_nav'}
+[9.918065] (tarkbot_robot) JobSkipped: {'identifier': 'tarkbot_robot'}
+[9.918155] (tarkbot_slam) JobSkipped: {'identifier': 'tarkbot_slam'}
+[9.918285] (xtlidar_ros) JobSkipped: {'identifier': 'xtlidar_ros'}
+[9.918397] (astra_camera) JobSkipped: {'identifier': 'astra_camera'}
+[9.918501] (-) EventReactorShutdown: {}

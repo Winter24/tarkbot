@@ -1,0 +1,10 @@
+/home/xtark/tarkbot/ros2_ws/build/lakibeam1/CMakeFiles/install/strip.dir
+/home/xtark/tarkbot/ros2_ws/build/lakibeam1/CMakeFiles/install/local.dir
+/home/xtark/tarkbot/ros2_ws/build/lakibeam1/CMakeFiles/install.dir
+/home/xtark/tarkbot/ros2_ws/build/lakibeam1/CMakeFiles/list_install_components.dir
+/home/xtark/tarkbot/ros2_ws/build/lakibeam1/CMakeFiles/rebuild_cache.dir
+/home/xtark/tarkbot/ros2_ws/build/lakibeam1/CMakeFiles/edit_cache.dir
+/home/xtark/tarkbot/ros2_ws/build/lakibeam1/CMakeFiles/test.dir
+/home/xtark/tarkbot/ros2_ws/build/lakibeam1/CMakeFiles/lakibeam1_scan_node.dir
+/home/xtark/tarkbot/ros2_ws/build/lakibeam1/CMakeFiles/lakibeam1_uninstall.dir
+/home/xtark/tarkbot/ros2_ws/build/lakibeam1/CMakeFiles/uninstall.dir

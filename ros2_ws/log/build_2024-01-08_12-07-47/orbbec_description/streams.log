@@ -1,0 +1,20 @@
+[4.038s] Invoking command in '/home/xtark/tarkbot/ros2_ws/build/orbbec_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/xtark/tarkbot/ros2_ws/build/orbbec_description -- -j4 -l4
+[5.104s] Invoked command in '/home/xtark/tarkbot/ros2_ws/build/orbbec_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/xtark/tarkbot/ros2_ws/build/orbbec_description -- -j4 -l4
+[5.290s] Invoking command in '/home/xtark/tarkbot/ros2_ws/build/orbbec_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/xtark/tarkbot/ros2_ws/build/orbbec_description
+[5.336s] -- Install configuration: ""
+[5.336s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/orbbec_description/share/ament_index/resource_index/package_run_dependencies/orbbec_description
+[5.337s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/orbbec_description/share/ament_index/resource_index/parent_prefix_path/orbbec_description
+[5.338s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/orbbec_description/share/orbbec_description/environment/ament_prefix_path.sh
+[5.338s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/orbbec_description/share/orbbec_description/environment/ament_prefix_path.dsv
+[5.339s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/orbbec_description/share/orbbec_description/environment/path.sh
+[5.340s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/orbbec_description/share/orbbec_description/environment/path.dsv
+[5.341s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/orbbec_description/share/orbbec_description/local_setup.bash
+[5.342s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/orbbec_description/share/orbbec_description/local_setup.sh
+[5.342s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/orbbec_description/share/orbbec_description/local_setup.zsh
+[5.343s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/orbbec_description/share/orbbec_description/local_setup.dsv
+[5.344s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/orbbec_description/share/orbbec_description/package.dsv
+[5.344s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/orbbec_description/share/ament_index/resource_index/packages/orbbec_description
+[5.345s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/orbbec_description/share/orbbec_description/cmake/orbbec_descriptionConfig.cmake
+[5.346s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/orbbec_description/share/orbbec_description/cmake/orbbec_descriptionConfig-version.cmake
+[5.359s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/orbbec_description/share/orbbec_description/package.xml
+[5.361s] Invoked command in '/home/xtark/tarkbot/ros2_ws/build/orbbec_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/xtark/tarkbot/ros2_ws/build/orbbec_description

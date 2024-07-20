@@ -1,0 +1,1 @@
+/home/xtark/tarkbot/ros2_ws/build/lakibeam1/ament_cmake_environment_hooks/local_setup.zsh

@@ -1,0 +1,204 @@
+[0.841s] Invoking command in '/home/xtark/tarkbot/ros2_ws/build/m1ct_d2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/m1ct_d2 -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/xtark/tarkbot/ros2_ws/install/m1ct_d2
+[0.928s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.111s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.511s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[2.816s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.838s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[4.166s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.452s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[4.467s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.156s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[5.644s] -- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)
+[5.974s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[6.391s] -- Added test 'copyright' to check source files copyright and LICENSE
+[6.413s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[6.415s] -- Configured cppcheck include dirs: /home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/m1ct_d2/include/m1ct_d2
+[6.416s] -- Configured cppcheck exclude dirs and/or files: 
+[6.435s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[6.437s] -- Configured cpplint exclude dirs and/or files: 
+[6.440s] -- Added test 'flake8' to check Python code syntax and style conventions
+[6.446s] -- Added test 'lint_cmake' to check CMake code style
+[6.449s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[6.465s] -- Added test 'uncrustify' to check C / C++ code style
+[6.466s] -- Configured uncrustify additional arguments: 
+[6.470s] -- Added test 'xmllint' to check XML markup files
+[6.496s] -- Configuring done
+[6.565s] -- Generating done
+[6.575s] -- Build files have been written to: /home/xtark/tarkbot/ros2_ws/build/m1ct_d2
+[6.620s] Invoked command in '/home/xtark/tarkbot/ros2_ws/build/m1ct_d2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/m1ct_d2 -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/xtark/tarkbot/ros2_ws/install/m1ct_d2
+[6.623s] Invoking command in '/home/xtark/tarkbot/ros2_ws/build/m1ct_d2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/xtark/tarkbot/ros2_ws/build/m1ct_d2 -- -j4 -l4
+[7.258s] [ 11%] [32mBuilding CXX object CMakeFiles/m1ct_d2.dir/src/lidar_data_processing.cpp.o[0m
+[7.299s] [ 22%] [32mBuilding CXX object CMakeFiles/m1ct_d2.dir/src/lidar_information.cpp.o[0m
+[7.345s] [ 33%] [32mBuilding CXX object CMakeFiles/m1ct_d2.dir/src/mtime.cpp.o[0m
+[7.411s] [ 44%] [32mBuilding CXX object CMakeFiles/m1ct_d2.dir/src/main.cpp.o[0m
+[9.219s] [ 55%] [32mBuilding CXX object CMakeFiles/m1ct_d2.dir/src/node_lidar.cpp.o[0m
+[11.020s] [01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/m1ct_d2/src/node_lidar.cpp:479:3:[m[K [01;35m[Kwarning: [m[K"/*" within comment [[01;35m[K-Wcomment[m[K]
+[11.024s]   479 |   /*启动雷达*/
+[11.026s]       |    
+[26.067s] [01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/m1ct_d2/src/lidar_data_processing.cpp:[m[K In member function ‘[01m[Kresult_t Lidar_Data_Processing::waitSpeedRight(uint8_t, uint64_t)[m[K’:
+[26.068s] [01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/m1ct_d2/src/lidar_data_processing.cpp:94:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcmd[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[26.069s]    94 | result_t Lidar_Data_Processing::waitSpeedRight([01;35m[Kuint8_t cmd[m[K,uint64_t timeout)
+[26.070s]       |                                                [01;35m[K~~~~~~~~^~~[m[K
+[26.114s] [01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/m1ct_d2/src/lidar_data_processing.cpp:[m[K In member function ‘[01m[Kresult_t Lidar_Data_Processing::waitResponseHeader(uint8_t, uint64_t)[m[K’:
+[26.115s] [01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/m1ct_d2/src/lidar_data_processing.cpp:366:28:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 4 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+[26.116s]   366 |       printf("data**%d,%d,[01;35m[K%d[m[K\n",check_sum_cal,recvBuffer[remainSize-1],[32m[KremainSize[m[K);
+[26.117s]       |                           [01;35m[K~^[m[K                                           [32m[K~~~~~~~~~~[m[K
+[26.118s]       |                            [01;35m[K|[m[K                                           [32m[K|[m[K
+[26.123s]       |                            [01;35m[Kint[m[K                                         [32m[Ksize_t {aka long unsigned int}[m[K
+[26.123s]       |                           [32m[K%ld[m[K
+[26.175s] [01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/m1ct_d2/src/lidar_data_processing.cpp:[m[K In member function ‘[01m[Kresult_t Lidar_Data_Processing::waitPackage_coin(node_info*, uint32_t)[m[K’:
+[26.176s] [01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/m1ct_d2/src/lidar_data_processing.cpp:852:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kk[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[26.177s]   852 |     int [01;35m[Kk[m[K;
+[26.178s]       |         [01;35m[K^[m[K
+[26.186s] [01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/m1ct_d2/src/lidar_data_processing.cpp:752:11:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KAngleCorrectForDistance[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+[26.189s]   752 |   int32_t [01;35m[KAngleCorrectForDistance[m[K = 0;
+[26.190s]       |           [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[26.200s] [01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/m1ct_d2/src/lidar_data_processing.cpp:754:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kpackage_type[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[26.201s]   754 |   uint8_t [01;35m[Kpackage_type[m[K = 0;
+[26.202s]       |           [01;35m[K^~~~~~~~~~~~[m[K
+[26.217s] [01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/m1ct_d2/src/lidar_data_processing.cpp:756:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kstart[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[26.224s]   756 |   uint16_t [01;35m[Kstart[m[K;
+[26.225s]       |            [01;35m[K^~~~~[m[K
+[26.226s] [01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/m1ct_d2/src/lidar_data_processing.cpp:757:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kstop[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[26.235s]   757 |   uint16_t [01;35m[Kstop[m[K;
+[26.236s]       |            [01;35m[K^~~~[m[K
+[27.924s] [01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/m1ct_d2/src/node_lidar.cpp:[m[K In function ‘[01m[Kvoid flushSerial()[m[K’:
+[27.925s] [01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/m1ct_d2/src/node_lidar.cpp:106:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kbytes_read[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[27.926s]   106 |   size_t [01;35m[Kbytes_read[m[K = node_lidar.serial_port->read_data(buffer, len);
+[27.927s]       |          [01;35m[K^~~~~~~~~~[m[K
+[27.948s] [01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/m1ct_d2/src/node_lidar.cpp:[m[K In function ‘[01m[Kbool lidar_state_judgment()[m[K’:
+[27.949s] [01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/m1ct_d2/src/node_lidar.cpp:139:39:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%lld[m[K’ expects argument of type ‘[01m[Klong long int[m[K’, but argument 2 has type ‘[01m[Kuint64_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+[27.950s]   139 |   printf("状态异常重新启动 [01;35m[K%lld[m[K\n",[32m[Klidar_status_time[m[K);
+[27.950s]       |                                    [01;35m[K~~~^[m[K    [32m[K~~~~~~~~~~~~~~~~~[m[K
+[27.951s]       |                                       [01;35m[K|[m[K    [32m[K|[m[K
+[27.952s]       |                                       [01;35m[K|[m[K    [32m[Kuint64_t {aka long unsigned int}[m[K
+[27.953s]       |                                       [01;35m[Klong long int[m[K
+[27.953s]       |                                    [32m[K%ld[m[K
+[27.957s] [01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/m1ct_d2/src/node_lidar.cpp:115:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kstatus_judge[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[27.958s]   115 |  static bool [01;35m[Kstatus_judge[m[K = false;     //整体状态判断
+[27.959s]       |              [01;35m[K^~~~~~~~~~~~[m[K
+[27.960s] [01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/m1ct_d2/src/node_lidar.cpp:118:14:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Klidar_start_flag[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+[27.971s]   118 |  static bool [01;35m[Klidar_start_flag[m[K = false; //下发雷达启动指令后的雷达反馈标志
+[27.972s]       |              [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[27.973s] [01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/m1ct_d2/src/node_lidar.cpp:[m[K In function ‘[01m[Kint send_lidar_data(LaserScan&)[m[K’:
+[27.974s] [01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/m1ct_d2/src/node_lidar.cpp:349:22:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[27.975s]   349 |    for (int i = 0; [01;35m[Ki < count[m[K; i++)
+[27.975s]       |                    [01;35m[K~~^~~~~~~[m[K
+[27.976s] [01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/m1ct_d2/src/node_lidar.cpp:395:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+[27.977s]   395 | [01;35m[K}[m[K
+[27.978s]       | [01;35m[K^[m[K
+[28.035s] [01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/m1ct_d2/src/node_lidar.cpp:[m[K In function ‘[01m[Kint topic_thread()[m[K’:
+[28.036s] [01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/m1ct_d2/src/node_lidar.cpp:503:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+[28.037s]   503 | [01;35m[K}[m[K
+[28.037s]       | [01;35m[K^[m[K
+[28.284s] [01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/m1ct_d2/src/node_lidar.cpp:[m[K In function ‘[01m[Kint node_start(int, char**)[m[K’:
+[28.286s] [01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/m1ct_d2/src/node_lidar.cpp:608:19:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<LaserPoint>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[28.287s]   608 |    for(int i=0; [01;35m[Ki < scan.points.size()[m[K; i++) {
+[28.289s]       |                 [01;35m[K~~^~~~~~~~~~~~~~~~~~~~[m[K
+[44.337s] [01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/m1ct_d2/src/node_lidar.cpp:[m[K At global scope:
+[44.341s] [01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/m1ct_d2/src/node_lidar.cpp:115:14:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstatus_judge[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[44.342s]   115 |  static bool [01;35m[Kstatus_judge[m[K = false;     //整体状态判断
+[44.346s]       |              [01;35m[K^~~~~~~~~~~~[m[K
+[75.140s] [ 66%] [32mBuilding CXX object CMakeFiles/m1ct_d2.dir/src/timer.cpp.o[0m
+[75.427s] [ 77%] [32mBuilding CXX object CMakeFiles/m1ct_d2.dir/src/serial_port.cpp.o[0m
+[83.871s] In file included from [01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/m1ct_d2/src/serial_port.cpp:12[m[K:
+[83.872s] [01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/m1ct_d2/include/m1ct_d2/serial_port.h:[m[K In constructor ‘[01m[KSerial_Port::Serial_Port(const string&, uint32_t, Timeout, bytesize_t, parity_t, stopbits_t, flowcontrol_t)[m[K’:
+[83.873s] [01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/m1ct_d2/include/m1ct_d2/serial_port.h:102:14:[m[K [01;35m[Kwarning: [m[K‘[01m[KSerial_Port::bytesize_[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+[83.873s]   102 |   bytesize_t [01;35m[Kbytesize_[m[K;       // Size of the bytes
+[83.874s]       |              [01;35m[K^~~~~~~~~[m[K
+[83.875s] [01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/m1ct_d2/include/m1ct_d2/serial_port.h:101:12:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kparity_t Serial_Port::parity_[m[K’ [[01;35m[K-Wreorder[m[K]
+[83.875s]   101 |   parity_t [01;35m[Kparity_[m[K;           // Parity
+[83.876s]       |            [01;35m[K^~~~~~~[m[K
+[83.877s] [01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/m1ct_d2/src/serial_port.cpp:31:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+[83.877s]    31 | [01;35m[KSerial_Port[m[K::Serial_Port(const string &port, uint32_t baudrate, Timeout timeout,
+[83.878s]       | [01;35m[K^~~~~~~~~~~[m[K
+[83.933s] [01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/m1ct_d2/src/serial_port.cpp:[m[K In member function ‘[01m[Kbool Serial_Port::setBaudrate(long unsigned int)[m[K’:
+[83.934s] [01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/m1ct_d2/src/serial_port.cpp:578:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Knew_baud[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[83.934s]   578 |   speed_t [01;35m[Knew_baud[m[K = static_cast<speed_t>(baudrate);
+[83.935s]       |           [01;35m[K^~~~~~~~[m[K
+[86.616s] [01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/m1ct_d2/src/serial_port.cpp:[m[K In member function ‘[01m[Kbool Serial_Port::setCustomBaudRate(long unsigned int)[m[K’:
+[86.617s] [01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/m1ct_d2/src/serial_port.cpp:571:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K-Wreturn-type[m[K]
+[86.618s]   571 | [01;35m[K}[m[K
+[86.619s]       | [01;35m[K^[m[K
+[87.641s] [ 88%] [32mBuilding CXX object CMakeFiles/m1ct_d2.dir/src/point_cloud_optimize.cpp.o[0m
+[96.902s] [01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/m1ct_d2/src/point_cloud_optimize.cpp:[m[K In member function ‘[01m[Kvoid Point_cloud_optimize::PointCloudFilter(LaserScan*)[m[K’:
+[96.903s] [01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/m1ct_d2/src/point_cloud_optimize.cpp:25:18:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<LaserPoint>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[96.904s]    25 |  for (i0 = 0; [01;35m[Ki0 < Scan->points.size()[m[K; i0++)
+[96.905s]       |               [01;35m[K~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[96.907s] [01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/m1ct_d2/src/point_cloud_optimize.cpp:28:11:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<LaserPoint>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[96.909s]    28 |   i1 = [01;35m[Ki1 < Scan->points.size()[m[K ? i1 : i1 - Scan->points.size();
+[96.910s]       |        [01;35m[K~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[96.912s] [01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/m1ct_d2/src/point_cloud_optimize.cpp:30:11:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<LaserPoint>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[96.913s]    30 |   i2 = [01;35m[Ki2 < Scan->points.size()[m[K ? i2 : i2 - Scan->points.size();
+[96.914s]       |        [01;35m[K~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[96.917s] [01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/m1ct_d2/src/point_cloud_optimize.cpp:32:11:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<LaserPoint>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[96.918s]    32 |   i3 = [01;35m[Ki3 < Scan->points.size()[m[K ? i3 : i3 - Scan->points.size();
+[96.919s]       |        [01;35m[K~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[96.938s] [01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/m1ct_d2/src/point_cloud_optimize.cpp:155:18:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<LaserPoint>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[96.942s]   155 |  for (i0 = 0; [01;35m[Ki0 < Scan->points.size()[m[K; i0++)
+[96.944s]       |               [01;35m[K~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[96.947s] [01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/m1ct_d2/src/point_cloud_optimize.cpp:158:11:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<LaserPoint>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[96.952s]   158 |   i1 = [01;35m[Ki1 < Scan->points.size()[m[K ? i1 : i1 - Scan->points.size();
+[96.958s]       |        [01;35m[K~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[96.964s] [01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/m1ct_d2/src/point_cloud_optimize.cpp:160:11:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<LaserPoint>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[96.968s]   160 |   i2 = [01;35m[Ki2 < Scan->points.size()[m[K ? i2 : i2 - Scan->points.size();
+[96.974s]       |        [01;35m[K~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[96.982s] [01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/m1ct_d2/src/point_cloud_optimize.cpp:162:11:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<LaserPoint>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[96.985s]   162 |   i3 = [01;35m[Ki3 < Scan->points.size()[m[K ? i3 : i3 - Scan->points.size();
+[96.990s]       |        [01;35m[K~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[96.997s] [01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/m1ct_d2/src/point_cloud_optimize.cpp:164:11:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<LaserPoint>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[97.003s]   164 |   i4 = [01;35m[Ki4 < Scan->points.size()[m[K ? i4 : i4 - Scan->points.size();
+[97.008s]       |        [01;35m[K~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[97.013s] [01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/m1ct_d2/src/point_cloud_optimize.cpp:[m[K In member function ‘[01m[Kint Point_cloud_optimize::UltrasonicSimRanging(LaserPoint&)[m[K’:
+[97.020s] [01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/m1ct_d2/src/point_cloud_optimize.cpp:228:6:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ki[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[97.023s]   228 |  int [01;35m[Ki[m[K, index;
+[97.027s]       |      [01;35m[K^[m[K
+[97.033s] [01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/m1ct_d2/src/point_cloud_optimize.cpp:229:8:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktempdep[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[97.037s]   229 |  short [01;35m[Ktempdep[m[K;
+[97.040s]       |        [01;35m[K^~~~~~~[m[K
+[97.043s] [01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/m1ct_d2/src/point_cloud_optimize.cpp:253:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+[97.047s]   253 | [01;35m[K}[m[K
+[97.050s]       | [01;35m[K^[m[K
+[97.054s] [01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/m1ct_d2/src/point_cloud_optimize.cpp:[m[K In member function ‘[01m[Kvoid Point_cloud_optimize::lidar_blocked_judge(int)[m[K’:
+[97.059s] [01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/m1ct_d2/src/point_cloud_optimize.cpp:341:58:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 3 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+[97.064s]   341 |   printf("lidar 雷达被严重遮挡百分之七十 %d,[01;35m[K%d[m[K\n",node_lidar.lidar_block.lidar_zero_count,[32m[Knode_lidar.scan_node_count[m[K);
+[97.068s]       |                                                         [01;35m[K~^[m[K                                            [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[97.072s]       |                                                          [01;35m[K|[m[K                                                       [32m[K|[m[K
+[97.075s]       |                                                          [01;35m[Kint[m[K                                                     [32m[Ksize_t {aka long unsigned int}[m[K
+[97.079s]       |                                                         [32m[K%ld[m[K
+[97.082s] [01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/m1ct_d2/src/point_cloud_optimize.cpp:[m[K In member function ‘[01m[Kvoid Point_cloud_optimize::lidar_blocked_init()[m[K’:
+[97.086s] [01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/m1ct_d2/src/point_cloud_optimize.cpp:404:48:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around ‘[01m[K&&[m[K’ within ‘[01m[K||[m[K’ [[01;35m[K-Wparentheses[m[K]
+[97.090s]   404 |    if((angle >= 0 && angle < 90)|| [01;35m[Kangle > 270 && angle <=360[m[K){
+[97.096s]       |                                    [01;35m[K~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[97.102s] [01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/m1ct_d2/src/point_cloud_optimize.cpp:375:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktemp[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[97.106s]   375 |  float r, d, [01;35m[Ktemp[m[K;
+[97.111s]       |              [01;35m[K^~~~[m[K
+[100.436s] [01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/m1ct_d2/src/point_cloud_optimize.cpp:[m[K In member function ‘[01m[Kvoid Point_cloud_optimize::getLidarCoverAngle(char*)[m[K’:
+[100.438s] [01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/m1ct_d2/src/point_cloud_optimize.cpp:293:17:[m[K [01;35m[Kwarning: [m[K‘[01m[Kindex[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+[100.442s]   293 |    tempstr[[01;35m[Kindex++[m[K] = charbuf[i];
+[100.444s]       |            [01;35m[K~~~~~^~[m[K
+[100.643s] [100%] [32m[1mLinking CXX executable m1ct_d2[0m
+[101.614s] [100%] Built target m1ct_d2
+[101.687s] Invoked command in '/home/xtark/tarkbot/ros2_ws/build/m1ct_d2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/xtark/tarkbot/ros2_ws/build/m1ct_d2 -- -j4 -l4
+[102.007s] Invoking command in '/home/xtark/tarkbot/ros2_ws/build/m1ct_d2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/xtark/tarkbot/ros2_ws/build/m1ct_d2
+[102.096s] -- Install configuration: "Release"
+[102.104s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/m1ct_d2/lib/m1ct_d2/m1ct_d2
+[102.128s] -- Set runtime path of "/home/xtark/tarkbot/ros2_ws/install/m1ct_d2/lib/m1ct_d2/m1ct_d2" to ""
+[102.133s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/m1ct_d2/share/m1ct_d2//launch
+[102.137s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/m1ct_d2/share/m1ct_d2//launch/tarkbot_m1ct.launch.py
+[102.141s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/m1ct_d2/share/ament_index/resource_index/package_run_dependencies/m1ct_d2
+[102.145s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/m1ct_d2/share/ament_index/resource_index/parent_prefix_path/m1ct_d2
+[102.157s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/m1ct_d2/share/m1ct_d2/environment/ament_prefix_path.sh
+[102.162s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/m1ct_d2/share/m1ct_d2/environment/ament_prefix_path.dsv
+[102.166s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/m1ct_d2/share/m1ct_d2/environment/path.sh
+[102.171s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/m1ct_d2/share/m1ct_d2/environment/path.dsv
+[102.176s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/m1ct_d2/share/m1ct_d2/local_setup.bash
+[102.182s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/m1ct_d2/share/m1ct_d2/local_setup.sh
+[102.186s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/m1ct_d2/share/m1ct_d2/local_setup.zsh
+[102.189s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/m1ct_d2/share/m1ct_d2/local_setup.dsv
+[102.193s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/m1ct_d2/share/m1ct_d2/package.dsv
+[102.196s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/m1ct_d2/share/ament_index/resource_index/packages/m1ct_d2
+[102.200s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/m1ct_d2/share/m1ct_d2/cmake/m1ct_d2Config.cmake
+[102.201s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/m1ct_d2/share/m1ct_d2/cmake/m1ct_d2Config-version.cmake
+[102.202s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/m1ct_d2/share/m1ct_d2/package.xml
+[102.216s] Invoked command in '/home/xtark/tarkbot/ros2_ws/build/m1ct_d2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/xtark/tarkbot/ros2_ws/build/m1ct_d2

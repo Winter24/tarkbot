@@ -1,0 +1,13 @@
+[0.000000] (-) TimerEvent: {}
+[0.000985] (-) JobUnselected: {'identifier': 'astra_camera'}
+[0.001334] (-) JobUnselected: {'identifier': 'astra_camera_msgs'}
+[0.001791] (-) JobUnselected: {'identifier': 'lakibeam1'}
+[0.001973] (-) JobUnselected: {'identifier': 'ldlidar_stl_ros2'}
+[0.002094] (-) JobUnselected: {'identifier': 'm1ct_d2'}
+[0.002184] (-) JobUnselected: {'identifier': 'rplidar_ros'}
+[0.002293] (-) JobUnselected: {'identifier': 'tarkbot_description'}
+[0.002527] (-) JobUnselected: {'identifier': 'tarkbot_nav'}
+[0.002745] (-) JobUnselected: {'identifier': 'tarkbot_robot'}
+[0.002997] (-) JobUnselected: {'identifier': 'tarkbot_slam'}
+[0.003118] (-) JobUnselected: {'identifier': 'xtlidar_ros'}
+[0.003195] (-) EventReactorShutdown: {}

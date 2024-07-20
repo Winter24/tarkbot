@@ -1,0 +1,53 @@
+[2.310s] Invoking command in '/home/xtark/tarkbot/ros2_ws/build/m1ct_d2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/m1ct_d2 -DCMAKE_INSTALL_PREFIX=/home/xtark/tarkbot/ros2_ws/install/m1ct_d2
+[2.472s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.762s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.613s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.665s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[4.902s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.918s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[6.316s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.567s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[6.576s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.306s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[7.841s] -- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)
+[8.203s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[8.794s] -- Added test 'copyright' to check source files copyright and LICENSE
+[8.811s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[8.812s] -- Configured cppcheck include dirs: /home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/m1ct_d2/include/m1ct_d2
+[8.813s] -- Configured cppcheck exclude dirs and/or files: 
+[8.831s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[8.831s] -- Configured cpplint exclude dirs and/or files: 
+[8.833s] -- Added test 'flake8' to check Python code syntax and style conventions
+[8.839s] -- Added test 'lint_cmake' to check CMake code style
+[8.843s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[8.862s] -- Added test 'uncrustify' to check C / C++ code style
+[8.863s] -- Configured uncrustify additional arguments: 
+[8.865s] -- Added test 'xmllint' to check XML markup files
+[8.888s] -- Configuring done
+[8.940s] -- Generating done
+[8.964s] -- Build files have been written to: /home/xtark/tarkbot/ros2_ws/build/m1ct_d2
+[9.027s] Invoked command in '/home/xtark/tarkbot/ros2_ws/build/m1ct_d2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/m1ct_d2 -DCMAKE_INSTALL_PREFIX=/home/xtark/tarkbot/ros2_ws/install/m1ct_d2
+[9.046s] Invoking command in '/home/xtark/tarkbot/ros2_ws/build/m1ct_d2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/xtark/tarkbot/ros2_ws/build/m1ct_d2 -- -j4 -l4
+[9.506s] [100%] Built target m1ct_d2
+[9.574s] Invoked command in '/home/xtark/tarkbot/ros2_ws/build/m1ct_d2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/xtark/tarkbot/ros2_ws/build/m1ct_d2 -- -j4 -l4
+[9.947s] Invoking command in '/home/xtark/tarkbot/ros2_ws/build/m1ct_d2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/xtark/tarkbot/ros2_ws/build/m1ct_d2
+[10.026s] -- Install configuration: "Release"
+[10.034s] -- Execute custom install script
+[10.041s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/m1ct_d2/lib/m1ct_d2/m1ct_d2
+[10.050s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/m1ct_d2/share/m1ct_d2//launch/tarkbot_m1ct.launch.py
+[10.051s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/m1ct_d2/share/ament_index/resource_index/package_run_dependencies/m1ct_d2
+[10.052s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/m1ct_d2/share/ament_index/resource_index/parent_prefix_path/m1ct_d2
+[10.053s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/m1ct_d2/share/m1ct_d2/environment/ament_prefix_path.sh
+[10.054s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/m1ct_d2/share/m1ct_d2/environment/ament_prefix_path.dsv
+[10.056s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/m1ct_d2/share/m1ct_d2/environment/path.sh
+[10.062s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/m1ct_d2/share/m1ct_d2/environment/path.dsv
+[10.062s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/m1ct_d2/share/m1ct_d2/local_setup.bash
+[10.064s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/m1ct_d2/share/m1ct_d2/local_setup.sh
+[10.066s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/m1ct_d2/share/m1ct_d2/local_setup.zsh
+[10.068s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/m1ct_d2/share/m1ct_d2/local_setup.dsv
+[10.069s] -- Symlinking: /home/xtark/tarkbot/ros2_ws/install/m1ct_d2/share/m1ct_d2/package.dsv
+[10.139s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/m1ct_d2/share/ament_index/resource_index/packages/m1ct_d2
+[10.140s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/m1ct_d2/share/m1ct_d2/cmake/m1ct_d2Config.cmake
+[10.141s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/m1ct_d2/share/m1ct_d2/cmake/m1ct_d2Config-version.cmake
+[10.143s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/m1ct_d2/share/m1ct_d2/package.xml
+[12.187s] Invoked command in '/home/xtark/tarkbot/ros2_ws/build/m1ct_d2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/xtark/tarkbot/ros2_ws/build/m1ct_d2

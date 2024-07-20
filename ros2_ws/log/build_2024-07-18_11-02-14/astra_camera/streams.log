@@ -1,0 +1,100 @@
+[2.132s] Invoking command in '/home/xtark/tarkbot/ros2_ws/build/astra_camera': CMAKE_PREFIX_PATH=/home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs:/home/xtark/tarkbot/ros2_ws/install/xtlidar_ros:/home/xtark/tarkbot/ros2_ws/install/tarkbot_slam:/home/xtark/tarkbot/ros2_ws/install/tarkbot_robot:/home/xtark/tarkbot/ros2_ws/install/tarkbot_nav:/home/xtark/tarkbot/ros2_ws/install/tarkbot_description:/home/xtark/tarkbot/ros2_ws/install/rplidar_ros:/home/xtark/tarkbot/ros2_ws/install/orbbec_description:/home/xtark/tarkbot/ros2_ws/install/orbbec_camera:/home/xtark/tarkbot/ros2_ws/install/orbbec_camera_msgs:/home/xtark/tarkbot/ros2_ws/install/m1ct_d2:/home/xtark/tarkbot/ros2_ws/install/ldlidar_stl_ros2:/home/xtark/tarkbot/ros2_ws/install/lakibeam1:/home/xtark/tarkbot/ros2_ws/install/astra_camera:/opt/ros/foxy LD_LIBRARY_PATH=/home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/lib:/home/xtark/tarkbot/ros2_ws/install/orbbec_camera/lib:/home/xtark/tarkbot/ros2_ws/install/orbbec_camera_msgs/lib:/home/xtark/tarkbot/ros2_ws/install/astra_camera/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/lib/python3.8/site-packages:/home/xtark/tarkbot/ros2_ws/install/orbbec_camera_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/xtark/tarkbot/ros2_ws/build/astra_camera -- -j4 -l4
+[2.909s] [ 68%] Built target astra_camera
+[3.082s] [ 78%] Built target clean_shm_node
+[3.134s] [ 89%] Built target list_devices_node
+[3.202s] [100%] Built target astra_camera_node
+[5.710s] Invoked command in '/home/xtark/tarkbot/ros2_ws/build/astra_camera' returned '0': CMAKE_PREFIX_PATH=/home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs:/home/xtark/tarkbot/ros2_ws/install/xtlidar_ros:/home/xtark/tarkbot/ros2_ws/install/tarkbot_slam:/home/xtark/tarkbot/ros2_ws/install/tarkbot_robot:/home/xtark/tarkbot/ros2_ws/install/tarkbot_nav:/home/xtark/tarkbot/ros2_ws/install/tarkbot_description:/home/xtark/tarkbot/ros2_ws/install/rplidar_ros:/home/xtark/tarkbot/ros2_ws/install/orbbec_description:/home/xtark/tarkbot/ros2_ws/install/orbbec_camera:/home/xtark/tarkbot/ros2_ws/install/orbbec_camera_msgs:/home/xtark/tarkbot/ros2_ws/install/m1ct_d2:/home/xtark/tarkbot/ros2_ws/install/ldlidar_stl_ros2:/home/xtark/tarkbot/ros2_ws/install/lakibeam1:/home/xtark/tarkbot/ros2_ws/install/astra_camera:/opt/ros/foxy LD_LIBRARY_PATH=/home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/lib:/home/xtark/tarkbot/ros2_ws/install/orbbec_camera/lib:/home/xtark/tarkbot/ros2_ws/install/orbbec_camera_msgs/lib:/home/xtark/tarkbot/ros2_ws/install/astra_camera/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/lib/python3.8/site-packages:/home/xtark/tarkbot/ros2_ws/install/orbbec_camera_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/xtark/tarkbot/ros2_ws/build/astra_camera -- -j4 -l4
+[9.767s] Invoking command in '/home/xtark/tarkbot/ros2_ws/build/astra_camera': CMAKE_PREFIX_PATH=/home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs:/home/xtark/tarkbot/ros2_ws/install/xtlidar_ros:/home/xtark/tarkbot/ros2_ws/install/tarkbot_slam:/home/xtark/tarkbot/ros2_ws/install/tarkbot_robot:/home/xtark/tarkbot/ros2_ws/install/tarkbot_nav:/home/xtark/tarkbot/ros2_ws/install/tarkbot_description:/home/xtark/tarkbot/ros2_ws/install/rplidar_ros:/home/xtark/tarkbot/ros2_ws/install/orbbec_description:/home/xtark/tarkbot/ros2_ws/install/orbbec_camera:/home/xtark/tarkbot/ros2_ws/install/orbbec_camera_msgs:/home/xtark/tarkbot/ros2_ws/install/m1ct_d2:/home/xtark/tarkbot/ros2_ws/install/ldlidar_stl_ros2:/home/xtark/tarkbot/ros2_ws/install/lakibeam1:/home/xtark/tarkbot/ros2_ws/install/astra_camera:/opt/ros/foxy LD_LIBRARY_PATH=/home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/lib:/home/xtark/tarkbot/ros2_ws/install/orbbec_camera/lib:/home/xtark/tarkbot/ros2_ws/install/orbbec_camera_msgs/lib:/home/xtark/tarkbot/ros2_ws/install/astra_camera/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/lib/python3.8/site-packages:/home/xtark/tarkbot/ros2_ws/install/orbbec_camera_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/xtark/tarkbot/ros2_ws/build/astra_camera
+[9.809s] -- Install configuration: "Debug"
+[9.812s] -- Execute custom install script
+[9.818s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera/lib/libastra_camera.so
+[9.822s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera/lib//libOpenNI2.so
+[9.827s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera/lib//OpenNI2/Drivers/OniFile.ini
+[9.828s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera/lib//OpenNI2/Drivers/libOniFile.so
+[9.832s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera/lib//OpenNI2/Drivers/liborbbec.so
+[9.834s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera/lib//OpenNI2/Drivers/orbbec.ini
+[9.835s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera/lib/astra_camera//list_devices_node
+[9.839s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera/lib/astra_camera//clean_shm_node
+[9.840s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera/lib/astra_camera//astra_camera_node
+[9.847s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera/include/astra_camera/constants.h
+[9.848s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera/include/astra_camera/dynamic_params.h
+[9.848s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera/include/astra_camera/json.hpp
+[9.853s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera/include/astra_camera/ob_camera_node.h
+[9.853s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera/include/astra_camera/ob_camera_node_factory.h
+[9.854s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera/include/astra_camera/ob_context.h
+[9.855s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera/include/astra_camera/ob_timer_filter.h
+[9.856s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera/include/astra_camera/point_cloud_proc/depth_traits.h
+[9.857s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera/include/astra_camera/point_cloud_proc/point_cloud_proc.h
+[9.858s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera/include/astra_camera/point_cloud_proc/point_cloud_xyz.h
+[9.858s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera/include/astra_camera/point_cloud_proc/point_cloud_xyzrgb.h
+[9.859s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera/include/astra_camera/ros_param_backend.h
+[9.860s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera/include/astra_camera/types.h
+[9.861s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera/include/astra_camera/utils.h
+[9.861s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera/include/astra_camera/uvc_camera_driver.h
+[9.862s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera/include/magic_enum/magic_enum.hpp
+[9.863s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera/include/openni2/Android-Arm/OniPlatformAndroid-Arm.h
+[9.863s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera/include/openni2/Driver/OniDriverAPI.h
+[9.864s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera/include/openni2/Driver/OniDriverTypes.h
+[9.865s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera/include/openni2/KinectProperties.h
+[9.865s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera/include/openni2/Linux-Arm/OniPlatformLinux-Arm.h
+[9.866s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera/include/openni2/Linux-x86/OniPlatformLinux-x86.h
+[9.868s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera/include/openni2/MacOSX/OniPlatformMacOSX.h
+[9.868s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera/include/openni2/OniCAPI.h
+[9.869s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera/include/openni2/OniCEnums.h
+[9.870s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera/include/openni2/OniCProperties.h
+[9.870s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera/include/openni2/OniCTypes.h
+[9.872s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera/include/openni2/OniEnums.h
+[9.873s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera/include/openni2/OniPlatform.h
+[9.874s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera/include/openni2/OniProperties.h
+[9.875s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera/include/openni2/OniTest.h
+[9.876s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera/include/openni2/OniVersion.h
+[9.877s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera/include/openni2/OpenNI.h
+[9.878s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera/include/openni2/PS1080.h
+[9.879s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera/include/openni2/PSLink.h
+[9.882s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera/include/openni2/PrimeSense.h
+[9.885s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera/include/openni2/SonixCamera.h
+[9.885s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera/include/openni2/util.h
+[9.887s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera/share/astra_camera//launch/.gitkeep
+[9.888s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera/share/astra_camera//launch/astra.launch.xml
+[9.889s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera/share/astra_camera//launch/astra_pro.launch.xml
+[9.890s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera/share/astra_camera//launch/astro_pro_plus.launch.xml
+[9.891s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera/share/astra_camera//launch/dabai_dc1.launch.xml
+[9.895s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera/share/astra_camera//launch/dabai_dcw.launch.xml
+[9.896s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera/share/astra_camera//launch/dabai_dw.launch.xml
+[9.896s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera/share/astra_camera//launch/dabai_pro.launch.xml
+[9.897s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera/share/astra_camera//launch/dabai_u3.launch.xml
+[9.897s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera/share/astra_camera//launch/deeyea.launch.xml
+[9.898s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera/share/astra_camera//launch/embedded_s.launch.xml
+[9.898s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera/share/astra_camera//launch/embedded_u3.launch.xml
+[9.900s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera/share/astra_camera//launch/gemini.launch.xml
+[9.901s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera/share/astra_camera//launch/gemini_e.launch.xml
+[9.902s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera/share/astra_camera//launch/gemini_e_lite.launch.xml
+[9.903s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera/share/astra_camera//launch/list_devices.launch.xml
+[9.909s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera/share/astra_camera//launch/multi_astra.launch.xml
+[9.910s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera/share/astra_camera//launch/multi_dabai_dcw.launch.xml
+[9.911s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera/share/astra_camera//launch/multi_dabai_pro.launch.xml
+[9.911s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera/share/astra_camera//launch/multi_deeyea.launch.xml
+[9.911s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera/share/astra_camera//launch/multi_gemini.launch.xml
+[9.912s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera/share/astra_camera//launch/stereo_s.launch.xml
+[9.913s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera/share/astra_camera//launch/stereo_s_u3.launch.xml
+[9.914s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera/share/astra_camera/environment/library_path.sh
+[9.917s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera/share/astra_camera/environment/library_path.dsv
+[9.919s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera/share/ament_index/resource_index/package_run_dependencies/astra_camera
+[9.920s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera/share/ament_index/resource_index/parent_prefix_path/astra_camera
+[9.922s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera/share/astra_camera/environment/ament_prefix_path.sh
+[9.924s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera/share/astra_camera/environment/ament_prefix_path.dsv
+[9.925s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera/share/astra_camera/environment/path.sh
+[9.927s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera/share/astra_camera/environment/path.dsv
+[9.929s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera/share/astra_camera/local_setup.bash
+[9.931s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera/share/astra_camera/local_setup.sh
+[9.932s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera/share/astra_camera/local_setup.zsh
+[9.934s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera/share/astra_camera/local_setup.dsv
+[9.935s] -- Symlinking: /home/xtark/tarkbot/ros2_ws/install/astra_camera/share/astra_camera/package.dsv
+[9.979s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera/share/ament_index/resource_index/packages/astra_camera
+[9.987s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera/share/astra_camera/cmake/ament_cmake_export_include_directories-extras.cmake
+[9.989s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera/share/astra_camera/cmake/ament_cmake_export_libraries-extras.cmake
+[9.990s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera/share/astra_camera/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.991s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera/share/astra_camera/cmake/astra_cameraConfig.cmake
+[9.992s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera/share/astra_camera/cmake/astra_cameraConfig-version.cmake
+[9.993s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera/share/astra_camera/package.xml
+[11.421s] Invoked command in '/home/xtark/tarkbot/ros2_ws/build/astra_camera' returned '0': CMAKE_PREFIX_PATH=/home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs:/home/xtark/tarkbot/ros2_ws/install/xtlidar_ros:/home/xtark/tarkbot/ros2_ws/install/tarkbot_slam:/home/xtark/tarkbot/ros2_ws/install/tarkbot_robot:/home/xtark/tarkbot/ros2_ws/install/tarkbot_nav:/home/xtark/tarkbot/ros2_ws/install/tarkbot_description:/home/xtark/tarkbot/ros2_ws/install/rplidar_ros:/home/xtark/tarkbot/ros2_ws/install/orbbec_description:/home/xtark/tarkbot/ros2_ws/install/orbbec_camera:/home/xtark/tarkbot/ros2_ws/install/orbbec_camera_msgs:/home/xtark/tarkbot/ros2_ws/install/m1ct_d2:/home/xtark/tarkbot/ros2_ws/install/ldlidar_stl_ros2:/home/xtark/tarkbot/ros2_ws/install/lakibeam1:/home/xtark/tarkbot/ros2_ws/install/astra_camera:/opt/ros/foxy LD_LIBRARY_PATH=/home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/lib:/home/xtark/tarkbot/ros2_ws/install/orbbec_camera/lib:/home/xtark/tarkbot/ros2_ws/install/orbbec_camera_msgs/lib:/home/xtark/tarkbot/ros2_ws/install/astra_camera/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/lib/python3.8/site-packages:/home/xtark/tarkbot/ros2_ws/install/orbbec_camera_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/xtark/tarkbot/ros2_ws/build/astra_camera

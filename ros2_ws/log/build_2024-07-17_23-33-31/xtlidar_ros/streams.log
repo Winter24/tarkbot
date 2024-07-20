@@ -1,0 +1,54 @@
+[2.666s] Invoking command in '/home/xtark/tarkbot/ros2_ws/build/xtlidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/xtlidar_ros -DCMAKE_INSTALL_PREFIX=/home/xtark/tarkbot/ros2_ws/install/xtlidar_ros
+[2.834s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[3.002s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.765s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.803s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[5.025s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.039s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[6.545s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.779s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[6.790s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.382s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[7.846s] -- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)
+[8.130s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[8.525s] -- Added test 'copyright' to check source files copyright and LICENSE
+[8.536s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[8.536s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/xtlidar_ros/include>
+[8.537s] -- Configured cppcheck exclude dirs and/or files: 
+[8.553s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[8.553s] -- Configured cpplint exclude dirs and/or files: 
+[8.554s] -- Added test 'flake8' to check Python code syntax and style conventions
+[8.565s] -- Added test 'lint_cmake' to check CMake code style
+[8.577s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[8.579s] -- Added test 'uncrustify' to check C / C++ code style
+[8.580s] -- Configured uncrustify additional arguments: 
+[8.585s] -- Added test 'xmllint' to check XML markup files
+[8.615s] -- Configuring done
+[8.689s] -- Generating done
+[8.699s] -- Build files have been written to: /home/xtark/tarkbot/ros2_ws/build/xtlidar_ros
+[11.482s] Invoked command in '/home/xtark/tarkbot/ros2_ws/build/xtlidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/xtlidar_ros -DCMAKE_INSTALL_PREFIX=/home/xtark/tarkbot/ros2_ws/install/xtlidar_ros
+[11.489s] Invoking command in '/home/xtark/tarkbot/ros2_ws/build/xtlidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/xtark/tarkbot/ros2_ws/build/xtlidar_ros -- -j4 -l4
+[12.015s] [100%] Built target xtlidar_driver2_node
+[14.304s] Invoked command in '/home/xtark/tarkbot/ros2_ws/build/xtlidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/xtark/tarkbot/ros2_ws/build/xtlidar_ros -- -j4 -l4
+[17.105s] Invoking command in '/home/xtark/tarkbot/ros2_ws/build/xtlidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/xtark/tarkbot/ros2_ws/build/xtlidar_ros
+[17.164s] -- Install configuration: "Release"
+[17.170s] -- Execute custom install script
+[17.170s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/xtlidar_ros/lib/xtlidar_ros/xtlidar_driver2_node
+[17.172s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/xtlidar_ros/share/xtlidar_ros/launch/tarkbot_xtlidar_e300.launch.py
+[17.173s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/xtlidar_ros/share/xtlidar_ros/params/XTLIDAR_E300.yaml
+[17.175s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/xtlidar_ros/share/ament_index/resource_index/package_run_dependencies/xtlidar_ros
+[17.177s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/xtlidar_ros/share/ament_index/resource_index/parent_prefix_path/xtlidar_ros
+[17.179s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/xtlidar_ros/share/xtlidar_ros/environment/ament_prefix_path.sh
+[17.180s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/xtlidar_ros/share/xtlidar_ros/environment/ament_prefix_path.dsv
+[17.182s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/xtlidar_ros/share/xtlidar_ros/environment/path.sh
+[17.183s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/xtlidar_ros/share/xtlidar_ros/environment/path.dsv
+[17.185s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/xtlidar_ros/share/xtlidar_ros/local_setup.bash
+[17.186s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/xtlidar_ros/share/xtlidar_ros/local_setup.sh
+[17.188s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/xtlidar_ros/share/xtlidar_ros/local_setup.zsh
+[17.189s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/xtlidar_ros/share/xtlidar_ros/local_setup.dsv
+[17.190s] -- Symlinking: /home/xtark/tarkbot/ros2_ws/install/xtlidar_ros/share/xtlidar_ros/package.dsv
+[17.245s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/xtlidar_ros/share/ament_index/resource_index/packages/xtlidar_ros
+[17.248s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/xtlidar_ros/share/xtlidar_ros/cmake/xtlidar_rosConfig.cmake
+[17.249s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/xtlidar_ros/share/xtlidar_ros/cmake/xtlidar_rosConfig-version.cmake
+[17.249s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/xtlidar_ros/share/xtlidar_ros/package.xml
+[17.288s] Invoked command in '/home/xtark/tarkbot/ros2_ws/build/xtlidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/xtark/tarkbot/ros2_ws/build/xtlidar_ros

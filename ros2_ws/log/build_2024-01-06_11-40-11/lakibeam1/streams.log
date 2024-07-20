@@ -1,0 +1,131 @@
+[1.741s] Invoking command in '/home/xtark/tarkbot/ros2_ws/build/lakibeam1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/lakibeam1 -DCMAKE_INSTALL_PREFIX=/home/xtark/tarkbot/ros2_ws/install/lakibeam1
+[2.138s] -- The C compiler identification is GNU 9.4.0
+[2.703s] -- The CXX compiler identification is GNU 9.4.0
+[2.746s] -- Check for working C compiler: /usr/bin/cc
+[3.314s] -- Check for working C compiler: /usr/bin/cc -- works
+[3.319s] -- Detecting C compiler ABI info
+[3.816s] -- Detecting C compiler ABI info - done
+[3.876s] -- Detecting C compile features
+[3.877s] -- Detecting C compile features - done
+[3.918s] -- Check for working CXX compiler: /usr/bin/c++
+[4.499s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[4.547s] -- Detecting CXX compiler ABI info
+[5.299s] -- Detecting CXX compiler ABI info - done
+[5.365s] -- Detecting CXX compile features
+[5.368s] -- Detecting CXX compile features - done
+[5.420s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[5.637s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[5.637s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[7.338s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[7.812s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.879s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[8.756s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[9.063s] -- Found FastRTPS: /opt/ros/foxy/include  
+[9.779s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[10.085s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[10.091s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[10.097s] -- Looking for pthread.h
+[10.704s] -- Looking for pthread.h - found
+[10.706s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[11.420s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[11.421s] -- Looking for pthread_create in pthreads
+[12.013s] -- Looking for pthread_create in pthreads - not found
+[12.014s] -- Looking for pthread_create in pthread
+[12.915s] -- Looking for pthread_create in pthread - found
+[12.925s] -- Found Threads: TRUE  
+[14.192s] -- Found pcl_conversions: 2.2.1 (/opt/ros/foxy/share/pcl_conversions/cmake)
+[16.052s] -- Found rclpy: 1.0.13 (/opt/ros/foxy/share/rclpy/cmake)
+[17.509s] -- Found CURL: /usr/lib/aarch64-linux-gnu/libcurl.so (found version "7.68.0")  
+[17.554s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[18.330s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[18.333s] -- Configured cppcheck include dirs: 
+[18.334s] -- Configured cppcheck exclude dirs and/or files: 
+[18.341s] -- Added test 'flake8' to check Python code syntax and style conventions
+[18.353s] -- Added test 'lint_cmake' to check CMake code style
+[18.363s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[18.401s] -- Added test 'uncrustify' to check C / C++ code style
+[18.402s] -- Configured uncrustify additional arguments: 
+[18.411s] -- Added test 'xmllint' to check XML markup files
+[18.448s] -- Configuring done
+[18.491s] -- Generating done
+[18.501s] -- Build files have been written to: /home/xtark/tarkbot/ros2_ws/build/lakibeam1
+[18.552s] Invoked command in '/home/xtark/tarkbot/ros2_ws/build/lakibeam1' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/lakibeam1 -DCMAKE_INSTALL_PREFIX=/home/xtark/tarkbot/ros2_ws/install/lakibeam1
+[18.554s] Invoking command in '/home/xtark/tarkbot/ros2_ws/build/lakibeam1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/xtark/tarkbot/ros2_ws/build/lakibeam1 -- -j4 -l4
+[19.179s] [35m[1mScanning dependencies of target lakibeam1_scan_node[0m
+[19.910s] [ 33%] [32mBuilding CXX object CMakeFiles/lakibeam1_scan_node.dir/src/lakibeam1_scan.cpp.o[0m
+[19.958s] [ 66%] [32mBuilding CXX object CMakeFiles/lakibeam1_scan_node.dir/src/remote.cpp.o[0m
+[40.260s] [01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/lakibeam1/src/remote.cpp:[m[K In function ‘[01m[Ksize_t dummy_callback(void*, size_t, size_t, void*)[m[K’:
+[40.261s] [01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/lakibeam1/src/remote.cpp:16:36:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kbuffer[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[40.262s]    16 | static size_t dummy_callback([01;35m[Kvoid *buffer[m[K, size_t size, size_t nmemb, void *userp)
+[40.262s]       |                              [01;35m[K~~~~~~^~~~~~[m[K
+[40.263s] [01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/lakibeam1/src/remote.cpp:16:77:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kuserp[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[40.264s]    16 | static size_t dummy_callback(void *buffer, size_t size, size_t nmemb, [01;35m[Kvoid *userp[m[K)
+[40.264s]       |                                                                       [01;35m[K~~~~~~^~~~~[m[K
+[44.348s] In file included from [01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/lakibeam1/src/remote.cpp:4[m[K:
+[44.350s] /home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/lakibeam1/src/../thirdparty/rapidjson/document.h: In instantiation of ‘[01m[Kvoid rapidjson::GenericValue<Encoding, Allocator>::SetObjectRaw(rapidjson::GenericValue<Encoding, Allocator>::Member*, rapidjson::SizeType, Allocator&) [with Encoding = rapidjson::UTF8<>; Allocator = rapidjson::MemoryPoolAllocator<>; rapidjson::GenericValue<Encoding, Allocator>::Member = rapidjson::GenericMember<rapidjson::UTF8<>, rapidjson::MemoryPoolAllocator<> >; rapidjson::SizeType = unsigned int][m[K’:
+[44.352s] [01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/lakibeam1/src/../thirdparty/rapidjson/document.h:2363:9:[m[K   required from ‘[01m[Kbool rapidjson::GenericDocument<Encoding, Allocator, StackAllocator>::EndObject(rapidjson::SizeType) [with Encoding = rapidjson::UTF8<>; Allocator = rapidjson::MemoryPoolAllocator<>; StackAllocator = rapidjson::CrtAllocator; rapidjson::SizeType = unsigned int][m[K’
+[44.353s] [01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/lakibeam1/src/../thirdparty/rapidjson/reader.h:1736:18:[m[K   required from ‘[01m[Krapidjson::GenericReader<SourceEncoding, TargetEncoding, StackAllocator>::IterativeParsingState rapidjson::GenericReader<SourceEncoding, TargetEncoding, StackAllocator>::Transit(rapidjson::GenericReader<SourceEncoding, TargetEncoding, StackAllocator>::IterativeParsingState, rapidjson::GenericReader<SourceEncoding, TargetEncoding, StackAllocator>::Token, rapidjson::GenericReader<SourceEncoding, TargetEncoding, StackAllocator>::IterativeParsingState, InputStream&, Handler&) [with unsigned int parseFlags = 0; InputStream = rapidjson::GenericStringStream<rapidjson::UTF8<> >; Handler = rapidjson::GenericDocument<rapidjson::UTF8<> >; SourceEncoding = rapidjson::UTF8<>; TargetEncoding = rapidjson::UTF8<>; StackAllocator = rapidjson::CrtAllocator][m[K’
+[44.354s] [01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/lakibeam1/src/../thirdparty/rapidjson/reader.h:1832:35:[m[K   required from ‘[01m[Krapidjson::ParseResult rapidjson::GenericReader<SourceEncoding, TargetEncoding, StackAllocator>::IterativeParse(InputStream&, Handler&) [with unsigned int parseFlags = 0; InputStream = rapidjson::GenericStringStream<rapidjson::UTF8<> >; Handler = rapidjson::GenericDocument<rapidjson::UTF8<> >; SourceEncoding = rapidjson::UTF8<>; TargetEncoding = rapidjson::UTF8<>; StackAllocator = rapidjson::CrtAllocator][m[K’
+[44.355s] [01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/lakibeam1/src/../thirdparty/rapidjson/reader.h:487:58:[m[K   required from ‘[01m[Krapidjson::ParseResult rapidjson::GenericReader<SourceEncoding, TargetEncoding, StackAllocator>::Parse(InputStream&, Handler&) [with unsigned int parseFlags = 0; InputStream = rapidjson::GenericStringStream<rapidjson::UTF8<> >; Handler = rapidjson::GenericDocument<rapidjson::UTF8<> >; SourceEncoding = rapidjson::UTF8<>; TargetEncoding = rapidjson::UTF8<>; StackAllocator = rapidjson::CrtAllocator][m[K’
+[44.356s] [01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/lakibeam1/src/../thirdparty/rapidjson/document.h:2159:22:[m[K   required from ‘[01m[Krapidjson::GenericDocument<Encoding, Allocator, StackAllocator>& rapidjson::GenericDocument<Encoding, Allocator, StackAllocator>::ParseStream(InputStream&) [with unsigned int parseFlags = 0; SourceEncoding = rapidjson::UTF8<>; InputStream = rapidjson::GenericStringStream<rapidjson::UTF8<> >; Encoding = rapidjson::UTF8<>; Allocator = rapidjson::MemoryPoolAllocator<>; StackAllocator = rapidjson::CrtAllocator][m[K’
+[44.358s] [01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/lakibeam1/src/../thirdparty/rapidjson/document.h:2224:57:[m[K   required from ‘[01m[Krapidjson::GenericDocument<Encoding, Allocator, StackAllocator>& rapidjson::GenericDocument<Encoding, Allocator, StackAllocator>::Parse(const typename SourceEncoding::Ch*) [with unsigned int parseFlags = 0; SourceEncoding = rapidjson::UTF8<>; Encoding = rapidjson::UTF8<>; Allocator = rapidjson::MemoryPoolAllocator<>; StackAllocator = rapidjson::CrtAllocator; typename SourceEncoding::Ch = char][m[K’
+[44.359s] [01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/lakibeam1/src/../thirdparty/rapidjson/document.h:2233:47:[m[K   required from ‘[01m[Krapidjson::GenericDocument<Encoding, Allocator, StackAllocator>& rapidjson::GenericDocument<Encoding, Allocator, StackAllocator>::Parse(const Ch*) [with unsigned int parseFlags = 0; Encoding = rapidjson::UTF8<>; Allocator = rapidjson::MemoryPoolAllocator<>; StackAllocator = rapidjson::CrtAllocator; rapidjson::GenericDocument<Encoding, Allocator, StackAllocator>::Ch = char][m[K’
+[44.360s] [01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/lakibeam1/src/../thirdparty/rapidjson/document.h:2240:45:[m[K   required from ‘[01m[Krapidjson::GenericDocument<Encoding, Allocator, StackAllocator>& rapidjson::GenericDocument<Encoding, Allocator, StackAllocator>::Parse(const Ch*) [with Encoding = rapidjson::UTF8<>; Allocator = rapidjson::MemoryPoolAllocator<>; StackAllocator = rapidjson::CrtAllocator; rapidjson::GenericDocument<Encoding, Allocator, StackAllocator>::Ch = char][m[K’
+[44.361s] [01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/lakibeam1/src/remote.cpp:76:21:[m[K   required from here
+[44.362s] [01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/lakibeam1/src/../thirdparty/rapidjson/document.h:1952:24:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memcpy(void*, const void*, size_t)[m[K’ writing to an object of type ‘[01m[Krapidjson::GenericValue<rapidjson::UTF8<> >::Member[m[K’ {aka ‘[01m[Kstruct rapidjson::GenericMember<rapidjson::UTF8<>, rapidjson::MemoryPoolAllocator<> >[m[K’} with no trivial copy-assignment; use copy-assignment instead [[01;35m[K-Wclass-memaccess[m[K]
+[44.372s]  1952 |             [01;35m[Kstd::memcpy(m, members, count * sizeof(Member))[m[K;
+[44.374s]       |             [01;35m[K~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[44.375s] In file included from [01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/lakibeam1/src/remote.cpp:4[m[K:
+[44.376s] [01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/lakibeam1/src/../thirdparty/rapidjson/document.h:71:8:[m[K [01;36m[Knote: [m[K‘[01m[Krapidjson::GenericValue<rapidjson::UTF8<> >::Member[m[K’ {aka ‘[01m[Kstruct rapidjson::GenericMember<rapidjson::UTF8<>, rapidjson::MemoryPoolAllocator<> >[m[K’} declared here
+[44.377s]    71 | struct [01;36m[KGenericMember[m[K {
+[44.377s]       |        [01;36m[K^~~~~~~~~~~~~[m[K
+[44.378s] In file included from [01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/lakibeam1/src/remote.cpp:4[m[K:
+[44.378s] /home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/lakibeam1/src/../thirdparty/rapidjson/document.h: In instantiation of ‘[01m[Kvoid rapidjson::GenericValue<Encoding, Allocator>::SetArrayRaw(rapidjson::GenericValue<Encoding, Allocator>*, rapidjson::SizeType, Allocator&) [with Encoding = rapidjson::UTF8<>; Allocator = rapidjson::MemoryPoolAllocator<>; rapidjson::SizeType = unsigned int][m[K’:
+[44.379s] [01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/lakibeam1/src/../thirdparty/rapidjson/document.h:2371:9:[m[K   required from ‘[01m[Kbool rapidjson::GenericDocument<Encoding, Allocator, StackAllocator>::EndArray(rapidjson::SizeType) [with Encoding = rapidjson::UTF8<>; Allocator = rapidjson::MemoryPoolAllocator<>; StackAllocator = rapidjson::CrtAllocator; rapidjson::SizeType = unsigned int][m[K’
+[44.380s] [01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/lakibeam1/src/../thirdparty/rapidjson/reader.h:1766:18:[m[K   required from ‘[01m[Krapidjson::GenericReader<SourceEncoding, TargetEncoding, StackAllocator>::IterativeParsingState rapidjson::GenericReader<SourceEncoding, TargetEncoding, StackAllocator>::Transit(rapidjson::GenericReader<SourceEncoding, TargetEncoding, StackAllocator>::IterativeParsingState, rapidjson::GenericReader<SourceEncoding, TargetEncoding, StackAllocator>::Token, rapidjson::GenericReader<SourceEncoding, TargetEncoding, StackAllocator>::IterativeParsingState, InputStream&, Handler&) [with unsigned int parseFlags = 0; InputStream = rapidjson::GenericStringStream<rapidjson::UTF8<> >; Handler = rapidjson::GenericDocument<rapidjson::UTF8<> >; SourceEncoding = rapidjson::UTF8<>; TargetEncoding = rapidjson::UTF8<>; StackAllocator = rapidjson::CrtAllocator][m[K’
+[44.381s] [01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/lakibeam1/src/../thirdparty/rapidjson/reader.h:1832:35:[m[K   required from ‘[01m[Krapidjson::ParseResult rapidjson::GenericReader<SourceEncoding, TargetEncoding, StackAllocator>::IterativeParse(InputStream&, Handler&) [with unsigned int parseFlags = 0; InputStream = rapidjson::GenericStringStream<rapidjson::UTF8<> >; Handler = rapidjson::GenericDocument<rapidjson::UTF8<> >; SourceEncoding = rapidjson::UTF8<>; TargetEncoding = rapidjson::UTF8<>; StackAllocator = rapidjson::CrtAllocator][m[K’
+[44.382s] [01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/lakibeam1/src/../thirdparty/rapidjson/reader.h:487:58:[m[K   required from ‘[01m[Krapidjson::ParseResult rapidjson::GenericReader<SourceEncoding, TargetEncoding, StackAllocator>::Parse(InputStream&, Handler&) [with unsigned int parseFlags = 0; InputStream = rapidjson::GenericStringStream<rapidjson::UTF8<> >; Handler = rapidjson::GenericDocument<rapidjson::UTF8<> >; SourceEncoding = rapidjson::UTF8<>; TargetEncoding = rapidjson::UTF8<>; StackAllocator = rapidjson::CrtAllocator][m[K’
+[44.395s] [01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/lakibeam1/src/../thirdparty/rapidjson/document.h:2159:22:[m[K   required from ‘[01m[Krapidjson::GenericDocument<Encoding, Allocator, StackAllocator>& rapidjson::GenericDocument<Encoding, Allocator, StackAllocator>::ParseStream(InputStream&) [with unsigned int parseFlags = 0; SourceEncoding = rapidjson::UTF8<>; InputStream = rapidjson::GenericStringStream<rapidjson::UTF8<> >; Encoding = rapidjson::UTF8<>; Allocator = rapidjson::MemoryPoolAllocator<>; StackAllocator = rapidjson::CrtAllocator][m[K’
+[44.396s] [01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/lakibeam1/src/../thirdparty/rapidjson/document.h:2224:57:[m[K   required from ‘[01m[Krapidjson::GenericDocument<Encoding, Allocator, StackAllocator>& rapidjson::GenericDocument<Encoding, Allocator, StackAllocator>::Parse(const typename SourceEncoding::Ch*) [with unsigned int parseFlags = 0; SourceEncoding = rapidjson::UTF8<>; Encoding = rapidjson::UTF8<>; Allocator = rapidjson::MemoryPoolAllocator<>; StackAllocator = rapidjson::CrtAllocator; typename SourceEncoding::Ch = char][m[K’
+[44.397s] [01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/lakibeam1/src/../thirdparty/rapidjson/document.h:2233:47:[m[K   required from ‘[01m[Krapidjson::GenericDocument<Encoding, Allocator, StackAllocator>& rapidjson::GenericDocument<Encoding, Allocator, StackAllocator>::Parse(const Ch*) [with unsigned int parseFlags = 0; Encoding = rapidjson::UTF8<>; Allocator = rapidjson::MemoryPoolAllocator<>; StackAllocator = rapidjson::CrtAllocator; rapidjson::GenericDocument<Encoding, Allocator, StackAllocator>::Ch = char][m[K’
+[44.398s] [01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/lakibeam1/src/../thirdparty/rapidjson/document.h:2240:45:[m[K   required from ‘[01m[Krapidjson::GenericDocument<Encoding, Allocator, StackAllocator>& rapidjson::GenericDocument<Encoding, Allocator, StackAllocator>::Parse(const Ch*) [with Encoding = rapidjson::UTF8<>; Allocator = rapidjson::MemoryPoolAllocator<>; StackAllocator = rapidjson::CrtAllocator; rapidjson::GenericDocument<Encoding, Allocator, StackAllocator>::Ch = char][m[K’
+[44.399s] [01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/lakibeam1/src/remote.cpp:76:21:[m[K   required from here
+[44.400s] [01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/lakibeam1/src/../thirdparty/rapidjson/document.h:1939:24:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memcpy(void*, const void*, size_t)[m[K’ writing to an object of type ‘[01m[Kclass rapidjson::GenericValue<rapidjson::UTF8<> >[m[K’ with no trivial copy-assignment; use copy-assignment or copy-initialization instead [[01;35m[K-Wclass-memaccess[m[K]
+[44.401s]  1939 |             [01;35m[Kstd::memcpy(e, values, count * sizeof(GenericValue))[m[K;
+[44.401s]       |             [01;35m[K~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[44.402s] [01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_package/tarkbot_lidar/lakibeam1/src/../thirdparty/rapidjson/document.h:540:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass rapidjson::GenericValue<rapidjson::UTF8<> >[m[K’ declared here
+[44.403s]   540 | class [01;36m[KGenericValue[m[K {
+[44.403s]       |       [01;36m[K^~~~~~~~~~~~[m[K
+[53.998s] [100%] [32m[1mLinking CXX executable lakibeam1_scan_node[0m
+[56.090s] [100%] Built target lakibeam1_scan_node
+[56.224s] Invoked command in '/home/xtark/tarkbot/ros2_ws/build/lakibeam1' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/xtark/tarkbot/ros2_ws/build/lakibeam1 -- -j4 -l4
+[57.616s] Invoking command in '/home/xtark/tarkbot/ros2_ws/build/lakibeam1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/xtark/tarkbot/ros2_ws/build/lakibeam1
+[57.677s] -- Install configuration: ""
+[57.679s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/lakibeam1/share/ament_index/resource_index/package_run_dependencies/lakibeam1
+[57.682s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/lakibeam1/share/ament_index/resource_index/parent_prefix_path/lakibeam1
+[57.685s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/lakibeam1/share/lakibeam1/environment/ament_prefix_path.sh
+[57.688s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/lakibeam1/share/lakibeam1/environment/ament_prefix_path.dsv
+[57.690s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/lakibeam1/share/lakibeam1/environment/path.sh
+[57.694s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/lakibeam1/share/lakibeam1/environment/path.dsv
+[57.696s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/lakibeam1/share/lakibeam1/local_setup.bash
+[57.699s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/lakibeam1/share/lakibeam1/local_setup.sh
+[57.701s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/lakibeam1/share/lakibeam1/local_setup.zsh
+[57.704s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/lakibeam1/share/lakibeam1/local_setup.dsv
+[57.706s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/lakibeam1/share/lakibeam1/package.dsv
+[57.709s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/lakibeam1/share/ament_index/resource_index/packages/lakibeam1
+[57.712s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/lakibeam1/share/lakibeam1/cmake/lakibeam1Config.cmake
+[57.714s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/lakibeam1/share/lakibeam1/cmake/lakibeam1Config-version.cmake
+[57.717s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/lakibeam1/share/lakibeam1/package.xml
+[57.720s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/lakibeam1/lib/lakibeam1/lakibeam1_scan_node
+[57.732s] -- Set runtime path of "/home/xtark/tarkbot/ros2_ws/install/lakibeam1/lib/lakibeam1/lakibeam1_scan_node" to ""
+[57.735s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/lakibeam1/share/lakibeam1/launch
+[57.736s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/lakibeam1/share/lakibeam1/launch/tarkbot_lakibeam1_scan.launch.py
+[57.742s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/lakibeam1/share/lakibeam1/launch/lakibeam1_scan.launch.py
+[57.743s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/lakibeam1/share/lakibeam1/launch/lakibeam1_scan_dual_lidar.launch.py
+[57.745s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/lakibeam1/share/lakibeam1/launch/lakibeam1_scan_view.launch.py
+[57.746s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/lakibeam1/share/lakibeam1/launch/lakibeam1_scan_dual_lidar_view.launch.py
+[57.748s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/lakibeam1/share/lakibeam1/rviz
+[57.748s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/lakibeam1/share/lakibeam1/rviz/rviz_scan.rviz
+[57.750s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/lakibeam1/share/lakibeam1/rviz/lakibeam1_scan.rviz
+[57.751s] -- Installing: /home/xtark/tarkbot/ros2_ws/install/lakibeam1/share/lakibeam1/rviz/lakibeam1_scan_dual.rviz
+[57.760s] Invoked command in '/home/xtark/tarkbot/ros2_ws/build/lakibeam1' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/xtark/tarkbot/ros2_ws/build/lakibeam1

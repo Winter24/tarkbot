@@ -1,0 +1,48 @@
+[35m[1mScanning dependencies of target tarkbot_robot_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/tarkbot_robot_node.dir/src/tarkbot_robot.cpp.o[0m
+[01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_robot/src/tarkbot_robot.cpp:[m[K In member function ‘[01m[Kvoid TarkbotRobot::calculateImuQuaternion(imu_data)[m[K’:
+[01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_robot/src/tarkbot_robot.cpp:499:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kroll[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  499 |     float [01;35m[Kroll[m[K,pitch,yaw ;
+      |           [01;35m[K^~~~[m[K
+[01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_robot/src/tarkbot_robot.cpp:499:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kpitch[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  499 |     float roll,[01;35m[Kpitch[m[K,yaw ;
+      |                [01;35m[K^~~~~[m[K
+[01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_robot/src/tarkbot_robot.cpp:499:22:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kyaw[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  499 |     float roll,pitch,[01;35m[Kyaw[m[K ;
+      |                      [01;35m[K^~~[m[K
+[01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_robot/src/tarkbot_robot.cpp:[m[K In function ‘[01m[Kfloat invSqrt(float)[m[K’:
+[01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_robot/src/tarkbot_robot.cpp:586:12:[m[K [01;35m[Kwarning: [m[Kdereferencing type-punned pointer will break strict-aliasing rules [[01;35m[K-Wstrict-aliasing[m[K]
+  586 |     i = * [01;35m[K(( long * ) &y)[m[K;
+      |           [01;35m[K~^~~~~~~~~~~~~~[m[K
+[01m[K/home/xtark/tarkbot/ros2_ws/src/tarkbot_robot/src/tarkbot_robot.cpp:589:12:[m[K [01;35m[Kwarning: [m[Kdereferencing type-punned pointer will break strict-aliasing rules [[01;35m[K-Wstrict-aliasing[m[K]
+  589 |     y = * [01;35m[K(( float * ) &i)[m[K;
+      |           [01;35m[K~^~~~~~~~~~~~~~~[m[K
+[100%] [32m[1mLinking CXX executable tarkbot_robot_node[0m
+[100%] Built target tarkbot_robot_node
+-- Install configuration: "Release"
+-- Installing: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/lib/tarkbot_robot/tarkbot_robot_node
+-- Set runtime path of "/home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/lib/tarkbot_robot/tarkbot_robot_node" to ""
+-- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/launch
+-- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/launch/__pycache__
+-- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/launch/__pycache__/robot.launch.cpython-38.pyc
+-- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/launch/robot.launch test.py
+-- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/launch/robot.launch.py
+-- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/launch/robot2_lidar.launch test.py
+-- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/launch/robot2_lidar.launch.py
+-- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/config
+-- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/config/tarkbot_config.yaml
+-- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/ament_index/resource_index/package_run_dependencies/tarkbot_robot
+-- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/ament_index/resource_index/parent_prefix_path/tarkbot_robot
+-- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/environment/ament_prefix_path.sh
+-- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/environment/path.sh
+-- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/environment/path.dsv
+-- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/local_setup.bash
+-- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/local_setup.sh
+-- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/local_setup.zsh
+-- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/local_setup.dsv
+-- Installing: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/package.dsv
+-- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/ament_index/resource_index/packages/tarkbot_robot
+-- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/cmake/tarkbot_robotConfig.cmake
+-- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/cmake/tarkbot_robotConfig-version.cmake
+-- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/package.xml
