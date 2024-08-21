@@ -1,0 +1,55 @@
+[0.143s] Invoking command in '/home/xtark/tarkbot/ros2_ws/build/m1ct_d2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/xtark/tarkbot/ros2_ws/build/m1ct_d2 -- -j4 -l4
+[0.211s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[0.211s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[0.217s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[0.286s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[0.342s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[0.358s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[0.387s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[0.402s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[0.510s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[0.740s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[0.756s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[0.826s] [100%] Built target m1ct_d2
+[0.850s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[0.952s] Invoked command in '/home/xtark/tarkbot/ros2_ws/build/m1ct_d2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/xtark/tarkbot/ros2_ws/build/m1ct_d2 -- -j4 -l4
+[1.383s] Invoking command in '/home/xtark/tarkbot/ros2_ws/build/m1ct_d2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/xtark/tarkbot/ros2_ws/build/m1ct_d2 --target install -- -j4 -l4
+[1.407s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[1.449s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[1.459s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[1.535s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[1.585s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[1.595s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[1.622s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[1.630s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[1.698s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[1.815s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[1.821s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[1.891s] [100%] Built target m1ct_d2
+[1.900s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[2.020s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[2.043s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[2.064s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[2.123s] [36mInstall the project...[0m
+[2.142s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[2.229s] -- Install configuration: "Release"
+[2.235s] -- Execute custom install script
+[2.237s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/m1ct_d2/lib/m1ct_d2/m1ct_d2
+[2.245s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/m1ct_d2/share/m1ct_d2//launch/tarkbot_m1ct.launch.py
+[2.251s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/m1ct_d2/share/ament_index/resource_index/package_run_dependencies/m1ct_d2
+[2.258s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/m1ct_d2/share/ament_index/resource_index/parent_prefix_path/m1ct_d2
+[2.261s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/m1ct_d2/share/m1ct_d2/environment/ament_prefix_path.sh
+[2.263s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/m1ct_d2/share/m1ct_d2/environment/ament_prefix_path.dsv
+[2.264s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/m1ct_d2/share/m1ct_d2/environment/path.sh
+[2.266s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/m1ct_d2/share/m1ct_d2/environment/path.dsv
+[2.269s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/m1ct_d2/share/m1ct_d2/local_setup.bash
+[2.270s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/m1ct_d2/share/m1ct_d2/local_setup.sh
+[2.272s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/m1ct_d2/share/m1ct_d2/local_setup.zsh
+[2.273s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/m1ct_d2/share/m1ct_d2/local_setup.dsv
+[2.275s] -- Symlinking: /home/xtark/tarkbot/ros2_ws/install/m1ct_d2/share/m1ct_d2/package.dsv
+[2.284s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[2.327s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/m1ct_d2/share/ament_index/resource_index/packages/m1ct_d2
+[2.328s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/m1ct_d2/share/m1ct_d2/cmake/m1ct_d2Config.cmake
+[2.330s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/m1ct_d2/share/m1ct_d2/cmake/m1ct_d2Config-version.cmake
+[2.331s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/m1ct_d2/share/m1ct_d2/package.xml
+[2.349s] Invoked command in '/home/xtark/tarkbot/ros2_ws/build/m1ct_d2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/xtark/tarkbot/ros2_ws/build/m1ct_d2 --target install -- -j4 -l4

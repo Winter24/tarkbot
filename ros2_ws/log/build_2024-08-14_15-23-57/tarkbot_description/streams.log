@@ -1,0 +1,58 @@
+[0.069s] Invoking command in '/home/xtark/tarkbot/ros2_ws/build/tarkbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/xtark/tarkbot/ros2_ws/build/tarkbot_description -- -j4 -l4
+[0.087s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[0.154s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[0.163s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[0.232s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[0.257s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[0.266s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[0.315s] Invoked command in '/home/xtark/tarkbot/ros2_ws/build/tarkbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/xtark/tarkbot/ros2_ws/build/tarkbot_description -- -j4 -l4
+[0.535s] Invoking command in '/home/xtark/tarkbot/ros2_ws/build/tarkbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/xtark/tarkbot/ros2_ws/build/tarkbot_description --target install -- -j4 -l4
+[0.542s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[0.594s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[0.607s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[0.656s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[0.701s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[0.710s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[0.751s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[0.759s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[0.784s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[0.823s] [36mInstall the project...[0m
+[0.841s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[0.881s] -- Install configuration: "Release"
+[0.883s] -- Execute custom install script
+[0.886s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/tarkbot_description/share/tarkbot_description/launch/model.launch.py
+[0.890s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/tarkbot_description/share/tarkbot_description/urdf/tarkbot_r10_akm.urdf
+[0.891s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/tarkbot_description/share/tarkbot_description/urdf/tarkbot_r10_fwd.urdf
+[0.893s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/tarkbot_description/share/tarkbot_description/urdf/tarkbot_r10_mec.urdf
+[0.895s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/tarkbot_description/share/tarkbot_description/urdf/tarkbot_r10_omni.urdf
+[0.900s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/tarkbot_description/share/tarkbot_description/urdf/tarkbot_r10_twd.urdf
+[0.902s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/tarkbot_description/share/tarkbot_description/urdf/tarkbot_r20_akm.urdf
+[0.903s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/tarkbot_description/share/tarkbot_description/urdf/tarkbot_r20_fwd.urdf
+[0.905s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/tarkbot_description/share/tarkbot_description/urdf/tarkbot_r20_mec.urdf
+[0.909s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/tarkbot_description/share/tarkbot_description/meshes/base_r10_akm.stl
+[0.918s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/tarkbot_description/share/tarkbot_description/meshes/base_r10_fwd.stl
+[0.919s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/tarkbot_description/share/tarkbot_description/meshes/base_r10_mec.stl
+[0.921s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/tarkbot_description/share/tarkbot_description/meshes/base_r10_omni.stl
+[0.922s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/tarkbot_description/share/tarkbot_description/meshes/base_r10_twd.stl
+[0.924s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/tarkbot_description/share/tarkbot_description/meshes/base_r20_akm.stl
+[0.926s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/tarkbot_description/share/tarkbot_description/meshes/base_r20_fwd.stl
+[0.928s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/tarkbot_description/share/tarkbot_description/meshes/base_r20_mec.stl
+[0.929s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/tarkbot_description/share/tarkbot_description/meshes/depthcamera.stl
+[0.930s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/tarkbot_description/share/tarkbot_description/meshes/laser.stl
+[0.932s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/tarkbot_description/share/ament_index/resource_index/package_run_dependencies/tarkbot_description
+[0.934s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/tarkbot_description/share/ament_index/resource_index/parent_prefix_path/tarkbot_description
+[0.935s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/tarkbot_description/share/tarkbot_description/environment/ament_prefix_path.sh
+[0.937s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/tarkbot_description/share/tarkbot_description/environment/ament_prefix_path.dsv
+[0.939s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/tarkbot_description/share/tarkbot_description/environment/path.sh
+[0.940s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/tarkbot_description/share/tarkbot_description/environment/path.dsv
+[0.942s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/tarkbot_description/share/tarkbot_description/local_setup.bash
+[0.945s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/tarkbot_description/share/tarkbot_description/local_setup.sh
+[0.946s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/tarkbot_description/share/tarkbot_description/local_setup.zsh
+[0.947s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/tarkbot_description/share/tarkbot_description/local_setup.dsv
+[0.948s] -- Symlinking: /home/xtark/tarkbot/ros2_ws/install/tarkbot_description/share/tarkbot_description/package.dsv
+[0.954s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[1.000s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/tarkbot_description/share/ament_index/resource_index/packages/tarkbot_description
+[1.013s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/tarkbot_description/share/tarkbot_description/cmake/tarkbot_descriptionConfig.cmake
+[1.014s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/tarkbot_description/share/tarkbot_description/cmake/tarkbot_descriptionConfig-version.cmake
+[1.016s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/tarkbot_description/share/tarkbot_description/package.xml
+[1.031s] Invoked command in '/home/xtark/tarkbot/ros2_ws/build/tarkbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/xtark/tarkbot/ros2_ws/build/tarkbot_description --target install -- -j4 -l4

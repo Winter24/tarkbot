@@ -1,0 +1,110 @@
+[0.319s] Invoking command in '/home/xtark/tarkbot/ros2_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/xtark/tarkbot/ros2_ws/build/rplidar_ros -- -j4 -l4
+[0.326s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[0.357s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[0.457s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[0.612s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[0.659s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[0.670s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[0.713s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[0.722s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[1.249s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[1.354s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[1.383s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[1.451s] [100%] Built target rplidar_node
+[1.456s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[1.505s] Invoked command in '/home/xtark/tarkbot/ros2_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/xtark/tarkbot/ros2_ws/build/rplidar_ros -- -j4 -l4
+[1.966s] Invoking command in '/home/xtark/tarkbot/ros2_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/xtark/tarkbot/ros2_ws/build/rplidar_ros --target install -- -j4 -l4
+[1.984s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[2.032s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[2.041s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[2.103s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[2.198s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[2.207s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[2.220s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[2.232s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[2.311s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[2.414s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[2.418s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[2.454s] [100%] Built target rplidar_node
+[2.461s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[2.511s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[2.547s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[2.553s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[2.590s] [36mInstall the project...[0m
+[2.596s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[2.655s] -- Install configuration: "Release"
+[2.658s] -- Execute custom install script
+[2.662s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_node
+[2.673s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//launch/__pycache__/rplidar_tarkbot.launch.cpython-38.pyc
+[2.675s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//launch/rplidar.launch
+[2.676s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//launch/rplidar_a3.launch
+[2.677s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//launch/rplidar_s1.launch
+[2.679s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//launch/rplidar_s1_tcp.launch
+[2.680s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//launch/rplidar_tarkbot.launch.py
+[2.680s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//launch/test_rplidar.launch
+[2.681s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//launch/test_rplidar_a3.launch
+[2.682s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//launch/view_rplidar.launch
+[2.683s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//launch/view_rplidar_a3.launch
+[2.683s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//launch/view_rplidar_s1.launch
+[2.684s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//launch/view_rplidar_s1_tcp.launch
+[2.684s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//rviz/rplidar.rviz
+[2.688s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//sdk/README.txt
+[2.689s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//sdk/include/rplidar.h
+[2.691s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//sdk/include/rplidar_cmd.h
+[2.692s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//sdk/include/rplidar_driver.h
+[2.693s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//sdk/include/rplidar_protocol.h
+[2.695s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//sdk/include/rptypes.h
+[2.696s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//sdk/src/arch/linux/arch_linux.h
+[2.701s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//sdk/src/arch/linux/net_serial.cpp
+[2.702s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//sdk/src/arch/linux/net_serial.h
+[2.703s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//sdk/src/arch/linux/net_socket.cpp
+[2.706s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//sdk/src/arch/linux/thread.hpp
+[2.707s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//sdk/src/arch/linux/timer.cpp
+[2.708s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//sdk/src/arch/linux/timer.h
+[2.709s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//sdk/src/arch/macOS/arch_macOS.h
+[2.710s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//sdk/src/arch/macOS/net_serial.cpp
+[2.711s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//sdk/src/arch/macOS/net_serial.h
+[2.711s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//sdk/src/arch/macOS/net_socket.cpp
+[2.712s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//sdk/src/arch/macOS/thread.hpp
+[2.714s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//sdk/src/arch/macOS/timer.cpp
+[2.715s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//sdk/src/arch/macOS/timer.h
+[2.716s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//sdk/src/arch/win32/arch_win32.h
+[2.718s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//sdk/src/arch/win32/net_serial.cpp
+[2.719s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//sdk/src/arch/win32/net_serial.h
+[2.720s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//sdk/src/arch/win32/net_socket.cpp
+[2.722s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//sdk/src/arch/win32/timer.cpp
+[2.723s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//sdk/src/arch/win32/timer.h
+[2.725s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//sdk/src/arch/win32/winthread.hpp
+[2.729s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//sdk/src/hal/abs_rxtx.h
+[2.733s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//sdk/src/hal/assert.h
+[2.743s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//sdk/src/hal/byteops.h
+[2.746s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//sdk/src/hal/event.h
+[2.747s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//sdk/src/hal/locker.h
+[2.756s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//sdk/src/hal/socket.h
+[2.757s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//sdk/src/hal/thread.cpp
+[2.757s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//sdk/src/hal/thread.h
+[2.758s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//sdk/src/hal/types.h
+[2.758s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//sdk/src/hal/util.h
+[2.759s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//sdk/src/rplidar_driver.cpp
+[2.760s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//sdk/src/rplidar_driver_TCP.h
+[2.760s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//sdk/src/rplidar_driver_impl.h
+[2.761s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//sdk/src/rplidar_driver_serial.h
+[2.762s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//sdk/src/sdkcommon.h
+[2.764s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros//config/rplidar_config.yaml
+[2.767s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/ament_index/resource_index/package_run_dependencies/rplidar_ros
+[2.769s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/ament_index/resource_index/parent_prefix_path/rplidar_ros
+[2.770s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.sh
+[2.770s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.dsv
+[2.771s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros/environment/path.sh
+[2.772s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros/environment/path.dsv
+[2.772s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros/local_setup.bash
+[2.773s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros/local_setup.sh
+[2.774s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros/local_setup.zsh
+[2.776s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros/local_setup.dsv
+[2.776s] -- Symlinking: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.dsv
+[2.789s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[2.826s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/ament_index/resource_index/packages/rplidar_ros
+[2.828s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig.cmake
+[2.830s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig-version.cmake
+[2.832s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.xml
+[2.848s] Invoked command in '/home/xtark/tarkbot/ros2_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/xtark/tarkbot/ros2_ws/build/rplidar_ros --target install -- -j4 -l4

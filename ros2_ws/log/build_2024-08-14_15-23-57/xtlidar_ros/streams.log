@@ -1,0 +1,56 @@
+[0.066s] Invoking command in '/home/xtark/tarkbot/ros2_ws/build/xtlidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/xtark/tarkbot/ros2_ws/build/xtlidar_ros -- -j4 -l4
+[0.086s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[0.146s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[0.160s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[0.247s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[0.293s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[0.300s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[0.327s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[0.336s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[0.394s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[0.528s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[0.535s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[0.622s] [100%] Built target xtlidar_driver2_node
+[0.655s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[0.763s] Invoked command in '/home/xtark/tarkbot/ros2_ws/build/xtlidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/xtark/tarkbot/ros2_ws/build/xtlidar_ros -- -j4 -l4
+[1.301s] Invoking command in '/home/xtark/tarkbot/ros2_ws/build/xtlidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/xtark/tarkbot/ros2_ws/build/xtlidar_ros --target install -- -j4 -l4
+[1.322s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[1.355s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[1.361s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[1.419s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[1.497s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[1.514s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[1.521s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[1.525s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[1.566s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[1.655s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[1.707s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[1.747s] [100%] Built target xtlidar_driver2_node
+[1.753s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[1.792s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[1.799s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[1.807s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[1.839s] [36mInstall the project...[0m
+[1.845s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[1.883s] -- Install configuration: "Release"
+[1.885s] -- Execute custom install script
+[1.887s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/xtlidar_ros/lib/xtlidar_ros/xtlidar_driver2_node
+[1.890s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/xtlidar_ros/share/xtlidar_ros/launch/tarkbot_xtlidar_e300.launch.py
+[1.892s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/xtlidar_ros/share/xtlidar_ros/params/XTLIDAR_E300.yaml
+[1.894s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/xtlidar_ros/share/ament_index/resource_index/package_run_dependencies/xtlidar_ros
+[1.896s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/xtlidar_ros/share/ament_index/resource_index/parent_prefix_path/xtlidar_ros
+[1.898s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/xtlidar_ros/share/xtlidar_ros/environment/ament_prefix_path.sh
+[1.899s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/xtlidar_ros/share/xtlidar_ros/environment/ament_prefix_path.dsv
+[1.901s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/xtlidar_ros/share/xtlidar_ros/environment/path.sh
+[1.902s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/xtlidar_ros/share/xtlidar_ros/environment/path.dsv
+[1.904s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/xtlidar_ros/share/xtlidar_ros/local_setup.bash
+[1.906s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/xtlidar_ros/share/xtlidar_ros/local_setup.sh
+[1.907s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/xtlidar_ros/share/xtlidar_ros/local_setup.zsh
+[1.909s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/xtlidar_ros/share/xtlidar_ros/local_setup.dsv
+[1.910s] -- Symlinking: /home/xtark/tarkbot/ros2_ws/install/xtlidar_ros/share/xtlidar_ros/package.dsv
+[1.916s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[1.957s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/xtlidar_ros/share/ament_index/resource_index/packages/xtlidar_ros
+[1.958s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/xtlidar_ros/share/xtlidar_ros/cmake/xtlidar_rosConfig.cmake
+[1.960s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/xtlidar_ros/share/xtlidar_ros/cmake/xtlidar_rosConfig-version.cmake
+[1.962s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/xtlidar_ros/share/xtlidar_ros/package.xml
+[1.973s] Invoked command in '/home/xtark/tarkbot/ros2_ws/build/xtlidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/xtark/tarkbot/ros2_ws/build/xtlidar_ros --target install -- -j4 -l4

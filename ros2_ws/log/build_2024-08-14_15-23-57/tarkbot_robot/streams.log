@@ -1,0 +1,60 @@
+[0.115s] Invoking command in '/home/xtark/tarkbot/ros2_ws/build/tarkbot_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/xtark/tarkbot/ros2_ws/build/tarkbot_robot -- -j4 -l4
+[0.144s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[0.174s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[0.193s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[0.262s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[0.308s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[0.320s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[0.328s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[0.336s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[0.389s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[0.519s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[0.528s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[0.570s] [100%] Built target tarkbot_robot_node
+[0.576s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[0.625s] Invoked command in '/home/xtark/tarkbot/ros2_ws/build/tarkbot_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/xtark/tarkbot/ros2_ws/build/tarkbot_robot -- -j4 -l4
+[0.857s] Invoking command in '/home/xtark/tarkbot/ros2_ws/build/tarkbot_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/xtark/tarkbot/ros2_ws/build/tarkbot_robot --target install -- -j4 -l4
+[0.942s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[0.953s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[0.993s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[1.074s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[1.188s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[1.205s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[1.232s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[1.257s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[1.340s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[1.549s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[1.576s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[1.639s] [100%] Built target tarkbot_robot_node
+[1.648s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[1.730s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[1.747s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[1.751s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[1.785s] [36mInstall the project...[0m
+[1.815s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[1.850s] -- Install configuration: "Release"
+[1.851s] -- Execute custom install script
+[1.853s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/lib/tarkbot_robot/tarkbot_robot_node
+[1.856s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/launch/__pycache__/robot.launch.cpython-38.pyc
+[1.859s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/launch/robot.launch test.py
+[1.862s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/launch/robot.launch.py
+[1.863s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/launch/robot2_lidar.launch test.py
+[1.863s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/launch/robot2_lidar.launch.py
+[1.864s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/config/tarkbot_config.yaml
+[1.866s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/ament_index/resource_index/package_run_dependencies/tarkbot_robot
+[1.868s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/ament_index/resource_index/parent_prefix_path/tarkbot_robot
+[1.870s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/environment/ament_prefix_path.sh
+[1.873s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/environment/ament_prefix_path.dsv
+[1.875s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/environment/path.sh
+[1.877s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/environment/path.dsv
+[1.879s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/local_setup.bash
+[1.881s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/local_setup.sh
+[1.883s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/local_setup.zsh
+[1.885s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/local_setup.dsv
+[1.887s] -- Symlinking: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/package.dsv
+[1.894s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[1.943s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/ament_index/resource_index/packages/tarkbot_robot
+[1.943s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/cmake/tarkbot_robotConfig.cmake
+[1.944s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/cmake/tarkbot_robotConfig-version.cmake
+[1.945s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/tarkbot_robot/share/tarkbot_robot/package.xml
+[2.000s] Invoked command in '/home/xtark/tarkbot/ros2_ws/build/tarkbot_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/xtark/tarkbot/ros2_ws/build/tarkbot_robot --target install -- -j4 -l4

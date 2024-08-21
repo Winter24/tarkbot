@@ -16,31 +16,19 @@ def generate_launch_description():
         PythonLaunchDescriptionSource(os.path.join(get_package_share_directory(('tarkbot_robot')),'launch','robot.launch.py'))
     )
 
-    bringup_ld19lidar = IncludeLaunchDescription(
-            PythonLaunchDescriptionSource(os.path.join(get_package_share_directory(('ldlidar_stl_ros2')),'launch', 'tarkbot_ld19.launch.py'))
-    )
-
     bringup_rplidar = IncludeLaunchDescription(
         PythonLaunchDescriptionSource(os.path.join(get_package_share_directory(('rplidar_ros')),'launch','rplidar_tarkbot.launch.py'))
     )
 
-    bringup_m1ct = IncludeLaunchDescription(
-        PythonLaunchDescriptionSource(os.path.join(get_package_share_directory(('m1ct_d2')),'launch','tarkbot_m1ct.launch.py'))
+    astra_launch_file = os.path.join(get_package_share_directory('astra_camera'), 'launch', 'astra.launch.xml')
+    bringup_camera = ExecuteProcess(
+        cmd=['ros2', 'launch', astra_launch_file],
+        shell=True
     )
-
-    bringup_mapping_node = IncludeLaunchDescription(
-        PythonLaunchDescriptionSource(os.path.join(get_package_share_directory(('tarkbot_slam')),'launch','include','online_async_launch.py'))
-    )
-    # bringup_camera_node = IncludeLaunchDescription(
-    #     PythonLaunchDescriptionSource(os.path.join(get_package_share_directory(('tarkbot_camera')),'launch','camera_tarkbot.launch.py'))
-    # )
 
     ld.add_action(bringup_tarkbot_driver)
     ld.add_action(bringup_rplidar)
-    # ld.add_action(bringup_camera)
-    # ld.add_action(bringup_m1ct)
-    # ld.add_action(bringup_ld19lidar)
-    # ld.add_action(bringup_mapping_node)
+    ld.add_action(bringup_camera)
 
     return ld
 

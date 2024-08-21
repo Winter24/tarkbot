@@ -1,0 +1,434 @@
+[0.172s] Invoking command in '/home/xtark/tarkbot/ros2_ws/build/astra_camera_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/xtark/tarkbot/ros2_ws/build/astra_camera_msgs -- -j4 -l4
+[0.299s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[0.300s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[0.300s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[0.312s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[0.387s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[0.402s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[0.414s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[0.426s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[0.440s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[0.448s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[0.453s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[0.484s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[0.505s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[0.518s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[0.540s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[0.549s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[0.587s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[0.613s] [  1%] Built target astra_camera_msgs__cpp
+[0.637s] [ 12%] Built target astra_camera_msgs__rosidl_generator_c
+[0.644s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[0.652s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[0.667s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[0.675s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[0.689s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[0.695s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[0.699s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[0.724s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[0.725s] ' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[0.793s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[0.823s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[0.845s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[0.905s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[0.916s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOADERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1 cannot be preloaded (cannot open shared object file' from LD_PRELOAD): ignored.
+[0.920s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[0.922s]  cannot be preloaded (cannot open shared object file): ignored.
+[0.926s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[0.948s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[0.963s] [ 24%] Built target astra_camera_msgs__rosidl_typesupport_introspection_cpp
+[1.003s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[1.006s] [ 35%] Built target astra_camera_msgs__rosidl_typesupport_cpp
+[1.014s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[1.025s] [ 47%] Built target astra_camera_msgs__rosidl_typesupport_fastrtps_cpp
+[1.044s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[1.046s] ERROR: ld.so: object 'ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[1.047s] ' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[1.058s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[1.062s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[1.071s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[1.079s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[1.110s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[1.124s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[1.152s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[1.155s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[1.161s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[1.162s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[1.169s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[1.209s] [ 58%] Built target astra_camera_msgs__rosidl_typesupport_c
+[1.239s] [ 70%] Built target astra_camera_msgs__rosidl_typesupport_introspection_c
+[1.262s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[1.273s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[1.302s] [ 82%] Built target astra_camera_msgs__rosidl_typesupport_fastrtps_c
+[1.308s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[1.315s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[1.323s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[1.367s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[1.387s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[1.398s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[1.438s] [ 82%] Built target astra_camera_msgs
+[1.470s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[1.498s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[1.505s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[1.556s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[1.574s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[1.583s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[1.622s] [ 83%] Built target astra_camera_msgs__py
+[1.629s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[1.645s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[1.679s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[1.742s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[1.828s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[1.834s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[1.912s] [ 93%] Built target astra_camera_msgs__python
+[1.932s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[1.953s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[1.955s]  cannot be preloaded (cannot open shared object file): ignored.
+[1.961s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[1.976s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[1.987s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[1.987s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[1.995s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[1.999s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[2.045s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[2.077s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[2.157s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[2.188s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[2.192s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[2.197s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[2.207s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[2.253s] [ 95%] Built target astra_camera_msgs__rosidl_typesupport_fastrtps_c__pyext
+[2.257s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[2.288s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[2.313s] [ 97%] Built target astra_camera_msgs__rosidl_typesupport_c__pyext
+[2.346s] [100%] Built target astra_camera_msgs__rosidl_typesupport_introspection_c__pyext
+[2.355s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[2.486s] Invoked command in '/home/xtark/tarkbot/ros2_ws/build/astra_camera_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/xtark/tarkbot/ros2_ws/build/astra_camera_msgs -- -j4 -l4
+[4.823s] Invoking command in '/home/xtark/tarkbot/ros2_ws/build/astra_camera_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/xtark/tarkbot/ros2_ws/build/astra_camera_msgs --target install -- -j4 -l4
+[4.848s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[4.918s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[4.937s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[4.998s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[5.039s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[5.052s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[5.062s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[5.070s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[5.082s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[5.127s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[5.139s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[5.184s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[5.205s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[5.218s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[5.228s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[5.255s] [  1%] Built target astra_camera_msgs__cpp
+[5.264s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[5.269s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[5.287s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[5.294s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[5.297s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[5.299s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[5.309s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[5.321s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[5.346s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[5.374s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[5.387s] [ 12%] Built target astra_camera_msgs__rosidl_generator_c
+[5.394s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[5.403s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[5.423s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[5.452s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[5.464s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[5.476s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[5.479s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[5.487s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[5.503s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[5.559s] [ 24%] Built target astra_camera_msgs__rosidl_typesupport_cpp
+[5.588s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[5.603s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[5.611s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[5.634s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[5.644s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[5.649s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[5.654s] ERROR: ld.so: object 'ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1/usr/lib/x86_64-linux-gnu/libgomp.so.1' from ' from LD_PRELOADLD_PRELOAD cannot be preloaded ( cannot be preloaded (cannot open shared object filecannot open shared object file): ignored.
+[5.654s] ): ignored.
+[5.673s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[5.676s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[5.695s] [ 35%] Built target astra_camera_msgs__rosidl_typesupport_fastrtps_cpp
+[5.703s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[5.709s] [ 47%] Built target astra_camera_msgs__rosidl_typesupport_introspection_cpp
+[5.736s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[5.742s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[5.793s] [ 58%] Built target astra_camera_msgs__rosidl_typesupport_introspection_c
+[5.805s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[5.819s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[5.863s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[5.869s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[5.921s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[5.923s] [ 70%] Built target astra_camera_msgs__rosidl_typesupport_c
+[5.943s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[5.978s] [ 82%] Built target astra_camera_msgs__rosidl_typesupport_fastrtps_c
+[5.987s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[6.003s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[6.011s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[6.063s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[6.074s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[6.080s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[6.118s] [ 82%] Built target astra_camera_msgs
+[6.135s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[6.153s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[6.160s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[6.223s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[6.239s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[6.252s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[6.291s] [ 83%] Built target astra_camera_msgs__py
+[6.296s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[6.312s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[6.322s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[6.376s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[6.477s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[6.482s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[6.526s] [ 93%] Built target astra_camera_msgs__python
+[6.532s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[6.533s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[6.539s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[6.539s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[6.549s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[6.552s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[6.554s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[6.560s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[6.561s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[6.609s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[6.640s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[6.671s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[6.695s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[6.700s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[6.731s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[6.735s] [ 95%] Built target astra_camera_msgs__rosidl_typesupport_c__pyext
+[6.738s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[6.745s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[6.750s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[6.772s] [ 97%] Built target astra_camera_msgs__rosidl_typesupport_introspection_c__pyext
+[6.785s] [100%] Built target astra_camera_msgs__rosidl_typesupport_fastrtps_c__pyext
+[6.790s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[6.852s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[6.871s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[6.878s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[6.909s] [36mInstall the project...[0m
+[6.917s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[6.956s] -- Install configuration: "Release"
+[6.959s] -- Execute custom install script
+[6.959s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/ament_index/resource_index/rosidl_interfaces/astra_camera_msgs
+[6.964s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/device_info__functions.h
+[6.966s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/device_info__struct.h
+[6.967s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/device_info__type_support.h
+[6.968s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/extrinsics__functions.h
+[6.969s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/extrinsics__struct.h
+[6.970s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/extrinsics__type_support.h
+[6.972s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/metadata__functions.h
+[6.973s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/metadata__struct.h
+[6.975s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/metadata__type_support.h
+[6.976s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/device_info.h
+[6.977s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/extrinsics.h
+[6.979s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/metadata.h
+[6.979s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/rosidl_generator_c__visibility_control.h
+[6.980s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_camera_info__functions.h
+[6.981s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_camera_info__struct.h
+[6.982s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_camera_info__type_support.h
+[6.983s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_camera_params__functions.h
+[6.984s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_camera_params__struct.h
+[6.986s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_camera_params__type_support.h
+[6.987s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_device_info__functions.h
+[6.988s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_device_info__struct.h
+[6.989s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_device_info__type_support.h
+[6.990s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_int32__functions.h
+[6.992s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_int32__struct.h
+[6.993s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_int32__type_support.h
+[6.994s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_string__functions.h
+[6.995s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_string__struct.h
+[6.997s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_string__type_support.h
+[6.998s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/set_int32__functions.h
+[6.999s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/set_int32__struct.h
+[7.000s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/set_int32__type_support.h
+[7.001s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/get_camera_info.h
+[7.003s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/get_camera_params.h
+[7.004s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/get_device_info.h
+[7.005s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/get_int32.h
+[7.006s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/get_string.h
+[7.009s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/set_int32.h
+[7.010s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/environment/library_path.sh
+[7.011s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/environment/library_path.dsv
+[7.018s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/device_info__rosidl_typesupport_fastrtps_c.h
+[7.020s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_fastrtps_c.h
+[7.022s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/metadata__rosidl_typesupport_fastrtps_c.h
+[7.023s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[7.024s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_camera_info__rosidl_typesupport_fastrtps_c.h
+[7.025s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_camera_params__rosidl_typesupport_fastrtps_c.h
+[7.027s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_device_info__rosidl_typesupport_fastrtps_c.h
+[7.029s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_int32__rosidl_typesupport_fastrtps_c.h
+[7.034s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_string__rosidl_typesupport_fastrtps_c.h
+[7.035s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/set_int32__rosidl_typesupport_fastrtps_c.h
+[7.036s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_typesupport_fastrtps_c.so
+[7.064s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/device_info__rosidl_typesupport_fastrtps_cpp.hpp
+[7.065s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_fastrtps_cpp.hpp
+[7.065s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/metadata__rosidl_typesupport_fastrtps_cpp.hpp
+[7.066s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[7.068s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_camera_info__rosidl_typesupport_fastrtps_cpp.hpp
+[7.076s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_camera_params__rosidl_typesupport_fastrtps_cpp.hpp
+[7.076s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_device_info__rosidl_typesupport_fastrtps_cpp.hpp
+[7.077s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_int32__rosidl_typesupport_fastrtps_cpp.hpp
+[7.080s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_string__rosidl_typesupport_fastrtps_cpp.hpp
+[7.081s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/set_int32__rosidl_typesupport_fastrtps_cpp.hpp
+[7.082s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_typesupport_fastrtps_cpp.so
+[7.084s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/device_info__rosidl_typesupport_introspection_c.h
+[7.085s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_introspection_c.h
+[7.085s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/metadata__rosidl_typesupport_introspection_c.h
+[7.085s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[7.086s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_camera_info__rosidl_typesupport_introspection_c.h
+[7.086s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_camera_params__rosidl_typesupport_introspection_c.h
+[7.087s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_device_info__rosidl_typesupport_introspection_c.h
+[7.087s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_int32__rosidl_typesupport_introspection_c.h
+[7.088s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_string__rosidl_typesupport_introspection_c.h
+[7.089s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/set_int32__rosidl_typesupport_introspection_c.h
+[7.092s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/device_info__builder.hpp
+[7.094s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/device_info__struct.hpp
+[7.094s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/device_info__traits.hpp
+[7.096s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/device_info__type_support.hpp
+[7.096s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/extrinsics__builder.hpp
+[7.097s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/extrinsics__struct.hpp
+[7.097s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/extrinsics__traits.hpp
+[7.098s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/extrinsics__type_support.hpp
+[7.098s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/metadata__builder.hpp
+[7.099s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/metadata__struct.hpp
+[7.099s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/metadata__traits.hpp
+[7.101s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/metadata__type_support.hpp
+[7.101s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/device_info.hpp
+[7.102s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/extrinsics.hpp
+[7.102s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/metadata.hpp
+[7.103s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[7.104s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_camera_info__builder.hpp
+[7.105s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_camera_info__struct.hpp
+[7.109s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_camera_info__traits.hpp
+[7.111s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_camera_info__type_support.hpp
+[7.111s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_camera_params__builder.hpp
+[7.111s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_camera_params__struct.hpp
+[7.112s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_camera_params__traits.hpp
+[7.112s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_camera_params__type_support.hpp
+[7.114s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_device_info__builder.hpp
+[7.115s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_device_info__struct.hpp
+[7.116s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_device_info__traits.hpp
+[7.117s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_device_info__type_support.hpp
+[7.117s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_int32__builder.hpp
+[7.118s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_int32__struct.hpp
+[7.119s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_int32__traits.hpp
+[7.122s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_int32__type_support.hpp
+[7.123s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_string__builder.hpp
+[7.124s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_string__struct.hpp
+[7.124s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_string__traits.hpp
+[7.126s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_string__type_support.hpp
+[7.127s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/set_int32__builder.hpp
+[7.130s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/set_int32__struct.hpp
+[7.130s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/set_int32__traits.hpp
+[7.130s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/set_int32__type_support.hpp
+[7.132s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/get_camera_info.hpp
+[7.133s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/get_camera_params.hpp
+[7.140s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/get_device_info.hpp
+[7.141s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/get_int32.hpp
+[7.142s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/get_string.hpp
+[7.143s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/set_int32.hpp
+[7.143s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/device_info__rosidl_typesupport_introspection_cpp.hpp
+[7.144s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_introspection_cpp.hpp
+[7.145s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/metadata__rosidl_typesupport_introspection_cpp.hpp
+[7.147s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_camera_info__rosidl_typesupport_introspection_cpp.hpp
+[7.149s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_camera_params__rosidl_typesupport_introspection_cpp.hpp
+[7.149s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_device_info__rosidl_typesupport_introspection_cpp.hpp
+[7.151s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_int32__rosidl_typesupport_introspection_cpp.hpp
+[7.152s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_string__rosidl_typesupport_introspection_cpp.hpp
+[7.153s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/set_int32__rosidl_typesupport_introspection_cpp.hpp
+[7.155s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/environment/pythonpath.sh
+[7.158s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/environment/pythonpath.dsv
+[7.159s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/lib/python3.8/site-packages/astra_camera_msgs/__init__.py
+[7.161s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/lib/python3.8/site-packages/astra_camera_msgs/msg/__init__.py
+[7.163s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/lib/python3.8/site-packages/astra_camera_msgs/msg/_device_info.py
+[7.164s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/lib/python3.8/site-packages/astra_camera_msgs/msg/_extrinsics.py
+[7.165s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/lib/python3.8/site-packages/astra_camera_msgs/msg/_metadata.py
+[7.169s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/lib/python3.8/site-packages/astra_camera_msgs/srv/__init__.py
+[7.171s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/lib/python3.8/site-packages/astra_camera_msgs/srv/_get_camera_info.py
+[7.174s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/lib/python3.8/site-packages/astra_camera_msgs/srv/_get_camera_params.py
+[7.176s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/lib/python3.8/site-packages/astra_camera_msgs/srv/_get_device_info.py
+[7.177s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/lib/python3.8/site-packages/astra_camera_msgs/srv/_get_int32.py
+[7.178s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/lib/python3.8/site-packages/astra_camera_msgs/srv/_get_string.py
+[7.179s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/lib/python3.8/site-packages/astra_camera_msgs/srv/_set_int32.py
+[7.182s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/lib/python3.8/site-packages/astra_camera_msgs/astra_camera_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[7.184s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/lib/python3.8/site-packages/astra_camera_msgs/astra_camera_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[7.187s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/lib/python3.8/site-packages/astra_camera_msgs/astra_camera_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[7.189s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/lib/libastra_camera_msgs__python.so
+[7.191s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/msg/DeviceInfo.idl
+[7.193s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/msg/Extrinsics.idl
+[7.195s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/msg/Metadata.idl
+[7.197s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetDeviceInfo.idl
+[7.198s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetCameraInfo.idl
+[7.200s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetCameraParams.idl
+[7.201s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetInt32.idl
+[7.203s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetString.idl
+[7.205s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/SetInt32.idl
+[7.206s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/msg/DeviceInfo.msg
+[7.208s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/msg/Extrinsics.msg
+[7.209s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/msg/Metadata.msg
+[7.211s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetDeviceInfo.srv
+[7.213s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetDeviceInfo_Request.msg
+[7.214s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetDeviceInfo_Response.msg
+[7.216s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetCameraInfo.srv
+[7.218s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetCameraInfo_Request.msg
+[7.219s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetCameraInfo_Response.msg
+[7.222s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetCameraParams.srv
+[7.223s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetCameraParams_Request.msg
+[7.223s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetCameraParams_Response.msg
+[7.225s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetInt32.srv
+[7.227s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetInt32_Request.msg
+[7.228s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetInt32_Response.msg
+[7.230s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetString.srv
+[7.231s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetString_Request.msg
+[7.233s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetString_Response.msg
+[7.234s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/SetInt32.srv
+[7.236s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/SetInt32_Request.msg
+[7.237s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/SetInt32_Response.msg
+[7.240s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/ament_index/resource_index/package_run_dependencies/astra_camera_msgs
+[7.241s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/ament_index/resource_index/parent_prefix_path/astra_camera_msgs
+[7.243s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/environment/ament_prefix_path.sh
+[7.244s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/environment/ament_prefix_path.dsv
+[7.246s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/environment/path.sh
+[7.247s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/environment/path.dsv
+[7.250s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/local_setup.bash
+[7.263s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/local_setup.sh
+[7.263s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/local_setup.zsh
+[7.264s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/local_setup.dsv
+[7.264s] -- Symlinking: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/package.dsv
+[7.283s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[7.321s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/ament_index/resource_index/packages/astra_camera_msgs
+[7.322s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/rosidl_cmake-extras.cmake
+[7.324s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.325s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[7.327s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[7.329s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.331s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[7.333s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[7.334s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgsConfig.cmake
+[7.336s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgsConfig-version.cmake
+[7.338s] -- Up-to-date symlink: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/package.xml
+[7.338s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_generator_c.so
+[7.342s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_typesupport_introspection_c.so
+[7.343s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_typesupport_c.so
+[7.346s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_typesupport_introspection_cpp.so
+[7.348s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_typesupport_cpp.so
+[7.354s] ERROR: ld.so: object '/usr/lib/x86_64-linux-gnu/libgomp.so.1' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[7.516s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgs__rosidl_generator_cExport.cmake
+[7.516s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgs__rosidl_generator_cExport-release.cmake
+[7.517s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgs__rosidl_typesupport_introspection_cExport.cmake
+[7.517s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+[7.518s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgs__rosidl_typesupport_cExport.cmake
+[7.519s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgs__rosidl_typesupport_cExport-release.cmake
+[7.520s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgs__rosidl_generator_cppExport.cmake
+[7.521s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[7.521s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+[7.522s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgs__rosidl_typesupport_cppExport.cmake
+[7.523s] -- Up-to-date: /home/xtark/tarkbot/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgs__rosidl_typesupport_cppExport-release.cmake
+[7.536s] Invoked command in '/home/xtark/tarkbot/ros2_ws/build/astra_camera_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/xtark/tarkbot/ros2_ws/build/astra_camera_msgs --target install -- -j4 -l4

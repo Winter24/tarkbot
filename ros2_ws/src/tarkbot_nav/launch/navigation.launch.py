@@ -54,10 +54,19 @@ def generate_launch_description():
     )
 
     ld.add_action(bringup_atom_driver)
-    # ld.add_action(bringup_ld19lidar)
+
     ld.add_action(bringup_rplidar)
-    ld.add_action(bringup_m1ct)
     ld.add_action(bringup_localization_cmd)
+
+    '''
+    Code 1 is simpler and more straightforward, suitable for smaller setups 
+    or situations where you don't need much flexibility.
+
+    Code 2 is more complex, modular, and flexible, better suited for larger 
+    or more complex systems where different configurations (like SLAM vs. non-SLAM) 
+    might be needed.
+    '''
+
     ld.add_action(bringup_navigation_cmd)
     # ld.add_action(bringup_nav_cmd)
 
